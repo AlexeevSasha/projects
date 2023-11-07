@@ -1,0 +1,27 @@
+import { partnerRu } from "../ru/partner";
+
+export const partnerEn: typeof partnerRu = {
+  all_partners: "All partners",
+  payments: "Payments",
+  total: "Total",
+  balance: "Balance",
+  requested: "Requested",
+  filter_email: "Filter by partner email",
+  enter_email: "Enter email",
+  find: "Find",
+  link_form: "Link to the form on behalf of the partner",
+  link_register: "Link to register on behalf of an affiliate",
+  applications: "Applications",
+  info: "Information",
+  history_payment: "Payment history of sub-partners",
+  all_time: "In all the time",
+  on_account: "On the account",
+  retrieved: "Retrieved",
+  paid: "Paid",
+  cash_out: "cash out",
+  you_are_not_anyone: "You are not yet a major partner for anyone",
+  main_partner: "main partner",
+  history_empty: "Payment history is empty",
+  you_are: "You are",
+  for: "for",
+};

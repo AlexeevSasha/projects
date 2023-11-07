@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-gray-100;
+}
+
+.fullScreen {
+  @apply fixed flex h-full w-full items-center justify-center text-center align-middle;
+}
+
+.btn {
+  @apply inline-flex items-center rounded bg-gray-300 py-2 px-4 font-bold text-gray-800 hover:bg-gray-400;
+}
+
+@import url("../components/ui/multiRangeSlider/multirangeslider.css");
+@import url("../components/ui/multiRangeSlider/multirangesliderblack.css");

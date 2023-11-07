@@ -1,0 +1,8 @@
+.container {
+    position: absolute;
+}
+
+.image {
+    max-height: 40vh;
+    max-width: 40vw;
+}
