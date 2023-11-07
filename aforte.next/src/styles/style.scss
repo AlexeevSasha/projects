@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #F2F5FB;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#root, #__next {
+  min-height: 100vh;
+  position: relative;
+}
+
+input::-webkit-search-cancel-button {-webkit-appearance: none}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+

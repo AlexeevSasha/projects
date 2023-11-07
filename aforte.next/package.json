@@ -1,0 +1,68 @@
+{
+  "name": "apteka",
+  "version": "1.0.0",
+  "description": "apteka",
+  "private": true,
+  "author": "bogdan",
+  "license": "ISC",
+  "scripts": {
+    "start": "next start",
+    "dev": "yarn && rimraf .next && env-cmd -f .env.dev next dev",
+    "prebuild": "rimraf .next",
+    "prod": "yarn && yarn build && next start",
+    "submodule": "git submodule update --init --recursive",
+    "build": "env-cmd next build"
+  },
+  "dependencies": {
+    "@next/font": "^13.0.6",
+    "axios": "^1.1.3",
+    "buffer": "^6.0.3",
+    "env-cmd": "^10.1.0",
+    "jssha": "^3.3.0",
+    "next": "^13.0.3",
+    "node-cache": "^5.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.40.0",
+    "react-yandex-maps": "^4.6.0",
+    "swiper": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/eslint-plugin-tslint": "5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "astroturf": "^1.1.0",
+    "axios-mock-adapter": "^1.21.2",
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "next-compose-plugins": "^2.2.1",
+    "node-sass": "^8.0.0",
+    "prettier": "^2.7.1",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.8.4",
+    "web-vitals": "^3.0.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

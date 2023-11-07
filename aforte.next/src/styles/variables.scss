@@ -1,0 +1,96 @@
+$white: #ffffff;
+$BG: #F2F5FB;
+$whiteOpacity: #ffffff07;
+$black: #161E25;
+$blackOpacity: #161E2540;
+$blue1: #5383C7;
+$blue2: #4169AA;
+$blue3: #345486;
+$blueMain: #7AA0DB;
+$blue-1: #A8BFE7;
+$blue-2: #E0E9F7;
+$blue-3: #EFF7FE;
+$greenMain: #6DC47B;
+$greenHover: #5BB169;
+$green1: #53A979;
+$gray: #00000003;
+$grey: #F7F9FC;
+$orange1: #F9A968;
+$orange3: #FF785A;
+$orange-3: #FFF9F4;
+$orangeHover: #F1974E;
+$border: #edf0f3;
+
+$shadow: 0px 16px 37px  rgba(0, 0, 0, 0.25);
+$shadowHoverCard: 8px 8px 12px rgba(19, 51, 103, 0.08);
+
+@mixin respond-to($media) {
+  @if $media == large {
+    @media screen and (max-width: 1199px) { @content; }
+  }
+  @if $media == medium {
+    @media screen and (max-width: 1000px) { @content; }
+  }
+  @else if $media == small {
+    @media screen and (max-width: 768px)  { @content; }
+  }
+}
+
+@mixin transition {
+  transition: all 0.1s ease-in-out;
+}
+
+@mixin modal($value) {
+  @keyframes openPopupRight {
+    0% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @if $value == openPopupRight {
+    animation: openPopupRight 0.3s ease-out;
+  }
+
+  @keyframes openPopupTop {
+    0% {
+      transform: translateY(1000px) ;
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @if $value == openPopupTop {
+    animation: openPopupTop 0.3s ease-out;
+  }
+
+  @keyframes closePopupRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-1000px);
+    }
+  }
+
+  @if $value == closePopupRight {
+    animation: closePopupRight 0.3s ease-out;
+  }
+
+  @keyframes closePopupTop {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(1000px);
+    }
+  }
+
+  @if $value == closePopupTop {
+    animation: closePopupTop 0.3s ease-out;
+  }
+}
+
+

@@ -1,0 +1,3 @@
+[submodule "src/common/utils/imageResizer/lib"]
+	path = src/common/utils/imageResizer/lib
+	url = http://git.dextechnology.com/Frontend/modules/image.resizer
