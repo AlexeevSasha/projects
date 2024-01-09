@@ -1,0 +1,12 @@
+.container {
+  @include media(md){
+    flex-direction: column;
+     & > div {
+       width: 100%;
+     }
+
+    &__divider {
+      display: none;
+    }
+  }
+}

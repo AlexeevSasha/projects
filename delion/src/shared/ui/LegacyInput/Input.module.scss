@@ -1,0 +1,33 @@
+.verificationCodeContainer {
+  gap: 16px;
+  justify-content: center;
+}
+
+.verificationCodeCharacter {
+  background-color: $colorNeutral2;
+  border: 1px solid $colorNeutral5;
+  border-radius: 12px;
+  max-width: 49px;
+  min-height: 53px;
+  font-size: 24px;
+}
+
+.verificationCodeCharacterSelected {
+  border: 1px solid $colorPrimary5;
+  outline: none;
+  box-shadow: 0px 0px 0px 2px #1890ff33;
+  color: inherit;
+  position: relative;
+  z-index: 100;
+
+  &:empty {
+    &::before {
+      content: '\007C';
+      font-size: 18px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+    }
+  }
+}

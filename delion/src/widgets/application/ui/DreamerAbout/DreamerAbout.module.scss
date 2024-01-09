@@ -1,0 +1,12 @@
+.documentsField {
+  margin-bottom: 0 !important;
+
+  & :global(.ant-form-item-control-input-content) {
+    display: flex !important;
+    gap: 12px;
+    
+    @include media(md) {
+      flex-direction: column;
+    }
+  }
+}

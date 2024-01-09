@@ -1,0 +1,32 @@
+.menuItem {
+  border-radius: 0 !important;
+  height: 40px !important;
+  
+  &_success {
+    border-color: $colorSuccess;
+    
+    &:global(.ant-menu-item-selected) {
+      background-color: $colorSuccessBg !important;
+    }
+  }
+
+  &__icon {
+    color: $colorDisabled !important;
+
+    &_success {
+      color: $colorSuccess !important;
+    }
+
+    &_warning {
+      color: $colorWarning !important;
+    }
+  }
+
+  &_warning {
+    border-color: $colorWarning;
+
+    &:global(.ant-menu-item-selected) {
+      background-color: $colorWarningBg !important;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  padding-bottom: 10px;
+  @include media(sm) {
+    padding: 10px 0;
+  }
+}
+
+
+.draft {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+
+  & > * {
+    color: inherit;
+  }
+
+  &__second {
+    color: $colorDisabled;
+  }
+
+  &__button {
+    max-width: 120px;
+    width: 100%;
+    margin-top: 15px;
+    border-color: $colorDisabled;
+    color: $colorCharacter85;
+
+    & > div {
+      display: none
+    }
+  }
+}

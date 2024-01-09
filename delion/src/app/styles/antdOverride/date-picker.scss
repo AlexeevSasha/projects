@@ -1,0 +1,53 @@
+// // override datepicker for mobile
+// @media (max-width: 575px) {
+//   .ant-picker-dropdown {
+//     & ::-webkit-scrollbar {
+//       display: none;
+//     }
+
+//     & .ant-picker-decade-panel,
+//     & .ant-picker-year-panel,
+//     & .ant-picker-quarter-panel,
+//     & .ant-picker-month-panel,
+//     & .ant-picker-week-panel,
+//     & .ant-picker-date-panel {
+//       width: 205px;
+
+//       & .ant-picker-content {
+//         height: 230px;
+//       }
+//     }
+
+//     & .ant-picker-date-panel {
+//       & .ant-picker-content {
+//         & th {
+//           width: 24px;
+//         }
+//       }
+
+//       & .ant-picker-body {
+//         padding: 8px 12px;
+//       }
+//     }
+
+//     & .ant-picker-time-panel {
+//       width: 70px;
+
+//       &-column {
+//         width: 32px;
+//         margin: 4px 0;
+
+//         & > li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner {
+//           width: unset;
+//           padding-inline-start: 5px;
+//         }
+//       }
+//     }
+
+//     & .ant-picker-cell .ant-picker-cell-inner {
+//       min-width: 20px;
+//       height: 20px;
+//       line-height: 20px;
+//     }
+//   }
+// }

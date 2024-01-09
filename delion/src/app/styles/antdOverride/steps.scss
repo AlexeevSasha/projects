@@ -1,0 +1,57 @@
+.ant-steps {
+  gap: 8px;
+  &-item {
+    &-tail::after {
+      background-color: $colorSuccess !important;
+    }
+
+    &-finish {
+      .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+        background: $colorSuccess !important;
+      }
+      .ant-steps-item-title {
+        color: $colorSecondary45 !important;
+      }
+      .ant-steps-item-tail:after {
+        background: $colorSuccess !important;
+      }
+    }
+
+    &-process {
+      .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+        background: $colorPrimarySecondaryDark !important;
+      }
+      .ant-steps-item-tail:after {
+        background: $colorPrimarySecondaryDark !important;
+      }
+    }
+
+    &-wait {
+      .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+        background: $colorSecondary45 !important;
+      }
+      .ant-steps-item-tail:after {
+        background: $colorSecondary45 !important;
+      }
+    }
+
+    &-error {
+      .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title .ant-typography {
+        color: $colorDanger !important;
+      }
+
+      .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+        background: $colorDanger !important;
+      }
+    }
+
+    &-warn {
+      .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+        background: $colorWarning !important;
+      }
+      .ant-steps-item-tail:after {
+        background: $colorWarning !important;
+      }
+    }
+  }
+}

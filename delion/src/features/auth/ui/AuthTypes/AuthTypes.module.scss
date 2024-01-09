@@ -1,0 +1,12 @@
+.link {
+  display: flex;
+}
+
+.wrapper {
+  justify-content: center;
+
+  .divider {
+    height: 3em;
+    border-inline-start: 1px solid $colorBlack;
+  }
+}

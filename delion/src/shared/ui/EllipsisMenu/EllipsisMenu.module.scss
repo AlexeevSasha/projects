@@ -1,0 +1,53 @@
+.tooltipButton {
+  border: none;
+  border-radius: 0;
+  padding: 0 10px;
+
+  &:hover {
+    background-color: darken($colorGrayBg, 0.3);
+  }
+}
+
+.modal {
+  @include useModalStickToBottomOfPage;
+
+  bottom: 104px;
+  padding: 0 8px;
+  border-radius: 12px;
+
+  .buttonWrapper {
+    background-color: $colorWhite;
+    border-radius: 12px;
+
+    position: absolute;
+    bottom: -72px;
+    left: 0;
+    right: 0;
+  }
+
+  .closeButton {
+    min-width: 100%;
+    color: $colorCharacter85;
+  }
+}
+
+.overlay {
+  :global(.ant-tooltip-inner) {
+    background-color: $colorWhite;
+  }
+  :global(.ant-tooltip-arrow) {
+    &::before {
+      background: $colorWhite;
+    }
+  }
+}
+
+.itemTitle {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+
+  &.danger {
+    color: $colorDanger;
+  }
+}

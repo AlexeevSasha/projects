@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__autoComplete {
+    position: absolute !important;
+    top: 31px;
+    left: 0;
+    width: 100%;
+  }
+}

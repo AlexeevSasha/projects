@@ -1,0 +1,30 @@
+@import 'src/app/styles/variables';
+
+.modal {
+  :global {
+    .ant-modal-close {
+      height: 36px;
+      width: 36px;
+      border-radius: 24px;
+    }
+  }
+}
+
+.title {
+  color: $colorPrimary !important;
+  margin-bottom: 0 !important;
+}
+
+.wrapper {
+  &_desktop :global(.ant-modal-content) {
+    padding: 60px 24px 60px 0 !important;
+  }
+
+  &_mobile :global(.ant-modal-content) {
+    padding: 60px 24px !important;
+  }
+
+  &_final :global(.ant-modal-content) {
+    padding: 60px 134px 60px 134px !important;
+  }
+}

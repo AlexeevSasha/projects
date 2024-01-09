@@ -1,0 +1,14 @@
+
+- name: start server container
+  docker_container:
+    name: "{{ container_name_prefix }}_server_{{ item }}_{{ tier|default('1') }}"
+    image: "{{ image_name }}"
+    recreate: yes
+    state: started
+    restart_policy: always
+    network_mode: "{{ docker_network }}"
+    stop_timeout: 32
+    env: "{{ docker_container_env }}"
+    volumes: "{{ docker_container_volumes }}"
+    expose: 3000
+  with_items: "{{ range(docker_containers_number_per_tier.server)|list }}"

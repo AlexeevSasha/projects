@@ -1,0 +1,26 @@
+.formContainer {
+  border-radius: 24px;
+  background-color: $colorWhite;
+  padding: 24px !important;
+
+  @include media(md) {
+    padding: 16px !important;
+  }
+}
+
+.drawerClose {
+  cursor: pointer;
+
+  &:hover {
+    background-color: $colorBgAccentHover;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.icon {
+  color: $colorSuccess;
+  font-size: 14px;
+}

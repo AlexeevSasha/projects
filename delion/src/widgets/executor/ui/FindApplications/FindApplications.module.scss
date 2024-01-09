@@ -1,0 +1,21 @@
+.container {
+  padding: 40px 16px;
+
+  :global {
+    .ant-radio-group {
+      display: flex;
+    }
+
+    .ant-radio-button-wrapper {
+      width: 100%;
+    }
+  }
+}
+
+.heroBanner {
+  display: flex;
+}
+
+.suprisesToggle {
+  white-space: nowrap;
+}

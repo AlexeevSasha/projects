@@ -1,0 +1,27 @@
+.p-0 > .ant-modal-content {
+  padding: 0;
+}
+
+.ant-modal.ant-modal-confirm {
+  .ant-modal-confirm-title {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .ant-modal-confirm-btns {
+    display: flex;
+    margin-left: 34px;
+    gap: 12px;
+    margin-top: 24px;
+
+    @include media(xs) {
+      margin-left: 0;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .ant-modal-confirm-btns .ant-btn + .ant-btn {
+    flex-grow: 1;
+    margin-inline-start: 0;
+  }
+}

@@ -1,0 +1,109 @@
+image: docker:latest
+
+stages:
+  - build_image
+  - test
+  - push
+  - deploy
+
+before_script:
+  - set -euo pipefail  # fail the job immediately on command fail
+  - export IMAGE_NAME="$CI_PROJECT_PATH"
+  - export PIPELINE_IMAGE="$CI_REGISTRY/${IMAGE_NAME}:pipeline_${CI_PIPELINE_ID}"
+  - export LATEST_IMAGE="$CI_REGISTRY/${IMAGE_NAME}:latest"  # build from master to prod
+  - export EDGE_IMAGE="$CI_REGISTRY/${IMAGE_NAME}:edge"  # the latest successful build, used for layers caching
+  # These commands should be called in the push and deploy stages only.
+  # But it seems that there's no convenient way to extend the before_script list,
+  # so we work this around with the `which` hack.
+  - if which docker; then docker info; fi
+  - if which docker; then docker login -u gitlab-ci-token -p "$CI_JOB_TOKEN" "$CI_REGISTRY"; fi
+
+after_script:
+  - rm -Rf ~/.docker
+
+build_image:
+  stage: build_image
+  script:
+    # Pull the latest image to try to reuse its layers
+    - docker pull "$EDGE_IMAGE" || true
+
+    - if [ "prod" == "$CI_COMMIT_REF_NAME" ]; then
+        export CONFIGURATION=production;
+      else
+        export CONFIGURATION=staging;
+      fi
+
+    - docker build --force-rm --pull
+      --build-arg CONFIGURATION="$CONFIGURATION"
+      -t "$PIPELINE_IMAGE" .
+
+    - echo Will be tagged as "$PIPELINE_IMAGE"
+    - docker push "$PIPELINE_IMAGE"
+
+    - echo Will be tagged as "$PIPELINE_IMAGE"
+    - docker tag "$PIPELINE_IMAGE" "$EDGE_IMAGE"
+    - docker push "$EDGE_IMAGE"
+  only:
+    - prod
+    - staging
+
+packages_audit:
+  stage: test
+  script:
+    - docker run --rm --name "ctd_npm_audit_$CI_JOB_ID" "$PIPELINE_IMAGE" sh -c 'npm audit || true'
+  only:
+    - prod
+    - staging
+  when: manual
+
+deploy:
+  stage: deploy
+  image: python:3.6-stretch
+  variables:
+    # https://fleschenberg.net/gitlab-pip-cache/
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/pip-cache"
+  cache:
+    paths:
+      - "$CI_PROJECT_DIR/pip-cache/"
+  dependencies: []
+  script:
+    - cd ansible
+    - chmod 755 .;
+    - pip install -r requirements.txt
+
+    - eval $(ssh-agent -s)
+    - rm -Rf ~/.ssh
+    - mkdir ~/.ssh
+
+    - if [ "prod" == "$CI_COMMIT_REF_NAME" ]; then
+        echo "$ANSIBLE_INVENTORY_PROD" > .inventory;
+        export CTD_DEPLOY_ENV=prod;
+        ssh-add <(echo "$SSH_PRIV_KEY_STAGING" | tr -d '\r');
+        printf "Host *\nUser %s" "gitlab_nashe_ci" > ~/.ssh/config;
+      else
+        echo "$ANSIBLE_INVENTORY_STAGING" > .inventory;
+        export CTD_DEPLOY_ENV=staging;
+        ssh-add <(echo "$SSH_PRIV_KEY_STAGING" | tr -d '\r');
+        printf "Host *\nUser %s" "gitlab_nashe_ci" > ~/.ssh/config;
+      fi
+
+
+    - export CTD_DOCKER_IMAGE_WITH_TAG="$PIPELINE_IMAGE"
+
+    - export CTD_REGISTRY_USERNAME=gitlab-ci-token
+    - export CTD_REGISTRY_PASSWORD="$CI_JOB_TOKEN"
+    - export CTD_REGISTRY_REGISTRY="$CI_REGISTRY"
+
+    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+    - export ANSIBLE_FORCE_COLOR=true
+
+    - time ansible-playbook -v deploy.yml
+  after_script:
+    - rm -Rf ~/.docker ~/.ssh
+    - ssh-add -D  # delete all keys
+  environment:
+    name: $CI_COMMIT_REF_NAME
+  only:
+    - prod
+    - staging

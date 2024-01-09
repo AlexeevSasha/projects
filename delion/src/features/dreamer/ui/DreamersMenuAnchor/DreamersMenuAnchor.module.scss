@@ -1,0 +1,11 @@
+.menu {
+  outline: 1px solid $colorDivider;
+  border-radius: 12px;
+  padding: 12px 0;
+  outline-offset: -1px;
+  border: none !important;
+
+  & > ul {
+    border-radius: 12px;
+  }
+}

@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  :global(.ant-upload-list) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  :global(.ant-upload-select) {
+    border: 1px dashed $colorPrimarySecondaryLight !important;
+    background-color: $colorBgAccent !important;
+    min-width: unset;
+    transition: all 0.3s;
+  }
+
+  &__preview_mode {
+    margin-bottom: 0;
+  }
+
+  &__no_files {
+    :global(.ant-upload-select) {
+      animation: expandNoFilesTransition 0.3s 0.15s forwards;
+      animation-timing-function: linear;
+    }
+  }
+}
+
+.uploadButton {
+  color: $colorPrimarySecondaryLight;
+}
+
+@keyframes expandNoFilesTransition {
+  100% {
+    width: 100%;
+  }
+}

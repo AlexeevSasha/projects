@@ -1,0 +1,62 @@
+.filters {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
+
+  &__mask {
+    position: absolute;
+    right: 182px;
+    width: 57px;
+    height: 100%;
+    background: linear-gradient(270deg, #F8F8F8 31.9%, rgba(248, 248, 248, 0.00) 100%);
+
+    &.isMobile {
+      right: 45px;
+      width: 31px;
+    }
+  }
+}
+
+.filterButton {
+  position: relative;
+
+  &.isMobile {
+    :global(.ant-btn-icon) {
+      margin-inline-end: 0 !important;
+    }
+  }
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  & > div {
+    margin-right: 12px;
+  }
+}
+
+.indicator {
+  position: absolute;
+  right: -8px;
+  top: -6px;
+  background-color: $colorDanger;
+  height: 18px;
+  width: 18px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > span {
+    color: $colorWhite;
+  }
+}

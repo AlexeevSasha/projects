@@ -1,0 +1,72 @@
+.ant-btn {
+  &-sm {
+    padding: 0px 7px;
+  }
+
+  &-md {
+    padding: 4px 15px;
+  }
+
+  &-lg {
+    padding: 7px 15px;
+  }
+
+  @media (max-width: 767px) {
+    .ant-btn {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+  }
+
+  .ant-btn-primary,
+  .ant-btn {
+    &:disabled {
+      border-color: $colorDisabled !important;
+    }
+  }
+
+  .ant-btn-success {
+    background-color: $colorSuccess;
+    box-shadow: unset;
+    border: 0;
+
+    &:not(:disabled) {
+      &:hover {
+        background-color: $colorSuccess;
+        opacity: 0.9;
+      }
+
+      &:active {
+        background-color: darken($colorSuccess, 0.1);
+      }
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+
+  .small-btn {
+    font-size: 14px;
+    height: unset !important;
+    padding: 4px 20px;
+  }
+
+  .ant-typography > .ant-btn {
+    font-size: 14px;
+    height: unset !important;
+    padding: 0;
+  }
+
+  .ant-btn-not-clickable {
+    cursor: default;
+
+    &:not(:disabled):hover {
+      opacity: 1;
+    }
+  }
+
+  .ant-btn.ant-btn-sm {
+    font-size: 16px;
+  }
+}

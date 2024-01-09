@@ -1,0 +1,30 @@
+.header {
+  justify-content: space-between;
+
+  svg {
+    color: $colorPrimarySecondaryDark;
+  }
+}
+
+.email {
+  margin: 0;
+  height: 42px;
+
+  input {
+    height: 42px;
+  }
+}
+
+.connect {
+  color: $colorSuccess;
+  padding-right: 8px;
+
+  &__off {
+    color: $colorSecondary45;
+  }
+}
+
+.divider {
+  margin-top: 24px;
+  margin-bottom: 0;
+}

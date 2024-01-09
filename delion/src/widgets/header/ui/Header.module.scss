@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  position: sticky;
+  z-index: 1;
+  box-shadow: 8px 8px 16px 0 #bfc4cd0f;
+  border-radius: 28px;
+  transition: top 0.15s ease-in-out;
+
+  &.isMobile {
+    border-radius: 0;
+    margin: 0 -16px;
+    padding-inline: 16px;
+  }
+}
+
+.leftActions {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.rightActions {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

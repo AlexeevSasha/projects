@@ -1,0 +1,14 @@
+.container {
+  min-height: 88px;
+  height: 100%;
+  border-radius: 16px;
+  outline: 1px solid $colorDivider;
+  padding: 24px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  svg {
+    color: $colorPrimarySecondaryLight;
+  }
+}

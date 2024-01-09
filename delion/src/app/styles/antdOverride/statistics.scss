@@ -1,0 +1,15 @@
+.ant-statistic {
+  gap: 3px;
+  align-items: center;
+
+  &-content {
+    display: flex;
+  }
+
+  &-title,
+  &-content-value {
+    margin: 0;
+    font-size: 14px;
+    color: $colorSecondary45;
+  }
+}

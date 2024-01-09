@@ -1,0 +1,42 @@
+.button {
+
+  &__uploaded {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 4px 8px;
+
+    border: 1px solid $colorSuccess;
+    border-radius: 12px;
+    width: 180px;
+
+    &__info {
+      display: flex;
+      gap: 8px;
+      width: 80%;
+
+      &__icon {
+        color: $colorSuccess
+      }
+
+      &__text {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  @include media(md) {
+    width: 100%;
+  }
+}
+
+@include media(md) {
+  .upload {
+    & :global(.ant-upload-select) {
+        width: 100% !important;
+    }
+  }
+}

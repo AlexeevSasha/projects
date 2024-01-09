@@ -1,0 +1,9 @@
+@import "../variables";
+
+.ant-checkbox-wrapper:not(.ant-table-cell .ant-checkbox-wrapper) {
+  @media (max-width: 767px) {
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 4px;
+  }
+}

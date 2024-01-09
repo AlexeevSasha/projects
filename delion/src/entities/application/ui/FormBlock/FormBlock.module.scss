@@ -1,0 +1,61 @@
+.container {
+  margin: 0 !important;
+
+  &__formSide {
+    padding-right: 24px !important;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
+      &__title {
+        display: flex;
+        flex-direction: column;
+
+        &_hide {
+          display: none;
+        }
+      }
+
+      &__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+    @include media(md) {
+      padding-right: 0 !important;
+    }
+  }
+
+
+  &__hintSide {
+    position: relative;
+
+    &_center {
+      justify-content: center;
+    }
+
+    &_start {
+      justify-content: start;
+    }
+
+    &_end {
+      justify-content: end;
+    }
+
+    &__hint {
+      display: flex !important;
+      flex-direction: column;
+      gap: 12px;
+
+      &_absolute {
+        position: absolute !important;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+}

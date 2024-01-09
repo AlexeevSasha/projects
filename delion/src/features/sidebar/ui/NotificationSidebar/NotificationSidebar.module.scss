@@ -1,0 +1,116 @@
+.wrapperSticky {
+  @include media(lg) {
+    height: 64px;
+  }
+}
+
+.container {
+  background-color: $colorWhite;
+  border-radius: 16px;
+  padding: 16px;
+  position: relative;
+
+  @include media(lg) {
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 4px -4px 16px 0px rgba(137, 138, 141, 0.06);
+    padding: 12px 32px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.containerNotSticky {
+  padding: 16px;
+
+  .block {
+    padding: 10px 12px;
+    background: $colorBgAccent;
+    width: fit-content;
+  }
+
+  @include media(lg) {
+    position: relative;
+    border-radius: 16px;
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.containerBorder {
+  border: 1px solid $colorDivider;
+}
+
+.iconBlock {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.active {
+  svg circle {
+    fill: $colorPlaceholder25;
+  }
+}
+
+.block {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: $colorBgAccent;
+  width: fit-content;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+
+  @include media(xl) {
+    gap: 8px;
+  }
+
+  @include media(lg) {
+    background: transparent;
+    padding: 0;
+    width: 100%;
+    gap: 12px;
+  }
+}
+
+.iconsWrapper {
+  gap: 8px;
+
+  @include media(xl) {
+    gap: 4px;
+  }
+
+  @include media(lg) {
+    gap: 8px;
+  }
+}
+
+.dividerVertical {
+  background: $colorPrimarySecondaryDark;
+  height: 24px;
+  margin: 0;
+}
+
+.settings {
+  font-size: 20px;
+  color: $colorPrimarySecondaryDark;
+}
+
+.horizontalDivider {
+  margin: 0;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.caption {
+  font-weight: 700;
+}

@@ -1,0 +1,19 @@
+.tag {
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid $colorPlaceholder25;
+  background-color: transparent;
+  white-space: nowrap;
+
+  &__delete {
+    height: 14px;
+    width: 14px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

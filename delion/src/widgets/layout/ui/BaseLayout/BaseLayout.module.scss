@@ -1,0 +1,31 @@
+.layout {
+  min-height: 100vh;
+  background-color: $colorGrayBg;
+
+  &.isXS {
+    padding: 0 16px;
+  }
+
+  &.isSM {
+    padding: 0 32px;
+  }
+
+  &.isXL {
+    padding: 0 52px;
+  }
+}
+
+.wrapper {
+  max-width: 1400px;
+  gap: 54px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+
+  &.isXS {
+    gap: 0;
+  }
+}

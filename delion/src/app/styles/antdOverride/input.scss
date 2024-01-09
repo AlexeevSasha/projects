@@ -1,0 +1,23 @@
+.mol-masked-input,
+.ant-input-affix-wrapper {
+  .ant-input {
+    padding: 8px 12px;
+  }
+
+  &:focus {
+    border-color: $colorPrimary5 !important;
+    box-shadow: 0px 0px 0px 2px #1890ff33;
+  }
+
+  &:hover {
+    border-color: $colorPrimary5 !important;
+    box-shadow: 0 0 0 2px rgba(19, 255, 237, 0.11) !important;
+  }
+
+  .ant-input-group {
+    .ant-input-group-addon {
+      position: relative;
+      background-color: $colorDivider;
+    }
+  }
+}

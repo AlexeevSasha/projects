@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.container {
+
+  @include media(md) {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.items {
+  & > div:first-child {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+.title {
+  color: $colorSecondary45;
+}
+
+.blue {
+  color: $colorPrimarySecondaryLight
+}
+
+.divider {
+  margin: 20px 0 32px;
+  @include media(xl) {
+    display: none;
+  }
+
+  &__visible {
+    @include media(xl) {
+      display: block;
+    }
+  }
+
+  &__mobile {
+    display: none;
+    margin: 32px 0;
+    @include media(xl) {
+      display: block;
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+.icon {
+  color: $colorWarning;
+}
+
+.modal :global(.ant-modal-content) {
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.dreamer {
+  color: $colorPrimarySecondaryDark;
+}

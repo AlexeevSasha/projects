@@ -1,0 +1,22 @@
+.container {
+  overflow-x: hidden;
+
+
+  &__divider {
+    margin: 24px 0 !important;
+  }
+
+  @include media(md) {
+    padding:  10px;
+
+    &__divider {
+      margin: 16px 0 !important;
+    }
+  }
+}
+
+.col {
+  & > div {
+    height: 100%;
+  }
+}

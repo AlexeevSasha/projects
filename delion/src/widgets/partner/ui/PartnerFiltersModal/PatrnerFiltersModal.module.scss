@@ -1,0 +1,17 @@
+.modal {
+  &.isMobile {
+    @include useModalStickToBottomOfPage;
+    height: 91%;
+
+    :global(.ant-modal-content) {
+      border-radius: 24px 24px 0 0;
+    }
+  }
+}
+
+.form {
+  :global(.ant-select-selector),
+  :global(.ant-input-number) {
+    border-radius: 12px;
+  }
+}

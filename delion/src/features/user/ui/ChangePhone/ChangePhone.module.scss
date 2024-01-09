@@ -1,0 +1,25 @@
+.phone {
+  color: $colorPrimarySecondaryDark;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+.phoneVerify {
+  text-align: center;
+}
+
+.phoneVerification {
+  padding: 24px 0;
+}
+
+.btn {
+  margin-top: 30px;
+
+  @include media(md) {
+    margin-top: 0;
+  }
+}
+
+.input {
+  height: 42px;
+}

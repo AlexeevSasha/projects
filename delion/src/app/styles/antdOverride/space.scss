@@ -1,0 +1,5 @@
+.align-to-last-element > .ant-space-item:last-of-type {
+  @media (min-width: 575px) {
+    flex-grow: 1;
+  }
+}

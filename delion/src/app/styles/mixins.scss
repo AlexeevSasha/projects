@@ -1,0 +1,8 @@
+@mixin useModalStickToBottomOfPage {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  top: unset;
+  max-width: 100%;
+}

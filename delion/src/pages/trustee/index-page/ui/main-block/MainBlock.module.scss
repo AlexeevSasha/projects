@@ -1,0 +1,11 @@
+.container {
+ @include media(sm) {
+   padding-top: 16px;
+ }
+}
+
+.step {
+  background-color: $colorWhite;
+  border-radius: 24px;
+  padding: 32px 24px 0 24px;
+}

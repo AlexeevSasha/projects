@@ -1,0 +1,100 @@
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: $colorCharacter85;
+  }
+
+  &__text {
+    margin: 0;
+    color: $textColor;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+
+    &__inline {
+      display: inline-block;
+    }
+
+    &__blue {
+      color: $colorPrimarySecondaryDark;
+    }
+  }
+
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    counter-reset: list-counter;
+    padding: 0;
+    margin: 0;
+
+    li {
+      position: relative;
+      list-style: none;
+      padding-left: 32px;
+      line-height: 24px;
+
+      &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: counter(list-counter);
+        counter-increment: list-counter;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border: 1px solid $colorPlaceholder25;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+
+.example {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &__small {
+      gap: 4px;
+    }
+  }
+
+  &__frame {
+    display: grid;
+    grid-template-columns: 18px 1fr;
+    align-items: start;
+    grid-gap: 10px;
+    padding: 12px;
+    outline: 1px solid $colorDivider;
+    border-radius: 16px;
+
+    svg {
+      margin-top: 2px;
+      font-size: 18px;
+      color: $colorPrimarySecondaryLight;
+    }
+  }
+
+  &__description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: $textColor;
+    margin: 0;
+  }
+}
+

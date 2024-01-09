@@ -1,0 +1,40 @@
+.wrapper {
+  background-color: $colorWhite;
+  box-shadow: 4px -4px 16px 0px #e6e8ec0f;
+  border-radius: 16px;
+  padding: 16px;
+
+  &.is_completed {
+    background-color: $colorSuccessBg;
+  }
+
+  &.transparent {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: none;
+  }
+}
+
+.button_dream {
+  @include media(md) {
+    font-size: 13px;
+  }
+}
+
+.is_fixed {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+}
+
+.actions {
+  &.is_fixed {
+    box-shadow: 4px -4px 16px 0px #898a8d0f;
+    border-radius: 8px;
+    background-color: $colorWhite;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+  background: $colorWhite;
+  padding: 16px 24px;
+  border-radius: 24px;
+  height: fit-content;
+
+  &__small {
+    @include media(md) {
+      padding: 16px 12px;
+    }
+  }
+}
+
+.border {
+  outline: 1px solid $colorDivider;
+  border-radius: 20px;
+}
+
+
+.icon {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  color: $colorPrimarySecondaryLight;
+}

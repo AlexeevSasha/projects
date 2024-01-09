@@ -1,0 +1,17 @@
+.button {
+  border-radius: 12px !important;
+  width: 100% !important;
+  text-align: start !important;
+  padding: 0 24px !important;
+
+  &__warning {
+    color: $colorWarning !important;
+    border-color: $colorWarning !important;
+  }
+
+  &__success {
+    color: $colorWhite !important;
+    background-color: $colorSuccess !important;
+    border-color: $colorSuccess !important;
+  }
+}

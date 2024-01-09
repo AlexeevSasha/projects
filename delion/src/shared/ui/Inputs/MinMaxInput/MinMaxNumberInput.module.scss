@@ -1,0 +1,14 @@
+.prices {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+
+  &__delimiter {
+    margin-bottom: 18px;
+    height: 1px;
+    width: 12px;
+    background-color: $colorDivider;
+  }
+}
+

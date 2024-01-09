@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+  border-radius: 16px;
+  background-color: $colorBgGray;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  @include media(md) {
+    flex-direction: column;
+    margin-top: 24px !important;
+  }
+
+}
+
+
+.filled {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 16px;
+
+  border-radius: 16px;
+
+  background-color: $colorPrimary1;
+
+  &__icon {
+    color: $colorSuccess;
+  }
+
+  @include media(md) {
+    flex-direction: column;
+    margin-top: 24px !important;
+  }
+}

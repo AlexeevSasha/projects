@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  width: 100%;
+  box-shadow: 4px 4px 16px 0px #bfc4cd0f;
+  background-color: $colorWhite;
+  border-radius: 16px;
+  padding: 12px 24px;
+
+  &.isMobile {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: calc(100% + 32px);
+    margin: 0 -16px;
+  }
+}
+
+.applicationId {
+  color: $colorBlack;
+}
+
+.settelement {
+  color: $colorSecondary45;
+}
+
+.applicationInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.infoMode {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.infoLabel {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}

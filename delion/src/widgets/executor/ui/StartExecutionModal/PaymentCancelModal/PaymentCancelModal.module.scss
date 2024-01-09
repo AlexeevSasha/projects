@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: 24px  1fr;
+  grid-gap: 16px;
+  align-items: start;
+
+  &__icon {
+    font-size: 24px;
+    color: $colorWarning;
+  }
+}
+
+
+.buttons {
+  justify-content: end;
+  margin-top: 16px;
+
+  & > div {
+    width: 100%;
+    flex: 1;
+  }
+
+  @include media(xs) {
+    flex-direction: column-reverse;
+  }
+}

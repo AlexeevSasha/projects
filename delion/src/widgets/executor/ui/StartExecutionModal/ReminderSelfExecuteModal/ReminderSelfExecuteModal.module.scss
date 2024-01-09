@@ -1,0 +1,9 @@
+.disclaimer {
+  width: fit-content;
+}
+
+.modal {
+  &.isMobile {
+    @include useModalStickToBottomOfPage;
+  }
+}

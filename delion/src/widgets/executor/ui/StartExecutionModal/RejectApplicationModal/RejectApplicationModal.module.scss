@@ -1,0 +1,5 @@
+.modal {
+  &.is_fixed {
+    @include useModalStickToBottomOfPage;
+  }
+}

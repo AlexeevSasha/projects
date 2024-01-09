@@ -1,0 +1,42 @@
+.root {
+  & :global(.ant-upload-drag) {
+    background: $colorBgAccent !important;
+    border-color: $colorPrimarySecondaryLight;
+    border-radius: 16px;
+    transition: background .2s !important;
+    
+    &:hover {
+      background: $colorBgAccentHover !important;
+    }
+  }
+}
+
+.container {
+  display: flex !important;
+  gap: 24px;
+  align-items: center;
+  padding: 0 16px;
+  width: 100%;
+
+
+  & * {color: $colorPrimarySecondaryLight !important};
+
+  &__preview {
+    padding: 28px;
+    width: 80px;
+    height: 80px;
+
+    border-radius: 8px;
+    border: 1px dashed $colorPrimarySecondaryLight;
+    background-color: $colorWhite;
+  }
+
+  @include media(md) {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.errors {
+  color: $colorDanger
+}

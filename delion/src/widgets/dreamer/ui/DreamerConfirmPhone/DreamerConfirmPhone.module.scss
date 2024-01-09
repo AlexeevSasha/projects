@@ -1,0 +1,62 @@
+.container {
+  background: $colorWhite;
+  border-radius: 24px;
+  padding: 24px;
+  gap: 16px;
+
+  @include media(md) {
+    padding: 16px 12px;
+  }
+
+  &__title {
+    display: none;
+
+    @include media(md) {
+      display: block;
+    }
+  }
+}
+
+
+.verification {
+  padding: 24px;
+  border: 1px solid $colorDivider;
+  border-radius: 16px;
+
+  @include media(md) {
+    padding: 10px;
+  }
+
+  &__title {
+    display: inline-block;
+    text-align: center;
+  }
+
+  &__box {
+    width: 190px;
+    height: 140px;
+    border-radius: 20px;
+    border: 1px solid $colorDivider;
+  }
+
+  &__phone {
+    color: $colorPrimarySecondaryDark;
+    letter-spacing: 1.2px;
+  }
+}
+
+
+.support {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid $colorDivider;
+
+  & > div {
+    text-align: center;
+  }
+
+  @include media(md) {
+    border: none;
+    padding: 60px 0;
+  }
+}

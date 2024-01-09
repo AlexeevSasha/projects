@@ -1,0 +1,11 @@
+.container {
+  padding: 16px;
+  border-radius: 16px;
+  background: $colorGrayBg;
+  border: 1px solid $colorGrayBg;
+
+
+  @include media(md) {
+    border: none;
+  }
+}

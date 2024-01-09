@@ -1,0 +1,30 @@
+.ant-menu-inline {
+  height: 100%;
+  border-inline-end: 0 !important;
+
+  & .ant-menu-item {
+    width: 100% !important;
+  }
+}
+
+.ant-menu-submenu {
+  transition: all .1s;
+
+  & .ant-menu-submenu-title {
+    width: 100% !important;
+    padding: 0;
+    margin: 0 !important;
+  }
+}
+
+.ant-menu-submenu-open {
+  padding: 0 0 12px 0 !important;
+}
+
+.ant-menu-submenu-title {
+  height: 34px !important;
+}
+
+.ant-menu-item-selected {
+  border-right: 3px solid $colorPrimary;
+}

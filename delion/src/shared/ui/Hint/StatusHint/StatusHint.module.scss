@@ -1,0 +1,31 @@
+.container {
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  border-radius: 16px;
+  border: 1px solid $colorDivider;
+  background-color: $colorWhite;
+
+  :global(.anticon) {
+    font-size: 18px;
+    color: $colorPrimarySecondaryLight !important;
+  }
+
+  &_warning {
+    border-color: $colorWarning !important;
+
+    :global(.anticon) {
+      color: $colorWarning !important;
+    }
+  }
+  
+  &_borderless {
+    border: none;
+  }
+  
+  @include media(md) {
+    padding: 12px;
+  }
+}

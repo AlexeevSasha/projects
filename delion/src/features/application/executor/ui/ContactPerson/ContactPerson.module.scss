@@ -1,0 +1,30 @@
+.title {
+  color: $colorSecondary45;
+}
+
+.fullName {
+  color: $colorCharacter85;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  color: $colorPrimarySecondaryLight;
+  padding: 0;
+}
+
+.splitter {
+  flex: 1;
+  height: 3px;
+  min-width: 100%;
+  background-color: $colorDivider;
+}
+
+.wrapper {
+  :global {
+    .ant-space-item-split {
+      width: 100%;
+    }
+  }
+}

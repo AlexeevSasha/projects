@@ -1,0 +1,86 @@
+@mixin activeEmoji($color) {
+  &:global(.ant-radio-wrapper-checked) {
+    svg {
+      fill: $color
+    }
+  }
+}
+$borderColors: (
+red: $colorDanger,
+green: $colorSuccess,
+yellow: $colorWarning
+);
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background-color: $colorWhite;
+  width: 100%;
+
+  @each $class, $borderColor in $borderColors {
+    &:has(.#{$class}:global(.ant-radio-wrapper-checked)) {
+      outline: 1px solid $borderColor;
+    }
+  }
+}
+
+.radio {
+  flex: 1;
+  display: flex;
+  :global(.ant-radio) {
+    position: absolute !important;
+    left: -9999px;
+    overflow: hidden;
+  }
+
+  :global(.ant-radio-wrapper) {
+    margin: 0;
+
+    & > span:last-child {
+      display: inline-block;
+      padding: 6px;
+      height: 36px;
+      width: 36px;
+    }
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: $colorCharacter15;
+  }
+
+}
+
+.red {
+  @include activeEmoji($colorDanger);
+}
+
+.green {
+  @include activeEmoji($colorSuccess);
+}
+
+.yellow {
+  @include activeEmoji($colorWarning);
+}
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.popover {
+  position: relative;
+  padding-left: 13px;
+  border-left: 1px solid $colorDivider;
+}
+
+
+

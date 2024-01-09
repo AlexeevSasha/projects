@@ -1,0 +1,33 @@
+.disclaimer {
+  padding: 12px;
+  border: 1px solid $colorDivider;
+  border-radius: 16px;
+
+  .disclaimerContent {
+    color: $colorCharacter85;
+  }
+
+  &.warning {
+    border-color: $colorWarning;
+
+    .icon {
+      color: $colorWarning;
+    }
+  }
+
+  &.primary {
+    border-color: $colorDivider;
+
+    .icon {
+      color: $colorPrimarySecondaryLight;
+    }
+  }
+
+  &.organization {
+    border-color: $colorOrganization;
+
+    .icon {
+      color: $colorOrganization;
+    }
+  }
+}

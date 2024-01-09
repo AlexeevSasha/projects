@@ -1,0 +1,29 @@
+.container {
+  background-color: $colorWhite;
+  border-radius: 24px;
+  padding: 48px 24px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.subtitle {
+  display: block;
+  max-width: 401px !important;
+  width: 100%;
+  margin-bottom: 24px;
+
+  &.isMobile {
+    margin-bottom: 16px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #9E9E9E;
+  mix-blend-mode: color;
+}

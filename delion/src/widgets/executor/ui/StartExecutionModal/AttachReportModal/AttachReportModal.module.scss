@@ -1,0 +1,9 @@
+.modal {
+  &.isMobile {
+    @include useModalStickToBottomOfPage;
+  }
+}
+
+.previewLabel {
+  color: $colorSecondary45;
+}

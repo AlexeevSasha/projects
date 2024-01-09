@@ -1,0 +1,13 @@
+.feedbackWrapper {
+  background-color: $colorWhite;
+  border-radius: 16px;
+}
+
+.feedbackTitle {
+  color: $colorPrimarySecondaryLight;
+
+  &__edit {
+    margin-left: 10px;
+    color: $colorPrimarySecondaryLight;
+  }
+}

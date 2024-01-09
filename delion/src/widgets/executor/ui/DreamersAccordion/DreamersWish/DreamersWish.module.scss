@@ -1,0 +1,29 @@
+.dreamerWishContainer {
+  border: 1px solid $colorPrimarySecondaryLight;
+  padding: 16px;
+  border-radius: 16px;
+
+  :global {
+    .ant-space-item-split {
+      width: 100%;
+    }
+  }
+}
+
+.wishIcon {
+  color: $colorPrimarySecondaryLight;
+}
+
+.dreamerWishHeader {
+  justify-content: space-between;
+}
+
+.linkTitle {
+  color: $colorSecondary45;
+}
+
+.buttons {
+  &.isMobile {
+    padding: 0;
+  }
+}

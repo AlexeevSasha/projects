@@ -1,0 +1,25 @@
+.ant-page-header {
+  display: flex;
+  border: 1px solid #2d51da33;
+  border-radius: 0 0 24px 24px;
+  background: linear-gradient(90deg, rgba(27, 192, 244, 0.1) 0%, rgba(45, 81, 218, 0.1) 100%),
+    linear-gradient(0deg, rgba(45, 81, 218, 0.2), rgba(45, 81, 218, 0.2)),
+    linear-gradient(0deg, #ffffff, #ffffff);
+
+  &-content {
+    padding-block-start: 0;
+  }
+}
+
+.ant-page-header-heading {
+  align-items: center;
+
+  &-title {
+    display: none;
+  }
+}
+
+.ant-page-header-content {
+  display: flex;
+  flex: 1;
+}

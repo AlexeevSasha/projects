@@ -1,0 +1,27 @@
+.container {
+  padding: 8px 20px 8px 16px;
+  background: $colorBgGray;
+  border-radius: 16px;
+
+
+  &__item {
+    margin: 8px 0;
+    border-radius: 12px;
+    display: block;
+    padding: 8px 12px;
+    background: $colorWhite;
+    outline: 1px solid $colorDivider;
+  }
+
+  @include media(md) {
+    padding: 12px 8px 8px;
+
+    &__item {
+      margin: 8px 0 0;
+    }
+
+    &__title {
+      padding-left: 4px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "../variables";
+
+.header-user-profile {
+  border-block-end: 2px solid $colorPrimary;
+
+  @media (max-width: 767px) {
+    border-block-end: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .ant-layout-header {
+    padding-inline: 24px;
+  }
+}

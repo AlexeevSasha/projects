@@ -1,0 +1,28 @@
+.button {
+
+  &:disabled {
+    background: $colorBgDisabled !important;
+    color: $colorCharacter15 !important
+  }
+
+  &__text_link {
+    height: auto;
+    padding: 0;
+    color: $colorPrimarySecondaryLight;
+    transition: all 0.3s ease-in-out;
+    word-break: break-all;
+    white-space: normal;
+    text-align: start;
+
+    &:hover {
+      background: transparent !important;
+      color: $colorPrimarySecondaryDark !important;
+    }
+  }
+}
+
+
+
+.fullWidth {
+  width: 100%;
+}

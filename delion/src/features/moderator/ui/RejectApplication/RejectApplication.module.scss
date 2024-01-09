@@ -1,0 +1,72 @@
+.modal {
+  max-width: 420px !important;
+  width: 100%;
+
+  :global(.ant-modal-content) {
+    padding: 20px 24px 32px 24px !important;
+  }
+
+  &__header {
+    position: relative;
+    justify-content: space-between;
+    gap: 12px;
+    padding-bottom: 12px;
+
+
+    & > div:first-child {
+      flex: 1;
+      text-align: center;
+      padding-left: 36px;
+    }
+
+    &:after {
+      position: absolute;
+      content: '';
+      height: 1px;
+      width: calc(100% + 48px);
+      background: $colorDivider;
+      left: -24px;
+      bottom: 0;
+    }
+
+  }
+
+  &__content {
+    margin-top: 32px;
+  }
+
+  &__close {
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+  }
+
+  &__footer {
+    & > div {
+      flex: 1;
+    }
+  }
+
+  &__button {
+    &__reject {
+      background: $colorDangerBg !important
+    }
+
+    &__cancel {
+      border-color: $colorCharacter15;
+      color: $colorCharacter85;
+    }
+  }
+
+
+  @include media(md) {
+    max-width: 100% !important;
+    width: 100% !important;
+    vertical-align: bottom !important;
+
+    :global(.ant-modal-content) {
+      border-radius: 24px 24px 0 0 !important;
+    }
+
+  }
+}

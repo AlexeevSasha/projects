@@ -1,0 +1,6 @@
+.upload-reverse {
+  &.ant-upload-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

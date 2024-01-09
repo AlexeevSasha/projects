@@ -1,0 +1,18 @@
+@import "../variables";
+
+.ant-tag {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border-color: transparent;
+  white-space: unset;
+}
+
+.tag-default {
+  color: $colorBlack;
+  background: $colorGrayBg;
+}
+
+.tag-primary {
+  color: $colorPrimary;
+  background: $colorPrimaryBg;
+}

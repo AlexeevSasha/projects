@@ -1,0 +1,25 @@
+.wrapper {
+  justify-content: flex-end;
+}
+
+.divider {
+  height: 2.42em;
+  color: $colorPlaceholder25;
+}
+
+.action {
+  color: $colorPrimarySecondaryDark;
+  display: flex;
+
+  &.isActive {
+    color: $colorPrimarySecondaryLight;
+  }
+}
+
+.userName {
+  color: $colorPrimarySecondaryDark;
+}
+
+.userRole {
+  white-space: nowrap;
+}

@@ -1,0 +1,20 @@
+.icon {
+  width: 20px;
+  height: 20px;
+
+  svg {
+    color: $colorPrimarySecondaryLight;
+  }
+}
+
+.surprise {
+  padding: 8px 8px 8px 16px;
+  background: $colorBgGray;
+  border-radius: 16px;
+
+  &__dream {
+    background: $colorWhite;
+    padding: 12px;
+    border-radius: 12px;
+  }
+}

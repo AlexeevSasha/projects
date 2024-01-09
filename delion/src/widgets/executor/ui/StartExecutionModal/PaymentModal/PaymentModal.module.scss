@@ -1,0 +1,15 @@
+.modal {
+  &.isMobile {
+    @include useModalStickToBottomOfPage;
+  }
+}
+
+.modalHeader {
+  display: flex;
+  align-items: baseline;
+}
+
+.modalTitle {
+  width: 100%;
+  text-align: center;
+}

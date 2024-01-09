@@ -1,0 +1,20 @@
+.ant-message {
+  .ant-message-notice-error {
+    .ant-message-notice-content {
+      max-width: 360px;
+      background-color: $colorDustRed1;
+      border: 1px solid $colorDustRed2;
+      text-align: left;
+    }
+  }
+}
+
+.ant-message {
+  .ant-message-notice-content {
+    .ant-message-custom-content {
+      .anticon-close-circle {
+        margin-inline-end: 10px;
+      }
+    }
+  }
+}

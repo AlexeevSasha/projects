@@ -1,0 +1,7 @@
+
+- name: Deploy frontend
+  hosts: all
+  tasks:
+    - import_tasks: tasks/pull.yml
+    - import_tasks: tasks/containers.yml
+

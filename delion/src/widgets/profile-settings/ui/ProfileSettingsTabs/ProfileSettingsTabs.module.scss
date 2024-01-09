@@ -1,0 +1,28 @@
+.tabLabel {
+  color: inherit;
+}
+
+.wrapper {
+  :global {
+    .ant-tabs {
+      .ant-tabs-tab {
+        color: $colorCharacter85;
+        padding: 12px;
+
+        &.ant-tabs-tab-active .ant-tabs-tab-btn {
+          color: $colorPrimarySecondaryLight;
+        }
+
+        .ant-tabs-tab-btn {
+          text-shadow: none !important;
+        }
+      }
+
+      .ant-tabs-nav-list {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+      }
+    }
+  }
+}

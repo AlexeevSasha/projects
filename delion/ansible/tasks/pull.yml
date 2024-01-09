@@ -1,0 +1,11 @@
+
+- name: docker login
+  docker_login:
+    username: "{{ registry_auth.username }}"
+    password: "{{ registry_auth.password }}"
+    registry: "{{ registry_auth.registry }}"
+
+- name: pull docker images
+  docker_image:
+    name: "{{ image_name }}"
+    force: yes

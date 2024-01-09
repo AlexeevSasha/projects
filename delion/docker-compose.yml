@@ -1,0 +1,15 @@
+version: '2'
+
+networks:
+  ctd:
+
+services:
+  web:
+    restart: unless-stopped
+    container_name: ctd_frontend
+    env_file: ./.env
+    build: .
+    ports:
+      - '3000:3000'
+    networks:
+      - ctd

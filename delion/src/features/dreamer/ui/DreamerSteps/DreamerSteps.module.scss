@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  align-items: flex-start;
+
+  & :global(.ant-menu-title-content) {
+    max-width: 70%;
+  }
+
+  &__item {
+    width: 100%;
+
+    & > div {
+      & > i {
+        display: none !important;
+      }
+    }
+  }
+
+  &__close {
+    position: absolute;
+    padding: 4px;
+    top: 7px;
+    right: 12px;
+    color: $colorDisabled !important;
+    background-color: transparent;
+    border-radius: 999px;
+    transition: color .3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: $colorDanger !important;
+    }
+  }
+}

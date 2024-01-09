@@ -1,0 +1,8 @@
+.wishList {
+  display: flex;
+  gap: 16px;
+
+  @include media(md) {
+    flex-direction: column;
+  }
+}

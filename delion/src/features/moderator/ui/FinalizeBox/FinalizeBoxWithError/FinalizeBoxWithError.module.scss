@@ -1,0 +1,40 @@
+.errors {
+  background: $colorWarningBg;
+  border-radius: 12px;
+  padding: 12px 20px 12px 12px;
+
+  &__item {
+    flex: 1;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background: $colorWhite;
+    border: 1px solid $colorWarning
+  }
+
+  @include media(md) {
+    padding: 8px
+
+  }
+}
+
+.info {
+  gap: 4px;
+
+  &__title {
+    color: $colorSecondary45;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: $colorCharacter85;
+  }
+
+
+  @include media(md) {
+    padding: 4px 4px 0;
+  }
+
+}
+
+

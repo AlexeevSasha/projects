@@ -1,0 +1,12 @@
+.docBlock {
+  display: flex;
+  gap: 24px;
+
+  & :global(.ant-form-item) {
+    width: 100%;
+  }
+
+  @include media(md) {
+    flex-direction: column;
+  }
+}

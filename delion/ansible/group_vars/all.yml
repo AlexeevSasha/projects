@@ -1,0 +1,39 @@
+
+docker_network: ctd  # external
+container_name_prefix: ctd
+image_name: "{{ lookup('env', 'CTD_DOCKER_IMAGE_WITH_TAG') }}"
+registry_auth:  # stored on the target host
+  username: "{{ lookup('env', 'CTD_REGISTRY_USERNAME') }}"
+  password: "{{ lookup('env', 'CTD_REGISTRY_PASSWORD') }}"
+  registry: "{{ lookup('env', 'CTD_REGISTRY_REGISTRY') }}"
+_deploy_env: "{{ lookup('env', 'CTD_DEPLOY_ENV') }}"  # prod/staging
+_containers_number_per_tier:
+  staging:
+    server: 1
+  prod:
+    server: 2
+_docker_env_common:
+  #переменные в all.yml не работают, переменные писать в environments/
+  NEXT_PUBLIC_API_URL_FILE: /run/secrets/ctd_api_url
+  NEXT_PUBLIC_DOMAIN_FILE: /run/secrets/ctd_domain
+  NEXT_PUBLIC_RDDM_OAUTH_URL_FILE: /run/secrets/ctd_rddm_oauth_file
+  NEXT_PUBLIC_RDDM_CLIENT_ID_FILE: /run/secrets/ctd_rddm_client_id
+  NEXT_PUBLIC_HOST_FILE: /run/secrets/ctd_host
+  NEXT_PUBLIC_CLOUD_PAYMENTS_PUBLIC_ID_FILE: /run/secrets/ctd_cloudpayments_public_id
+  PHONE_CODE_RESEND_TIME: '60'
+_docker_env_specific:
+  staging:
+    VIRTUAL_HOST: ctd-new.delion.ru
+    LETSENCRYPT_HOST: ctd-new.delion.ru
+    LETSENCRYPT_EMAIL: webmaster@delion.ru
+  prod:
+    VIRTUAL_HOST: xn--j1ab.xn--80aanbeohciex.xn--p1ai
+    LETSENCRYPT_HOST: xn--j1ab.xn--80aanbeohciex.xn--p1ai
+    LETSENCRYPT_EMAIL: webmaster@delion.ru
+docker_containers_number_per_tier: "{{ _containers_number_per_tier[_deploy_env] }}"
+docker_container_env: "{{ _docker_env_common | combine(_docker_env_specific[_deploy_env]) }}"
+nginx_proxy_docker_env: "{{ _docker_env_specific[_deploy_env] }}"
+docker_container_volumes:
+  - /etc/ctd/frontend/secrets:/run/secrets:ro
+
+

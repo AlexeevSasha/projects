@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 12px 24px;
+  background-color: $colorWhite;
+  max-width: 637px;
+  margin: 0 auto;
+  border-radius: 24px;
+
+  @include media(md) {
+    padding: 16px 12px;
+  }
+}
+
+.layout {
+  .header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+
+    &.isMobile {
+      display: flex;
+      min-width: calc(100% + 32px);
+      padding: 10px 16px;
+      margin-bottom: 16px;
+      background-color: $colorWhite;
+      border-radius: 0px 0px 16px 16px;
+      box-shadow: 8px 8px 16px 0px #bfc4cd0f;
+    }
+
+    .title {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      margin: 0;
+    }
+  }
+}
+
+.tabContent {
+  padding: 0 12px;
+}

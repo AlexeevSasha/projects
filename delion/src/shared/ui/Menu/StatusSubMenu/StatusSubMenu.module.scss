@@ -1,0 +1,31 @@
+.subMenu {
+  border: 1px solid $colorDivider;
+  overflow: hidden;
+
+  &_success {
+    color: $colorSuccess !important;
+    border-color: $colorSuccess !important;
+
+    &.ant-menu-submenu-title {
+      color: $colorBlack !important;
+    }
+  }
+
+  &_warning {
+    color: $colorWarning!important;
+    border-color: $colorWarning !important;
+  }
+
+  &__icon {
+    color: $colorDisabled !important;
+
+    &_success {
+      color: $colorSuccess !important;
+    }
+
+    &_warning {
+      color: $colorWarning !important;
+    }
+  }
+
+}

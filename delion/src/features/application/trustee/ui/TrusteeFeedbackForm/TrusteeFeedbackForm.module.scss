@@ -1,0 +1,17 @@
+.radio {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  & > label {
+    border-radius: 12px;
+    padding: 12px;
+    outline: 1px solid $colorDivider;
+
+    &:global(.ant-radio-wrapper-checked) {
+      outline: 1px solid $colorPrimarySecondaryLight;
+      background: $colorBgAccent;
+    }
+  }
+}

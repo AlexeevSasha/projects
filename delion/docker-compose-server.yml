@@ -1,0 +1,41 @@
+version: '2'
+
+networks:
+  ctd:
+    external:
+      name: ctd
+
+services:
+  web:
+    restart: unless-stopped
+    container_name: ctd_frontend
+    build:
+      context: .
+      dockerfile: server-build/Dockerfile
+    ports:
+      - '3000:3000'
+    networks:
+      - ctd
+
+#  caddy:
+#    restart: unless-stopped
+#    container_name: ctd_caddy
+#    image: "caddy:2.0.0"
+#    env_file: ./environments/.env.production
+#    volumes:
+#      - ./server_deploy/Caddyfile:/etc/caddy/Caddyfile  # configuration
+#      - caddy-config:/config  # configuation autosaves
+#      - caddy-data:/data  # saving certificates
+#    ports:
+#      - "80:80"
+#      - "443:443"
+#    networks:
+#      - ctd
+#
+#volumes:
+#  caddy-config:
+#  caddy-data:
+
+
+
+
