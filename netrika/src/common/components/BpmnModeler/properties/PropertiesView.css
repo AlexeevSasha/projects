@@ -1,0 +1,6 @@
+.bpmn-element-properties .form-label {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

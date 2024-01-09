@@ -1,0 +1,5 @@
+export enum RegisterExportFileEnum {
+  "PATIENT_LIST_WITH_SETTINGS_XLSX" = 1,
+  "PATIENT_LIST_WITH_SETTINGS_CSV" = 2,
+  "PATIENT_LIST_WITH_CMO" = 3,
+}

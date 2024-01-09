@@ -1,0 +1,57 @@
+import { createSelector } from "reselect";
+import { IAppState } from "../../store/mainReducer";
+
+const state = ({ dictionaryClinrecPomp }: IAppState) => dictionaryClinrecPomp;
+
+export const dictionaryClinrecPompSelector = createSelector(
+  state,
+  ({
+    loading,
+    clinrec,
+    loadingClinrec,
+    pomp,
+    loadingPomp,
+    totalCount,
+    clinrecSelects,
+    loadingClinrecSelects,
+    loadingGraph,
+    loadingClinrecStage,
+    loadingPompStage,
+    loadingClinrecThesis,
+    loadingClinrecActivity,
+    loadingPompState,
+    loadingPompActivity,
+    loadingClinrecSelectsClinrecList,
+    loadingPompList,
+    pompList,
+    loadingPompProfiles,
+    profiles,
+    activityForModal,
+    listTimeoutUnit,
+    loadingListTimeoutUnit,
+  }) => ({
+    loading,
+    clinrec,
+    loadingClinrec,
+    pomp,
+    loadingPomp,
+    totalCount,
+    clinrecSelects,
+    loadingClinrecSelects,
+    loadingGraph,
+    loadingClinrecStage,
+    loadingPompStage,
+    loadingClinrecThesis,
+    loadingClinrecActivity,
+    loadingPompState,
+    loadingPompActivity,
+    loadingClinrecSelectsClinrecList,
+    loadingPompList,
+    pompList,
+    loadingPompProfiles,
+    profiles,
+    activityForModal,
+    listTimeoutUnit,
+    loadingListTimeoutUnit,
+  })
+);

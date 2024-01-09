@@ -1,0 +1,162 @@
+{
+  "name": "QualityAssurance",
+  "uri": "http://some-company/schema/bpmn/qa",
+  "prefix": "qa",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "types": [
+    {
+      "name": "AnalyzedProcess",
+      "extends": [
+        "bpmn:FlowNode"
+      ],
+      "properties": [
+        {"name": "isUpdatedAtr",
+          "isAttr": true,
+          "type": "String"
+        },
+        {"name": "description",
+          "isAttr": true,
+          "type": "String"
+        },
+        {"name": "conditionParam",
+          "isAttr": true,
+          "type": "String"
+        },
+        {"name": "businessRuleParam",
+          "isAttr": true,
+          "type": "String"
+        },
+        {"name": "StageCode",
+          "isAttr": true,
+          "type": "String"
+        },
+        {"name": "IdPompGraph",
+          "isAttr": true,
+          "type": "Integer"
+        },
+        {"name": "IdPompStateXml",
+          "isAttr": true,
+          "type": "Integer"
+        },
+        {"name": "IdState",
+          "isAttr": true,
+          "type": "Integer"
+        },
+        {
+          "name": "triggerPoints",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "AnalyzedTask",
+      "extends": [
+        "bpmn:Task"
+      ],
+      "properties": [
+        {
+          "name": "serviceCodes",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "idActivity",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "stateCodeXml",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "idPompState",
+          "isAttr": true,
+          "type": "Integer"
+        },
+        {
+          "name": "comment",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+
+    {
+      "name": "AnalyzedParticipant",
+      "extends": [
+        "bpmn:Participant"
+      ],
+      "properties": [
+        {
+          "name": "mkb10",
+          "isAttr": true,
+          "type": "String"
+        },    {
+          "name": "idPomp",
+          "isAttr": true,
+          "type": "Integer"
+        },
+        {"name": "isUpdated",
+          "isAttr": true,
+          "type": "String"
+        },
+        {"name": "idPompGraphXml",
+          "isAttr": true,
+          "type": "String"
+        },
+        {"name": "idGraph",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "AnalyzeDLane",
+      "extends": [
+        "bpmn:Lane"
+      ],
+      "properties": [
+        {"name": "StageCode",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "stageOrder",
+          "isAttr": true,
+          "type": "Integer"
+        },
+        {"name": "isUpdated",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "AnalysisDetails",
+      "superClass": [ "Element" ],
+      "properties": [
+        {
+          "name": "lastChecked",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "nextCheck",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "comments",
+          "isMany": true,
+          "type": "Comment"
+        }
+      ]
+    }
+  ],
+  "enumerations": [],
+  "associations": []
+}

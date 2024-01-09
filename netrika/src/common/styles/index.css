@@ -1,0 +1,278 @@
+@import "animate.css";
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #cceae8;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #cceae8;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #06ac93;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #999;
+}
+
+::-webkit-resizer {
+  background-color: #666;
+
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular.woff") format("woff"),
+    url("fonts/OpenSans-Regular.eot") format("embedded-opentype"),
+    url("fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.woff") format("woff"),
+    url("fonts/Roboto-Regular.woff2") format("woff2"),
+    url("fonts/Roboto-Regular.eot") format("embedded-opentype"),
+    url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 1230px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+th,
+input,
+textarea {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 24px;
+  margin: 12px 0;
+}
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0;
+}
+h4 {
+  font-size: 16px;
+  margin: 0;
+}
+td,
+div,
+textarea,
+input,
+a,
+span,
+p
+{
+  font-size: 14px
+}
+th {
+  font-size: 10px
+}
+
+label {
+   font-size: 14px
+ }
+
+
+
+
+
+.Toastify .Toastify__toast-container--top-right {
+  top: 40px;
+}
+.Toastify__toast-body {
+  width: 100%;
+  word-break: break-word;
+}
+.Toastify__toast--success {
+  background-color: #06ac93 !important;
+}
+.Toastify__toast--success:nth-child(1) {
+  margin-top: 10px;
+}
+.Toastify__toast--error:nth-child(1) {
+  margin-top: 10px;
+}
+
+[class^="color-icon-"]:before,
+[class*=" color-icon-"]:before {
+  display: inline-block;
+  content: '';
+  width: 1.5em;
+  height: 0.6em;
+  border-radius: 0.1em;
+  border: 0.03em solid black;
+}
+
+.color-icon-clear:before {
+  background-color: white;
+  border-color: black;
+}
+
+.color-icon-blue:before {
+  background-color: #BBDEFB;
+  border-color: #1E88E5;
+}
+
+.color-icon-orange:before {
+  background-color: #FFE0B2;
+  border-color: #FB8C00;
+}
+
+.color-icon-green:before {
+  background-color: #C8E6C9;
+  border-color: #43A047;
+}
+
+.color-icon-red:before {
+  background-color: #FFCDD2;
+  border-color: #FB8C00;
+}
+
+.color-icon-purple:before {
+  background-color: #E1BEE7;
+  border-color: #8E24AA;
+}
+
+/* transparancy for shapes with colors */
+.color-transparancy {
+  fill-opacity: 0.50;
+}
+.bjs-powered-by { display: none}
+
+
+.backdrop {
+  background: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index: 1003;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+/* variables modal time */
+:root {
+  --enter-time: 0.4s;
+  --exit-time: 0.4s;
+}
+
+.BaseModal {
+  position: fixed;
+  z-index: 1005;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+
+.BaseModal-enter-active {
+  animation: moveUp var(--enter-time) ease-out forwards;
+}
+
+.BaseModal-exit-active {
+  animation: moveDown var(--enter-time) ease-out forwards;
+}
+
+
+.BaseDrawer-enter-active {
+  animation: moveUp 0.4s ease-out forwards;
+}
+
+.BaseDrawer-exit-active {
+  animation: moveDown 0.4s ease-out forwards;
+}
+
+
+@keyframes moveUp {
+  0% {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+}
+
+
+@keyframes moveLeft {
+  0% {
+    left: 0;
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+@keyframes moveRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

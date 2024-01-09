@@ -1,0 +1,6 @@
+export enum PopupEventEnum {
+  "OPEN_DRAWER" = "OPEN_DRAWER",
+  "CLOSE_DRAWER" = "CLOSE_DRAWER",
+  "OPEN_MODAL" = "OPEN_MODAL",
+  "CLOSE_MODAL" = "CLOSE_MODAL",
+}

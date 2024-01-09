@@ -1,0 +1,43 @@
+import * as React from "react";
+import { styled } from "../../../styles/styled";
+import { theme } from "../../../styles/theme";
+
+interface IProps {
+  onClick: () => void;
+  id: string;
+}
+
+export const CustomCross = (props: IProps) => {
+  return (
+    <Container onClick={props.onClick} id={props.id}>
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M11.2496 0.757931C11.0939 0.601887 10.8825 0.514193 10.6621 0.514193C10.4417 0.514193 10.2303 0.601887 10.0746 0.757931L5.99961 4.8246L1.92461 0.749597C1.76892 0.593553 1.55754 0.505859 1.33711 0.505859C1.11668 0.505859 0.905302 0.593553 0.749609 0.749597C0.424609 1.0746 0.424609 1.5996 0.749609 1.9246L4.82461 5.9996L0.749609 10.0746C0.424609 10.3996 0.424609 10.9246 0.749609 11.2496C1.07461 11.5746 1.59961 11.5746 1.92461 11.2496L5.99961 7.1746L10.0746 11.2496C10.3996 11.5746 10.9246 11.5746 11.2496 11.2496C11.5746 10.9246 11.5746 10.3996 11.2496 10.0746L7.17461 5.9996L11.2496 1.9246C11.5663 1.60793 11.5663 1.0746 11.2496 0.757931Z"
+          fill={theme.colors.white}
+        />
+      </svg>
+    </Container>
+  );
+};
+
+const Container = styled.div`
+  align-items: center;
+  border-radius: 0;
+  display: flex;
+  box-sizing: border-box;
+  color: ${theme.colors.white};
+  background: ${theme.colors.lightRed};
+  border-left: 1px solid ${theme.colors.white};
+  padding: 4px;
+  cursor: pointer;
+  :hover {
+    background-color: #ffbdad;
+    color: #de350b;
+
+    svg {
+      path {
+        fill: #de350b;
+      }
+    }
+  }
+`;
