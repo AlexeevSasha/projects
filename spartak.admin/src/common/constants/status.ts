@@ -1,0 +1,16 @@
+export const statusColors: Record<string, string> = {
+  Published: "green",
+  published: "green",
+  Draft: "cyan",
+  Hidden: "warning",
+  hidden: "gray",
+  Completed: "gray",
+  completed: "gray",
+  outofstock: "gray",
+  Ahead: "gray",
+  Planned: "warning",
+  scheduled: "warning",
+  FromPartners: "purple",
+  FromClub: "pink",
+  None: "cyan",
+};

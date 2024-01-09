@@ -1,0 +1,1542 @@
+{
+  "allPages": {
+    "choose": "Choose",
+    "notChosen": "Not chosen",
+    "number": "Number",
+    "role": "Role",
+    "update": "Update",
+    "saveSuccess": "Changes are saved.",
+    "saveNotSuccess": "Data not saved",
+    "dataUpdated": "Data is updated. Update page.",
+    "allDataSave": "Data are saved.",
+    "dataNotSaved.": "Data not saved.",
+    "formError": "It is necessary to fill in the data in all available languages",
+    "saveConfirmTitle": "Do you really want to save?",
+    "confirmTitle": "Are you sure you want to post?",
+    "hideConfirmTitle": "Do you really want to hide?",
+    "deleteConfirmTitle": "Are you sure you want to delete?",
+    "changeConfirmTitle": "Do you really want to change?",
+    "closeConfirmTitle": "Are you sure you want to close?",
+    "importFromFile": "Import from file",
+    "addTeam": "Add a team",
+    "position": "Position",
+    "fio": "Full name",
+    "order": "Order",
+    "photo": "A photo",
+    "bodySection": "Text",
+    "page": "Page",
+    "title": "Name",
+    "status": "Status",
+    "place": "A place",
+    "city": "City",
+    "country": "The country",
+    "path": "Way",
+    "scheme": "Scheme",
+    "action": "Action",
+    "createdUtc": "Date of creation",
+    "selectData": "Specify a date",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "image": "Image",
+    "view": "View",
+    "selectPlaceholder": "Not chosen",
+    "metaTags": "Meta tags",
+    "upload": "Upload",
+    "download": "Download",
+    "change": "Change",
+    "ru": "Russian language",
+    "en": "English language",
+    "locale": "Localization",
+    "link": "Link",
+    "location": "Location",
+    "tournaments": "Tournaments",
+    "tournament": "Tournament",
+    "startDate": "The date of the beginning",
+    "endDate": "Expiration date",
+    "dateTime": "Date and time",
+    "dateTimeHelp": "Specify the time MSK",
+    "main": "Main",
+    "prompt": "Prompt",
+    "requiredField": "Required field",
+    "successHide": "Record successfully hidden",
+    "successPublish": "Post successfully published",
+    "roleSuccessSaved": "Role successfully saved.",
+    "statuses": {
+      "None": "Without status",
+      "Published": "Published",
+      "published": "Published",
+      "Hidden": "Hidden",
+      "hidden": "Hidden",
+      "Draft": "Draft",
+      "IsDraft": "Draft",
+      "Planned": "Planned",
+      "scheduled": "Planned",
+      "Completed": "Finished",
+      "completed": "Completed",
+      "outofstock": "Completed ahead of schedule"
+    },
+
+    "links": {
+      "hyperLink": "hyperlink",
+      "screen": "application screen"
+    },
+    "filters": {
+      "search": "Search",
+      "positionSearchPlaceholder": "Search by position",
+      "OppositeTeamSearch": "Search by opposing team",
+      "fioSearchPlaceholder": "Search by full name",
+      "clearFilters": "Clear",
+      "nameSearchPlaceholder": "Search by name",
+      "statusPlaceholder": "Any status",
+      "anyStatus": "Any status",
+      "sectionPlaceholder": "Select a section",
+      "date": {
+        "begin": "Start date",
+        "end": "Final date"
+      }
+    },
+    "form": {
+      "upToCharacters": "*up to 320 characters",
+      "uploadDesc": "Uploading one image ({{format}}), resolution {{width}}x{{height}}, weight no more than {{size}}mb.",
+      "biography": "Biography",
+      "teamBinding": "Binding to a team",
+      "citizenship": "Citizenship",
+      "citizenshipPlaceholder": "Specify citizenship",
+      "dateOfBirth": "Date of Birth",
+      "dateOfBirthPlaceholder": "Enter date of birth",
+      "order": "Order",
+      "sortOrder": "Sort order",
+      "orderPlaceholder": "Enter number",
+      "positionPlaceholder": "Enter position",
+      "sendPush": "Send push-message"
+    },
+    "buttonsText": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "create": "Create",
+      "edit": "Edit",
+      "confirm": "Confirm",
+      "publish": "Publish",
+      "draft": "Draft",
+      "add": "Add",
+      "close": "Close",
+      "addCoach": "Add coach"
+    },
+    "datePicker": {
+      "placeholder": "Select date and time"
+    },
+    "modal": {
+      "title": "Do you really want",
+      "content": "will be permanently deleted.",
+      "contentFemale": "will be permanently deleted.",
+      "publish": "publish",
+      "delete": "delete",
+      "edit": "change"
+    },
+    "layouts": {
+      "None": "",
+      "Static": "Static",
+      "Rotation": "Rotation"
+    },
+    "sections": {
+      "None": "",
+      "Academy": "Academy",
+      "Site": "Academy"
+    }
+  },
+  "auth": {
+    "mainTitle": "Administrative panel for application management",
+    "formHeader": "Login",
+    "nodata": "Required data is not filled.",
+    "uiContent": {
+      "placeholders": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "checkBoxText": {
+        "remember": "Remember me"
+      },
+      "linksText": {
+        "forgotPassword": "Forgot your password?"
+      },
+      "buttonsText": {
+        "submit": "Enter"
+      }
+    },
+    "forgotPasswor": {
+      "title": "Password recovery",
+      "paragraph": "Enter the email address you used when registering and we will send you instructions on how to reset your password.",
+      "uiContent": {
+        "placeholders": {
+          "email": "Email"
+        },
+        "buttonsText": {
+          "submit": "Proceed",
+          "back": "Return"
+        },
+        "modal": {
+          "success": {
+            "successForgot": "If this email address was used to create your account, you will be sent instructions to reset your password. Please check your email."
+          },
+          "error": {
+            "errorAccount": "We couldn't find an account that matches the username and password you entered. Please check your username and password and try again.",
+            "errorRequest": "Undefined error.",
+            "errorForgotNonExist": "Email address not found. please check the correctness of the entry."
+          }
+        }
+      }
+    },
+    "invitation": {
+      "title": "Приглашение в систему",
+      "paragraph": "<b>{{name}}</b>, You were invited to the system by email address <b>{{email}}</b>. To complete the account creation, you need to create a password.",
+      "uiContent": {
+        "placeholders": {
+          "password": "New password"
+        },
+        "buttonsText": {
+          "submit": "Proceed"
+        }
+      }
+    },
+    "recovery": {
+      "title": "Recover password",
+      "paragraph": "for account <b>{{email}}</b>",
+      "uiContent": {
+        "placeholders": {
+          "password": "New password"
+        },
+        "buttonsText": {
+          "submit": "Save"
+        },
+        "modal": {
+          "errorPassword": "Password length should be 8 - 20 characters, contain numbers, letters of the Latin alphabet in lower and upper case."
+        }
+      }
+    },
+    "operationError": {
+      "title": "Try again...",
+      "recovery": {
+        "paragraph": "Your password reset request has expired or the link has already been used.",
+        "uiContent": {
+          "buttonsText": {
+            "back": "Go to login"
+          }
+        }
+      },
+      "invitation": {
+        "paragraph": "Your invitation has expired or the link has already been used."
+      }
+    },
+    "operationSuccess": {
+      "recovery": {
+        "title": "Password changed"
+      },
+      "invitation": {
+        "title": "Password saved"
+      },
+      "paragraph": "Now you can log in with your new password.",
+      "uiContent": {
+        "buttonsText": {
+          "back": "Go to login"
+        }
+      }
+    }
+  },
+  "media": {
+    "title": "Media",
+    "searchByHeader": "Title search",
+    "category": "Chapter",
+    "section": "Section",
+    "type": "Type",
+    "header": "Header",
+    "publishConfirm": "After confirmation, the entry will become available to all users.",
+    "draftConfirm": "The entry will be removed from view.",
+    "info": "Info",
+    "text": "Text",
+    "photo": "Photo",
+    "video": "Video",
+    "newsHeader": "News headline",
+    "back": "Back",
+    "dateTime": "Date and time of publication",
+    "mediaType": "media type",
+    "team": "Binding to a team",
+    "player": "Binding to a player",
+    "match": "Link to match",
+    "charCount60": "The maximum number of characters is 60.",
+    "charCount1000": "The maximum number of characters is 1000.",
+    "charCount300": "For the “News” media type, you must fill out this form. The maximum number of characters is 300.",
+    "announce": "News announcement",
+    "newsText": "News text",
+    "newsTextPrompt": "For media type “News”, fill out this form",
+    "preview": "Picture for preview",
+    "bigPicture": "big picture",
+    "gallery": "Photo gallery",
+    "galleryPrompt": "Uploading multiple images (jpeg, png) from 1080x1920 and 1920x1080, weighing no more than 1000mb.",
+    "videoLink": "Link to video",
+    "supported": "Links to the following services are supported:",
+    "vk": "VK",
+    "youTube": "YouTube",
+    "ruTube": "RuTube",
+    "vimeo": "Vimeo",
+    "confirmText": "After confirmation, the entry will become available to all users.",
+    "hideConfirmText": "The entry will be removed from view.",
+    "deleteConfirm": "The post will be permanently deleted.",
+    "academy": "Academy",
+    "site": "Site",
+    "types": {
+      "none": "Default",
+      "news": "News",
+      "gallery": "Gallery",
+      "video": "Video"
+    }
+  },
+  "mediaCategories": {
+    "title": "Media categories",
+    "categoryColumn": "Category",
+    "addCategory": "Create category",
+    "categorySearch": "Category search",
+    "categoryName": "name of category",
+    "categoryNamePlaceholder": "Enter category name",
+    "deleteConfirm": "The category will be deleted permanently",
+    "confirmText": "After confirmation, the category will become available to all users."
+  },
+  "pagesSections": {
+    "title": "Sections",
+    "Entity": "Sections",
+    "entity": "Section",
+    "section": "Header",
+    "year": "Year of season",
+    "name": "Name",
+    "surname": "Family",
+    "newsHeading": "Header of news",
+    "newsAnnounce": "Announce of news",
+    "newsText": "Text of news",
+    "addBlock": "Add block",
+    "image": "Image",
+    "description": "Description",
+    "button": {
+      "title": "Button",
+      "show": "Show button",
+      "link": "Link",
+      "text": "Text button"
+    },
+    "privacy": "Description of privacy policy",
+    "mainPage": {
+      "mainPageTitle": "Main page image"
+    },
+    "infoBlockImageWithText": {
+      "title": "Informative block with photo"
+    },
+    "premiumLevelsImgText": {
+      "title": "Informative premium level block",
+      "addImg": "Add image"
+    },
+    "lodgePlan": {
+      "title": "Picture of the bleachers scheme"
+    },
+    "redBlock": {
+      "collapseText": "Text on a red background",
+      "firstColumn": "First column",
+      "secondColumn": "Second column"
+    },
+    "mediaNews": {
+      "mediaNewsSpartak": "Page picture SPARTAK",
+      "mediaNewsSpartakYouth": "Page picture SPARTAK (YOUTH)"
+    },
+    "aboutStadium": {
+      "banner": "Banner",
+      "stadiumCharacteristics": "Stadium characteristics",
+      "stadiumAboutTitle": "Title of banner",
+      "stadiumAboutBanner": "Page banner",
+      "nameOfCharacteristic": "Name of characteristic",
+      "descriptionOfCharacteristic": "Description of characteristic",
+      "addCharacteristic": "Add characteristic",
+      "photoStadiumForDescription": "Stadium photo",
+      "photoForAchievements": "Stadium photo for achievements",
+      "achievements": "Achievements",
+      "achievement": "Achievement",
+      "addAchievement": "Add achievement",
+      "yearAchievement": "Year of achievement",
+      "descriptionAchievement": "Description of achievement",
+      "rewardAchievement": "Reward",
+      "stadiumHistory": "Stadium history",
+      "photoFromHistory": "Photo from history",
+      "historyStadiumTitle": "Title for stadium history",
+      "historyBlockText": "Text for stadium history"
+    },
+    "servicesAdjacentTerritory": {
+      "blockInfoLabel": "Блок с информацией о территории",
+      "blockInfo": {
+        "label": "Название параметра",
+        "value": "Значение параметра"
+      },
+      "addBlockInfo": "Добавить параметр"
+    },
+    "servicesVipLodges": {
+      "boxes": {
+        "blockInfoLabel": "Block info about VIP-Lodge",
+        "schemeAndBoxes": "Scheme VIP-Lodge and boxes",
+        "addBoxes": "Add boxes",
+        "numbersOfBoxes": "Naming",
+        "countSeats": "Count of seats",
+        "boxSquare": "Box square",
+        "tier": "Tier"
+      },
+      "packages": {
+        "packagesOfHospitality": "Exclusive terms",
+        "titleOfPackages": "Name of packages",
+        "packageTitle": "Package name",
+        "packageDescription": "Package description",
+        "base": "Base package",
+        "exclusive": "Exclusive package",
+        "basePackageName": "Base package name",
+        "exclusivePackageName": "Exclusive package name",
+        "addPackage": "Add package"
+      },
+      "tripleBlock": {
+        "triplePhoto": "Triple photo",
+        "firstPhoto": "First photo",
+        "secondPhoto": "Second photo",
+        "mainPhoto": "Main photo"
+      },
+      "services": {
+        "description": "Description",
+        "addProperty": "Add description",
+        "additionalServices": "Additional services",
+        "service": "Service",
+        "addService": "Add service"
+      }
+    },
+    "clubContacts": {
+      "title": "Contacts",
+      "mainInfo": {
+        "name": "Contact name",
+        "description": "Contact description"
+      }
+    },
+    "clubResults": {
+      "mainInfo": {
+        "collapseText": "Main info",
+        "title": "Page title",
+        "banner": "Banner"
+      },
+      "lineWithDates": {
+        "title": "Timeline with events",
+        "event": "Event",
+        "addDate": "Add event",
+        "eventDate": "Date of event",
+        "eventTitle": "Name of event",
+        "eventDescription": "Description of event",
+        "eventPhoto": "Photo"
+      },
+      "seasonsResults": {
+        "title": "Seasons results",
+        "resultOfSeason": "Season result",
+        "addSeason": "Add season",
+        "season": "Season",
+        "achievement": "Achievement",
+        "addAchievement": "Add achievement"
+      }
+    },
+    "clubHistory": {
+      "historyOfCreation": {
+        "collapseTitle": "Foundation history",
+        "title": "Title",
+        "description": "Description",
+        "creatorsPhoto": "Founder's photo"
+      },
+      "emblemHistory": {
+        "collapseTitle": "History of emblem",
+        "firstColumn": "First column",
+        "secondColumn": "Second column",
+        "addEmblem": "Add emblem",
+        "emblem": "Emblem",
+        "periodOfUseEmblem": "Period of emblem use",
+        "photoOfEmblem": "Emblem photo"
+      },
+      "anniversaryOfCreation": {
+        "collapseTitle": "Anniversary of foundation",
+        "title": "Title",
+        "description": "Description",
+        "firstPhoto": "First photo",
+        "secondPhoto": "Second photo"
+      }
+    },
+    "stadiumContacts": {
+      "typeOFContact": "Type of contact",
+      "typeOfConnection": "Type of connection"
+    },
+    "stadiumHowToGet": {
+      "collapseTitle": "Way to get here",
+      "kindOfTransport": "Kind of transport",
+      "description": "Description",
+      "add": "Add"
+    },
+    "stadiumStaff": {
+      "eventTeam": {
+        "collapseTitle": "What is Event Team",
+        "title": "Title"
+      },
+      "stewards": {
+        "collapseTitle": "Category of stewards",
+        "description": "Description",
+        "categoryOfStewards": "Steward category",
+        "addCategory": "Add category"
+      },
+      "questionAnswer": {
+        "collapseTitle": "Question - answer",
+        "question": "Question",
+        "answer": "Answer",
+        "addQuestionAnswer": "Add question with answer"
+      },
+      "admissionConditions": {
+        "collapseTitle": "Admission conditions",
+        "title": "Title for admission info",
+        "addBlock": "Add block with info"
+      }
+    },
+    "academyEnter": {
+      "mainInfo": "Info"
+    },
+    "stadiumUsefulInfo": {
+      "entranceToTheStadium": "Entrance to the stadium",
+      "usefulInfo": "Useful info",
+      "entranceNames": "Entrance names",
+      "entranceName": "Entrance name",
+      "addEntrance": "Add entrance"
+    },
+    "ticketsMain": {
+      "seoText": "SEO text"
+    },
+    "ticketsRules": {
+      "rules": "Rules",
+      "rulesDescription": "Rules description"
+    },
+    "ticketsFanCard": {
+      "text": "Текст"
+    },
+    "excursionTours": {
+      "standardTour": {
+        "title": "Standard tour",
+        "tourName": "Tour name",
+        "tourDescription": "Tour description",
+        "tourImage": "Tour image",
+        "addPoint": "add pint",
+        "point": "Description",
+        "priceDescription": "Описание первой цены",
+        "price": "Цена",
+        "packagesDescription": "Описание пакетов",
+        "linkToTour": "Link to tour"
+      },
+      "toursConstructor": {
+        "title": "Tours constructor",
+        "tourTitle": "Tours title",
+        "priceFrom": "Price from",
+        "priceTo": "Price to",
+        "additionalDescription": "Additional description",
+        "buttonsName": "Buttons name",
+        "additionalInfo": "Additional info"
+      },
+      "additionalInfo": {
+        "title": "Дополнительная информация",
+        "description": "Description",
+        "photo": "Photo"
+      }
+    },
+    "legends": {
+      "committee": {
+        "veteransCommittee": "Composition of the Veterans Committee",
+        "veteransPhoto": "Photo",
+        "veteransFullName": "Full name",
+        "veteransFullNamePlaceholder": "Name of Veterans Committee member",
+        "birthDate": "Birth date",
+        "description": "Achievements description",
+        "blockTitle": "Committee block's title",
+        "enterBlockTitle": "Enter committee block's title",
+        "position": "Position in committee",
+        "enterPosition": "Enter position in committee",
+        "selectPosition": "Select position"
+      },
+      "history": {
+        "firstPhoto": "First photo",
+        "secondPhoto": "Second photo",
+        "historyBlock": "History of the Veteran Team",
+        "title": "Command history block name",
+        "enterTitle": "Enter the name of the command history block",
+        "descriptionFirst": "First story block",
+        "descriptionSecond": "Second story block",
+        "enterDescription": "Enter description",
+        "buttonName": "Button name",
+        "buttonLink": "Button link"
+      },
+      "additional": {
+        "blockName": "Additional list items",
+        "additionalInfo": "Additional info",
+        "enterAdditionalInfo": "Enter additional info",
+        "addPoint": "Add point"
+      }
+    },
+    "chairPlotting": {
+      "description": "Description"
+    },
+    "spartakKids": {
+      "kids": {
+        "becomePartOfTeam": "Become part of team",
+        "buttonName": "Button name",
+        "buttonLink": "Button link",
+        "image": "Image",
+        "memberPrivileges": "Member privileges",
+        "addPrivilege": "Add privileges",
+        "privilegeDescription": "Privilege description",
+        "redBlock": "Red block",
+        "desktop": "desktop",
+        "tablet": "tablet",
+        "mobile": "mobile",
+        "playerPhoto": "Player photo",
+        "takePlayerToField": "Take the player to the field",
+        "answersQuestions": "Answers and questions",
+        "addAnswerQuestion": "Add answer-question",
+        "answer": "Answer",
+        "question": "Question"
+      },
+      "rules": { "title": "Rules" }
+    },
+    "corporateClients": {
+      "form": {
+        "title": "Feedback form",
+        "show": "Show form",
+        "img": "A picture for the form"
+      }
+    }
+  },
+  "partners": {
+    "addPartner": "Add partner",
+    "confirmText": "After confirmation, the partner will become available to all users.",
+    "hideConfirmText": "The partner will be hidden from view.",
+    "deleteConfirm": "The partner will be permanently deleted.",
+    "successHide": "Partner successfully hidden",
+    "successPublish": "The partner has been published successfully.",
+    "table": {
+      "title": "Partners",
+      "columns": {
+        "partner": "Partner",
+        "status": "Status",
+        "createdUtc": "Date of creation",
+        "action": "Action"
+      }
+    },
+    "form": {
+      "addTitle": "Add partner",
+      "editTitle": "Change partner",
+      "partnerName": "Partner name",
+      "partnerNamePlaceholder": "Enter partner name",
+      "locationPlaceholder": "Specify Location",
+      "stadionAddress": "Stadium address",
+      "stadionAddressPlaceholder": "Enter stadium address",
+      "info": "Partner information",
+      "link": "Link",
+      "linkPlaceholder": "Provide a link to the partner's website",
+      "logo": "Partner logo"
+    }
+  },
+  "calendar": {
+    "title": "Home calendar",
+    "addEvent": "Add event",
+    "editEvent": "Edit event",
+    "eventDate": "Event date",
+    "eventName": "Event name",
+    "publishConfirm": "After confirmation, the event will become available to all users.",
+    "deleteConfirm": "The event will be removed from the system.",
+    "draftConfirm": "The event will be hidden from view.",
+    "publishSuccess": "The event was successfully published.",
+    "deleteSuccess": "The event was successfully removed.",
+    "draftSuccess": "The event was successfully hidden.",
+    "addEventDate": "Specify the date of the event",
+    "eventLink": "Link",
+    "eventImage": "Event Icon"
+  },
+  "dirStadiums": {
+    "confirmText": "After confirmation, the stadium will be available to all users.",
+    "successAdd": "Stadium published successfully.",
+    "table": {
+      "change": "Change",
+      "title": "Stadiums",
+      "columns": {
+        "name": "Stadium name",
+        "address": "The address",
+        "status": "Status",
+        "createdUtc": "Date of creation",
+        "action": "Action"
+      }
+    },
+    "form": {
+      "addTitle": "Add stadium",
+      "editTitle": "Edit Stadium",
+      "stadionName": "Stadium name",
+      "stadionNamePlaceholder": "Enter stadium name",
+      "sectionPlaceholder": "Enter section name",
+      "stadionAddress": "Stadium address",
+      "stadionAddressPlaceholder": "Enter stadium address",
+      "enterIdInstat": "Enter id instat",
+      "yandexGoButton": "Order taxi Yandex GO"
+    }
+  },
+  "dirTeam": {
+    "confirmText": "After confirmation, the command will become available to all users.",
+    "successAdd": "Team published successfully.",
+    "form": {
+      "addTitle": "Add command",
+      "teamBuilding": "Team building",
+      "editTitle": "Editing a team",
+      "commandName": "Name of the team",
+      "commandNamePlaceholder": "Enter the name of the team",
+      "city": "City",
+      "cityPlaceholder": "Enter team city",
+      "country": "Country",
+      "countryPlaceholder": "Enter the country of the team",
+      "teamLogo": "Team logo"
+    },
+    "table": {
+      "change": "Change",
+      "title": "Opposing teams",
+      "columns": {
+        "name": "Team name",
+        "createdUtc": "Date of creation",
+        "action": "Action"
+      }
+    }
+  },
+  "clubsTeams": {
+    "title": "Teams",
+    "teamName": "Team name",
+    "teamCreate": "Creation of a team",
+    "teamEdit": "Team Edit",
+    "shortName": "Short team name",
+    "fullName": "Full team name",
+    "namePlaceholder": "Enter a team name",
+    "cityPlaceholder": "Enter the city of the team",
+    "countryPlaceholder": "Enter the country of the team",
+    "teamLogo": "Team Logo",
+    "teamImage": "Team Image",
+    "confirmText": "After confirmation, the command will be available to all users.",
+    "hideConfirmText": "The command will be hidden from view.",
+    "teamId": "team id",
+    "deleteConfirm": "The team will be deleted permanently.",
+    "successHide": "Command successfully hidden.",
+    "successPublish": "Team successfully published.",
+    "switches": {
+      "previewMatches": "Display teams in the matches section of the site",
+      "previewTeamInfo": "Display team information on the site",
+      "previewInMedia": "Display command in media"
+    }
+  },
+  "clubsPlayers": {
+    "title": "Players",
+    "addPlayer": "Add player",
+    "createPlayer": "Creating a Player",
+    "editPlayer": "Edit Player",
+    "roleSearchPlaceholder": "Search by Role",
+    "clubsSearchPlaceholder": "Choose the club",
+    "clubsStatusPlaceholder": "Choose the status",
+    "club": "Club",
+    "confirmText": "After confirmation, the player will become available to all users.",
+    "hideConfirmText": "The player will be hidden from view.",
+    "roleField": "Player Role",
+    "roleFieldPlaceholder": "Specify Role",
+    "numberField": "Game number",
+    "numberFieldPlaceholder": "Please enter a number",
+    "onTeam": "Team with",
+    "onTeamPlaceholder": "Pick a date",
+    "height": "Height (cm)",
+    "heightPlaceholder": "Enter height",
+    "weight": "Weight (kg)",
+    "weightPlaceholder": "Enter weight",
+    "teamBinding": "Binding to a team (multiple clubs possible at the same time)",
+    "playerLogo": "Player Photo",
+    "achievement": "Achievements",
+    "specifyAchievements": "Specify the player's achievements",
+    "achievmentIcon": "Achievement Icon",
+    "inStat": "InStat",
+    "inStatPlaceholder": "inStat player id",
+    "market": "Spartak online store",
+    "marketPlaceholder": "IM player id",
+    "namePlaceholder": "Enter Player Name",
+    "successHide": "Player successfully hidden.",
+    "successPublish": "Player successfully published."
+  },
+  "clubsTrainers": {
+    "title": "Coaching staff",
+    "deleteConfirm": "Coach will be permanently deleted",
+    "confirmText": "After confirmation, the trainer will be available to all users.",
+    "hideConfirmText": "The trainer will be hidden from view.",
+    "addTrainer": "Add Trainer",
+    "editTrainer": "Edit Trainer",
+    "successHide": "Trainer successfully hidden.",
+    "successPublish": "Trainer successfully published.",
+    "form": {
+      "trainerFio": "Name of trainer",
+      "trainerFioPlaceholder": "Enter the name of the trainer"
+    }
+  },
+  "clubsStaff": {
+    "title": "Staff",
+    "addEmployee": "Add Employee",
+    "editEmployee": "Edit Employee",
+    "fio": "Name of employee",
+    "fioPlaceholder": "Enter the person's full name",
+    "hideConfirmText": "Personal will be hidden from view.",
+    "confirmText": "After confirmation, the staff will be available to all users.",
+    "deleteConfirm": "The staff will be deleted from system.",
+    "successHide": "Staff successfully hidden.",
+    "successPublish": "Staff successfully published."
+  },
+  "clubsLeadership": {
+    "title": "Leadership",
+    "add": "Add",
+    "deleteConfirm": "The leader will be deleted from system.",
+    "hideConfirmText": "Leader will be hidden from view.",
+    "confirmText": "After confirmation, the leader will be available to all users.",
+    "successHide": "Leader successfully hidden.",
+    "successPublish": "Leader successfully published.",
+    "addEmployee": "Add leader",
+    "editEmployee": "Edit leader",
+    "fio": "Name of leader",
+    "fioPlaceholder": "Enter the leader's full name",
+    "section": "Section"
+  },
+  "clubsMedical": {
+    "title": "Medical staff"
+  },
+  "matches": {
+    "halfs": {
+      "halfOne": "First time",
+      "halfTwo": "Second time",
+      "firstOvertime": "1 overtime",
+      "secondOvertime": "2 overtime"
+    },
+    "successPublishAlert": "Match published successfully.",
+    "successDraftAlert": "Match successfully hidden.",
+    "publishModalText": "After confirmation, the match will become available to all users.",
+    "draftModalText": "The match will be hidden from view.",
+    "title": "All Matches",
+    "serchByTeam": "Search By Team",
+    "TeamOne": "Team 1",
+    "TeamTwo": "Team 2",
+    "match": "Match",
+    "score": "Score",
+    "lineUp": "lineup",
+    "event": "Events",
+    "saveChanges": "Save changes?",
+    "unsavedChanges": "There are unsaved changes.",
+    "dateTime": "Date and time of event",
+    "spectators": "Spectators",
+    "numOfPeople": "Number of people in the stadium",
+    "homeTeam": "Home Team",
+    "stadium": "Stadium",
+    "quest": "Guest",
+    "penaltyScore": "penalty score",
+    "postMatchPenalties": "Post-Match Penalties",
+    "matchIsOver": "Match over?",
+    "requiredToMove": "Required to move to the Past Matches section",
+    "technicalDefeat": "Technical Defeat",
+    "locale": "Localization",
+    "localePrompt": "Content can only be managed in one locale at a time. Save all changes before changing the locale.",
+    "ru": "Russian",
+    "en": "English",
+    "chooseFrom": "Choose from Spartak club players",
+    "judges": "judges",
+    "coaches": "coach",
+    "broadcast": "Text Broadcast",
+    "half": "Time",
+    "halfOne": "1 half",
+    "halfTwo": "2nd half",
+    "overtime": "Overtime",
+    "addTempEvent": "Add Temp Event",
+    "addGameEvent": "Add Game Event",
+    "comment": "Comment ({{lang}})",
+    "minute": "Minute",
+    "additionalTime": "Additional Time",
+    "team": "Team",
+    "playerLeft": "Player left",
+    "playerIn": "Player In",
+    "player": "Player",
+    "assistant": "Assistant",
+    "deleteConfirm": "Entry will be permanently deleted",
+    "addMatchTitle": "New match",
+    "choosePlayer": "Choose player",
+    "chooseAmplua": "Choose amplua",
+    "judgeFio": "ФИО судьи",
+    "coachFio": "ФИО тренера",
+    "events": {
+      "AutoGoal": "Автогол",
+      "Goal": "Goal",
+      "GoalPenalty": "Penalty scored",
+      "Replace": "Replace",
+      "YellowCard": "Yellow Card",
+      "SecondYellowCard": "Second Yellow Card",
+      "RedCard": "Red Card",
+      "TextTranslation": "Text event",
+      "MatchStart": "Match start",
+      "MatchEnd": "End of match",
+      "TimeAddStart": "Added time",
+      "FirstHalfOfAdditionalTimeStart": "1 overtime",
+      "SecondHalfOfAdditionalTimeStart": "2 overtime",
+      "SecondPeriodStart": "Second half start",
+      "Timeout": "Break",
+      "GetPenalty": "Awarded a penalty",
+      "MissedPenalty": "Missed Penalty",
+      "Var": "VAR",
+      "PenaltyShootoutStart": "Penalty shootout",
+      "GoalPenaltyInGameTime": "Забитый пенальти во время игры",
+      "MissedPenaltyInGameTime": "Незабитый пенальти во время игры"
+    }
+  },
+  "matching": {
+    "editTitle": "Edit match",
+    "title": "Matching",
+    "ownTeam": "Own team",
+    "oppositeTeam": "Rival",
+    "MatchType": "Match type",
+    "WinlineId": "ID Winline",
+    "TicketId": "Ticket ID",
+    "winline": "Matches Winline",
+    "ticket": "Matches Билетки"
+  },
+  "tournaments": {
+    "title": "My Tournaments",
+    "teamCount": "Number of teams",
+    "members": "Members",
+    "info": "Info",
+    "table": "table",
+    "shortName": "Short name",
+    "fullName": "Full Name",
+    "tourDesc": "Tournament description",
+    "tourImage": "Tournament logo",
+    "buildTable": "Show tournament table on site and in MP",
+    "teamsList": "Teams List",
+    "inTournament": "Participating in the tournament",
+    "publishConfirm": "After confirmation, the tournament will become available to all users.",
+    "hideConfirm": "The tournament will be hidden from view.",
+    "position": "Position",
+    "team": "Team",
+    "matches": "Matches",
+    "wins": "Wins",
+    "draws": "Draws",
+    "defeats": "Defeats",
+    "balls": "Balls (S-C)",
+    "victories": "Victories",
+    "points": "Points"
+  },
+  "usersView": {
+    "table": {
+      "title": "Personal",
+      "columns": {
+        "phone": "Phone number",
+        "email": "Email address",
+        "createdUtc": "Date added"
+      },
+      "uiContent": {
+        "filters": {
+          "placeholders": {
+            "user": "Search user"
+          }
+        }
+      }
+    },
+    "description": {
+      "points": {
+        "phone": "Phone number:",
+        "lastName": "Name:",
+        "email": "Email address:",
+        "createdUtc": "Date added:"
+      }
+    }
+  },
+  "roles": {
+    "deleteConfirm": "The role will be permanently deleted.",
+    "roleName": "Role name",
+    "confirm": "After confirmation, the role will become available to all users.",
+    "roleSearch": "Role Search",
+    "roleSuccessCreate": "Role successfully created.",
+    "policies": {
+      "media.site": "Media site",
+      "media.academy": "Media academy",
+      "cms": "Infopages",
+      "partner.site": "Partners site",
+      "partner.academy": "Partners academy",
+      "calendar": "Calendar",
+      "tournament": "Tournaments and matches",
+      "club.site": "My clubs site",
+      "club.academy": "My academy clubs",
+      "graduate": "Graduates",
+      "notification": "Notifications",
+      "stock": "Stocks",
+      "banner": "Banner",
+      "audit": "System log",
+      "role": "Employees",
+      "kids": "Kids",
+      "loyalty": "Loyalty",
+      "special-offer": "Special offers",
+      "bind-to-exit": "Exit requests",
+      "delete-account": "Account deleting",
+      "quiz": "Quizzes"
+    }
+  },
+  "employee": {
+    "title": "Club Staff",
+    "search": "Search for an employee",
+    "create": "Create employee",
+    "edit": "Edit employee",
+    "name": "Name",
+    "mail": "Email address",
+    "role": "role",
+    "roles": "roles",
+    "successDelete": "The user has been denied access to the system.",
+    "rolePlaceholder": "Any Role",
+    "status": "Activation status",
+    "successCreate": "Employee created",
+    "successCreateText": "An email has been sent to the user's email address with instructions to complete registration.",
+    "saveNote": "User successfully saved.",
+    "deleteConfirm": "The user will be denied access to the system and will disappear from the list of admin panel employees.",
+    "employeeCreated": "User created",
+    "employeeCreatedDesc": "An email has been sent to the user's email address with instructions to complete registration.",
+    "createRole": "Create Role",
+    "editRole": "Edit role",
+    "successUpdateMessage": "Notification sent successfully.",
+    "errorUpdateMessage": "Error sending notification."
+  },
+  "systemLog": {
+    "title": "System Log",
+    "rowId": "Record ID",
+    "employee": "Employee",
+    "entity": "Entity",
+    "changedFields": "Changed fields",
+    "createDateTime": "Date and time of creation",
+    "objectId": "Object ID",
+    "employeeCard": "Employee Card",
+    "employeeName": "Username",
+    "mail": "Email address",
+    "changeEmployee": "Select Employee"
+  },
+  "adv": {
+    "title": "Advertisement",
+    "addBanner": "Add banner",
+    "author": "Author",
+    "object": "Object",
+    "place": "place",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "publishSuccess": "Banner published successfully.",
+    "deleteSuccess": "Banner deleted successfully.",
+    "createBanner": "Create Banner",
+    "editBanner": "Edit banner",
+    "displayPeriod": "Banner display period",
+    "accommodation": "Accommodation",
+    "location": "Location",
+    "hyperlink": "Hyperlink",
+    "bannerAuthor": "Banner Author",
+    "bannerPrompt": "Make sure the display period and other banner details are correct. The banner is automatically posted and hidden based on the start and end date.",
+    "deletePrompt": "The banner will be removed from the system.",
+    "chooseAutor": "Choose an author",
+    "confirmText": "After confirmation, the banner will be available to all users.",
+    "logo": "Image",
+    "Default": "Десктоп / МП*",
+    "Tablet": "Планшет",
+    "MobileSite": "Мобильный сайт",
+    "publichConfirm": "After confirmation, the banner will become available to all users.",
+    "deleteConfirm": "The banner will be permanently removed.",
+    "changeConfirm": "Make sure the display period and other banner details are correct. The banner is automatically posted and hidden based on the start and end dates.",
+    "successCreateAlert": "Banner created successfully.",
+    "successEditAlert": "Banner changed",
+    "notDeleteAlert": "Unable to delete banner in Published status.",
+    "successDeleteAlert": "Banner removed",
+    "unableChangeStatus": "Unable to change status.",
+    "imposibleChange": "It is impossible to change the banner in the “Published” status."
+  },
+  "subscriptions": {
+    "subscriptionName": "Subscription name",
+    "subscriptionChange": "Subscription Change",
+    "subscriptionsImage": "Subscription Image",
+    "description": "Description",
+    "forPageImage": "Page Image"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "noticeType": "{{type}} - notification",
+    "await": "Await",
+    "history": "History",
+    "createNotice": "Create Notifications",
+    "searchByHeader": "Search by title, text",
+    "link": "Link",
+    "noticeId": "notice ID",
+    "header": "Header",
+    "text": "Text",
+    "type": "Type",
+    "sent": "Sent",
+    "sendDateTime": "Send date and time",
+    "deleteConfirm": "Notification will be permanently deleted.",
+    "successCreate": "Notification created successfully.",
+    "successEdit": "Notification changed successfully.",
+    "errorEditNotification": "Notification editing error",
+    "successDelete": "Notification successfully deleted.",
+    "errorAddNotification": "Notification creation error",
+    "cancelDelete": "Cannot delete a notification that has already been sent.",
+    "cancelEdit": "Cannot edit a notification that has already been sent.",
+    "createType": "Create {{type}} - notification",
+    "editType": "Edit {{type}} - notification",
+    "appScreen": "app screen",
+    "hyperLink": "hyperlink"
+  },
+  "bestPlayer": {
+    "title": "Player of the match/month/season",
+    "matchPlayer": "Match Player",
+    "monthPlayer": "Player of the Month",
+    "seasonPlayer": "Season Player",
+    "selectPromo": "Select Promo",
+    "name": "Name",
+    "participants": "Participants",
+    "Match/month": "Match/month",
+    "startDate": "Start date and time",
+    "endDate": "End date and time",
+    "match": "Match",
+    "month": "Month",
+    "year": "Year",
+    "season": "Season",
+    "datePlaceholder": "Specify date and time",
+    "select": "Select",
+    "playersList": "List of players",
+    "selectAll": "Select All",
+    "unselectAll": "Unselect All",
+    "result": "Result",
+    "fileOfParticipants": "XLS file of participants",
+    "upload": "Uploading an XLS file with the results of the selection of users who met the conditions.",
+    "notice": "Notifications are sent automatically according to the parameters specified in the loaded table:",
+    "param1": "Winline registration and bet",
+    "param2": "Bet on the match",
+    "param3": "Participant",
+    "formError": "All required fields must be completed",
+    "closeConfirmText": "There are unsaved changes.",
+    "saveChanges": "Save changes?",
+    "successPublish": "Promotion created successfully",
+    "deleteConfirm": "Promotion will be permanently deleted",
+    "deleteSuccess": "Promotion successfully deleted",
+    "deleteFail": "Deletion failed"
+  },
+  "graduates": {
+    "title": "Alumni",
+    "sections": "Section",
+    "publishConfirmText": "After confirmation, the graduate will become available to all users.",
+    "publichSuccess": "Alumnus published successfully.",
+    "draftConfirmText": "The graduate will be hidden from view.",
+    "draftSuccess": "The graduate was hidden successfully.",
+    "deleteConfirmText": "The graduate will be removed from the system.",
+    "deleteSuccess": "Alumni successfully deleted.",
+    "saveChangesSuccess": "Changes saved.",
+    "saveChangesError": "Data not saved.",
+    "nameField": "Graduate Name",
+    "addGraduate": "Add Graduate",
+    "changeGraduate": "Change Graduate",
+    "team": "team",
+    "fioPlaceholder": "Enter your full name",
+    "urlPlaceholder": "Enter a link to the player's profile",
+    "teamPlaceholder": "Enter a team name",
+    "sectionPlaceholder": "Select a section"
+  },
+  "graduateSections": {
+    "title": "Alumni Sections",
+    "sectionName": "Section name",
+    "publishConfirmText": "After confirmation, the section will become available to all users.",
+    "publichSuccess": "Publication successfully published..",
+    "draftConfirmText": "The section will be hidden from view.",
+    "draftSuccess": "The section was successfully hidden.",
+    "addSection": "Add Section",
+    "createSection": "Create Section",
+    "editSection": "Edit Section",
+    "sectionImg": "Section Image",
+    "teamImg": "Team Image"
+  },
+  "kids": {
+    "kidsTitle": "“Take a football player to the field” request",
+    "seasonsTitle": "Comic book seasons",
+    "journalsTitle": "Journals",
+    "createSeason": "Create Season",
+    "addJournal": "Add Journal",
+    "editJournal": "Edit Journal",
+    "journalFilter": "journal search",
+    "seasonsFilter": "Search for seasons",
+    "dateFilter": "Please enter a date",
+    "cardFilter": "Search by card number",
+    "nameFilter": "Search by child/parent's name",
+    "phoneMailFilter": "Search by Email/Phone",
+    "statusFilter": "Select a status",
+    "bidDate": "bid date",
+    "cardNumber": "Card number",
+    "childName": "child name",
+    "growth": "growth",
+    "parentName": "parent name",
+    "email": "email",
+    "telephone": "Phone",
+    "additionalInfo": "Additional Info",
+    "additionally": "Additionally",
+    "story": "Story",
+    "comment": "Comment",
+    "journalName": "Journal name",
+    "seasons": "Seasons",
+    "seasonCreation": "Season Creation",
+    "seasonEditing": "Editing the season",
+    "seasonName": "Season name",
+    "seasonNamePlaceholder": "Enter the name of the season",
+    "enterName": "Enter name",
+    "season": "Season",
+    "enterSeason": "Enter season",
+    "edition": "Edition",
+    "enterEdition": "Enter Edition",
+    "specEdition": "Special Edition",
+    "uploadRule": "Upload a single pdf issue, no larger than 20mb.",
+    "poster": "Poster",
+    "pdfError": "Wrong document format. PDF only and size up to 20mb",
+    "statuses": {
+      "none": "No status",
+      "new": "New",
+      "refusal": "Refusal",
+      "processed": "Processed",
+      "repeatedly": "Repeatedly",
+      "important": "Important",
+      "reprocessed": "Reprocessed"
+    }
+  },
+  "specialOffer": {
+    "promotionsTitle": "Club promotions",
+    "heading": "Heading",
+    "headingSpecialOffer": "Heading of special offer",
+    "status": "Status",
+    "type": "Type",
+    "dateStart": "Date of start",
+    "action": "Action",
+    "edit": "Edit",
+    "add": "Add",
+    "searchByHeading": "Search by heading",
+    "enterDate": "Enter start date",
+    "promotionsHeading": "Share heading",
+    "promotionPeriod": "Promotion period",
+    "promotionStart": "Promotion start date",
+    "promotionEnd": "Promotion end date",
+    "fanLevel": "Cheerleader level",
+    "promotionType": "Promotion type",
+    "previewPicture": "Picture for Preview*",
+    "pictureValidation": "Upload one image (png, jpeg), 512x367, weight no more 1mb.",
+    "localization": "Localization",
+    "fromBaseLocal": "Populate from base locale",
+    "baseLocalDescription": "Content can only be managed in one locale at a time.\nSave all changes before changing locale.",
+    "announcePromotion": "Promotion announcement",
+    "headingPromotionValidationText": "The maximum number of characters is 70.",
+    "announceValidationText": "The maximum number of characters is 160.",
+    "announceText": "Announce text",
+    "text": "Text",
+
+    "types": {
+      "None": "None",
+      "FromClub": "From club",
+      "FromPartners ": "Partners"
+    },
+    "statuses": {
+      "None": "Is draft",
+      "Published": "Published",
+      "Planned": "Planned",
+      "Completed": "Completed"
+    }
+  },
+  "queez": {
+    "main": "Competitions",
+    "countParticipants": "Count of participants",
+    "dateStart": "Start date",
+    "dateEnd": "End date",
+    "create": "Create",
+    "questions": "Questions",
+    "creation": "Create queez",
+    "edition": "Edit queez",
+    "period": "Contest period",
+    "previewImg": "Preview Image",
+    "localization": "Localization",
+    "localeDescription": "Content can only be managed in one locale at a time. Save all changes before changing the locale.",
+    "fromBaseLocale": "Fill from base locale",
+    "queezHeading": "Queen Heading",
+    "queezAnnounce": "Contest Announcement",
+    "queezDescription": "Contest Description",
+    "queezDescHelper": "The maximum number of characters is 4K.",
+    "queezQuestions": {
+      "title": "Вопрос",
+      "text": {
+        "title": "Текст вопроса",
+        "validation": "Максимальное кол-во символов - 150."
+      },
+      "image": "Изображение",
+      "answer": {
+        "type": "Тип ответа",
+        "view": "Вид ответа",
+        "freeType": "Возможность выбора своего ответа",
+        "title": "Ответ",
+        "label": "Максимальное кол-во символов - 150.",
+        "placeholder": "Введите текст",
+        "image": "Загрузка одного изображения png,  914х836, весом не более 2мб.",
+        "points": "Баллы",
+        "successAnswer": "Правильный ответ"
+      }
+    },
+    "addQuestion": "Добавить вопрос",
+    "addAnswer": "Добавить ответ",
+    "quizPreview": {
+      "status": "Статус",
+      "title": "Заголовок конкурса",
+      "anons": "Анонс",
+      "description": "Описание",
+      "dateStart": "Дата начала",
+      "dateEnd": "Дата окончания",
+      "countOfPlayers": "Количество участников",
+      "question": "Вопрос",
+      "rightAnswer": "Правильный ответ"
+    }
+  },
+  "loyalty": {
+    "title": "Winline loyalty programs",
+    "creation": "Create promotion",
+    "edition": "Edit promotion",
+    "shareName": "Share name",
+    "awardTypeTitle": "Award type",
+    "participantsNum": "Number of participants",
+    "searchByName": "Search By Name",
+    "allStatuses": "All Statuses",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "shareExample": "Share Example",
+    "notPossible": "It is not possible to restart the promotion.",
+    "completSuccessfully": "Promotion completed successfully",
+    "successfullyCreated": "Promotion successfully created",
+    "successfullyChanged": "Promotion changed successfully",
+    "wantComplete": "Are you sure you want to complete?",
+    "wantCompleteDesc": "Promotion cannot be restarted",
+    "noSave": "Data will not be saved.",
+    "successSave": "Changes will take effect immediately.",
+    "common": "Common",
+    "terms": "Promotion terms",
+    "reward": "Reward",
+    "back": "Back",
+    "onward": "Next",
+
+    "name": "Name",
+    "project": "Project",
+    "totalAward": "Number of Participants",
+    "dateStart": "Start date",
+    "dateEnd": "End date",
+    "dateStop": "Stop date",
+    "available": "Available",
+    "boughtTicket": "Ticket purchased",
+    "count": "Count",
+
+    "systemName": "System Name",
+    "date": "Date",
+    "loyaltyTitle": "Title",
+    "desc": "Description",
+    "enterDesc": "Enter description",
+    "image": "Image",
+    "text": "Text",
+    "allUsers": "All Users",
+    "fromCSV": "Fetch from file (import from CSV)",
+    "yes": "Yes",
+    "no": "No",
+    "who": "To whom will it be available?",
+    "whoDesc": "A promotion can be accessed and visible in the app for all users or a specific selection.",
+    "victoryCond": "Are there any victory conditions?",
+    "condDesc": "If there are no conditions, then the user will immediately collect the reward after participating.",
+    "forWinCond": "Promotion win conditions",
+    "forWinCondDesc": "Actions the user must take to win.",
+    "fill": "Fill in all profile fields",
+    "register": "Register an account during the promotion period",
+    "ticket": "An event ticket purchased",
+    "import": "Import",
+    "noChoos": "Not selected",
+    "event": "Event",
+    "sector": "Sector",
+    "minTickets": "Minimum number of tickets purchased",
+    "type": "Type",
+    "countUsers": "Number of coupons",
+    "countDesc": "The given count determines the maximum number of possible winners",
+    "fribetsLabel": "Import Freebets from file",
+    "fribetsDesc1": "The number of links loaded in the file determines the maximum number of possible winners.",
+    "fribetsDesc2": "The file must contain one column without a header with links.",
+    "allowFribets": "Free Bets Available",
+    "vouchersLabel": "Number of vouchers",
+    "voucherDesc1": "The given number determines the maximum number of possible winners. ",
+    "voucherDesc2": "One voucher per person.",
+    "linkLabel": "Link",
+    "linkDesc1": "Instead of a reward, a participant who meets the conditions will be able to follow a link shared by all winners. For example, as part of an advertisement. ",
+    "linkDesc2": "Unlimited number of winners.",
+    "infoForWinners": "Info for winners",
+    "linkPlaceholder": "Enter a link",
+    "btnText": "Button text",
+    "btnTextDesc": "Where the link will be stored.",
+    "btnTextPlaceholder": "Enter Text",
+    "promoInfo": "Promotion information",
+    "validationError": "You must complete all required fields in all steps",
+    "quantityValidationError": "Minimum 1 ticket, maximum 99",
+    "statuses": {
+      "scheduled": "Planned",
+      "published": "Published",
+      "completed": "completed",
+      "outofstock": "completed ahead of schedule"
+    },
+    "awardType": {
+      "FreeBet": "Freebet",
+      "VoucherToTheBox": "Voucher To TheBox",
+      "CouponForMerchandise": "Merchandise Coupon",
+      "ExternalReference": "External Reference"
+    },
+    "deleteConfirm": "Promotion will be permanently deleted",
+    "deleteSuccess": "Promotion successfully deleted",
+    "deleteFail": "Deletion failed",
+    "outOfStockConfirmTitle": "Do you really want to complete?",
+    "outOfStockConfirmDesc": "It is not possible to restart the promotion.",
+    "outOfStockSuccess": "Stock completed successfully",
+    "outOfStockFail": "Failed to end stock early",
+    "validationList": {
+      "voucher": "number from 1 to 1000",
+      "coupon": "number from 1 to 10000",
+      "wrongLink": "wrong link"
+    }
+  },
+  "sideBar": {
+    "media": {
+      "main": "Media",
+      "categories": "Categories"
+    },
+    "pages": {
+      "main": "Pages",
+      "sections": "Sections",
+      "subscriptions": "Subscriptions"
+    },
+    "partners": {
+      "main": "Partners"
+    },
+    "calendar": {
+      "main": "Calendar"
+    },
+    "tournaments": {
+      "main": "My tournaments",
+      "tournaments": "Tournaments",
+      "matches": "Matches",
+      "matching": "Matching"
+    },
+    "clubs": {
+      "main": "My clubs",
+      "commands": "Club commands",
+      "players": "Players",
+      "trainers": "Coaching staff",
+      "staff": "Staff",
+      "leadership": "Leadership",
+      "medical": "Medical staff"
+    },
+    "graduates": {
+      "main": "Graduates",
+      "sections": "Sections"
+    },
+    "kids": {
+      "main": "Children",
+      "journal": "Journals",
+      "seasons": "Seasons",
+      "bidToExit": "Bids to Exit"
+    },
+    "directories": {
+      "main": "References",
+      "stadiums": "Stadiums",
+      "commands": "Commands"
+    },
+    "notifications": {
+      "main": "Notifications"
+    },
+    "promo": {
+      "main": "Promotion",
+      "bestPlayer": "Player of the match/month"
+    },
+    "loyalty": {
+      "main": "Loyalty"
+    },
+    "specialOffer": {
+      "main": "Special offers",
+      "queez": "Queez"
+    },
+
+    "advertising": {
+      "main": "Advertisement"
+    },
+    "employee": {
+      "main": "Employees",
+      "view": "View",
+      "role": "Roles"
+    },
+    "users": {
+      "main": "Users",
+      "view": "View",
+      "usersNotification": "Notifications"
+    },
+    "systemLog": {
+      "main": "System log"
+    },
+    "backup": {
+      "main": "Backup"
+    },
+    "settings": {
+      "main": "Settings"
+    },
+    "exit": {
+      "title": "Exit",
+      "modal": {
+        "title": "Are you sure you want to go out?",
+        "content": "The session will end and you will be taken to the login screen.",
+        "okText": "Confirm",
+        "cancelText": "Cancel"
+      }
+    }
+  },
+  "months": {
+    "january": "january",
+    "february": "february",
+    "march": "march",
+    "april": "april",
+    "may": "may",
+    "june": "june",
+    "july": "july",
+    "august": "august",
+    "september": "september",
+    "october": "october",
+    "november": "november",
+    "december": "december"
+  },
+  "validations": {
+    "valueSizeValidation": "Exceeded maximum number of characters.",
+    "default": "Validation failed.",
+    "required": "Required field.",
+    "InvalidName": "The values used are invalid.",
+    "MinLengthLess": "The value is too short.",
+    "MaxLengthExceeded": "The value used is too long.",
+    "MaxWordLengthExceeded": "More than three words were used.",
+    "wrongImgSize": "Wrong width and height of the inserted image {{width}}х{{height}}",
+    "wrongImgWeight": "The size of the new image exceeds the required {{size}}",
+    "wrongImgFormat": "Invalid image format {{format}}",
+    "birthday": "The year must be greater than 1900",
+    "onlyNumbers": "Only numbers",
+    "Request Validation Error": "It is necessary to fill in the data in all available languages",
+    "sameMatchTeams": "The same teams are selected in the field Home team and Away team.",
+    "sameMatchTeamsEventsLineUp": "Identical team players selected.",
+    "fillMatchFieldsMessage": "Fill in all required fields in the \"Match\" section.",
+    "errorLoadFile": "Wrong document format. Only CSV and size up to 1 mb",
+    "goals": "например: 1-1"
+  },
+  "errorAccess": "Insufficient rights to perform the action.",
+  "recoveryPassword": "Your offer has expired or the link has already been used.",
+  "forgotPassword": "Your password reset request has expired or the link has already been used.",
+  "tokenError": "Authorization timed out.",
+  "invitationHead": "{{name}}, You were invited to the system by email address {{email}}. To complete the account creation, you need to create a password.",
+  "invitationBody": "{{name}}, You were invited to the system by email address {{email}}. To complete the account creation, you need to create a password.",
+  "invitationSuccess": "<p>An email has been sent to user {<b>forwarded</b>} with instructions to complete registration.</p>"
+}

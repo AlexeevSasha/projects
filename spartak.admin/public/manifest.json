@@ -1,0 +1,20 @@
+{
+  "short_name": "App",
+  "name": "App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "apple-icon-57x57.png",
+      "type": "image/png",
+      "sizes": "57x57"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

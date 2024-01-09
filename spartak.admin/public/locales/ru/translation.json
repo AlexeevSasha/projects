@@ -1,0 +1,1698 @@
+{
+  "allPages": {
+    "choose": "Выберите",
+    "notChosen": "Не выбрано",
+    "number": "Номер",
+    "role": "Амплуа",
+    "update": "Обновить",
+    "allDataSave": "Данные сохранены.",
+    "saveSuccess": "Изменения сохранены.",
+    "saveNotSuccess": "Данные не сохранены",
+    "dataUpdated": "Данные обновлены. Обновите страницу.",
+    "dataNotSaved.": "Данные не сохранены.",
+    "formError": "Необходимо заполнить данные на всех доступных языках",
+    "saveConfirmTitle": "Вы действительно хотите сохранить?",
+    "confirmTitle": "Вы действительно хотите опубликовать?",
+    "hideConfirmTitle": "Вы действительно хотите скрыть?",
+    "deleteConfirmTitle": "Вы действительно хотите удалить?",
+    "changeConfirmTitle": "Вы действительно хотите изменить?",
+    "closeConfirmTitle": "Вы действительно хотите закрыть?",
+    "importFromFile": "Импорт из файла",
+    "addTeam": "Добавить команду",
+    "position": "Должность",
+    "fio": "ФИО",
+    "IsSubstitute": "Запасной",
+    "order": "Порядок",
+    "photo": "Фото",
+    "bodySection": "Текст",
+    "page": "Страница",
+    "title": "Название",
+    "status": "Статус",
+    "place": "Место",
+    "city": "Город",
+    "country": "Страна",
+    "path": "Путь",
+    "scheme": "Схема",
+    "action": "Действие",
+    "createdUtc": "Дата создания",
+    "selectData": "Укажите дату",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "add": "Добавить",
+    "image": "Изображение",
+    "view": "Просмотр",
+    "selectPlaceholder": "Не выбрано",
+    "metaTags": "Мета теги",
+    "upload": "Upload",
+    "download": "Скачать",
+    "change": "Изменить",
+    "ru": "Русский язык",
+    "en": "Английский язык",
+    "locale": "Локализация",
+    "link": "Ссылка",
+    "location": "Расположение",
+    "tournaments": "Турниры",
+    "tournament": "Турнир",
+    "season": "Сезон",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "dateTime": "Дата и время",
+    "dateTimeHelp": "Укажите время МСК",
+    "main": "Основное",
+    "prompt": "Подсказка",
+    "requiredField": "Обязательное поле",
+    "successHide": "Запись успешно скрыта",
+    "successPublish": "Запись успешно опубликована",
+    "roleSuccessSaved": "Роль успешно сохранена.",
+    "fillFromBasicLocale": "Заполнить из базовой локали",
+    "statuses": {
+      "None": "Без статуса",
+      "Published": "Опубликовано",
+      "published": "Опубликовано",
+      "Hidden": "Скрыто",
+      "hidden": "Скрыто",
+      "Draft": "Черновик",
+      "IsDraft": "Черновик",
+      "Planned": "Запланировано",
+      "scheduled": "Запланировано",
+      "Completed": "Завершено",
+      "completed": "Завершена",
+      "outofstock": "Завершена досрочно"
+    },
+
+    "links": {
+      "hyperLink": "гиперссылка",
+      "screen": "экран приложения"
+    },
+    "filters": {
+      "search": "Поиск",
+      "positionSearchPlaceholder": "Поиск по должности",
+      "OppositeTeamSearch": "Поиск по команде соперника",
+      "fioSearchPlaceholder": "Поиск по ФИО",
+      "clearFilters": "Очистить",
+      "nameSearchPlaceholder": "Поиск по названию",
+      "statusPlaceholder": "Выберите статус",
+      "anyStatus": "Любой статус",
+      "sectionPlaceholder": "Выберите раздел",
+      "date": {
+        "begin": "Начальная дата",
+        "end": "Конечная дата"
+      }
+    },
+    "form": {
+      "upToCharacters": "*до 320 символов",
+      "uploadDesc": "Загрузка одного изображения ({{format}}), {{width}}x{{height}}, весом не более {{size}}мб.",
+      "biography": "Биография",
+      "teamBinding": "Привязка к команде",
+      "citizenship": "Гражданство",
+      "citizenshipPlaceholder": "Укажите гражданство",
+      "dateOfBirth": "Дата рождения",
+      "dateOfBirthPlaceholder": "Введите дату рождения",
+      "order": "Порядок",
+      "sortOrder": "Порядок сортировки",
+      "orderPlaceholder": "Укажите число",
+      "positionPlaceholder": "Введите должность",
+      "sendPush": "Отправить пуш-уведомление"
+    },
+    "buttonsText": {
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "create": "Создать",
+      "edit": "Изменить",
+      "confirm": "Подтвердить",
+      "publish": "Опубликовать",
+      "draft": "В черновик",
+      "add": "Добавить",
+      "refresh": "Обновить",
+      "close": "Закрыть",
+      "addCoach": "Добавить тренера"
+    },
+    "datePicker": {
+      "placeholder": "Выберите дату и время"
+    },
+    "modal": {
+      "title": "Вы действительно хотите",
+      "content": "будет удален навсегда.",
+      "contentFemale": "будет удалена навсегда.",
+      "publish": "опубликовать",
+      "delete": "удалить",
+      "edit": "изменить"
+    },
+    "layouts": {
+      "None": "",
+      "Static": "Статика",
+      "Rotation": "Ротация"
+    },
+    "sections": {
+      "None": "",
+      "Academy": "Академия",
+      "Site": "Сайт"
+    }
+  },
+  "auth": {
+    "mainTitle": "Административная панель для управления приложением",
+    "formHeader": "Вход в аккаунт",
+    "nodata": "Необходимые данные не заполнены.",
+    "uiContent": {
+      "placeholders": {
+        "email": "Эл. адрес",
+        "password": "Пароль"
+      },
+      "checkBoxText": {
+        "remember": "Запомнить меня"
+      },
+      "linksText": {
+        "forgotPassword": "Забыли пароль?"
+      },
+      "buttonsText": {
+        "submit": "Войти"
+      }
+    },
+    "forgotPassword": {
+      "title": "Восстановление пароля",
+      "paragraph": "Введите адрес электронной почты, который вы использовали при регистрации, и мы пришлем вам инструкции по изменению пароля.",
+      "uiContent": {
+        "placeholders": {
+          "email": "Эл. адрес"
+        },
+        "buttonsText": {
+          "submit": "Продолжить",
+          "back": "Вернуться"
+        },
+        "modal": {
+          "success": {
+            "successForgot": "Если этот адрес электронной почты использовался для создания учетной записи, Вам будут отправлены инструкции по сбросу пароля. Пожалуйста, проверьте Вашу электронную почту."
+          },
+          "error": {
+            "errorAccount": "Нам не удалось найти аккаунт, соответствующий введенным Вами имени пользователя и паролю. Пожалуйста, проверьте Ваши имя пользователя и пароль и попробуйте еще раз.",
+            "errorRequest": "Неопределенная ошибка.",
+            "errorForgotNonExist": "Электронный адрес не найден. пожалуйста проверьте правильность внесения."
+          }
+        }
+      }
+    },
+    "invitation": {
+      "title": "Приглашение в систему",
+      "paragraph": "<b>{{name}}</b>, Вас пригласили в систему по эл. адресу <b>{{email}}</b>. Для завeршения создания аккаунта, необходимо придумать пароль.",
+      "uiContent": {
+        "placeholders": {
+          "password": "Новый пароль"
+        },
+        "buttonsText": {
+          "submit": "Продолжить"
+        }
+      }
+    },
+    "recovery": {
+      "title": "Восстановите пароль",
+      "paragraph": "для аккаунта <b>{{email}}</b>",
+      "uiContent": {
+        "placeholders": {
+          "password": "Новый пароль"
+        },
+        "buttonsText": {
+          "submit": "Сохранить"
+        },
+        "modal": {
+          "errorPassword": "Длина пароля должна составлять 8 - 20 символов, содержать цифры, буквы латинского алфавита в нижнем и верхнем регистре."
+        }
+      }
+    },
+    "operationError": {
+      "title": "Попробуйте снова...",
+      "recovery": {
+        "paragraph": "Ваш запрос на сброс пароля истек или ссылка уже была использована.",
+        "uiContent": {
+          "buttonsText": {
+            "back": "Перейти ко входу"
+          }
+        }
+      },
+      "invitation": {
+        "paragraph": "Срок Вашего приглашения истек или ссылка уже была использована."
+      }
+    },
+    "operationSuccess": {
+      "recovery": {
+        "title": "Пароль изменен"
+      },
+      "invitation": {
+        "title": "Пароль сохранен"
+      },
+      "paragraph": "Теперь вы можете войти используя новый пароль.",
+      "uiContent": {
+        "buttonsText": {
+          "back": "Перейти ко входу"
+        }
+      }
+    }
+  },
+  "media": {
+    "title": "Медиа",
+    "searchByHeader": "Поиск по заголовку",
+    "category": "Категория",
+    "section": "Раздел",
+    "type": "Тип",
+    "header": "Заголовок",
+    "publishConfirm": "После подтверждения, запись станет доступной для всех пользователей.",
+    "draftConfirm": "Запись будет удалена из просмотра.",
+    "info": "Инфо",
+    "text": "Текст",
+    "photo": "Фото",
+    "video": "Видео",
+    "newsHeader": "Заголовок новости",
+    "back": "Назад",
+    "dateTime": "Дата и время публикации",
+    "mediaType": "Тип медиа",
+    "team": "Привязка к команде",
+    "player": "Привязка к игроку",
+    "match": "Привязка к матчу",
+    "charCount60": "Максимальное кол-во символов - 60.",
+    "charCount1000": "Максимальное кол-во символов - 1000.",
+    "charCount300": "Для типа медиа “Новости” необходимо заполнить данную форму. Максимальное кол-во символов - 300.",
+    "announce": "Анонс новости",
+    "newsText": "Текст новости",
+    "newsTextPrompt": "Для типа медиа “Новости” необходимо заполнить данную форму",
+    "preview": "Картинка для Превью",
+    "bigPicture": "Большая картинка",
+    "gallery": "Фотогалерея",
+    "galleryPrompt": "Загрузка множественных изображений (png, jpeg) от 1080х1920 и 1920х1080, весом не более 1000мб.",
+    "videoLink": "Ссылка на видео",
+    "supported": "Поддерживаются ссылки на следующие сервисы:",
+    "vk": "VK",
+    "youTube": "YouTube",
+    "ruTube": "RuTube",
+    "vimeo": "Vimeo",
+    "confirmText": "После подтверждения, запись станет доступной для всех пользователей.",
+    "hideConfirmText": "Запись будет удалена из просмотра.",
+    "deleteConfirm": "Запись будет удалена из просмотра.",
+    "successDeleteMessage": "Запись успешно удалена.",
+    "academy": "Академия",
+    "site": "Сайт",
+    "types": {
+      "none": "По умолчанию",
+      "news": "Новости",
+      "gallery": "Галерея",
+      "video": "Видео"
+    }
+  },
+  "mediaCategories": {
+    "categoryCreate": "Создание категории",
+    "categoryEdit": "Редактирование категории",
+    "title": "Категории медиа",
+    "categoryColumn": "Категория",
+    "addCategory": "Создать категорию",
+    "categorySearch": "Поиск категории",
+    "categoryName": "Название категории",
+    "categoryNamePlaceholder": "Введите название категории",
+    "deleteConfirm": "Категория будет удалена навсегда",
+    "confirmText": "После подтверждения, категория станет доступной для всех пользователей."
+  },
+  "pagesSections": {
+    "title": "Разделы",
+    "Entity": "Разделы",
+    "entity": "Раздел",
+    "section": "Заголовок",
+    "year": "Год сезона",
+    "name": "Имя",
+    "surname": "Фамилия",
+    "newsHeading": "Заголовок новости",
+    "newsAnnounce": "Анонс новости",
+    "newsText": "Текст новости",
+    "description": "Описание",
+    "privacy": "Описание политики конфиденциальности",
+    "addBlock": "Добавить блок",
+    "image": "Картинка",
+    "button": {
+      "title": "Кнопка",
+      "show": "Показывать кнопку",
+      "link": "Ссылка",
+      "text": "Текст кнопки"
+    },
+    "commonInfo": {
+      "collapseText": "Основная информация страницы",
+      "mainInfoTitle": "Заголовок страницы",
+      "mainInfoImg": "Основная картинка страницы"
+    },
+    "redBlock": {
+      "collapseText": "Текст на красном фоне",
+      "firstColumn": "Первая колонка",
+      "secondColumn": "Вторая колонка"
+    },
+    "mainPage": {
+      "mainPageTitle": "Основная картинка страницы"
+    },
+    "infoBlockImgWithWysiwyg": {
+      "title": "Информативный блок с фото"
+    },
+    "premiumLevelsImgText": {
+      "title": "Информативный блок с уровнями премиума",
+      "addImg": "Добавить изображение"
+    },
+    "lodgePlan": {
+      "title": "Картинка схемы трибун"
+    },
+    "academyInfrastructure": {
+      "about": "О инфраструктуре",
+      "title": "Заголовок",
+      "firstColumn": "Первая колонка",
+      "secondColumn": "Вторая колонка",
+      "description": "Блок с заголовком и описанием",
+      "images": {
+        "dark": "Картинка для тёмной темы",
+        "light": "Картинка для светлой темы"
+      }
+    },
+    "mediaNews": {
+      "mediaNewsSpartak": "Картинка страницы СПАРТАК",
+      "mediaNewsSpartakYouth": "Картинка страницы СПАРТАК(МОЛОДЕЖНЫЙ)"
+    },
+    "aboutStadium": {
+      "mainInfo": {
+        "collapseText": "Основная информация страницы",
+        "mainInfoTitle": "Заголовок страницы",
+        "mainInfoImg": "Основная картинка страницы"
+      },
+      "characteristic": {
+        "collapseText": "Характеристики стадиона",
+        "img": "Фото стадиона",
+        "list": {
+          "name": "Название характеристики",
+          "description": "Описание характеристики"
+        },
+        "addButton": "Добавить характеристику"
+      },
+      "achievements": {
+        "collapseText": "Достижения",
+        "img": "Фото стадиона для достижений",
+        "list": {
+          "year": "Год достижения",
+          "description": "Описание достижения",
+          "reward": "Награда",
+          "addButton": "Добавить достижение"
+        }
+      },
+      "stadiumHistory": {
+        "collapseText": "История стадиона",
+        "title": "Заголовок для истории стадиона"
+      }
+    },
+    "servicesAdjacentTerritory": {
+      "redBlock": {
+        "collapseText": "Текст на красном фоне",
+        "firstColumn": "Первая колонка",
+        "secondColumn": "Вторая колонка"
+      },
+      "blockInfoLabel": "Блок с информацией о территории",
+      "blockInfo": {
+        "img": "Картинка в блоке",
+        "title": "Заголовок в блоке",
+        "description": "Описание в блоке",
+        "blockParams": {
+          "blockParamsTitle": "Блок с параметрами",
+          "label": "Название параметра",
+          "value": "Значение параметра",
+          "addBlockParams": "Добавить параметр"
+        }
+      },
+      "addBlockInfo": "Добавить блок"
+    },
+    "servicesVipLodges": {
+      "boxes": {
+        "blockInfoLabel": "Блок с информацией о VIP-Ложе",
+        "schemeAndBoxes": "Схема VIP-Ложи и боксы",
+        "addBoxes": "Добавить боксы",
+        "numbersOfBoxes": "Название",
+        "countSeats": "Количество мест",
+        "boxSquare": "Площадь бокса",
+        "tier": "Ярус"
+      },
+      "packages": {
+        "packagesOfHospitality": "Эксклюзивные условия",
+        "titleOfPackages": "Название пакетов",
+        "packageTitle": "Название пакета",
+        "packageDescription": "Описание пакета",
+        "base": "Базовый пакет",
+        "exclusive": "Эксклюзивный пакет",
+        "basePackageName": "Название базового пакета",
+        "exclusivePackageName": "Название эксклюзивного пакета",
+        "addPackage": "Добавить пакет"
+      },
+      "tripleBlock": {
+        "triplePhoto": "Тройное фото",
+        "firstPhoto": "Первое фото",
+        "secondPhoto": "Второе фото",
+        "mainPhoto": "Главное фото"
+      },
+      "services": {
+        "description": "Описание",
+        "addProperty": "Добавить описание",
+        "additionalServices": "Дополнительные услуги",
+        "service": "Услуга",
+        "addServices": "Добавить услугу"
+      }
+    },
+    "clubContacts": {
+      "title": "Контакты",
+      "mainInfo": {
+        "name": "Название контакта",
+        "description": "Описание контакта"
+      }
+    },
+    "clubResults": {
+      "mainInfo": {
+        "collapseText": "Основная информация страницы",
+        "title": "Заголовок страницы",
+        "banner": "Баннер"
+      },
+      "lineWithDates": {
+        "title": "Шкала с событиями",
+        "event": "Событие",
+        "addDate": "Добавить событие",
+        "eventDate": "Дата события",
+        "eventTitle": "Название события",
+        "eventDescription": "Описание события",
+        "eventPhoto": "Фото"
+      },
+      "seasonsResults": {
+        "title": "Итоги сезонов",
+        "resultOfSeason": "Результат сезона",
+        "addSeason": "Добавить сезон",
+        "season": "Сезон",
+        "achievement": "Достижение",
+        "addAchievement": "Добавить достижение"
+      }
+    },
+    "clubHistory": {
+      "historyOfCreation": {
+        "collapseTitle": "История создания",
+        "title": "Заголовок",
+        "description": "Описание",
+        "creatorsPhoto": "Фото основателя"
+      },
+      "emblemHistory": {
+        "collapseTitle": "История эмблемы",
+        "firstColumn": "Первая колонка",
+        "secondColumn": "Вторая колонка",
+        "addEmblem": "Добавить эмблему",
+        "emblem": "Эмблема",
+        "periodOfUseEmblem": "Период использования эмблемы",
+        "photoOfEmblem": "Фото эмблемы"
+      },
+      "anniversaryOfCreation": {
+        "collapseTitle": "Юбилей создания клуба",
+        "title": "Заголовок",
+        "description": "Описание",
+        "firstPhoto": "Первое фото",
+        "secondPhoto": "Второе фото"
+      }
+    },
+    "stadiumContacts": {
+      "typeOFContact": "Тип контакта",
+      "typeOfConnection": "Вид связи"
+    },
+    "stadiumHowToGet": {
+      "collapseTitle": "Способы добраться",
+      "kindOfTransport": "Вид транспорта",
+      "description": "Описание",
+      "add": "Добавить"
+    },
+    "stadiumStaff": {
+      "eventTeam": {
+        "collapseTitle": "Что такое Event Team",
+        "title": "Заголовок"
+      },
+      "stewards": {
+        "collapseTitle": "Категории стюардов",
+        "description": "Описание",
+        "categoryOfStewards": "Категория стюартов",
+        "addCategory": "Добавить категорию"
+      },
+      "questionAnswer": {
+        "collapseTitle": "Вопрос - ответ",
+        "question": "Вопрос",
+        "answer": "Ответ",
+        "addQuestionAnswer": "Добавить вопрос с ответом"
+      },
+      "admissionConditions": {
+        "collapseTitle": "Дополнительная информация",
+        "title": "Заголовок дополнительной информации",
+        "addBlock": "Добавить блок с информацией"
+      }
+    },
+    "academyEnter": {
+      "mainInfo": "Информация"
+    },
+    "stadiumUsefulInfo": {
+      "entranceToTheStadium": "Проходы на стадион",
+      "usefulInfo": "Полезная информация",
+      "entranceNames": "Названия проходов",
+      "entranceName": "Название прохода",
+      "addEntrance": "Добавить проход"
+    },
+    "ticketsMain": {
+      "seoText": "СЕО текст"
+    },
+    "ticketsRules": {
+      "rules": "Правила",
+      "rulesDescription": "Описание правил"
+    },
+    "ticketsFanCard": {
+      "text": "Текст"
+    },
+    "excursionTours": {
+      "standardTour": {
+        "title": "Стандартный тур",
+        "tourName": "Название тура",
+        "tourDescription": "Описание тура",
+        "tourImage": "Фото тура",
+        "addPoint": "Добавить пункт",
+        "point": "Описание",
+        "priceDescription": "Описание пакета",
+        "price": "Цена",
+        "packagesDescription": "Описание ценовых пакетов",
+        "linkToTour": "Ссылка на тур"
+      },
+      "toursConstructor": {
+        "title": "Коструктор туров",
+        "tourTitle": "Название тура",
+        "priceFrom": "Цена от",
+        "priceTo": "Цена до",
+        "additionalDescription": "Дополнительное описание",
+        "buttonsName": "Имя кнопки",
+        "additionalInfo": "Дополнительная информация"
+      },
+      "additionalInfo": {
+        "title": "Дополнительная информация",
+        "description": "Описание",
+        "photo": "Фото"
+      }
+    },
+    "legends": {
+      "committee": {
+        "veteransCommittee": "Состав комитета ветеранов",
+        "veteransPhoto": "Фото",
+        "veteransFullName": "ФИО",
+        "veteransFullNamePlaceholder": "ФИО члена комитета ветеранов",
+        "birthDate": "Дата рождения",
+        "description": "Описание достижений",
+        "blockTitle": "Название блока комитета ветеранов",
+        "enterBlockTitle": "Введите название блока комитета ветеранов",
+        "position": "Должность в комитете",
+        "enterPosition": "Введите должность в комитете",
+        "selectPosition": "Выберите позицию"
+      },
+      "history": {
+        "firstPhoto": "Первое фото",
+        "secondPhoto": "Второе фото",
+        "historyBlock": "История команды ветеранов",
+        "title": "Название блока истории команды",
+        "enterTitle": "Введите название блока истории команды",
+        "descriptionFirst": "Первый блок описания истории",
+        "descriptionSecond": "Второй блок описания истории",
+        "enterDescription": "Введите описание истории",
+        "buttonName": "Название кнопки",
+        "buttonLink": "Ссылка кнопки"
+      },
+      "additional": {
+        "blockName": "Дополнительные пункты списком",
+        "additionalInfo": "Дополнительная информация",
+        "enterAdditionalInfo": "Введите дополнительную инфорамцию",
+        "addPoint": "Добавить пункт"
+      }
+    },
+    "chairPlotting": {
+      "description": "Описание"
+    },
+    "spartakKids": {
+      "kids": {
+        "becomePartOfTeam": "Стань частью команды",
+        "buttonName": "Название кнопки",
+        "buttonLink": "Ссылка на кнопку",
+        "image": "Изображение",
+        "memberPrivileges": "Привилегии участника",
+        "addPrivilege": "Добавить привилегию",
+        "privilegeDescription": "Описание привилегии",
+        "desktop": "десктоп",
+        "tablet": "планшет",
+        "mobile": "мобилка",
+        "playerPhoto": "Фото игрока",
+        "objectPhoto": "Фото обьекта",
+        "redBlock": "Красный блок",
+        "takePlayerToField": "Выведи футболиста на поле",
+        "answersQuestions": "Вопросы и ответы",
+        "addAnswerQuestion": "Добавить вопрос-ответ",
+        "answer": "Ответ",
+        "question": "Вопрос"
+      },
+      "rules": {
+        "title": "Правила"
+      }
+    },
+    "subscription": {
+      "homeMatchList": {
+        "collapseText": "Список домашних матчей",
+        "title": "Заголовок блока",
+        "buttonText": "Текст кнопки",
+        "buttonLink": "Ссылка кнопки",
+        "opponentsLogos": "Логотипы соперников",
+        "opponentsPrompt": "Загрузка множественных изображений (png, jpeg) 100x100, весом не более 1мб."
+      },
+      "twoColumnList": {
+        "collapseText": "Блок со списком в 2 колонки",
+        "title": "Заголовок блока",
+        "rowPlaceholder": "Введите текст",
+        "addButton": "Добавить пункт"
+      },
+      "specialOffers": {
+        "collapseText": "Блок со специальными предложениями",
+        "title": "Заголовок блока",
+        "elemOfOffer": {
+          "whiteImage": "Картинка для светлой темы",
+          "darkImage": "Картинка для тёмной темы",
+          "description": "Описание предложения",
+          "addButton": "Добавить предложение"
+        },
+        "warningText": "Текст для предупреждения"
+      },
+      "blockInfo": {
+        "collapseText": "Блок с описанием абонемента",
+        "title": "Заголовок",
+        "img": "Картинка справа от текста размером 670x450, весом не более 2мб",
+        "description": "Описание абонемента"
+      },
+      "banner": {
+        "collapseText": "Блок с баннером",
+        "title": "Введите заголовок",
+        "description": "Текст в баннере",
+        "buttonText": "Текст кнопки",
+        "buttonLink": "Ссылка кнопки",
+        "prompt": "Загрузка изображений для разных размеров экранов (png, jpeg), весом не более 2мб.",
+        "imgTitle": "Изображения на задний фон баннера",
+        "desktop": "1584x304",
+        "tablet": "720x344",
+        "mobile": "343x464",
+        "rightImg": "Картинка справа от текста",
+        "rightImgPrompt": "Загрузка изображения (png, jpeg) 630х304, весом не более 2мб."
+      },
+      "table": {
+        "collapseText": "Блок с таблицей",
+        "title": "Заголовок таблицы",
+        "addButton": "Добавить таблицу",
+        "section": {
+          "collapseText": "Таблица со значениями",
+          "headTable": "Заголовок таблицы (текст на красном фоне)",
+          "addButton": "Добавить строку таблицы",
+          "rowTitle": "Строки таблицы"
+        }
+      },
+      "descriptionBlock": {
+        "collapseText": "Блок с описанием условий в 2 колонки",
+        "title": "Заголовок блока",
+        "firstColumn": "Первая колонка",
+        "secondColumn": "Вторая колонка"
+      }
+    },
+    "corporateClients": {
+      "form": {
+        "title": "Форма обратной связи",
+        "show": "Показывать форму",
+        "img": "Картинка для формы"
+      }
+    }
+  },
+  "partners": {
+    "addPartner": "Добавить партнера",
+    "confirmText": "После подтверждения, партнёр станет доступен для всех пользователей.",
+    "hideConfirmText": "Партнер будет скрыт для просмотра.",
+    "deleteConfirm": "Партнер будет удален навсегда.",
+    "successHide": "Партнер успешно скрыт",
+    "successPublish": "Партнер успешно опубликован.",
+    "table": {
+      "title": "Партнеры",
+      "columns": {
+        "partner": "Партнер",
+        "status": "Статус",
+        "createdUtc": "Дата создания",
+        "action": "Действие"
+      }
+    },
+    "form": {
+      "addTitle": "Добавить партнера",
+      "editTitle": "Изменить партнера",
+      "partnerName": "Имя партнера",
+      "partnerNamePlaceholder": "Ведите имя партнера",
+      "locationPlaceholder": "Укажите расположение",
+      "sectionPlaceholder": "Укажите раздел",
+      "stadionAddress": "Адрес стадиона",
+      "stadionAddressPlaceholder": "Введите адрес стадиона",
+      "info": "Информация о партнере",
+      "link": "Ссылка",
+      "linkPlaceholder": "Укажите ссылку на сайт партнера",
+      "logo": "Логотип партнера"
+    }
+  },
+  "calendar": {
+    "title": "Календарь на главной",
+    "addEvent": "Добавить событие",
+    "editEvent": "Изменить событие",
+    "eventDate": "Дата события",
+    "eventName": "Название события",
+    "publishConfirm": "После подтверждения, событие станет доступно для всех пользователей.",
+    "deleteConfirm": "Событие будет удалено из системы.",
+    "draftConfirm": "Событие будет скрыто для просмотра.",
+    "publishSuccess": "Событие успешно опубликовано.",
+    "deleteSuccess": "Событие успешно удалено.",
+    "draftSuccess": "Событие успешно скрыто.",
+    "addEventDate": "Укажите дату события",
+    "eventLink": "Ссылка",
+    "eventImage": "Иконка события"
+  },
+  "dirStadiums": {
+    "confirmText": "После подтверждения, стадион станет доступен для всех пользователей.",
+    "successAdd": "Стадион успешно опубликова.",
+    "table": {
+      "change": "Изменить",
+      "title": "Стадионы",
+      "columns": {
+        "name": "Название стадиона",
+        "address": "Адрес",
+        "status": "Статус",
+        "createdUtc": "Дата создания",
+        "action": "Действие"
+      }
+    },
+    "form": {
+      "addTitle": "Добавить стадион",
+      "editTitle": "Редактировать стадион",
+      "stadionName": "Название стадиона",
+      "stadionNamePlaceholder": "Введите название стадиона",
+      "stadionAddress": "Адрес стадиона",
+      "stadionAddressPlaceholder": "Введите адрес стадиона",
+      "enterIdInstat": "Укажите id instat",
+      "yandexGoButton": "Заказать такси Yandex GO"
+    }
+  },
+  "dirTeam": {
+    "confirmText": "После подтверждения, команда станет доступен для всех пользователей.",
+    "successAdd": "Команда успешно опубликована.",
+    "form": {
+      "teamBuilding": "Создание команды",
+      "editTitle": "Редактирование команды",
+      "commandName": "Название команды",
+      "commandNamePlaceholder": "Введите название команды",
+      "city": "Город",
+      "cityPlaceholder": "Введите город команды",
+      "country": "Страна",
+      "countryPlaceholder": "Введите страну команды",
+      "teamLogo": "Логотип команды"
+    },
+    "table": {
+      "change": "Изменить",
+      "title": "Команды соперники",
+      "columns": {
+        "name": "Название команды",
+        "createdUtc": "Дата создания",
+        "action": "Действие"
+      }
+    }
+  },
+  "clubsTeams": {
+    "title": "Команды",
+    "teamName": "Название команды",
+    "teamCreate": "Создание команды",
+    "teamEdit": "Редактирование  команды",
+    "shortName": "Краткое название команды",
+    "fullName": "Полное название команды",
+    "namePlaceholder": "Введите название команды",
+    "cityPlaceholder": "Введите город команды",
+    "countryPlaceholder": "Введите страну команды",
+    "teamLogo": "Логотип команды",
+    "teamImage": "Картинка команды",
+    "confirmText": "После подтверждения, команда станет доступна для всех пользователей.",
+    "hideConfirmText": "Команда будет скрыта для просмотра.",
+    "teamId": "id команды",
+    "deleteConfirm": "Команда будет удалена навсегда.",
+    "successHide": "Команда успешно скрыта.",
+    "successPublish": "Команда успешно опубликована.",
+    "switches": {
+      "previewMatches": "Отображать команды в разделе матчей на сайте",
+      "previewTeamInfo": "Отображать информацию о команде на сайте",
+      "previewInMedia": "Отображать команду в медиа"
+    }
+  },
+  "clubsPlayers": {
+    "title": "Игроки",
+    "addPlayer": "Добавить игрока",
+    "createPlayer": "Создание Игрока",
+    "editPlayer": "Редактирование Игрока",
+    "roleSearchPlaceholder": "Поиск по амплуа",
+    "clubsSearchPlaceholder": "Выберите клуб",
+    "clubsStatusPlaceholder": "Выберите статус",
+    "club": "Клуб",
+    "confirmText": "После подтверждения, игрок станет доступен для всех пользователей.",
+    "hideConfirmText": "Игрок будет скрыт для просмотра.",
+    "roleField": "Амплуа игрока",
+    "roleFieldPlaceholder": "Укажите амплуа",
+    "numberField": "Игровой номер",
+    "numberFieldPlaceholder": "Укажите номер",
+    "onTeam": "В команде с",
+    "onTeamPlaceholder": "Укажите дату",
+    "height": "Рост (см)",
+    "heightPlaceholder": "Укажите рост",
+    "weight": "Вес (кг)",
+    "weightPlaceholder": "Укажите вес",
+    "teamBinding": "Привязка к команде (возможно несколько клубов одновременно)",
+    "playerLogo": "Фото игрока",
+    "achivment": "Достижения",
+    "specifyAchievements": "Укажите достижения игрока",
+    "achivmentIcon": "Иконка достижения",
+    "inStat": "InStat",
+    "inStatPlaceholder": "id игрока в inStat",
+    "market": "Интернет-магазин Спартака",
+    "marketPlaceholder": "id игрока в ИМ",
+    "namePlaceholder": "Укажите ФИО игрока",
+    "successHide": "Игрок успешно скрыт.",
+    "successPublish": "Игрок успешно опубликован."
+  },
+  "clubsTrainers": {
+    "title": "Тренерский штаб",
+    "deleteConfirm": "Тренер будет удален навсегда",
+    "confirmText": "После подтверждения, тренер станет доступен для всех пользователей.",
+    "hideConfirmText": "Тренер будет скрыт для просмотра.",
+    "addTrainer": "Добавить тренера",
+    "editTrainer": "Изменить тренера",
+    "successHide": "Тренер успешно скрыт.",
+    "successPublish": "Тренер успешно опубликован.",
+    "form": {
+      "trainerFio": "ФИО тренера",
+      "trainerFioPlaceholder": "Введите ФИО тренера"
+    }
+  },
+  "clubsStaff": {
+    "title": "Персонал",
+    "addEmployee": "Добавить персонал",
+    "editEmployee": "Изменить персонал",
+    "fio": "ФИО сотрудника",
+    "fioPlaceholder": "Введите ФИО сотрудника",
+    "hideConfirmText": "Персонал будет скрыт для просмотра.",
+    "confirmText": "После подтверждения, персонал станет доступен для всех пользователей.",
+    "deleteConfirm": "Персонал будет удален из системы.",
+    "successHide": "Персонал успешно скрыт.",
+    "successPublish": "Персонал успешно опубликован."
+  },
+  "clubsLeadership": {
+    "title": "Руководство",
+    "add": "Добавить",
+    "deleteConfirm": "Руководитель будет удален из системы.",
+    "hideConfirmText": "Руководитель будет скрыт для просмотра.",
+    "confirmText": "После подтверждения, руководитель станет доступен для всех пользователей.",
+    "successHide": "Руководитель успешно скрыт.",
+    "successPublish": "Руководитель успешно опубликован.",
+    "addEmployee": "Добавить руководиетля",
+    "editEmployee": "Изменить руководиетля",
+    "fio": "ФИО руководителя",
+    "fioPlaceholder": "Введите ФИО руководителя",
+    "section": "Раздел"
+  },
+  "clubsMedical": {
+    "title": "Медицинский штаб"
+  },
+  "matches": {
+    "halfs": {
+      "halfOne": "1 тайм",
+      "halfTwo": "2 тайм",
+      "firstOvertime": "1 овертайм",
+      "secondOvertime": "2 овертайм"
+    },
+    "successPublishAlert": "Матч успешно опубликован.",
+    "successDraftAlert": "Матч успешно скрыт.",
+    "publishModalText": "После подтверждения, матч станет доступен для всех пользователей.",
+    "draftModalText": "Матч будет скрыт для просмотра.",
+    "title": "Все матчи",
+    "serchByTeam": "Поиск по команде",
+    "TeamOne": "Команда 1",
+    "TeamTwo": "Команда 2",
+    "RuStatId": "Rustat id",
+    "match": "Матч",
+    "score": "Счет",
+    "lineUp": "Состав",
+    "event": "События",
+    "saveChanges": "Сохранить изменения?",
+    "unsavedChanges": "Имеются несохраненные изменения.",
+    "dateTime": "Дата и время проведения",
+    "spectators": "Зрители",
+    "numOfPeople": "Кол-во человек на стадионе",
+    "homeTeam": "Домашняя команда",
+    "stadium": "Стадион",
+    "quest": "Гость",
+    "penaltyScore": "Счет в послематчевых пенальти",
+    "postMatchPenalties": "Послематчевые пенальти",
+    "matchIsOver": "Матч завершен?",
+    "requiredToMove": "Необходимо для перемещения в раздел “Прошедшие матчи”",
+    "technicalDefeat": "Техническое поражение",
+    "locale": "Локализация",
+    "localePrompt": "Контентом можно одновременно управлять только в одном языковом стандарте. Сохраните все изменения перед сменой локали.",
+    "ru": "Русский",
+    "en": "Английский",
+    "chooseFrom": "Выбрать из игроков клуба Спартак",
+    "judges": "Судьи",
+    "coaches": "Тренер",
+    "broadcast": "Текстовая трансляция",
+    "half": "Tайм",
+    "halfOne": "1 тайм",
+    "halfTwo": "2 тайм",
+    "overtime": "Овертайм",
+    "addTempEvent": "Добавить временное событие",
+    "addGameEvent": "Добавить игровое событие",
+    "comment": "Комментарий ({{lang}})",
+    "minute": "Минута",
+    "additionalTime": "Дополнительное время",
+    "team": "Команда",
+    "playerLeft": "Игрок вышел",
+    "playerIn": "Игрок вошел",
+    "player": "Игрок",
+    "assistant": "Ассистент",
+    "deleteConfirm": "Матч будет удален из просмотра.",
+    "addMatchTitle": "Новый матч",
+    "choosePlayer": "Выбрать игрока",
+    "chooseAmplua": "Выбрать амплуа",
+    "judgeFio": "ФИО судьи",
+    "coachFio": "ФИО тренера",
+    "events": {
+      "AutoGoal": "Автогол",
+      "Goal": "Гол",
+      "GoalPenalty": "Забитый пенальти",
+      "Replace": "Замена",
+      "YellowCard": "Жёлтая карточка",
+      "SecondYellowCard": "Вторая жёлтая карточка",
+      "RedCard": "Красная карточка",
+      "TextTranslation": "Текстовое событие",
+      "MatchStart": "Начало матча",
+      "MatchEnd": "Конец матча",
+      "TimeAddStart": "Добавленное время",
+      "FirstHalfOfAdditionalTimeStart": "1 овертайм",
+      "SecondHalfOfAdditionalTimeStart": "2 овертайм",
+      "SecondPeriodStart": "Начало второго тайма",
+      "Timeout": "Перерыв",
+      "GetPenalty": "Назначен пенальти",
+      "MissedPenalty": "Незабитый пенальти",
+      "Var": "VAR",
+      "PenaltyShootoutStart": "Серия послематчевых пенальти",
+      "GoalPenaltyInGameTime": "Забитый пенальти во время игры",
+      "MissedPenaltyInGameTime": "Незабитый пенальти во время игры"
+    }
+  },
+  "matching": {
+    "editTitle": "Редактировать матч",
+    "title": "Матчинг",
+    "ownTeam": "Наша команда",
+    "oppositeTeam": "Соперник",
+    "MatchType": "Тип матча",
+    "WinlineId": "ID Winline",
+    "TicketId": "ID Билетки",
+    "winline": "Матчи Winline",
+    "ticket": "Матчи Билетки"
+  },
+  "tournaments": {
+    "title": "Мои турниры",
+    "teamCount": "Кол-во команд",
+    "members": "Участники",
+    "info": "Инфо",
+    "table": "Таблица",
+    "shortName": "Краткое название",
+    "fullName": "Полное название",
+    "tourDesc": "Описание турнира",
+    "tourImage": "Логотип турнира",
+    "buildTable": "Показывать турнирную таблицу на сайте и в МП",
+    "teamsList": "Список команд",
+    "inTournament": "Участвующих в турнире",
+    "publishConfirm": "После подтверждения, турнир станет доступен для всех пользователей.",
+    "hideConfirm": "Турнир будет скрыт для просмотра.",
+    "position": "Позиция",
+    "team": "Команда",
+    "matchs": "Матчи",
+    "wins": "Победы",
+    "draws": "Ничьи",
+    "defeats": "Поражения",
+    "balls": "Мячи (З-П)",
+    "victories": "Победы",
+    "points": "Очки",
+    "shortNamePlaceholder": "Выберите краткое название турнира",
+    "fullNamePlaceholder": "Выберите полное название турнира",
+    "addTournament": "Новый турнир"
+  },
+  "usersView": {
+    "table": {
+      "title": "Личные данные",
+      "columns": {
+        "phone": "Номер телефона",
+        "email": "Эл. адрес",
+        "createdUtc": "Дата добавления"
+      },
+      "uiContent": {
+        "filters": {
+          "placeholders": {
+            "user": "Поиск пользователя"
+          }
+        }
+      }
+    },
+    "description": {
+      "points": {
+        "phone": "Номер телефона:",
+        "lastName": "ФИО:",
+        "email": "Эл. адрес:",
+        "createdUtc": "Дата добавления:"
+      }
+    }
+  },
+  "roles": {
+    "fullAccess": "Полный доступ",
+    "fullAccessDescription": "Может просматривать и изменять все параметры системы.",
+    "title": "Роли",
+    "deleteConfirm": "Роль будет удалена навсегда.",
+    "successDeleteMessage": "Роль успешно удалена.",
+    "roleName": "Название роли",
+    "all": "Все роли",
+    "confirm": "Подтвердите создание роли. После подтверждения, роль станет доступной.",
+    "roleSearch": "Поиск роли",
+    "roleSuccessCreate": "Роль успешно создана.",
+    "policies": {
+      "media.site": "Медиа сайт",
+      "media.academy": "Медиа академия",
+      "cms": "Инфостраницы",
+      "partner.site": "Партнеры сайт",
+      "partner.academy": "Партнеры академия",
+      "calendar": "Календарь",
+      "tournament": "Турниры и матчи",
+      "club.site": "Мои клубы сайт",
+      "club.academy": "Мои клубы академия",
+      "graduate": "Выпускники",
+      "notification": "Уведомления",
+      "stock": "Акции",
+      "banner": "Баннера",
+      "audit": "Журнал системы",
+      "role": "Сотрудники",
+      "kids": "Детям",
+      "loyalty": "Лояльность",
+      "special-offer": "Акции клуба",
+      "bind-to-exit": "Заявки на выход",
+      "delete-account": "Удаление уккаунта",
+      "quiz": "Конкурсы"
+    }
+  },
+  "employee": {
+    "title": "Сотрудники клуба",
+    "search": "Поиск сотрудника",
+    "create": "Создать сотрудника",
+    "edit": "Редактировать сотрудника",
+    "name": "Имя пользователя",
+    "mail": "Эл. адрес",
+    "role": "Роль",
+    "successDelete": "Сотрудник успешно удален.",
+    "rolePlaceholder": "Выберите роль",
+    "status": "Статус активации",
+    "successCreate": "Сотрудник создан",
+    "successCreateText": "На эл. адрес пользователя выслано письмо с инструкциями для завершения регистрации.",
+    "saveNote": "Пользователь успешно сохранен.",
+    "deleteConfirm": "Сотрудник будет лишен доступа в систему и исчезнет из списка сотрудников админ.панели.",
+    "employeeCreated": "Сотрудник создан",
+    "employeeCreatedDesc": "На эл. адрес пользователя выслано письмо с инструкциями для завершения регистрации.",
+    "createRole": "Создать роль",
+    "editRole": "Редактировать роль",
+    "successUpdateEmployee": "Сотрудник успешно сохранен",
+    "successUpdateMessage": "Уведомление успешно отправлено.",
+    "errorUpdateMessage": "Ошибка отправления уведомления."
+  },
+  "systemLog": {
+    "title": "Журнал системы",
+    "rowId": "ID записи",
+    "employee": "Сотрудник",
+    "entity": "Сущность",
+    "changedFields": "Измененные поля",
+    "createDateTime": "Дата и время создания",
+    "objectId": "ID объекта",
+    "employeeCard": "Карточка сотрудника",
+    "employeeName": "Имя пользователя",
+    "mail": "Эл. адрес",
+    "changeEmployee": "Выбрать сотрудника"
+  },
+  "adv": {
+    "title": "Реклама",
+    "addBanner": "Добавить баннер",
+    "author": "Автор",
+    "object": "Объект",
+    "place": "Место",
+    "startDate": "Дата старта",
+    "endDate": "Дата конца",
+    "publishSuccess": "Баннер успешно опубликован.",
+    "deleteSuccess": "Баннер успешно удален.",
+    "createBanner": "Создать баннер",
+    "editBanner": "Редактировать баннер",
+    "displayPeriod": "Период отображения баннера",
+    "accommodation": "Объект размещения",
+    "location": "Место размещения",
+    "hyperlink": "Гиперссылка",
+    "bannerAuthor": "Автор баннера",
+    "bannerPrompt": "Убедитесь, что период показа и прочие данные баннера выставлены верно. Баннер автоматически публикуется и скрывается исходя из даты старта и конца. ",
+    "deletePrompt": "Баннер будет удален из системы.",
+    "chooseAutor": "Выберите автора",
+    "confirmText": "После подтверждения, баннер станет доступен для всех пользователей.",
+    "logo": "Изображения",
+    "Default": "Десктоп / МП*",
+    "Tablet": "Планшет",
+    "MobileSite": "Мобильный сайт",
+    "publichConfirm": "После подтверждения, баннер станет доступен для всех пользователей.",
+    "deleteConfirm": "Баннер будет удален навсегда",
+    "changeConfirm": "Убедитесь, что период показа и прочие данные баннера выставлены верно. Баннер автоматически публикуется и скрывается исходя из даты старта и конца.",
+    "successCreateAlert": "Баннер успешно создан.",
+    "successEditAlert": "Баннер изменен",
+    "notDeleteAlert": "Невозможно удалить баннер в статусе “Опубликовано”.",
+    "successDeleteAlert": "Баннер удален",
+    "unableChangeStatus": "Невозможно изменить статус.",
+    "imposibleChange": "Невозможно изменить баннер в статусе “Опубликовано”.",
+    "hideConfirm": "Баннер будет скрыт",
+    "showConfirm": "Баннер будет опубликован",
+    "successHide": "Баннер скрыт",
+    "successShow": "Баннер опубликован"
+  },
+  "subscriptions": {
+    "subscriptionName": "Название абонемента",
+    "subscriptionChange": "Изменение абонемента",
+    "subscriptionsImage": "Превью абонемента",
+    "forPageImage": "Изображение для страницы",
+    "description": "Описание",
+    "hideConfirm": "Абонемент будет скрыт",
+    "showConfirm": "Абонемент будет опубликован",
+    "successHide": "Абонемент скрыт",
+    "successShow": "Абонемент опубликован",
+    "errorHide": "Ошибка при скрытии абонемента",
+    "errorShow": "Ошибка при публикации абонемента"
+  },
+  "notifications": {
+    "title": "Уведомления",
+    "noticeType": "{{type}} - уведомление",
+    "await": "Ожидают",
+    "history": "История",
+    "createNotice": "Создать уведомления",
+    "searchByHeader": "Поиск по заголовку, тексту",
+    "link": "Ссылка",
+    "noticeId": "ID уведомления",
+    "header": "Заголовок",
+    "text": "Текст",
+    "type": "Тип",
+    "sended": "Отправлено",
+    "errorAddNotification": "Ошибка создания уведомления",
+    "errorEditNotification": "Ошибка редактирования уведомления",
+    "sendDateTime": "Дата и время отправки",
+    "deleteConfirm": "Уведомление будет удалено навсегда.",
+    "successCreate": "Уведомление успешно создано.",
+    "successEdit": "Уведомление успешно изменено.",
+    "successDelete": "Уведомление успешно удалено.",
+    "cancelDelete": "Невозможно удалить уведомление, которое уже было отправлено.",
+    "cancelEdit": "Невозможно  изменить уведомление, которое уже было отправлено.",
+    "createType": "Создать {{type}} - уведомление",
+    "editType": "Редактировать {{type}} - уведомление",
+    "appScreen": "экран приложения",
+    "gyperLink": "гиперссылка",
+    "class": "Аудитория",
+    "PushType": {
+      "FromFile": "Выборке из файла (импорт из CSV)",
+      "AllUser": "Всем пользователям"
+    }
+  },
+  "bestPlayer": {
+    "title": "Игрок матча/месяца/сезона",
+    "matchPlayer": "Игрок Матча",
+    "monthPlayer": "Игрок Месяца",
+    "seasonPlayer": "Игрок Сезона",
+    "selectPromo": "Выберите акцию",
+    "name": "Название",
+    "participants": "Участников",
+    "Match/month": "Матч/месяц",
+    "startDate": "Дата и время начала",
+    "endDate": "Дата и время окончания",
+    "match": "Матч",
+    "month": "Месяц",
+    "year": "Год",
+    "season": "Сезон",
+    "datePlaceholder": "Укажите дату и время",
+    "select": "Выберите",
+    "playersList": "Список игроков",
+    "selectAll": "Выбрать всех",
+    "unselectAll": "Убрать всех",
+    "result": "Результат",
+    "fileOfParticipants": "XLS файл участников",
+    "upload": "Загрузка XLS файла с результатам отбора пользователей которые выполнили условия.",
+    "notice": "Уведомления рассылаются автоматически согласно параметрам указаных в загружаемой таблице:",
+    "param1": "Регистрация в Винлайн и ставка",
+    "param2": "Сделай ставку на матч",
+    "param3": "Участник акции",
+    "formError": "Необходимо заполнить все обязательные поля",
+    "closeConfirmText": "Имеются несохраненные изменения.",
+    "saveChanges": "Сохранить изменения?",
+    "successPublish": "Акция успешно создана",
+    "deleteConfirm": "Акция будет удалена навсегда",
+    "deleteSuccess": "Акция успешно удалена",
+    "deleteFail": "Ошибка удаления"
+  },
+  "graduates": {
+    "title": "Выпускники",
+    "sections": "Раздел",
+    "publishConfirmText": "После подтверждения, выпускник станет доступен для всех пользователей.",
+    "publichSuccess": "Выпускник успешно опубликован.",
+    "draftConfirmText": "Выпускник будет скрыт для просмотра.",
+    "draftSuccess": "Выпускник успешно скрыт.",
+    "deleteConfirmText": "Выпускник будет удален из системы.",
+    "deleteSuccess": "Выпускник успешно удален.",
+    "saveChangesSuccess": "Изменения сохранены.",
+    "saveChangesError": "Данные не сохранены.",
+    "nameField": "ФИО выпускника",
+    "addGraduate": "Добавить выпускника",
+    "changeGraduate": "Изменить выпускника",
+    "team": "Команда",
+    "fioPlaceholder": "Введите ФИО",
+    "urlPlaceholder": "Укажите ссылку на профиль игрока",
+    "teamPlaceholder": "Укажите название команды",
+    "sectionPlaceholder": "Выберите раздел"
+  },
+  "graduateSections": {
+    "title": "Разделы выпускников",
+    "sectionName": "Название раздела",
+    "publishConfirmText": "После подтверждения, раздел станет доступен для всех пользователей.",
+    "publichSuccess": "Раздел успешно опубликован..",
+    "draftConfirmText": "Раздел будет скрыт для просмотра.",
+    "draftSuccess": "Раздел успешно скрыт.",
+    "addSection": "Добавить раздел",
+    "createSection": "Создание раздела",
+    "editSection": "Редактирование  раздела",
+    "sectionImg": "Картинка раздела",
+    "teamImg": "Картинка команды"
+  },
+  "kids": {
+    "kidsTitle": "Заявка “Выведи футболиста на поле”",
+    "seasonsTitle": "Сезоны комиксов",
+    "journalsTitle": "Журналы",
+    "createSeason": "Создать сезон",
+    "addJournal": "Добавить журнал",
+    "editJournal": "Изменить журнал",
+    "journalFilter": "Поиск журнала",
+    "seasonsFilter": "Поиск сезонов",
+    "dateFilter": "Укажите дату",
+    "cardFilter": "Поиск по номеру карты",
+    "nameFilter": "Поиск по ФИО ребенка/родителя",
+    "phoneMailFilter": "Поиск по E-mail/телефон",
+    "statusFilter": "Выберите статус",
+    "bidDate": "Дата заявки",
+    "cardNumber": "Номер карты",
+    "childName": "ФИО ребенка",
+    "growth": "Рост",
+    "parentName": "ФИО родителя",
+    "email": "E-mail",
+    "telephone": "Телефон",
+    "additionalInfo": "Дополнительная информация",
+    "additionally": "Дополнительно",
+    "story": "Рассказ",
+    "comment": "Комментарий",
+    "journalName": "Название журнала",
+    "seasons": "Сезоны",
+    "seasonCreation": "Создание сезона",
+    "seasonEditing": "Редактирование сезона",
+    "seasonName": "Название сезона",
+    "seasonNamePlaceholder": "Введите название сезона",
+    "enterName": "Введите название",
+    "season": "Сезон",
+    "enterSeason": "Укажите сезон",
+    "edition": "Выпуск",
+    "enterEdition": "Введите выпуск",
+    "specEdition": "Спецвыпуск",
+    "uploadRule": "Загрузка одного выпуска pdf, весом не более 20мб.",
+    "poster": "Постер",
+    "pdfError": "Ошибочный формат документа. Только PDF и размер до 20 мб",
+    "statuses": {
+      "none": "Без статуса",
+      "new": "Новый",
+      "refusal": "Отказ",
+      "processed": "Обработана",
+      "repeatedly": "Повторно",
+      "important": "Важно",
+      "reprocessed": "Обработана повторно"
+    }
+  },
+  "specialOffer": {
+    "promotionsTitle": "Акции клуба",
+    "heading": "Заголовок",
+    "headingSpecialOffer": "Заголовок акции",
+    "status": "Статус",
+    "type": "Тип",
+    "dateStart": "Дата старта",
+    "action": "Действие",
+    "edit": "Изменить",
+    "add": "Добавить",
+    "searchByHeading": "Поиск по заголовку",
+    "enterDate": "Укажите дату старта",
+    "promotionsHeading": "Заголовок акции",
+    "promotionPeriod": "Период действия акции",
+    "promotionStart": "Дата начала акции",
+    "promotionEnd": "Дата окончания акции",
+    "fanLevel": "Уровень болельщика",
+    "promotionType": "Тип акции",
+    "previewPicture": "Картинка для Превью*",
+    "pictureValidation": " Загрузка одного изображения (png, jpeg), 512х367, весом не более 1мб.",
+    "localization": "Локализация",
+    "fromBaseLocal": "Заполнить из базовой локали",
+    "baseLocalDescription": "Контентом можно одновременно управлять только в одном языковом стандарте. \nСохраните все изменения перед сменой локали.",
+    "announcePromotion": "Анонс акции",
+    "headingPromotionValidationText": "Максимальное кол-во символов - 70.",
+    "announceValidationText": "Максимальное кол-во символов - 160.",
+    "announceText": "Текст акции",
+    "text": "Текст",
+
+    "types": {
+      "None": "нет типа",
+      "FromClub": "от клуба",
+      "FromPartners": "от партнеров"
+    },
+    "statuses": {
+      "None": "Черновик",
+      "Published": "Опубликовано",
+      "Planned": "Запланировано",
+      "Completed": "Завершено"
+    }
+  },
+  "queez": {
+    "main": "Конкурсы",
+    "countParticipants": "Кол-во участников",
+    "dateStart": "Дата начала",
+    "dateEnd": "Дата окончания",
+    "create": "Создать",
+    "questions": "Вопросы",
+    "creation": "Создание конкурса",
+    "edition": "Редактирование конкурса",
+    "period": "Период действия конкурса",
+    "previewImg": "Картинка для превью",
+    "localization": "Локализация",
+    "localeDescription": "Контентом можно одновременно управлять только в одном языковом стандарте. Сохраните все изменения перед сменой локали.",
+    "fromBaseLocale": "Заполнить из базовой локали",
+    "queezHeading": "Заголовок конкурса",
+    "queezAnnounce": "Анонс конкурса",
+    "queezAnnouncePrompt": "Максимальное кол-во символов - 250",
+    "queezDescription": "Описание конкурса",
+    "queezDescHelper": "Максимальное кол-во символов - 4К.",
+    "queezQuestions": {
+      "title": "Вопрос",
+      "text": {
+        "title": "Текст вопроса",
+        "validation": "Максимальное кол-во символов - 250."
+      },
+      "image": "Изображение",
+      "answer": {
+        "type": "Тип ответа",
+        "view": "Вид ответа",
+        "freeType": "Возможность выбора своего ответа",
+        "title": "Ответ",
+        "label": "Максимальное кол-во символов - 150.",
+        "placeholder": "Введите текст",
+        "image": "Загрузка одного изображения png,  914х836, весом не более 2мб.",
+        "points": "Баллы",
+        "successAnswer": "Правильный ответ"
+      },
+      "validation": {
+        "multiAnswer": "В вопросе должен быть хотя бы один правильный ответ",
+        "emptyPoint": "Не заполнено поле баллы у правильного ответа",
+        "multiAllRight": "Все ответы не могут быть правильными"
+      }
+    },
+    "addQuestion": "Добавить вопрос",
+    "addAnswer": "Добавить ответ",
+    "quizPreview": {
+      "status": "Статус",
+      "title": "Заголовок конкурса",
+      "anons": "Анонс",
+      "description": "Описание",
+      "dateStart": "Дата начала",
+      "dateEnd": "Дата окончания",
+      "countOfPlayers": "Количество участников",
+      "question": "Вопрос",
+      "rightAnswer": "Правильный ответ"
+    },
+    "hideConfirm": "Конкурс будет скрыт",
+    "publishConfirm": "После подтверждения, конкурс станет доступен для всех пользователей.",
+    "quizInfo": "Просмотр - "
+  },
+  "loyalty": {
+    "title": "Программы лояльности Winline",
+    "creation": "Создание акции",
+    "edition": "Редактирование акции",
+    "shareName": "Название акции",
+    "awardTypeTitle": "Тип награды",
+    "participantsNum": "Кол-во участников",
+    "searchByName": "Поиск по названию",
+    "allStatuses": "Все статусы",
+    "startDate": "Начальная дата",
+    "endDate": "Конечная дата",
+    "shareExample": "Пример акции",
+    "notPossible": "Повторный запуск акции невозможен.",
+    "successfullyCreated": "Акция успешно создана",
+    "successfullyChanged": "Акция успешно изменена",
+    "wantComplete": "Вы действительно хотите завершить?",
+    "wantCompleteDesc": "Повторный зфпуск акции невозможен",
+    "noSave": "Данные не будут сохранены.",
+    "successSave": "Изменения сразу вступят в силу.",
+    "common": "Общее",
+    "terms": "Условия акции",
+    "reward": "Награда",
+    "notification": "Уведомление",
+    "back": "Назад",
+    "onward": "Далее",
+
+    "name": "Название",
+    "project": "Проект",
+    "totalAward": "Кол-во участников",
+    "dateStart": "Дата начала",
+    "dateEnd": "Дата окончания",
+    "dateStop": "Дата остановки",
+    "available": "Доступно",
+    "boughtTicket": "Куплен билет",
+    "count": "Кол-во",
+
+    "systemName": "Системное название",
+    "date": "Срок проведения",
+    "loyaltyTitle": "Заголовок",
+    "desc": "Описание",
+    "enterDesc": "Введите описание",
+    "image": "Изображение",
+    "text": "Текст",
+    "allUsers": "Всем пользователям",
+    "fromCSV": "Выборке из файла (импорт из CSV)",
+    "yes": "Да",
+    "no": "Нет",
+    "who": "Кому будет доступна?",
+    "whoDesc": "Акция может быть доступна и видима в приложения для всех пользователей или определенной выборке.",
+    "victoryCond": "Есть условия победы?",
+    "condDesc": "Если условий нет, то после принятия участия пользователь сразу заберет награду.",
+    "forWinCond": "Условия победы в акции",
+    "forWinCondDesc": "Действия, которые необходимо выполнить пользвателю для победы.",
+    "fill": "Заполнить все поля профиля",
+    "register": "Зарегистрировать аккаунт в период действия акции",
+    "ticket": "Куплен билет на событие",
+    "import": "Импорт",
+    "noChoos": "Не выбрано",
+    "event": "Событие",
+    "sector": "Сектор",
+    "minTickets": "Минимальное количество купленных билетов",
+    "type": "Тип",
+    "countUsers": "Кол-во купонов",
+    "countDesc": "Заданное кол-во определяет максимальное кол-во возможных победителей",
+    "fribetsLabel": "Импорт Фрибетов из файла",
+    "fribetsDesc1": "Загруженное в файле кол-во ссылок определяет максимальное кол-во возможных победителей.",
+    "fribetsDesc2": "Файл должен содержать однку колонку без заголовка с ссылками.",
+    "freeBetByPhoneLabel": "Импорт Фрибетов из файла",
+    "freeBetByPhoneDesc1": "Загруженное в файле кол-во ссылок определяет максимальное кол-во возможных победителей.",
+    "freeBetByPhoneDesc2": "Файл должен содержать однку колонку без заголовка с ссылками.",
+    "allowFribets": "Доступно фрибетов",
+    "vauchersLabel": "Кол-во ваучеров",
+    "vaucherDesc1": "Заданное кол-во определяет максимальное кол-во возможных победителей. ",
+    "vaucherDesc2": "Один ваучер в одни руки.",
+    "linkLabel": "Ссылка",
+    "linkDesc1": "Вместо награды, участник выполнивший условия, сможет перейти по общей для всех победителей ссылке. Например в рамках рекламы. ",
+    "linkDesc2": "Кол-во победителей неограничено.",
+    "infoForWinners": "Информация для победителей",
+    "linkPlaceholder": "Введите ссылку",
+    "btnText": "Текст кнопки",
+    "btnTextDesc": "В которой будет хранится ссылка.",
+    "btnTextPlaceholder": "Введите текст",
+    "promoInfo": "Информация об акции",
+    "validationError": "Необходимо заполнить все обязательные поля на всех шагах",
+    "quantityValidationError": "Минимум 1 билет, максимум - 99",
+    "statuses": {
+      "scheduled": "Запланировано",
+      "published": "Опубликовано",
+      "completed": "завершена",
+      "outofstock": "завершена досрочно"
+    },
+    "awardType": {
+      "FreeBet": "Фрибет",
+      "VoucherToTheBox": "Ваучер в ложу",
+      "CouponForMerchandise": "Купон на атрибутику",
+      "ExternalReference": "Внешняя ссылка",
+      "FreeBetByPhone": "Фрибет-награда"
+    },
+    "deleteConfirm": "Акция будет удалена навсегда",
+    "deleteSuccess": "Акция успешно удалена",
+    "deleteFail": "Ошибка удаления",
+    "outOfStockConfirmTitle": "Вы действительно хотите завершить?",
+    "outOfStockConfirmDesc": "Повторный запуск акции невозможен.",
+    "outOfStockSuccess": "Акция успешно завершена",
+    "outOfStockFail": "Не удалось завершить акцию досрочно",
+    "validationList": {
+      "voucher": "число от 1 до 1000",
+      "coupon": "число от 1 до 10000",
+      "wrongLink": "неверный формат ссылки"
+    },
+    "push": {
+      "sendDateTime": "Дата и время отправки",
+      "title": "Заголовок",
+      "titlePrompt": "Максимальное кол-во символов - 50.",
+      "text": "Текст уведомления",
+      "textPrompt": "Максимальное кол-во символов - 150.",
+      "checkBoxText": "автоматические пуш-уведомления"
+    }
+  },
+  "sideBar": {
+    "media": {
+      "main": "Медиа",
+      "categories": "Категории"
+    },
+    "pages": {
+      "main": "Страницы",
+      "sections": "Разделы",
+      "subscriptions": "Абонементы"
+    },
+    "partners": {
+      "main": "Партнеры"
+    },
+    "calendar": {
+      "main": "Календарь"
+    },
+    "tournaments": {
+      "main": "Мои турниры",
+      "tournaments": "Турниры",
+      "matches": "Матчи",
+      "matching": "Матчинг"
+    },
+    "clubs": {
+      "main": "Мои клубы",
+      "commands": "Команды клуба",
+      "players": "Игроки",
+      "trainers": "Тренерский штаб",
+      "staff": "Персонал",
+      "leadership": "Руководство",
+      "medical": "Мед.персонал"
+    },
+    "graduates": {
+      "main": "Выпускники",
+      "sections": "Разделы"
+    },
+    "kids": {
+      "main": "Детям",
+      "journal": "Журналы",
+      "seasons": "Сезоны",
+      "bidToExit": "Заявки на выход"
+    },
+    "directories": {
+      "main": "Справочники",
+      "stadiums": "Стадионы",
+      "commands": "Команды"
+    },
+    "notifications": {
+      "main": "Уведомления"
+    },
+    "promo": {
+      "main": "Акции",
+      "bestPlayer": "Игрок матча/месяца"
+    },
+    "loyalty": {
+      "main": "Лояльность"
+    },
+    "specialOffer": {
+      "main": "Акции клуба",
+      "queez": "Конкурсы"
+    },
+    "advertising": {
+      "main": "Реклама"
+    },
+    "employee": {
+      "main": "Сотрудники",
+      "view": "Просмотр",
+      "role": "Роли"
+    },
+    "users": {
+      "main": "Пользователи",
+      "view": "Просмотр",
+      "usersNotification": "Уведомления"
+    },
+    "systemLog": {
+      "main": "Журнал системы"
+    },
+    "backup": {
+      "main": "Рез. копирование"
+    },
+    "settings": {
+      "main": "Настройки"
+    },
+    "exit": {
+      "title": "Выход",
+      "modal": {
+        "title": "Вы действительно хотите выйти?",
+        "content": "Сессия будет завершена, вы будете переведены на экран авторизации.",
+        "okText": "Подтвердить",
+        "cancelText": "Отмена"
+      }
+    }
+  },
+  "months": {
+    "january": "января",
+    "february": "февраля",
+    "march": "марта",
+    "april": "апреля",
+    "may": "мая",
+    "june": "июня",
+    "july": "июля",
+    "august": "августа",
+    "september": "сентября",
+    "october": "октября",
+    "november": "ноября",
+    "december": "декабря"
+  },
+  "validations": {
+    "valueSizeValidation": "Превышено максимальное количество символов.",
+    "default": "Ошибка валидации.",
+    "required": "Обязательное поле.",
+    "InvalidName": "Используемые значения недопустимы.",
+    "MinLengthLess": "Значение слишком короткое.",
+    "MaxLengthExceeded": "Используемое значение слишком длинное.",
+    "MaxWordLengthExceeded": "Использовано более трех слов.",
+    "wrongImgSize": "Неверные ширина и высота загружаемого изображения {{width}}х{{height}}",
+    "wrongImgWeight": "Размер загружаемого изображения превышает требуемый - {{size}}",
+    "wrongImgFormat": "Неверный формат загружаемого изображения {{format}}",
+    "birthday": "Год должен быть больше 1900",
+    "onlyNumbers": "Только цифры",
+    "noLessOneRightRole": "Выберите хотя бы одно право доступа",
+    "allFieldsMustBeFilledException": "Необходимо заполнить обязательные поля во всех вкладках.",
+    "Request Validation Error": "Необходимо заполнить данные на всех доступных языках",
+    "sameMatchTeams": "В поле Домашняя команда и Гость выбраны одинаковые команды.",
+    "sameMatchTeamsEventsLineUp": "Выбраны одинаковые игроки команды.",
+    "fillMatchFieldsMessage": "Заполните все обязательные поля в разделе \"Матч\".",
+    "errorLoadFile": "Ошибочный формат документа. Только CSV и размер до 1 мб",
+    "goals": "например: 1-1"
+  },
+  "errorAccess": "Недостаточно прав для выполнения действия.",
+  "recoveryPassword": "Срок Вашего предложения истек или ссылка уже была использована.",
+  "forgotPassword": "Ваш запрос на сброс пароля истек или ссылка уже была использована.",
+  "tokenError": "Время авторизации истекло.",
+  "invitationHead": "{{name}}, Вас пригласили в систему по эл. адресу {{email}}. Для завершения создания аккаунта, необходимо придумать пароль.",
+  "invitationBody": "{{name}}, Вас пригласили в систему по эл. адресу {{email}}. Для завершения создания аккаунта, необходимо придумать пароль.",
+  "invitationSuccess": "<p>На эл.адрес пользователя {<b>переотправлено</b>} письмо с инструкциями для завершения регистрации.</p>"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.4.3",
+    "@reduxjs/toolkit": "^1.7.1",
+    "antd": "^4.18.3",
+    "craco-less": "^2.0.0",
+    "i18next": "^21.6.5",
+    "i18next-http-backend": "^1.3.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-cropper": "^2.1.8",
+    "react-dom": "^17.0.2",
+    "react-geocode": "^0.2.3",
+    "react-i18next": "^11.15.3",
+    "react-meta-tags": "^1.0.1",
+    "react-quill": "^1.3.5",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-yandex-maps": "^4.6.0",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.3",
+    "tslint-config-prettier": "^1.18.0",
+    "yandex-map-react": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/i18n": "^0.13.2",
+    "@types/lodash": "^4.14.178",
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "7.1.21",
+    "@types/react-router-dom": "5.3.2",
+    "@types/styled-components": "^5.1.19",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/eslint-plugin-tslint": "5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-react-native": "4.0.0",
+    "react-scripts": "5.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.5.4",
+    "web-vitals": "^2.1.3"
+  },
+  "scripts": {
+    "startPwa": "set HTTPS=true SSL_CRT_FILE=cert.crt SSL_KEY_FILE=cert.key&&yarn start",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "test1": "eslint *"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
