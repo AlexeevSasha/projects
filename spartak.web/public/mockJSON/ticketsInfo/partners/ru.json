@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/images/tickets/partners/kassir_v1.0.0.png",
+    "info": "Кассир.ру — национальный билетный оператор. Афиша городов России, билеты на концерты и спектакли",
+    "partnerUrl": "https://msk.kassir.ru",
+    "partnerName": "KassirRu"
+  },
+  {
+    "image": "/images/tickets/partners/yandex_v1.0.0.png",
+    "info":"Яндекс.Афиша — расписания всех мероприятий Москвы, удобная покупка билетов, понятные схемы залов, регулярные акции и скидки на Яндекс Афише. Кино, театры, концерты, выставки, события для детей и другие развлечения.",
+    "partnerUrl": "https://afisha.yandex.ru/",
+    "partnerName": "ЯндексАфиша"
+  },
+  {
+    "image": "/images/tickets/partners/chempionat_v1.0.0.png",
+    "info": "Чемпионат — все самые свежие новости спорта, видео, фото. Чемпионаты мира, Европы. Чемпионаты по футболу, хоккею, баскетболу и др. видам спорта."      ,
+    "partnerUrl": "https://tickets.championat.com/",
+    "partnerName": "Чемпионат"
+  }
+]

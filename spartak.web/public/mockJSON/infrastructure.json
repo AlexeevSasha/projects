@@ -1,0 +1,100 @@
+{
+  "metaTags": {
+    "h1": {
+      "Ru": "Инфраструктура Академии «Спартак»",
+      "En": "Spartak Academy infrastructure"
+    },
+    "titleName": {
+      "Ru": "Академия «Спартак» - аренда футбольного поля, инфраструктура | Официальный сайт ФК «Спартак-Москва»",
+      "En": "«Spartak» Academy - football fields for rent, infrastructure | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Академия «Спартак» - аренда футбольного поля, инфраструктура | Официальный сайт ФК «Спартак-Москва»",
+      "En": "«Spartak» Academy - football fields for rent, infrastructure | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Инфраструктура Академии «Спартак»: 6 футбольных полей с искусственным покрытием и подогревом, вратарский городок, крытый манеж. Аренда поля для тренировки от 3600 руб.",
+      "En": "Infrastructure of the Spartak Academy: 6 football fields with artificial turf and heating, goalkeeper's town, indoor arena. Rent a football field for training!"
+    },
+    "localeOg": {
+      "En": "En",
+      "Ru": "Ru"
+    }
+  },
+  "mainInfo": {
+    "about": {
+      "title": { "Ru": "Инфраструктура", "En": "Infrastructure" },
+      "text": [
+        {
+          "Ru": "15 октября 2009 года Академия «Спартак» имени Фёдора Черенкова обрела свой нынешний дом: совместно с компанией «ЛУКОЙЛ» был открыт современный футбольный комплекс, на территории которого есть все необходимое для развития юных футболистов.",
+          "En": "On October 15, 2009, the Spartak Academy named after Fyodor Cherenkov found its current home: together with the LUKOIL company, a modern football complex was opened, on the territory of which there is everything necessary for the development of young football players."
+        },
+        {
+          "Ru": "В распоряжении подрастающего поколения спартаковцев шесть футбольных полей с искусственным покрытием (три из них — с подогревом) и вратарский городок. А в холодное время года воспитанники могут проводить тренировочные занятия и матчи в крытом манеже.",
+          "En": "The younger generation of Spartak players has at their disposal six football fields with artificial turf (three of them are heated) and a goalkeeper's town. And in the cold season, pupils can conduct training sessions and matches in the indoor arena."
+        }
+      ],
+      "imageSrc": "/images/academy/infrastructureAcademy"
+    },
+    "fields": {
+      "title": { "Ru": "Поля академии", "En": "Academy fields" },
+      "items": [
+        {
+          "title": { "Ru": "Футбольное поле №4", "En": "Football field №4" },
+          "desc": {
+            "Ru": "На этом поле, вместимость трибун которого составляет 3 077 человек, проводят домашние матчи не только «академики», но также молодежная команда ФК «Спартак» и выступающий в ФНЛ «Спартак-2».",
+            "En": "On this field, the capacity of the stands of which is 3,077 people, home matches are held not only by the “academicians”, but also by the youth team of FC Spartak and Spartak-2, who plays in the FNL."
+          },
+          "imageSrc": "/images/academy/field_4_v1.0.0.png"
+        },
+        {
+          "title": { "Ru": "Футбольное поле № 1", "En": "Football field number 1" },
+          "desc": {
+            "Ru": "Здесь спартаковцы, как правило, проводят матчи летнего первенства Москвы и Кубка столицы, товарищеские поединки, а также тренировки. Поле оборудовано системой подогрева и трибунами вместимостью до 1 000 человек.",
+            "En": "Here Spartak players, as a rule, hold matches of the summer championship of Moscow and the Cup of the capital, friendly matches, as well as training. The field is equipped with a heating system and stands with a capacity of up to 1,000 people."
+          },
+          "imageSrc": "/images/academy/field_1_v1.0.0.png"
+        },
+        {
+          "title": { "Ru": "Футбольные поля №№ 5 и 6", "En": "Football fields Nos. 5 and 6" },
+          "desc": {
+            "Ru": "На этих полях проходят тренировки юных спартаковцев, контрольные встречи и матчи младших команд в летнем первенстве столицы.",
+            "En": "These fields are used for training of young Spartak players, control matches and matches of junior teams in the summer championship of the capital."
+          },
+          "imageSrc": "/images/academy/field_5_6_v1.0.0.png"
+        },
+        {
+          "title": { "Ru": "Футбольные поля №№ 2 и 3", "En": "Football fields Nos. 2 and 3" },
+          "desc": {
+            "Ru": "Предназначены для проведения тренировочных занятий, а иногда — и товарищеских матчей.",
+            "En": "Designed for training sessions, and sometimes friendly matches."
+          },
+          "imageSrc": "/images/academy/field_2_3_v1.0.0.png"
+        },
+        {
+          "title": { "Ru": "Вратарский городок", "En": "Goalkeeper town" },
+          "desc": {
+            "Ru": "Небольшая площадка с искусственным покрытием предназначена для оттачивания навыков юных вратарей.",
+            "En": "A small area with artificial turf is designed to hone the skills of young goalkeepers."
+          },
+          "imageSrc": "/images/academy/town_v1.0.0.png"
+        },
+        {
+          "title": { "Ru": "Футбольный манеж", "En": "Football arena" },
+          "desc": {
+            "Ru": "Здесь проходят тренировочные занятия и матчи красно-белых в холодное время года. На балконах, окружающих футбольное поле, могут разместиться до 200 зрителей. Кроме того, в здании манежа расположены комфортабельные раздевалки с душевыми, спортивный и тренажерный залы, реабилитационный зал и столовая для воспитанников Академии",
+            "En": "Training sessions and red-white matches are held here in the cold season. The balconies surrounding the football field can accommodate up to 200 spectators. In addition, comfortable locker rooms with showers, sports and fitness rooms, a rehabilitation room and a canteen for students of the Academy are located in the arena building."
+          },
+          "imageSrc": "/images/academy/area_v1.0.0.png"
+        }
+      ]
+    },
+    "building": {
+      "title": { "Ru": "Административно-жилой комплекс", "En": "Administrative building" },
+      "description": {
+        "Ru": "Иногородние воспитанники Академии проживают на территории спортивного комплекса. Свободное время футболисты могут проводить в зимнем саду, в том числе за игрой в настольный теннис, бильярд, настольный футбол или компьютерные приставки. В распоряжении футболистов и тренеров также есть зал для теоретических занятий и учебный класс.",
+        "En": "Non-resident students of the Academy reside on the territory of the sports complex. Players can spend their free time in the winter garden, including playing table tennis, billiards, table soccer or computer consoles. The soccer players and coaches also have a theory room and a classroom at their disposal."
+      }
+    }
+  }
+}

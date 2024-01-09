@@ -1,0 +1,112 @@
+{
+  "metaTags": {
+    "titleName": {
+      "Ru": "Стадион Спартак - аренда помещений и территории «Открытие Банк Арена» в Москве",
+      "En": "Rental service - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "titleOg": {
+      "Ru": "Стадион Спартак - аренда помещений и территории «Открытие Банк Арена» в Москве",
+      "En": "Rental service - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "imageOg": {
+      "En": "picture",
+      "Ru": "картинка"
+    },
+    "typeOg": {
+      "En": "Article",
+      "Ru": "Статья"
+    },
+    "descriptionOg": {
+      "Ru": "Сервисы и услуги аренды, доступные на территории стадиона «Открытие Банк Арена». Площадки для проведения мероприятий на открытом воздухе, фуд-корт, Спорт-бар, Зона ресторанов, VIP-Ложи на стадионе футбольного клуба «Спартак-Москва».",
+      "En": "Services and rentals available on the territory of the Otkritie Bank Arena stadium. Venues for outdoor events, food court, sports bar, restaurant area, Skyboxes at the stadium of the Spartak Moscow Football Club."
+    },
+    "localeOg": {
+      "En": "En",
+      "Ru": "Ru"
+    }
+  },
+  "mainInfo": {
+    "title": {
+      "En": "Services",
+      "Ru": "Сервисы"
+    },
+    "img": {
+      "En": "/images/stadium/about/banner_v1.0.0.png",
+      "Ru": "/images/stadium/about/banner_v1.0.0.png"
+    }
+  },
+  "servicesData": [
+    {
+      "cardName": {
+        "En": "Surrounding area",
+        "Ru": "Прилегающая территория"
+      },
+      "path": "adjacentTerritory",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/stadium/services/Territory_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Food court, sports bar and restaurant area",
+        "Ru": "Фуд-корт, спортбар и зона ресторанов"
+      },
+      "path": "foodCourt",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/stadium/services/RestaurantRoom_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Excursion tours",
+        "Ru": "Экскурсионные туры"
+      },
+      "path": "excursionTours",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/stadium/services/FameRoom_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "VIP-Lodges",
+        "Ru": "VIP-Ложи"
+      },
+      "path": "vip",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/stadium/services/VipRoom_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Conference hall",
+        "Ru": "Конференц-зал"
+      },
+      "path": "conferenceHall",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/stadium/services/ConferenceRoom_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Children's Town, Children's Room",
+        "Ru": "Детский городок, детская комната              "
+      },
+      "path": "childrenArea",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/stadium/services/ChildrenRoom_v1.0.0.png"
+    }
+  ]
+}

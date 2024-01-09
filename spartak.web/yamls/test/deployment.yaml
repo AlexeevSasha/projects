@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+# Indicates this as a deployment
+kind: Deployment 
+metadata:
+  # Deployment name
+  name: website
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: website
+      app.kubernetes.io/instance: website
+      app: website
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: website
+        app.kubernetes.io/instance: website
+        app: website
+    spec:
+      imagePullSecrets:
+        - name: winlineregistry
+      containers:
+        - name: admin
+          image: "nexus.winline.tech/club-spartak-test-website:latest"
+          imagePullPolicy: Always
+        # Resources for each container
+          ports:
+            - name: http-website
+              containerPort: 4100

@@ -1,0 +1,84 @@
+{
+  "mainInfo": {
+    "title": {
+      "En": "Conference hall",
+      "Ru": "Конференц зал"
+    },
+    "img": {
+      "En": "/images/services/ConferenceHall_v1.0.0.png",
+      "Ru": "/images/services/ConferenceHall_v1.0.0.png"
+    }
+  },
+  "infoBlock": [
+    {
+      "title": {
+        "En": "Conference hall",
+        "Ru": "Конференц-зал"
+      },
+      "img": {
+        "En": "/images/services/ConferenceHallSeats_v1.0.0.png",
+        "Ru": "/images/services/ConferenceHallSeats_v1.0.0.png"
+      },
+      "description": {
+        "En": "Perfect for organizing events with media representatives (press conference, briefing, interview, etc.), for seminars, trainings, corporate training events. It can also be used as an audience for thematic meetings, master classes or even for an auction.",
+        "Ru": "Отлично подойдет для организации мероприятий с представителями СМИ (пресс-конференция, брифинг, интервью и т.д.), для семинаров, тренингов, корпоративных обучающих мероприятий. Так же можно ипользовать в качестве аудитории для тематических встреч, мастер-классоов или даже для проведения аукциона."
+      },
+      "blockParams": [
+        {
+          "label": {
+            "En": "Square",
+            "Ru": "площадь"
+          },
+          "value": {
+            "En": "200 m²",
+            "Ru": "200 м²"
+          }
+        }
+      ]
+    }
+  ],
+  "redBanner": [
+    {
+      "En": "The conference hall, located at the Otkritie Bank Arena stadium, is a modern multifunctional space, technically equipped with all the necessary audio and video equipment.",
+      "Ru": "Конференц-зал, расположенный на стадионе «Открытие Банк Арена», — это современное многофункциональное пространство, технически оснащенное всей необходимой аудио и видео-аппаратурой."
+    },
+    {
+      "En": "Moreover, the conference hall is within walking distance from the food court area, bar and restaurants, where you can hold a buffet table and create a relaxed atmosphere for your guests to communicate.",
+      "Ru": "Более того, конференц-зал находится в шаговой доступности от зоны фуд-корта, бара и ресторанов, где вы сможете провести фуршет и создать непринужденную атмосферу для общения ваших гостей."
+    }
+  ],
+  "listData": [
+    {
+      "En": "2 video cameras for organizing technological shooting in the hall with the ability to control and record video materials",
+      "Ru": "2 видеокамеры для организации технологической съемки в зале с возможностью управления и записью видеоматериалов"
+    },
+    {
+      "En": "2 TV panels with a diagonal of 55 inches located on the sides of the presidium table",
+      "Ru": "2 ТВ-панели диагональю 55 дюймов расположенные по бокам от стола президиума"
+    },
+    {
+      "En": "3 monitors on the presidium table with the possibility of switching various video signals on them",
+      "Ru": "3 монитора на столе президиума с возможностью коммутации на них различных видеосигналов"
+    },
+    {
+      "En": "the ability to connect up to 34 sound recording devices from all microphones in the hall",
+      "Ru": "возможность подключения до 34 устройств записи звука со всех микрофонов в зале"
+    },
+    {
+      "En": "the ability to connect up to 34 sound recording devices from all microphones in the hall",
+      "Ru": "возможность подключения до 34 устройств записи звука со всех микрофонов в зале"
+    },
+    {
+      "En": "constant light sources in the mixed zone for photojournalists.",
+      "Ru": "источники постоянного света в микст-зоне для фотокорреспондентов."
+    },
+    {
+      "En": "6 stationary microphones on the presidium table, radio microphones ЗН1ЖЕ 2 pcs.",
+      "Ru": "6 стационарных микрофонов на столе президиума, радиомикрофоны ЗН1ЖЕ 2 шт."
+    },
+    {
+      "En": "retractable wide screen, projector EEC PX75011 with a brightness of 7500 aps 1 lumen",
+      "Ru": "выдвижной широкоформатный экран, проектор ЫЕС РХ75011 яркостью 7500 апз1 люмен"
+    }
+  ]
+}

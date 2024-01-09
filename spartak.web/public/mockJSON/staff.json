@@ -1,0 +1,24 @@
+{
+    "partOfTeam":{
+        "title": {
+            "En":"To become part of our team, you need to do a few simple steps:",
+            "Ru":"Чтобы стать частью нашей команды, необходимо сделать несколько простых действий:"
+        },
+        "step1":{
+            "En":"REGISTER",
+            "Ru":"ЗАРЕГИСТРИРОВАТЬСЯ"
+        },
+        "step2":{
+            "En":"COME TO THE INTERVIEW",
+            "Ru":"ПРИЙТИ НА СОБЕСЕДОВАНИЕ"
+        },
+        "step3":{
+            "En":"TAKE TRAINING (FREE)",
+            "Ru":"ПРОЙТИ ОБУЧЕНИЕ (БЕСПЛАТНО)"
+        },
+        "description":{
+            "En":"According to the Order of the Ministry of Sports No. 997 dated October 30, 2015 \"On approval of requirements for organizations providing special training for controllers and issuing certificates of controllers\" and the Agreement on the delegation of rights with the Russian Football Union, FC Spartak Moscow is an organization that trains stewards.",
+            "Ru":"Согласно Приказу Минспорта №997 от 30 октября 2015 года «Об утверждении требований к организациям, осуществляющим специальную подготовку контролеров-распорядителей и (или) выдачу и учет удостоверений контролеров-распорядителей» и Договору на делегирование прав с ООО «Российский футбольный союз», АО «ФК «Спартак-Москва» является Организацией, осуществляющей подготовку контролеров-распорядителей."
+        }
+    }
+}

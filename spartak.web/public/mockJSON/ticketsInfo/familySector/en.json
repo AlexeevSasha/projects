@@ -1,0 +1,20 @@
+{
+  "redBanner": [
+   "Stand C — it’s a family area, located at the Otkritie Bank Arena stadium. ",
+   "For our little fans and their parents safety and comfort we use special separate entrances. You are able to buy tickets for children with 50% discount."
+      
+  ],
+
+  "listSectorInfo2": [
+    {
+      "title": "Playground", 
+      "img": "/images/tickets/familySector/playingTown_v1.0.0.png",
+      "description": "At the entrance of the stadium, there is a luggage storage, where you can leave children’s stroller, to feel more comfortable.  <br/> <br/>Our little guests can visit a playground, that’s located at the lower floor of the stand C. Kids can take part in different master-classes and other activities."        
+    },
+    {
+      "title": "Food court for kids",
+      "img":"/images/tickets/familySector/foodCourtForChildren_v1.0.0.png",
+      "description": "On food courts, which are located at the stand C, we offer children’s menu. It was made special for our little fans.  <br/> <br/>Children under 7 years old (inclusive) are able to visit the games for free (without separate seat taken), accompanied by their parents."
+    }
+  ]
+}

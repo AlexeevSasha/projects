@@ -1,0 +1,1475 @@
+{
+  "/": {
+    "h1": {
+      "Ru": "Футбольный клуб «Спартак-Москва»",
+      "En": "Spartak Moscow Football Club"
+    },
+    "titleName": {
+      "Ru": "Футбольный клуб «Спартак-Москва» - официальный сайт",
+      "En": "Spartak Moscow Football Club - the official website"
+    },
+    "titleOg": {
+      "Ru": "Футбольный клуб «Спартак-Москва» - официальный сайт",
+      "En": "Spartak Moscow Football Club - the official website"
+    },
+    "descriptionOg": {
+      "Ru": "Официальный сайт футбольного клуба «Спартак-Москва». Самый титулованный футбольный клуб России. Основан в 1922 году. Только актуальная информация клуба на сайте spartak.com.",
+      "En": "Official site of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Up-to-date club information."
+    }
+  },
+  "/404": {
+    "h1": {
+      "Ru": "Извините, страница не найдена!",
+      "En": "Sorry! We couldn't find that page"
+    },
+    "titleName": {
+      "Ru": "Страница не найдена",
+      "En": "This page doesn’t exist | Spartak"
+    },
+    "titleOg": {
+      "Ru": "Страница не найдена",
+      "En": "This page doesn’t exist | Spartak"
+    },
+    "descriptionOg": {
+      "Ru": "Извините, искомая страница не найдена!",
+      "En": "Sorry, the page you requested does not exist. Try searching for something else. "
+    }
+  },
+  "/500": {
+    "h1": {
+      "Ru": "Возникла внутренняя ошибка сервера. Попробуйте обновить страницу",
+      "En": "500 Internal Server Error. Try to reload the page"
+    },
+    "titleName": {
+      "Ru": "Внутренняя ошибка сервера",
+      "En": "500 Internal Server Error"
+    },
+    "titleOg": {
+      "Ru": "Внутренняя ошибка сервера",
+      "En": "500 Internal Server Error"
+    },
+    "descriptionOg": {
+      "Ru": "Сервер вернул ошибку 500. Попробуйте обновить страницу или очистите кэш и cookies браузера.",
+      "En": "500 Internal Server Error. Try to reload the page or clear your browser's cache and cookies."
+    }
+  },
+  "/club/contacts": {
+    "h1": {
+      "Ru": "Контакты",
+      "En": "Contacts"
+    },
+    "titleName": {
+      "Ru": "Контакты | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Contacts | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Контакты | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Contacts | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Контакты футбольного клуба «Спартак-Москва»: г. Москва, Волоколамское ш., д. 69, стр. 2. Контакт-центр клуба: (495) 111-19-22. Билетный отдел\ntickets@spartak.com. Фан-клуб fancard@spartak.com.",
+      "En": "Contacts. Football club Spartak, 125424, Moscow, Volokolamskoe schosse, 69, bld 2. Club’s reception department\nPhone number: (495) 530-95-08. Booking department tickets@spartak.com. Fan club fancard@spartak.com."
+    }
+  },
+  "/club/history": {
+    "h1": {
+      "Ru": "История футбольного клуба «Спартак-Москва»",
+      "En": "History of Spartak Moscow Football Club"
+    },
+    "titleName": {
+      "Ru": "История футбольного клуба «Спартак-Москва» на официальном сайте",
+      "En": "The history of Spartak Moscow Football Club - read on the official website"
+    },
+    "titleOg": {
+      "Ru": "История футбольного клуба «Спартак-Москва» на официальном сайте",
+      "En": "The history of Spartak Moscow Football Club - read on the official website"
+    },
+    "descriptionOg": {
+      "Ru": "История футбольного клуба «Спартак-Москва» на официальном сайте spartak.com. ФК основан в 1922 году. Читайте историческую справку со времен основания самой титулованной команды по футболу. Изменения эмблемы с 1935 по 2021 гг..",
+      "En": "History of Spartak Moscow Football Club. The most titled football team was founded in 1922. Emblem changes from 1935 to 2021. Read more on the official website spartak.com. "
+    }
+  },
+  "/club/leaders": {
+    "h1": {
+      "Ru": "Руководство футбольного клуба «Спартак-Москва»",
+      "En": "Leaders of Spartak Moscow Football Club"
+    },
+    "titleName": {
+      "Ru": "Руководство | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Leaders | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Руководство | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Leaders | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Руководство футбольного клуба «Спартак-Москва». Официальный сайт. Самый титулованный футбольный клуб России. Основан в 1922 году. Только актуальная информация клуба.",
+      "En": "Leaders of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Official site with up-to-date club information."
+    }
+  },
+  "/club/partners": {
+    "h1": {
+      "Ru": "Партнеры футбольного клуба «Спартак-Москва»",
+      "En": "Partners of Spartak Moscow Football Club"
+    },
+    "titleName": {
+      "Ru": "Партнеры | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Partners | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Партнеры | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Partners | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Партнеры футбольного клуба «Спартак-Москва». Официальный сайт. Самый титулованный футбольный клуб России. Основан в 1922 году. Только актуальная информация клуба.",
+      "En": "Partners of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Official site with up-to-date club information."
+    }
+  },
+  "/club/results": {
+    "h1": {
+      "Ru": "Итоги сезонов футбольного клуба «Спартак-Москва»",
+      "En": "Results of football club seasons"
+    },
+    "titleName": {
+      "Ru": "Итоги сезонов ФК «Спартак-Москва» | Официальный сайт футбольного клуба Spartak",
+      "En": "Results of seasons | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Итоги сезонов ФК «Спартак-Москва» | Официальный сайт футбольного клуба Spartak",
+      "En": "Results of seasons | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Итоги сезонов футбольного клуба «Спартак-Москва» с 1990 года. Официальный сайт. Самый титулованный футбольный клуб России. Основан в 1922 году. Только актуальная информация клуба.",
+      "En": "Results of seasons since 1992. Official site of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Up-to-date club information."
+    }
+  },
+  "/matches/forthcoming": {
+    "h1": {
+      "Ru": "Предстоящие матчи футбольного клуба «Спартак-Москва»",
+      "En": "Upcoming matches of Spartak Moscow Football Club"
+    },
+    "titleName": {
+      "Ru": "Расписание предстоящих матчей ФК «Спартак-Москва» | Календарь на официальном сайте футбольного клуба Spartak",
+      "En": "Upcoming matches | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Расписание предстоящих матчей ФК «Спартак-Москва» | Календарь на официальном сайте футбольного клуба Spartak",
+      "En": "Upcoming matches | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Предстоящие матчи футбольного клуба «Спартак-Москва». Календарь запланированных матчей. Самый титулованный футбольный клуб России. Основан в 1922 году. Официальный сайт с актуальной информация клуба.",
+      "En": "Upcoming matches of Spartak Moscow Football Club. Calendar of future matches. The most titled football club in Russia. Founded in 1922. Official site with up-to-date club information."
+    }
+  },
+  "/matches/past": {
+    "h1": {
+      "Ru": "Прошедшие матчи футбольного клуба «Спартак-Москва»",
+      "En": "Completed matches of Spartak Moscow Football Club"
+    },
+    "titleName": {
+      "Ru": "Результаты прошедших матчей ФК «Спартак-Москва» | Официальный сайт футбольного клуба Spartak",
+      "En": "Completed matches | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Результаты прошедших матчей ФК «Спартак-Москва» | Официальный сайт футбольного клуба Spartak",
+      "En": "Completed matches | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Прошедшие матчи футбольного клуба «Спартак-Москва». Календарь с результатами прошедших матчей московского Спартака: в Премьер Лиге, Лиге Европы и др. Вся актуальная информация на официальном сайте Spartak.com.",
+      "En": "Completed matches of Spartak Moscow Football Club. Calendar with the results of past matches. The most titled football club in Russia. Founded in 1922. Official site with up-to-date club information."
+    }
+  },
+  "/matches/standings": {
+    "h1": {
+      "Ru": "Турнирная таблица",
+      "En": "Football league table"
+    },
+    "titleName": {
+      "Ru": "Турнирная таблица ФК «Спартак-Москва» на официальном сайте футбольного клуба",
+      "En": "Football league table | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Турнирная таблица ФК «Спартак-Москва» на официальном сайте футбольного клуба",
+      "En": "Football league table | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Турнирная таблица футбольного клуба «Спартак-Москва»  2021-2022 и предыдущие сезоны. Официальный сайт spartak.com. Только актуальная информация клуба.",
+      "En": "Football league table. Official site of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Up-to-date club information."
+    }
+  },
+  "/matches/[id]/broadcast": {
+    "h1": {
+      "Ru": "Матч {Команда 1} - {Команда 2} {Дата}: Трансляция",
+      "En": "{Team 1} - {Team 2} {Date}: Broadcast"
+    },
+    "titleName": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: смотреть онлайн трансляцию матча бесплатно | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: watch the game live for free | Spartak FC"
+    },
+    "titleOg": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: смотреть онлайн трансляцию матча бесплатно | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: watch the game live for free | Spartak FC"
+    },
+    "descriptionOg": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}. Бесплатная онлайн трансляция матча. Голы, новости, статистика, стартовые составы, прямой эфир. Смотрите на официальном сайте футбольного клуба Спартак - spartak.com.",
+      "En": "{Team 1} - {Team 2} {Date}. Free online match broadcast. Goals, news, statistics, starting lineups, live broadcast. Watch on the official website of Spartak Moscow Football Club - spartak.com.. "
+    }
+  },
+  "/matches/[id]/compositions": {
+    "h1": {
+      "Ru": "Матч {Команда 1} - {Команда 2} {Дата}: Cостав команд",
+      "En": "{Team 1} - {Team 2} {Date}: Starting team lineups"
+    },
+    "titleName": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: стартовые составы команд | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: Starting lines for the match | Spartak FC"
+    },
+    "titleOg": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: стартовые составы команд | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: Starting lines for the match | Spartak FC"
+    },
+    "descriptionOg": {
+      "Ru": "Стартовые составы команд на матч: {Команда 1} - {Команда 2} {Дата}. Смотрите список основного состава, запасных игроков и судей на официальном сайте футбольного клуба «Спартак-Москва».",
+      "En": "Starting lines for the match {Team 1} - {Team 2} {Date}. See the list of the main team, substitute players and referees on the official website of the Spartak Moscow Football Club. "
+    }
+  },
+  "/matches/[id]/gallery": {
+    "h1": {
+      "Ru": "Матч {Команда 1} - {Команда 2} {Дата}: Галерея",
+      "En": "{Team 1} - {Team 2} {Date}: Gallery"
+    },
+    "titleName": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: Галерея | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: Gallery | Spartak FC"
+    },
+    "titleOg": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: Галерея | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: Gallery | Spartak FC"
+    },
+    "descriptionOg": {
+      "Ru": "Галерея матча: {Команда 1} - {Команда 2} {Дата}. Фото волнующие моментов и самые яркие кадры с матча между командами смотрите на официальном сайте футбольного клуба «Спартак-Москва». ",
+      "En": "Photo gallery: {Team 1} - {Team 2} {Date}. Football game photos. Goals, news, statistics, starting lineups, live broadcast. Watch on the official website of Spartak Moscow Football Club. "
+    }
+  },
+  "/matches/[id]/news": {
+    "h1": {
+      "Ru": "Матч {Команда 1} - {Команда 2} {Дата}: Новости",
+      "En": "{Team 1} - {Team 2} {Date}: News"
+    },
+    "titleName": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: новости матча | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: latest match news | Spartak FC"
+    },
+    "titleOg": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: новости матча | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: latest match news | Spartak FC"
+    },
+    "descriptionOg": {
+      "Ru": "Новости матча: {Команда 1} - {Команда 2} {Дата}. Самые актуальные известия о событиях матча между командами на официальном сайте футбольного клуба «Спартак-Москва».",
+      "En": "Latest match news: {Team 1} - {Team 2} {Date}. The latest news of the match between the teams on the official website of the Spartak Moscow Football Club."
+    }
+  },
+  "/matches/[id]/statistic": {
+    "h1": {
+      "Ru": "Матч {Команда 1} - {Команда 2} {Дата}: Статистика",
+      "En": "{Team 1} - {Team 2} {Date}: match statistics"
+    },
+    "titleName": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: статистика матча | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: match statistics | Spartak FC"
+    },
+    "titleOg": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: статистика матча | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: match statistics | Spartak FC"
+    },
+    "descriptionOg": {
+      "Ru": "Статистика матча: {Команда 1} - {Команда 2} {Дата}. Бесплатная онлайн трансляция матча. Голы, новости, статистика, стартовые составы, прямой эфир. Смотрите на официальном сайте футбольного клуба Спартак. ",
+      "En": "Match statistics {Team 1} - {Team 2} {Date}. Free online match broadcast. Goals, news, statistics, starting lineups, live broadcast. Watch on the official website of Spartak Moscow Football Club. "
+    }
+  },
+  "/matches/[id]/videos": {
+    "h1": {
+      "Ru": "Матч {Команда 1} - {Команда 2} {Дата}: Видео",
+      "En": "{Team 1} - {Team 2} {Date}: Video"
+    },
+    "titleName": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: видео с матча | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: video of the match | Spartak FC"
+    },
+    "titleOg": {
+      "Ru": "{Команда 1} - {Команда 2} {Дата}: видео с матча | ФК Спартак",
+      "En": "{Team 1} - {Team 2} {Date}: video of the match | Spartak FC"
+    },
+    "descriptionOg": {
+      "Ru": "Видео с футбольного матча: {Команда 1} - {Команда 2} {Дата}. Смотрите видео самых ярких моментов матча с участием любимых футболистов на официальном сайте футбольного клуба  «Спартак-Москва». ",
+      "En": "Video of the match {Team 1} - {Team 2} {Date}. Watch the video of the highlights of the match with your favorite players on the official website of the Spartak Moscow Football Club. "
+    }
+  },
+  "/media/gallery": {
+    "h1": {
+      "Ru": "Галерея",
+      "En": "Gallery"
+    },
+    "titleName": {
+      "Ru": "Галерея | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Gallery | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Галерея | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Gallery | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Галерея футбольного клуба «Спартак-Москва». Фото с прошедших событий на официальном сайте ФК. Только актуальная информация клуба.",
+      "En": "Football Club Gallery. Official site of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Up-to-date club information."
+    }
+  },
+  "/media/gallery/[id]": {
+    "h1": {
+      "Ru": "{Название события}",
+      "En": "{Event}"
+    },
+    "titleName": {
+      "Ru": "{Название события}: галерея ФК «Спартак-Москва»",
+      "En": "{Event}: Gallery | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "{Название события}: галерея ФК «Спартак-Москва»",
+      "En": "{Event}: Gallery | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "{Название события} - фотографии. Смотрите фото в галерее на официальном сайте футбольного клуба «Спартак-Москва». Уникальные кадры с участием любимых футболистов!",
+      "En": "{Event} - photos. Watch in the Football Club Gallery. Official site of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Up-to-date club information."
+    }
+  },
+  "/media/news": {
+    "h1": {
+      "Ru": "Новости",
+      "En": "News"
+    },
+    "titleName": {
+      "Ru": "Свежие новости ФК «Спартак-Москва» на официальном сайте - последние известия на сегодня",
+      "En": "Latest news of FC \"Spartak-Moscow\" on the official website - latest news for today"
+    },
+    "titleOg": {
+      "Ru": "Свежие новости ФК «Спартак-Москва» на официальном сайте - последние известия на сегодня",
+      "En": "Latest news of FC \"Spartak-Moscow\" on the official website - latest news for today"
+    },
+    "descriptionOg": {
+      "Ru": "Последние новости футбольного клуба «Спартак-Москва» на официальном сайте spartak.com. Самая актуальная информация о событиях в мире футбола.",
+      "En": "The latest news of the  Spartak Moscow Football Club on the official website spartak.com. The most up-to-date information about the events in the world of football."
+    }
+  },
+  "/media/news/[id]": {
+    "h1": {
+      "Ru": "{Название новости}",
+      "En": "{News headline}"
+    },
+    "titleName": {
+      "Ru": "{Название новости} | Новости ФК «Спартак-Москва»",
+      "En": "{News headline} | Spartak Moscow Football Club news"
+    },
+    "titleOg": {
+      "Ru": "{Название новости} | Новости ФК «Спартак-Москва»",
+      "En": "{News headline} | Spartak Moscow Football Club news"
+    },
+    "descriptionOg": {
+      "Ru": "{Название новости} - новости футбольного клуба «Спартак-Москва». Читайте на официальном сайте ФК spartak.com. Только актуальная информация клуба.",
+      "En": "{News headline} - latest football club news. Read on the official site of Spartak Moscow Football Club. Up-to-date club information."
+    }
+  },
+  "/media/videos": {
+    "h1": {
+      "Ru": "Видео",
+      "En": "Videos"
+    },
+    "titleName": {
+      "Ru": "Видео | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Videos | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Видео | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Videos | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Видео футбольного клуба «Спартак-Москва». Смотрите на официальном сайте ФК. Только актуальная информация клуба.",
+      "En": "Videos. Watch on the official site of Spartak Moscow Football Club. The most titled football club in Russia. Founded in 1922. Up-to-date club information."
+    }
+  },
+  "/media/videos/[id]": {
+    "h1": {
+      "Ru": "{Название видео}",
+      "En": "{Video}"
+    },
+    "titleName": {
+      "Ru": "{Название видео} | Видео ФК «Спартак-Москва»",
+      "En": "{Video} - watch the video on Spartak Moscow FC official website"
+    },
+    "titleOg": {
+      "Ru": "{Название видео} | Видео ФК «Спартак-Москва»",
+      "En": "{Video} - watch the video on Spartak Moscow FC official website"
+    },
+    "descriptionOg": {
+      "Ru": "{Название видео} - видео футбольного клуба «Спартак-Москва». Смотрите на официальном сайте ФК - spartak.com. Только актуальная информация клуба.",
+      "En": "{Video} - watch the video on the official site of Spartak Moscow Football Club. Up-to-date club information."
+    }
+  },
+  "/tickets/matches": {
+    "h1": {
+      "Ru": "Билеты на матчи ФК «Спартак»",
+      "En": "Tickets for FC «Spartak» matches"
+    },
+    "titleName": {
+      "Ru": "Билеты на матчи ФК «Спартак» - купить онлайн | Официальный сайт футбольного клуба",
+      "En": "Buy tickets for FC Spartak matches | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Билеты на матчи ФК «Спартак» - купить онлайн | Официальный сайт футбольного клуба",
+      "En": "Buy tickets for FC Spartak matches | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Купите билеты на матчи ФК «Спартак» без комиссии на официальном сайте футбольного клуба «Спартак-Москва».  Афиша ближайших матчей. ",
+      "En": "Buy tickets for FC \"Spartak\" matches without commission on the official website of FC \"Spartak-Moscow\".  Schedule of upcoming matches. "
+    }
+  },
+  "/tickets/abonements": {
+    "h1": {
+      "Ru": "Футбольные абонементы",
+      "En": "Ticket Programs"
+    },
+    "titleName": {
+      "Ru": "Абонементы на футбол ФК «Спартак» купить на официальном сайте клуба",
+      "En": "Ticket Programs | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Абонементы на футбол ФК «Спартак» купить на официальном сайте клуба",
+      "En": "Ticket Programs | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Абонементная программа для болельщиков ФК «Спартак». Приобретайте абонементы на матчи любимой команды на официальном сайте футбольного клуба. Ждем вас на арене!",
+      "En": "The season card program for FC Spartak fans. Purchase season tickets for the matches of your favorite team on the official website. We look forward to seeing you at the arena!"
+    }
+  },
+  "/tickets/excursions": {
+    "h1": {
+      "Ru": "Экскурсии",
+      "En": "Excursions"
+    },
+    "titleName": {
+      "Ru": "Экскурсия на стадион ФК «Спартак» - «Открытие Банк Арена» - купить билет",
+      "En": "Tour of the FC Spartak Stadium - Otkritie Bank Arena - buy ticket"
+    },
+    "titleOg": {
+      "Ru": "Экскурсия на стадион ФК «Спартак» - «Открытие Банк Арена» - купить билет",
+      "En": "Tour of the FC Spartak Stadium - Otkritie Bank Arena - buy ticket"
+    },
+    "descriptionOg": {
+      "Ru": "Экскурсионные туры на стадион ФК «Спартак» - «Открытие Банк Арена». Узнайте больше о футбольном клубе в музее «Зал славы «Спартака»! Даты проведения экскурсий на сайте. Ждем вас!",
+      "En": "Excursion tours to FC Spartak stadium - Otkritie Bank Arena. Learn more about the Football Club at the Spartak Hall of Fame museum! Tour dates on the website. We look forward to seeing you!"
+    }
+  },
+  "/tickets/info": {
+    "h1": {
+      "Ru": "Информация",
+      "En": "Information"
+    },
+    "titleName": {
+      "Ru": "Информация | Билеты на матчи ФК «Спартак»",
+      "En": "Information | FC Spartak Moscow Match Tickets"
+    },
+    "titleOg": {
+      "Ru": "Информация | Билеты на матчи ФК «Спартак»",
+      "En": "Information | FC Spartak Moscow Match Tickets"
+    },
+    "descriptionOg": {
+      "Ru": "Информация о билетах на матчи ФК «Спартак» на официальном сайте футбольного клуба.",
+      "En": "Full information about FC Spartak Moscow match tickets on the club's official website."
+    }
+  },
+  "/tickets/invalidPlaces": {
+    "h1": {
+      "Ru": "Места для МГН",
+      "En": "Places for People with Limited Mobility"
+    },
+    "titleName": {
+      "Ru": "Места для маломобильных групп населения | Билеты на матчи ФК «Спартак»",
+      "En": "Places for People with Limited Mobility | FC Spartak Tickets"
+    },
+    "titleOg": {
+      "Ru": "Места для маломобильных групп населения | Билеты на матчи ФК «Спартак»",
+      "En": "Places for People with Limited Mobility | FC Spartak Tickets"
+    },
+    "descriptionOg": {
+      "Ru": "На стадионе «Открытие Банк Арена» предусмотрен специальный сектор для блельщиков с ограниченными возможностями. Болей за любимую команду - ФК «Спартак»!",
+      "En": "Otkritie Bank Arena stadium has been designed to provide access for all football fans. There are places available for people with limited mobility. Support your favourite team FC Spartak Moscow!"
+    }
+  },
+  "/tickets/familySector": {
+    "h1": {
+      "Ru": "Семейный сектор",
+      "En": "Family Enclosure"
+    },
+    "titleName": {
+      "Ru": "Семейный сектор | Билеты на матчи ФК «Спартак»",
+      "En": "Family Enclosure | FC Spartak Moscow Match Tickets"
+    },
+    "titleOg": {
+      "Ru": "Семейный сектор | Билеты на матчи ФК «Спартак»",
+      "En": "Family Enclosure | FC Spartak Moscow Match Tickets"
+    },
+    "descriptionOg": {
+      "Ru": "На стадионе «Открытие Банк Арена» предусмотрен семейный сектор C для блельщиков с детьми. Есть места для хранения колясок и фуд-корт. Болей за любимую команду всей семьей - ФК «Спартак»!",
+      "En": "There are seats in a family enclosure in Otkritie Bank Arena. There are a stroller parking spot and a food court. Support FC Spartak Moscow all together as a family!"
+    }
+  },
+  "/tickets/partners": {
+    "h1": {
+      "Ru": "Официальные партнеры по продаже билетов",
+      "En": "Official Sellers"
+    },
+    "titleName": {
+      "Ru": "Официальные партнеры по продаже билетов на матчи ФК «Спартак»",
+      "En": "Sellers Authorised to Sell Official FC Spartak Tickets"
+    },
+    "titleOg": {
+      "Ru": "Официальные партнеры по продаже билетов на матчи ФК «Спартак»",
+      "En": "Sellers Authorised to Sell Official FC Spartak Tickets"
+    },
+    "descriptionOg": {
+      "Ru": "Информация об официальных партнерах ФК «Спартак» по продаже билетов. Покупайте билеты выгодно и поддерживайте любимую футбольную команду!",
+      "En": "Information about the official ticket selling partners of FC Spartak Moscow. Buy tickets on sale and enjoy all the benefits of supporting your favourite team!"
+    }
+  },
+  "/tickets/rules": {
+    "h1": {
+      "Ru": "Правила приобретения и использования билетов и абонементов\nи поведения зрителей на матчах Футбольного клуба «Спартак-Москва»",
+      "En": "Rules for the purchase and use of tickets and subscriptions\nand behavior of spectators at the matches of the Football Club \"Spartak-Moscow\""
+    },
+    "titleName": {
+      "Ru": "Правила билетной системы | ФК «Спартак»",
+      "En": "Ticket Policy | FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Правила билетной системы | ФК «Спартак»",
+      "En": "Ticket Policy | FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Ознакомьтесь с правилами билетной системы ФК «Спартак». Покупайте билеты выгодно и поддерживайте любимую футбольную команду!",
+      "En": "Find out more about FC Spartak Moscow ticket policy. Get ticket discounts and support your favourite football club!"
+    }
+  },
+  "/tickets/premium": {
+    "h1": {
+      "Ru": "Премиум-зона",
+      "En": "VIP Area"
+    },
+    "titleName": {
+      "Ru": "Премиум зона | Билеты на матчи ФК «Спартак»",
+      "En": "VIP Area | FC Spartak Moscow Match Tickets"
+    },
+    "titleOg": {
+      "Ru": "Премиум зона | Билеты на матчи ФК «Спартак»",
+      "En": "VIP Area | FC Spartak Moscow Match Tickets"
+    },
+    "descriptionOg": {
+      "Ru": "Абонементы на западную трибуну с высоким уровнем сервиса. На стадионе «Открытие Банк Арена» представлены премиальные зоны гостеприимства. Поддерживайте любимую команду ФК «Спартак» с комфортом!",
+      "En": "Ticket programs for the premium-service West stand. There are premium hospitality areas in Otkritie Bank Arena. Support your favourite team FC Spartak with maximum comfort!"
+    }
+  },
+  "/academy/about": {
+    "h1": {
+      "Ru": "Академия «Спартак»",
+      "En": "Spartak Academy"
+    },
+    "titleName": {
+      "Ru": "Академия «Спартак» - информация об академии, как поступить | Официальный сайт ФК «Спартак-Москва»",
+      "En": "«Spartak» Academy - information about the Academy, how to enter the Academy | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Академия «Спартак» - информация об академии, как поступить | Официальный сайт ФК «Спартак-Москва»",
+      "En": "«Spartak» Academy - information about the Academy, how to enter the Academy | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Информация об Академии ФК «Спартак». Узнайте, как поступить в академию футбола московского Спартака. Наши выпускники, партнеры, команды и адреса. Официальный сайт футбольного клуба «Спартак-Москва».",
+      "En": "Information about the Academy «Spartak». Find out how to enter the Academy. Our graduates, partners, teams and addresses. Official site of Spartak Moscow Football Club. The most titled football club in Russia. Up-to-date club information."
+    }
+  },
+  "/academy/employee": {
+    "h1": {
+      "Ru": "Сотрудники",
+      "En": "Employees"
+    },
+    "titleName": {
+      "Ru": "Сотрудники",
+      "En": "Employees"
+    },
+    "titleOg": {
+      "Ru": "",
+      "En": ""
+    },
+    "descriptionOg": {
+      "Ru": "",
+      "En": ""
+    }
+  },
+  "/academy/employees/[id]": {
+    "h1": {
+      "Ru": "{Имя Фамилия}",
+      "En": "{Name Surname}"
+    },
+    "titleName": {
+      "Ru": "{Имя Фамилия} - сотрудник футбольной академии «Спартак» | Официальный сайт ФК",
+      "En": "{Name Surname} - employee of the Spartak Academy | Official site of FC Spartak"
+    },
+    "titleOg": {
+      "Ru": "{Имя Фамилия} - сотрудник футбольной академии «Спартак» | Официальный сайт ФК",
+      "En": "{Name Surname} - employee of the Spartak Academy | Official site of FC Spartak"
+    },
+    "descriptionOg": {
+      "Ru": "{Имя Фамилия} - сотрудник академии ФК «Спартак». Узнайте больше информации на официальном сайте футбольного клуба «Спартак-Москва».",
+      "En": "{Name Surname} - employee of the Spartak Academy. Find out more Information on the official site of FC Spartak Moscow."
+    }
+  },
+  "/academy/teams": {
+    "h1": {
+      "Ru": "Команды",
+      "En": "Teams"
+    },
+    "titleName": {
+      "Ru": "Футбольные команды Академии «Спартак» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Spartak Academy teams | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Футбольные команды Академии «Спартак» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Spartak Academy teams | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Футбольные команды Академии «Спартак». Только актуальная информация клуба на официальном сайте ФК spartak.com.",
+      "En": "Spartak Academy football teams. Only up-to-date information on the official website of Spartak Moscow Football Club spartak.com."
+    }
+  },
+  "/academy/teams/[id]": {
+    "h1": {
+      "Ru": "{Название команды}",
+      "En": "{Team}"
+    },
+    "titleName": {
+      "Ru": "{Название команды} | Официальный сайт Академии «Спартак»",
+      "En": "{Team} | The official website of the Spartak Academy"
+    },
+    "titleOg": {
+      "Ru": "{Название команды} | Официальный сайт Академии «Спартак»",
+      "En": "{Team} | The official website of the Spartak Academy"
+    },
+    "descriptionOg": {
+      "Ru": "{Название команды} - академия «Спартак». Состав команды: голкипер, защитники, полузащитники, тренерский штаб.",
+      "En": "{Team} - Spartak Academy. Team composition: goalkeeper, defenders, midfielders, coaches."
+    }
+  },
+  "/academy/media": {
+    "h1": {
+      "Ru": "Медиа",
+      "En": "Media"
+    },
+    "titleName": {
+      "Ru": "Медиа Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Spartak Academy media | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Медиа Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Spartak Academy media | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Академия ФК «Спартак»: Медиа Академии. Следите за новостями на официальном сайте футбольного клуба «Спартак-Москва».",
+      "En": "FC Spartak Academy: Media. Follow the news on the official website of FC Spartak-Moscow. The most titled football club in Russia."
+    }
+  },
+  "/academy/infrastructure": {
+    "h1": {
+      "Ru": "Инфраструктура",
+      "En": "Infrastructure"
+    },
+    "titleName": {
+      "Ru": "Академия «Спартак» - аренда футбольного поля, инфраструктура | Официальный сайт ФК «Спартак-Москва»",
+      "En": "«Spartak» Academy - football fields for rent, infrastructure | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Академия «Спартак» - аренда футбольного поля, инфраструктура | Официальный сайт ФК «Спартак-Москва»",
+      "En": "«Spartak» Academy - football fields for rent, infrastructure | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Инфраструктура Академии «Спартак»: 6 футбольных полей с искусственным покрытием и подогревом, вратарский городок, крытый манеж. Аренда поля для тренировки от 3600 руб.",
+      "En": "Infrastructure of the Spartak Academy: 6 football fields with artificial turf and heating, goalkeeper's town, indoor arena. Rent a football field for training!"
+    }
+  },
+  "/academy/enter": {
+    "h1": {
+      "Ru": "Как попасть в Академию",
+      "En": "How to get to the Academy"
+    },
+    "titleName": {
+      "Ru": "Как попасть в Академию «Спартак» | Официальный сайт футбольного клуба",
+      "En": "How to get to the Spartak Academy | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Как попасть в Академию «Спартак» | Официальный сайт футбольного клуба",
+      "En": "How to get to the Spartak Academy | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Узнайте, как попасть в Академию ФК «Спартак»: какие условия зачисления. Официальный сайт футбольного клуба «Спартак-Москва».",
+      "En": "Find out how to get to the Academy of FC \"Spartak\": what are the conditions of enrollment. Official site of Spartak Moscow Football Club."
+    }
+  },
+  "/academy/graduate": {
+    "h1": {
+      "Ru": "Наши выпускники",
+      "En": "Our graduates"
+    },
+    "titleName": {
+      "Ru": "Выпускники Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Spartak Academy graduates | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Выпускники Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Spartak Academy graduates | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Выпускники Академии «Спартак»: в системе клуба, в Российской Премьер-Лиге, в ФНЛ и за рубежом. Официальный сайт футбольного клуба «Спартак-Москва».",
+      "En": "Spartak Academy graduates: in the club's system, in the Russian Premier League, in the FNL and abroad. Official site of Spartak Moscow Football Club."
+    }
+  },
+  "/academy/contacts": {
+    "h1": {
+      "Ru": "Контакты",
+      "En": "Contacts"
+    },
+    "titleName": {
+      "Ru": "Контакты Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Contacts of Spartak Academy | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Контакты Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Contacts of Spartak Academy | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Контакты Академии «Спартак»: 107014, Москва, Малый Олений переулок, д. 23 стр. 5. Телефон: 8-499-268-88-77; E-mail school@spartak.com.",
+      "En": "Spartak Academy contacts: 23, Maliy Oleniy pereulok, Moscow, 107014, Russia. 5. Phone: 8-499-268-88-77; E-mail school@spartak.com."
+    }
+  },
+
+  "/academy/partners": {
+    "h1": {
+      "Ru": "Партнеры Академии",
+      "En": "Academy partners"
+    },
+    "titleName": {
+      "Ru": "Партнерская сеть Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Academy partner network"
+    },
+    "titleOg": {
+      "Ru": "Партнерская сеть Академии «Спартак» | Официальный сайт футбольного клуба",
+      "En": "Academy partner network"
+    },
+    "descriptionOg": {
+      "Ru": "Узнайте о партнерах Академии «Спартак» и пользуйтесь привилегиями, которые они предоставляют. Официальный сайт футбольного клуба «Спартак-Москва».",
+      "En": "Learn about partners of the Spartak Academy and take advantage of the privileges they offer. Official site of Spartak Moscow Football Club."
+    }
+  },
+  "/coaches/[id]": {
+    "h1": {
+      "Ru": "{Имя} {Фамилия}",
+      "En": "{Name} {Surname}"
+    },
+    "titleName": {
+      "Ru": "{Имя} {Фамилия} - тренер футбольного клуба «Спартак» | Официальный сайт ФК",
+      "En": "{Name} {Surname} - coach of Spartak Football Club | Official site of FC Spartak"
+    },
+    "titleOg": {
+      "Ru": "{Имя} {Фамилия} - тренер футбольного клуба «Спартак» | Официальный сайт ФК",
+      "En": "{Name} {Surname} - coach of Spartak Football Club | Official site of FC Spartak"
+    },
+    "descriptionOg": {
+      "Ru": "{Имя} {Фамилия} - тренер ФК «Спартак». Узнайте больше информации на официальном сайте футбольного клуба «Спартак-Москва».",
+      "En": "{Name} {Surname} - coach of Spartak Football Club. Find out more Information on the official site of FC Spartak Moscow."
+    }
+  },
+  "/more/sokolniki/aboutFields": {
+    "h1": {
+      "Ru": "Аренда футбольных полей",
+      "En": "Rental of football fields"
+    },
+    "titleName": {
+      "Ru": "Аренда футбольного поля в Москве - открытые и закрытые поля для футбола у метро Сокольники, цены",
+      "En": "Rent a football field in Moscow - open and indoor fields at the metro Sokolniki, prices"
+    },
+    "titleOg": {
+      "Ru": "Аренда футбольного поля в Москве - открытые и закрытые поля для футбола у метро Сокольники, цены",
+      "En": "Rent a football field in Moscow - open and indoor fields at the metro Sokolniki, prices"
+    },
+    "descriptionOg": {
+      "Ru": "Арендуйте футбольное поле в Москве у метро Сокольники. Закрытые и открытые футбольные поля. Бронируйте на сайте футбольного клуба «Спартак-Москва» spartak.com.",
+      "En": "Rent a football field in Moscow near the metro Sokolniki. Indoor and open football fields. Book on the website spartak.com."
+    }
+  },
+  "/more/sokolniki/contacts": {
+    "h1": {
+      "Ru": "Контакты для аренды",
+      "En": "Contacts for renting"
+    },
+    "titleName": {
+      "Ru": "Контакты для аренды полей | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Contacts for field rental | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Контакты для аренды полей | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Contacts for field rental | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Контакты для связи по аренде футбольных полей. Официальный сайт футбольного клуба «Спартак-Москва». Только актуальная информация клуба.",
+      "En": "Contact details for the football field rental. Official site of Spartak Moscow Football Club. Up-to-date club information."
+    }
+  },
+  "/more/sokolniki/howMove": {
+    "h1": {
+      "Ru": "Как добраться",
+      "En": "How to get there"
+    },
+    "titleName": {
+      "Ru": "Как добраться до футбольных полей в Сокольниках | Официальный сайт ФК «Спартак-Москва»",
+      "En": "How to get to football fields in Sokolniki | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Как добраться до футбольных полей в Сокольниках | Официальный сайт ФК «Спартак-Москва»",
+      "En": "How to get to football fields in Sokolniki | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Как добраться до футбольных полей в Сокольниках. Официальный сайт футбольного клуба «Спартак-Москва». Только актуальная информация клуба.",
+      "En": "How to get to football fields in Sokolniki. Official site of Spartak Moscow Football Club. Up-to-date club information."
+    }
+  },
+  "/more/sokolniki/select": {
+    "h1": {
+      "Ru": "Выбрать футбольное поле",
+      "En": "Choose a football fields"
+    },
+    "titleName": {
+      "Ru": "Выбрать футбольное поле для аренды | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Choose a football field for rent | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Выбрать футбольное поле для аренды | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Choose a football field for rent | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Выберете футбольное поле в аренду в Москве у метро Сокольники. Закрытые и открытые футбольные поля размером от 70х80 м и более. С парковкой, раздевалками, душевыми и вместительными трибунами. ",
+      "En": "Choose a football field for rent in Moscow near the metro Sokolniki. Indoor and open football fields with parking, changing rooms, showers and spacious stands."
+    }
+  },
+  "/more/kids/spartakKids": {
+    "h1": {
+      "Ru": "Детский клуб «Spartak Kids»",
+      "En": "Spartak Kids"
+    },
+    "titleName": {
+      "Ru": "Детский клуб «Spartak Kids» для юных болельщиков ФК «Спартак-Москва»",
+      "En": "Spartak Kids club for young fans of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Детский клуб «Spartak Kids» для юных болельщиков ФК «Спартак-Москва»",
+      "En": "Spartak Kids club for young fans of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Детский клуб «Spartak Kids» - специальная программа лояльности для детей от 0 до 14 лет. Приобретайте приветственный набор с членской картой и эксклюзивной атрибутикой, и пользуйтесь привилегиями ФК «Спартак-Москва» и партнеров Клуба.",
+      "En": "Spartak Kids Club is a special loyalty program for children from 0 to 14 years old. Enjoy the privileges of FC \"Spartak-Moscow\" and the Club's partners."
+    }
+  },
+  "/more/kids/rules": {
+    "h1": {
+      "Ru": "Правила «Spartak Kids»",
+      "En": "Spartak Kids Club rules"
+    },
+    "titleName": {
+      "Ru": "Правила детского клуба «Spartak Kids» от ФК «Спартак-Москва»",
+      "En": "Spartak Kids Club rules of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Правила детского клуба «Spartak Kids» от ФК «Спартак-Москва»",
+      "En": "Spartak Kids Club rules of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Ознакомьтесь с правилами детского клуба «Spartak Kids» от ФК «Спартак-Москва». Приобретайте приветственный набор с членской картой и эксклюзивной атрибутикой, и пользуйтесь привилегиями ФК «Спартак-Москва» и партнеров Клуба.",
+      "En": "Read the rules of the children's club \"Spartak Kids\" from FC \"Spartak-Moscow\". Enjoy the privileges of FC \"Spartak-Moscow\" and the Club's partners."
+    }
+  },
+  "/more/kids/comics": {
+    "h1": {
+      "Ru": "Комиксы «Spartak Kid»",
+      "En": "Comics Spartak Kid"
+    },
+    "titleName": {
+      "Ru": "Комиксы «Spartak Kid» - специальное издание для юных болельщиков ФК «Спартак-Москва»",
+      "En": "Spartak Kid comics - a special edition for young fans of FC Spartak-Moscow"
+    },
+    "titleOg": {
+      "Ru": "Комиксы «Spartak Kid» - специальное издание для юных болельщиков ФК «Спартак-Москва»",
+      "En": "Spartak Kid comics - a special edition for young fans of FC Spartak-Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Читайте комиксы «Spartak Kid» на официальном сайте Клуба! В специальном детском издании ФК «Спартак-Москва» захватывающие приключения для юных болельщиков.",
+      "En": "Read \"Spartak Kid\" comics on the Club's official website! A special children's edition of FC Spartak-Moscow has exciting adventures for young fans."
+    }
+  },
+  "/more/loyalty/main": {
+    "h1": {
+      "Ru": "Программа лояльности",
+      "En": "Loyalty Program"
+    },
+    "titleName": {
+      "Ru": "Программа лояльности ФК «Спартак-Москва» | Официальный сайт футбольного клуба",
+      "En": "Loyalty Program of FC Spartak-Moscow | Official site of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Программа лояльности ФК «Спартак-Москва» | Официальный сайт футбольного клуба",
+      "En": "Loyalty Program of FC Spartak-Moscow | Official site of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Программа лояльности ФК «Спартак-Москва»: копите внутреннюю валюту Денарии и используйте их при покупке абонементов, билетов, товаров из магазинов и уникальных лотов. ",
+      "En": "FC \"Spartak-Moscow\" loyalty program: accumulate internal currency Denarii and use them when buying season tickets, tickets, goods from stores and unique lots. "
+    }
+  },
+  "/more/loyalty/rules": {
+    "h1": {
+      "Ru": "Правила программы лояльности",
+      "En": "Loyalty Program"
+    },
+    "titleName": {
+      "Ru": "Правила программы лояльности ФК «Спартак-Москва» ",
+      "En": "Loyalty Program of FC Spartak-Moscow | Official site of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Правила программы лояльности ФК «Спартак-Москва» ",
+      "En": "Loyalty Program of FC Spartak-Moscow | Official site of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Правила программы лояльности ФК «Спартак-Москва». Копите внутреннюю валюту Денарии и используйте их при покупке абонементов, билетов, товаров из магазинов и уникальных лотов. \n",
+      "En": "FC \"Spartak-Moscow\" loyalty program: accumulate internal currency Denarii and use them when buying season tickets, tickets, goods from stores and unique lots. "
+    }
+  },
+  "/more/loyalty/card": {
+    "h1": {
+      "Ru": "Карта «Спартак»",
+      "En": "Card «Spartak»"
+    },
+    "titleName": {
+      "Ru": "Карта «Спартак» для болельщиков футбольного клуба | Официальный сайт",
+      "En": "Card «Spartak» for FC Spartak Moscow fans | Official site"
+    },
+    "titleOg": {
+      "Ru": "Карта «Спартак» для болельщиков футбольного клуба | Официальный сайт",
+      "En": "Card «Spartak» for FC Spartak Moscow fans | Official site"
+    },
+    "descriptionOg": {
+      "Ru": "Пользуйтесь картой «Спартак» и получайте бонусную клубную вылюту Денарии. Используйте Денарии при покупке абонементов, билетов, товаров из магазинов и уникальных лотов. ",
+      "En": "Use Spartak card and get bonus club's Denarii. Use Denarii when purchasing season tickets, tickets, merchandise from stores and unique items. "
+    }
+  },
+  "/more/subscriptions": {
+    "h1": {
+      "Ru": "Футбольные абонементы",
+      "En": "Ticket Programs"
+    },
+    "titleName": {
+      "Ru": "Абонементы | Футбольный клуб \"Спартак\"",
+      "En": "Ticket Programs | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Абонементы | Футбольный клуб \"Спартак\"",
+      "En": "Ticket Programs | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Абонементная программа. Сезон 2022/2023. Абонемент на 5 матчей. Официальный сайт ФК «Спартак»",
+      "En": "Ticket programs. Buy tickets for season 2022/23 or a 5-match pass. FC Spartak official website."
+    }
+  },
+  "/more/privacy": {
+    "h1": {
+      "Ru": "Политика конфиденциальности персональных данных",
+      "En": "Privacy policy"
+    },
+    "titleName": {
+      "Ru": "Политика конфиденциальности персональных данных | Официальный сайт ФК «Спартак»",
+      "En": "Privacy policy | FC Spartak Official Website"
+    },
+    "titleOg": {
+      "Ru": "Политика конфиденциальности персональных данных | Официальный сайт ФК «Спартак»",
+      "En": "Privacy policy | FC Spartak Official Website"
+    },
+    "descriptionOg": {
+      "Ru": "Политика конфиденциальности персональных данных | Официальный сайт ФК «Спартак»",
+      "En": "Privacy policy | FC Spartak Official Website"
+    }
+  },
+  "/more/loyalty/chairPlotting": {
+    "h1": {
+      "Ru": "Именная табличка",
+      "En": "Chair plotting"
+    },
+    "titleName": {
+      "Ru": "Именная табличка | Официальный сайт ФК «Спартак»",
+      "En": "Chair plotting | FC Spartak Official Website"
+    },
+    "titleOg": {
+      "Ru": "Именная табличка | Официальный сайт ФК «Спартак»",
+      "En": "Chair plotting | FC Spartak Official Website"
+    },
+    "descriptionOg": {
+      "Ru": "Именная табличка | Официальный сайт ФК «Спартак»",
+      "En": "Chair plotting | FC Spartak Official Website"
+    }
+  },
+  "/player/[id]": {
+    "h1": {
+      "Ru": "{Имя футболиста}",
+      "En": "{Player's name}"
+    },
+    "titleName": {
+      "Ru": "{Имя футболиста} - информация о футболисте | Официальный сайт ФК «Спартак-Москва»",
+      "En": "{Player's name} - player information | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "{Имя футболиста} - информация о футболисте | Официальный сайт ФК «Спартак-Москва»",
+      "En": "{Player's name} - player information | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "{Имя футболиста} - информация о футболисте на официальном сайте футбольного клуба «Спартак-Москва».",
+      "En": "{Player's name} - player information. Official site of Spartak Moscow Football Club. The most titled football club in Russia. Up-to-date club information."
+    }
+  },
+  "/profile": {
+    "h1": {
+      "Ru": "Мой профиль",
+      "En": "My profile"
+    },
+    "titleName": {
+      "Ru": "Мой профиль | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "My profile | Personal account on the website of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Мой профиль | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "My profile | Personal account on the website of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Профиль | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "My profile. Personal account on the website of FC Spartak Moscow."
+    }
+  },
+  "/profile/connections": {
+    "h1": {
+      "Ru": "",
+      "En": ""
+    },
+    "titleName": {
+      "Ru": "Связи",
+      "En": "Сonnection"
+    },
+    "titleOg": {
+      "Ru": "",
+      "En": ""
+    },
+    "descriptionOg": {
+      "Ru": "",
+      "En": ""
+    }
+  },
+  "/profile/denarii": {
+    "h1": {
+      "Ru": "Денарии",
+      "En": "Denarii"
+    },
+    "titleName": {
+      "Ru": "Денарии | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Denarii | Personal account on the website of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Денарии | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Denarii | Personal account on the website of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Денарии | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Denarii. Personal account on the website of FC Spartak Moscow."
+    }
+  },
+  "/profile/events": {
+    "h1": {
+      "Ru": "События",
+      "En": "Events"
+    },
+    "titleName": {
+      "Ru": "События | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Events | Personal account on the website of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "События | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Events | Personal account on the website of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "События | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Events. Personal account on the website of FC Spartak Moscow."
+    }
+  },
+  "/profile/matches": {
+    "h1": {
+      "Ru": "Матчи",
+      "En": "Matches"
+    },
+    "titleName": {
+      "Ru": "Матчи | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Matches | Personal account on the website of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Матчи | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Matches | Personal account on the website of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Матчи | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Matches. Personal account on the website of FC Spartak Moscow."
+    }
+  },
+  "/profile/personalData": {
+    "h1": {
+      "Ru": "Персональная информация",
+      "En": "Personal information"
+    },
+    "titleName": {
+      "Ru": "Персональная информация | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Personal information | Personal account on the website of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Персональная информация | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Personal information | Personal account on the website of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Персональная информация | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Personal information. Personal account on the website of FC Spartak Moscow."
+    }
+  },
+  "/profile/loyalty": {
+    "h1": {
+      "Ru": "",
+      "En": ""
+    },
+    "titleName": {
+      "Ru": "Акции Winline",
+      "En": "Winline Promotions"
+    },
+    "titleOg": {
+      "Ru": "",
+      "En": ""
+    },
+    "descriptionOg": {
+      "Ru": "",
+      "En": ""
+    }
+  },
+  "/profile/specialOffers": {
+    "h1": {
+      "Ru": "",
+      "En": ""
+    },
+    "titleName": {
+      "Ru": "Специальные предложения",
+      "En": "Special offers"
+    },
+    "titleOg": {
+      "Ru": "",
+      "En": ""
+    },
+    "descriptionOg": {
+      "Ru": "",
+      "En": ""
+    }
+  },
+  "/profile/socialNetworks": {
+    "h1": {
+      "Ru": "Социальные сети",
+      "En": "Social networks"
+    },
+    "titleName": {
+      "Ru": "Социальные сети | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Social networks | Personal account on the website of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Социальные сети | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Social networks | Personal account on the website of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Социальные сети | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Social networks. Personal account on the website of FC Spartak Moscow."
+    }
+  },
+  "/profile/tickets": {
+    "h1": {
+      "Ru": "Билеты",
+      "En": "Tickets"
+    },
+    "titleName": {
+      "Ru": "Билеты | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Tickets | Personal account on the website of FC Spartak Moscow"
+    },
+    "titleOg": {
+      "Ru": "Билеты | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Tickets | Personal account on the website of FC Spartak Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Билеты | Личный кабинет на сайте ФК «Спартак-Москва»",
+      "En": "Tickets. Personal account on the website of FC Spartak Moscow."
+    }
+  },
+  "/stadium/about": {
+    "h1": {
+      "Ru": "«Открытие Банк Арена»",
+      "En": "Otkritie Bank Arena"
+    },
+    "titleName": {
+      "Ru": "«Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "titleOg": {
+      "Ru": "«Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "«Открытие Банк Арена» - домашний стадион футбольного клуба «Спартак-Москва» вместимостью 45 360 зрителей. Принимал матчи Кубка конфедераций 2017 года и чемпионата мира 2018 года.",
+      "En": "«Otkritie Bank Arena» is the home stadium of the Spartak Moscow Football Club with a capacity of 45,360 spectators. It hosted the matches of the Confederations Cup 2017 and the 2018 World Cup."
+    }
+  },
+  "/stadium/contacts": {
+    "h1": {
+      "Ru": "«Открытие Банк Арена» - Контакты",
+      "En": "Otkritie Bank Arena - Contacts"
+    },
+    "titleName": {
+      "Ru": "Контакты - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Contacts - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "titleOg": {
+      "Ru": "Контакты - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Contacts - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Контакты «Открытие Банк Арена» - cтадионf футбольного клуба «Спартак-Москва». Москва, Волоколамское ш., 69, стр. 2, телефон: +7 495 530-95-01.",
+      "En": "Contacts of the Otkritie Bank Arena stadium - the stadium of the Spartak Moscow Football Club. Moscow, Volokolamskoe sh., 69, building 2, phone: +7 495 530-95-01."
+    }
+  },
+  "/stadium/howToGet": {
+    "h1": {
+      "Ru": "«Открытие Банк Арена» - Как добраться",
+      "En": "Otkritie Bank Arena - How to get to"
+    },
+    "titleName": {
+      "Ru": "Как добраться - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "How to get to - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "titleOg": {
+      "Ru": "Как добраться - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "How to get to - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Как добраться до стадиона «Открытие Банк Арена» на метро, личном автотранспорте, наземном городском транспорте, пригородных поездах. Схема проезда к стадиону футбольного клуба «Спартак-Москва» на карте.",
+      "En": "How to get to the Otkritie Bank Arena stadium by metro, private car, surface public transport, suburban trains. Driving directions to the stadium of the Spartak Moscow Football Club on the map."
+    }
+  },
+  "/stadium/services": {
+    "h1": {
+      "Ru": "Услуги",
+      "En": "Services"
+    },
+    "titleName": {
+      "Ru": "Стадион Спартак - аренда помещений и территории «Открытие Банк Арена» в Москве",
+      "En": "Rental service - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "titleOg": {
+      "Ru": "Стадион Спартак - аренда помещений и территории «Открытие Банк Арена» в Москве",
+      "En": "Rental service - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "descriptionOg": {
+      "Ru": "Сервисы и услуги аренды, доступные на территории стадиона «Открытие Банк Арена». Площадки для проведения мероприятий на открытом воздухе, фуд-корт, Спорт-бар, Зона ресторанов, VIP-Ложи на стадионе футбольного клуба «Спартак-Москва».",
+      "En": "Services and rentals available on the territory of the Otkritie Bank Arena stadium. Venues for outdoor events, food court, sports bar, restaurant area, Skyboxes at the stadium of the Spartak Moscow Football Club."
+    }
+  },
+  "/stadium/services/foodCourt": {
+    "h1": {
+      "Ru": "Фуд-корт",
+      "En": "Food Court"
+    },
+    "titleName": {
+      "Ru": "Забронировать фуд-корт на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Book a food court at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Забронировать фуд-корт на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Book a food court at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Аренда фудкорта или ресторана на территории «Открытие Банк Арена». Площадь 1000 м².  Вместимость - 1150 гостей. Проведите мероприятие на стадионе футбольного клуба «Спартак-Москва».",
+      "En": "Rent a food court or restaurant at Otkritie Bank Arena. Area 1000 m², Capacity - 1150 guests. Hold the event at the Spartak Moscow Football Club stadium."
+    }
+  },
+  "/stadium/services/childrenArea": {
+    "h1": {
+      "Ru": "Детская зона",
+      "En": "Children's area"
+    },
+    "titleName": {
+      "Ru": "Детская зона - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Children's area at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Детская зона - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Children's area at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Детская игровая зона на территории стадиона футбольного клуба «Спартак-Москва» - «Открытие Банк Арена». Детская комната на западной трибуне площадью 450 м²,  вмещает 30 гостей. Детский городок на восточной трибуне вмещает до 1000 детей.",
+      "En": "Book a children's area at Otkritie Bank Arena. Children's room on the western stand  accommodates 30 guests. The children's town on the eastern stand can accommodate up to 1,000 children."
+    }
+  },
+  "/stadium/services/conferenceHall": {
+    "h1": {
+      "Ru": "Конференц зал",
+      "En": "Conference hall"
+    },
+    "titleName": {
+      "Ru": "Аренда конференц зала на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Conference hall at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Аренда конференц зала на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Conference hall at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Аренда конференц зала на территории «Открытие Банк Арена». Современное многофункциональное пространство, необходимая аудио и видео-аппаратура. Проведите конференцию на стадионе футбольного клуба «Спартак-Москва»!",
+      "En": "Book a conference hall at Otkritie Bank Arena. Modern multifunctional space, the necessary audio and video equipment. Hold a conference at the Spartak Moscow Football Club stadium."
+    }
+  },
+  "/stadium/services/fameHall": {
+    "h1": {
+      "Ru": "Зал славы «Спартака»",
+      "En": "Spartak Hall of Fame"
+    },
+    "titleName": {
+      "Ru": "Купить тур в зал славы «Спартака» на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Buy tour to the Spartak Hall of Fame at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Купить тур в зал славы «Спартака» на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Buy tour to the Spartak Hall of Fame at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Купить тур в зал славы «Спартака» на территории «Открытие Банк Арена».  Посетите интерактивный музей на стадионе футбольного клуба «Спартак-Москва». Среди экспонатов трофеи клуба, газетные вырезки из прошлого, образцы формы и многое другое.",
+      "En": "Buy a tour to the Spartak Hall of Fame at Otkritie Bank Arena. Visit the interactive museum at the Spartak Moscow Football Club stadium. Among the exhibits are club trophies, newspaper clippings from the past, uniform samples and much more."
+    }
+  },
+  "/stadium/services/adjacentTerritory": {
+    "h1": {
+      "Ru": "Прилегающая территория",
+      "En": "Adjacent territory"
+    },
+    "titleName": {
+      "Ru": "Аренда прилегающей территории на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Rental of adjacent territory at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Аренда прилегающей территории на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Rental of adjacent territory at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "descriptionOg": {
+      "Ru": "Аренда прилегающей территории «Открытие Банк Арена». Проведите спортивное мероприятие, ярмарку, фестиваль, тест-драйв или праздник на стадионе футбольного клуба «Спартак-Москва».",
+      "En": "Rental of adjacent territory at Otkritie Bank Arena. Hold a sporting event, fair, festival, test drive or celebration at the Spartak Moscow Football Club stadium."
+    }
+  },
+  "/stadium/services/vip": {
+    "h1": {
+      "Ru": "VIP-Ложи",
+      "En": "Skyboxes"
+    },
+    "titleName": {
+      "Ru": "VIP-Ложи на стадионе футбольного клуба «Спартак-Москва» - «Открытие Банк Арена»",
+      "En": "Skyboxes at Otkritie Bank Arena - VIP boxes at FC Spartak-Moscow stadium"
+    },
+    "titleOg": {
+      "Ru": "VIP-Ложи на стадионе футбольного клуба «Спартак-Москва» - «Открытие Банк Арена»",
+      "En": "Skyboxes at Otkritie Bank Arena - VIP boxes at FC Spartak-Moscow stadium"
+    },
+    "descriptionOg": {
+      "Ru": "VIP-Ложи на стадионе «Открытие Банк Арена». Изысканный дизайн и комфорт, располагающая атмосфера, потрясающий вид на поле! Забронируйте Вип-ложу на стадионе футбольного клуба «Спартак-Москва» для статусных мероприятий!",
+      "En": "Skyboxes at the stadium «Opening Bank Arena». Exquisite design and comfort, relaxing atmosphere, amazing view of the field! Book a Skybox at the stadium of the Spartak Moscow Football Club for high-profile events! "
+    }
+  },
+  "/stadium/staff": {
+    "h1": {
+      "Ru": "Персонал",
+      "En": "Staff"
+    },
+    "titleName": {
+      "Ru": "Станьте частью команды персонала для проведения мероприятий ФК «Спартак-Москва» и стадиона «Открытие Банк Арена»",
+      "En": "Become part of the staff for the events of FC «Spartak-Moscow» and the Otkritie Bank Arena stadium"
+    },
+    "titleOg": {
+      "Ru": "Станьте частью команды персонала для проведения мероприятий ФК «Спартак-Москва» и стадиона «Открытие Банк Арена»",
+      "En": "Become part of the staff for the events of FC «Spartak-Moscow» and the Otkritie Bank Arena stadium"
+    },
+    "descriptionOg": {
+      "Ru": "Станьте частью нашей команды SPARTAK EVENT TEAM. Интересная работа и карьерный рост. Официальный сайт футбольного клуба «Спартак-Москва».",
+      "En": "Become part of our team SPARTAK EVENT TEAM. Interesting work and career development. Spartak Moscow Football Club official site."
+    }
+  },
+  "/teams": {
+    "h1": {
+      "Ru": "Состав команды «Спартак-Москва»",
+      "En": "The team of «Spartak-Moscow»"
+    },
+    "titleName": {
+      "Ru": "Состав команд футбольного клуба «Спартак-Москва» | Официальный сайт клуба",
+      "En": "The team of the football club «Spartak-Moscow»| Official club website"
+    },
+    "titleOg": {
+      "Ru": "Состав команд футбольного клуба «Спартак-Москва» | Официальный сайт клуба",
+      "En": "The team of the football club «Spartak-Moscow»| Official club website"
+    },
+    "descriptionOg": {
+      "Ru": "Состав команд футбольного клуба «Спартак-Москва» на официальном сайте. Игроки: голкиперы, защитники, полузащитники, нападающие, а также тренерский штаб и персонал красно-белых. ",
+      "En": "The team of the football club «Spartak-Moscow»on the official website. Players: goalkeepers, defenders, midfielders, forwards, as well as the coaching staff and staff of the red and white. Up-to-date club information."
+    }
+  },
+  "/teams/voting": {
+    "h1": {
+      "Ru": "Голосование за лучшего игрока",
+      "En": "Voting for the best player"
+    },
+    "titleName": {
+      "Ru": "Голосование за лучшего игрока команды «Спартак-Москва» | Официальный сайт клуба",
+      "En": "Voting for the best «Spartak-Moscow» player | Official club website"
+    },
+    "titleOg": {
+      "Ru": "Голосование за лучшего игрока команды «Спартак-Москва» | Официальный сайт клуба",
+      "En": "Voting for the best «Spartak-Moscow» player | Official club website"
+    },
+    "descriptionOg": {
+      "Ru": "Голосование за лучшего игрока команды «Спартак-Москва». Голосуй за любимых игроков и следи за рейтингом на официальном сайте футбольного клуба spartak.com.",
+      "En": "Voting for the best «Spartak-Moscow» player. Vote for your favorite players and follow the rating on the official website of the football club spartak.com."
+    }
+  },
+  "/profile/quiz/[id]": {
+    "titleName": {
+      "Ru": "Конкурс от «Спартак-Москва»",
+      "En": "Quiz from «Spartak-Moscow»"
+    },
+    "titleOg": {
+      "Ru": "Конкурс от «Спартак-Москва»",
+      "En": "Quiz from «Spartak-Moscow»"
+    },
+    "descriptionOg": {
+      "Ru": "Конкурс от «Спартак-Москва»",
+      "En": "Quiz from «Spartak-Moscow»"
+    }
+  }
+}

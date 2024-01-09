@@ -1,0 +1,50 @@
+{
+  "metaTags": {
+    "titleName": {
+      "Ru": "«Спартак» - Наша философия",
+      "En": "«Spartak» - Our philosophy"
+    },
+    "titleOg": {
+      "Ru": "«Спартак» - Наша философия",
+      "En": "«Spartak» - Our philosophy"
+    },
+    "descriptionOg": {
+      "Ru": "«Спартак» - Наша философия",
+      "En": "«Spartak» - Our philosophy"
+    },
+    "localeOg": {
+      "En": "En",
+      "Ru": "Ru"
+    }
+  },
+  "mainInfo": {
+    "title": {
+      "En": "Philosophy",
+      "Ru": "Философия"
+    },
+    "subTitle": {
+      "Ru": "Наша философия",
+      "En": "Our philosophy"
+    },
+    "blocks": [
+      {
+        "title": {
+          "Ru": "",
+          "En": ""
+        },
+        "list": [
+          { "Ru": "Философия Академии базируется на словах легенды ФК «Спартак», чье имя носит спартаковская кузница кадров, Фёдора Фёдоровича Черенкова «Живи футболом, играй и побеждай красиво!».", 
+	    "En": "The philosophy of the Academy is based on the words of the legend of FC Spartak, whose name is given to the Spartak personnel training center, Fyodor Fyodorovich Cherenkov «Live soccer, play and win beautifully!»" },
+          { "Ru": "Ядром процесса являются воспитанники Академии: работа всех подразделений и персонала направлена на воспитание умных игроков с глубоким пониманием игры, развитых физически и оснащенных технически, способных решать любые технико-тактические задачи вне зависимости от игровой модели команды. Методики, по которым работает Академия, направлены на развитие психических, физических и технических навыков, соответствующих различным этапам становления юного футболиста.", 
+	    "En": "Academy students are the core of the process: the work of all departments and staff is aimed at bringing up smart players with a deep understanding of the game, developed physically and equipped technically, able to solve any technical and tactical problems, regardless of the game team model. The methods used by the Academy are aimed at the development of mental, physical and technical skills, corresponding to different stages of development of a young player." },
+          { "Ru": "Целью и показателем работы Академии является не только и не столько количество призов и титулов, завоеванных воспитанниками в период обучения, сколько число выпускников, проявивших себя на профессиональном уровне, в клубной вертикали ФК «Спартак». Командный успех не должен достигаться в ущерб индивидуальному прогрессу футболиста.", 
+	    "En": "education: not lower than secondary" },
+          { "Ru": "При этом развитие современного футболиста должно быть всесторонним. Воспитанников Академии должны отличать глубокое понимание игры и интеллект, причем, не только футбольный. Перед Академией стоит задача не просто подготовить высококлассного футболиста, а воспитать цельную и гармоничную личность. Футбольные достижения являются вершиной пирамиды, в основании которой лежат личностное развитие, образованность, самодисциплина и психологическая подготовленность.", 
+	    "En": "At the same time, the development of the modern soccer player must be comprehensive. The Academy pupils must be distinguished by a deep understanding of the game and intelligence, and not just soccer. The Academy's task is not just to train a high-class soccer player, but to bring up an integral and harmonious personality. Soccer achievements are at the top of the pyramid, which is based on personal development, education, self-discipline and psychological preparedness." },
+	  { "Ru": "Базовыми ценностями для воспитанников Академии «Спартак» являются уважение к спартаковским традициям, истории и ветеранам клуба, зрелищная игра, высокое индивидуальное мастерство, игровой интеллект в каждом эпизоде, командное владение мячом, самоотдача в каждом моменте матча и тренировки, дисциплина на футбольном поле и за его пределами, уважение к партнерам, болельщикам и противникам, достоинство в поражениях и победах.", 
+	    "En": "The basic values for Spartak Academy students are respect for Spartak traditions, history and club veterans, spectacular play, high individual skill, game intelligence in every episode, team ownership of the ball, dedication at every moment of the match and training, discipline on and off the field, respect for partners, fans and opponents, dignity in defeats and victories." }
+        ]
+      }      
+    ]
+  }
+}

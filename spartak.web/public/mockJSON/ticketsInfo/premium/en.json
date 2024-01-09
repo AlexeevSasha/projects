@@ -1,0 +1,57 @@
+{
+  "redBanner": [
+    "If you are used to having a highest level of service and an entertainment — you should buy a season ticket to the west A stand.",
+    "There is premium quality hospitality area — Platinum Winline Club, Gold and Silver, on Otkritie Bank Arena stadium. "
+  ],
+  "listSectorInfo1": [
+    {
+      "title": "Best seats and view ",
+      "img":  "/images/tickets/premium/img1_v1.0.0.png",
+      "description": "The best view on the field is available for you, if you are able to choose central seats. We care about everything: a restaurant with an exclusive menu, comfortable seats, VIP parking for your car. You can relax and watch football, meet friends. The most comfortable seats are located at the stand A (Platinum). "        
+    }
+  ],
+  "hospitalityPackages": [
+    {
+      "title":"Winline Club Platinum",
+      "images": [
+        "/images/tickets/premium/packageImg1_v1.0.0.png",
+        "/images/tickets/premium/packageImg2_v1.0.0.png"
+      ],
+      "foodCourtData": [
+        "Central seats, the most comfortable seats are located at the stand A (Platinum area);",
+        "An exclusive catering;",
+        "The highest level of service;",
+        "VIP entrance;",
+        "An entertainment (partners promotions);",
+        "Celebrity people — famous guests;",
+        "Hospitable hostess;",
+        "VIP parking for your car;",
+        "Special gifts from the club."
+      ]
+    },
+    {
+      "title": "Gold",
+      "images": ["/images/tickets/premium/img3_v1.0.0.png"],
+      "foodCourtData": [
+        "Central seats are located at the stand A (sector A4 gold)",
+        "an exclusive menu",
+        "VIP entrance", 
+        "Premium quality service",
+        "VIP parking for your car",
+        "Hospitable hostess", 
+        "Special gifts from the club"
+      ]
+    },
+    {
+      "title": "Silver",
+      "images": ["/images/tickets/premium/img4_v1.0.0.png"],
+      "foodCourtData": [
+        "Central seats are located at the stand A (sector A5 Silver)",
+        "the highest level of service",
+        "a restaurant with delicious food and drinks",
+        "comfortable parking",
+        "friendly atmosphere"
+      ]
+    }
+  ]
+}

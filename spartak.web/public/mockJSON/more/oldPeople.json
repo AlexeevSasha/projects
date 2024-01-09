@@ -1,0 +1,215 @@
+{
+  "metaTags": {
+    "titleName": {
+      "Ru": "Ветераны",
+      "En": "old people"
+    },
+    "titleOg": {
+      "Ru": "Ветераны",
+      "En": "old people"
+    },
+    "imageOg": {
+      "Ru": "картинка",
+      "En": "picture"
+    },
+    "typeOg": {
+      "Ru": "Статья",
+      "En": "Article"
+    },
+    "descriptionOg": {
+      "Ru": "",
+      "En": ""
+    },
+    "localeOg": {
+      "Ru": "Ru",
+      "En": "En"
+    }
+  },
+  "mainInfo": {
+    "title": {
+      "Ru": "Комитет ветеранов",
+      "En": "Veterans committee"
+    },
+    "img": "/images/more/oldPeople/veterans_v1.0.0.jpg"
+  },
+  "redBanner": [
+    {
+      "Ru":"8 ноября 2022 года совет директоров ФК «Спартак-Москва» утвердил создание комитета ветеранов нашего клуба. Его председателем стал самый титулованный тренер в истории красно-белых Олег Иванович Романцев, а почетным президентом выбран Никита Павлович Симонян— лучший бомбардир «Спартака» за все годы выступления команды.<br/><br/>Цель создания комитета — сохранение спартаковских традиций и оказание адресной помощи красно-белым прошлых поколений, а также их семьям.<br/><br/>— Рад сообщить нашим дорогим болельщикам, что по инициативе совета директоров создан комитет ветеранов, а мне доверили честь быть его председателем, —сказал Романцев,",
+      "En":"On November 8, 2022 the Board of Directors of FC «Spartak-Moscow» approved the creation of the Committee of Veterans of our club. The most titled coach in the history of the Red-Whites, Oleg Ivanovich Romancev, became its chairman, and Nikita Pavlovich Simonyan, Spartak's best scorer in all the years of the team's play, was elected honorary president. The purpose of the committee is to keep Spartak traditions and to provide assistance to past generations of the Red and White players and their families. - I am glad to inform our dear fans that the Veterans Committee was created at the initiative of the Board of Directors, and I was entrusted with the honor of being its chairman, —said Romancev,"  
+    },
+    {
+      "Ru":"— Почетным президентом мы единогласно избрали Никиту Павловича Симоняна, В состав комитета вошли также другие известные спартаковцы, Я убежден. что наша работа обеспечит связь поколений: контакты клуба с ветеранским сообществом и болельщиками станут более тесными и постоянными.<br/><br/>— Мы всегда должны помнить о традициях. заложенных братьями Старостиными, — отметил Симонян. — А это в том числе значит чтить ветеранов— тех людей, которые ковали победную славу красно-белых. завоевывали на футбольных полях чемпионства и Кубки. Как любил говорить Андрей Петрович Старостин. «Спартак» — отныне и во веки веков!",
+      "En":"- We unanimously elected Nikita Pavlovich Simonyan as our Honorary President. The committee also includes other famous Spartak players, I am sure that our work will connect the club with the veteran community and the fans and will make the contacts between them even closer and more stable.<br/><br/>— We should always remember the traditions that the Starostin brothers founded, — said Simonyan. — It also means to honor the veterans— the people who forged the Red-Whites' glory, who won championships and cups on the soccer fields. As Andrei Starostin liked to say. «Spartak» — from now on and forever!"
+    }
+  ],
+  "membershipOfTheVeteransCommittee": {
+    "title": {
+      "Ru":"Состав комитета ветеранов",
+      "En":"Membership of the Veterans Committee"
+    },
+    "mainPeople": [
+      {
+        "title": {
+          "Ru":"Олег Иванович Романцев (04.01.1954)",
+          "En":"Oleg Ivanovich Romantsev (04.01.1954)"
+        },
+        "description": {
+          "Ru":"Заслуженный тренер РСФСР (1990). Самый титулованный тренер в истории «Спартака»: 9-кратный чемпион России и чемпион СССР. Трехкратный обладатель Кубка России, обладатель Кубка СССР/СНГ. Под его руководством спартаковцы трижды выходили в полуфинал трех различных еврокубков, а в 1995 году установили в Лиге чемпионов рекорд, который можно лишь повторить, но нельзя превзойти: одержали шесть побед в шести матчах группового турнира.<br/><br/>Как игрок Романцев в составе «Спартака» был чемпионом СССР 1979 года, будучи капитаном команды. А в составе сборной СССР стал бронзовым призером Олимпийских игр 1980 года.",
+          "En":"Merited Coach of the RSFSR (1990). The most titled coach in Spartak's history: Nine-time champion of Russia and champion of the USSR. Three-time winner of the Russian Cup, winner of the USSR/CIS Cup. Under his leadership Spartak players reached the semifinals of three different European Cups three times and in 1995 set a record in the Champions League, which can only be repeated but cannot be surpassed: six victories in six group matches.<br/><br/>As a player with Spartak, Romantsev was the USSR champion in 1979, being the team captain. And as part of the USSR national team he became the bronze medalist of the 1980 Olympic Games."
+        },
+        "position": {
+          "Ru":"Председатель комитета ветеранов",
+          "En":"Chairman of the Veterans Committee"
+        },
+        "img": "/images/more/oldPeople/oleg_v1.0.0.png"
+      },
+      {
+        "title": {
+          "Ru":"Никита Павлович Симонян (12.10.1926)",
+          "En":"Nikita Pavlovich Simonyan (12.10.1926)"
+        },
+        "description": {
+          "Ru":"Заслуженный мастер спорта СССР (1954). Заслуженный тренер РСФСР (1968). Заслуженный тренер СССР (1970). Заслуженный работник физической культуры Российской Федерации (2019). Чемпион олимпийских в Мельбурне.<br/><br/>В составе «Спартака» 4-кратный чемпион СССР как игрок и 2-кратный как тренер: 2-кратный обладатель Кубка СССР как игрок и 3-кратный как тренер. Лучший бомбардир «Спартака» всех времен (160 голов). Старейший ветеран «Спартака» и всего российского футбола.",
+          "En":"Honored Master of Sports of the USSR (1954). Honored Coach of the RSFSR (1968). Honored Coach of the USSR (1970). Honored Worker of Physical Culture of the Russian Federation (2019). Olympic champion in Melbourne.<br/><br/>With «Spartak» 4-times champion of the USSR as a player and 2-times as a coach: 2-times winner of the USSR Cup as a player and 3-times as a coach. The best Spartak scorer of all times (160 goals). The oldest veteran of Spartak and the whole of Russian soccer."
+        },
+        "position": {
+          "Ru":"Почетный президент",
+          "En":"Honorary President"
+        },
+        "img": "/images/more/oldPeople/nikita_v1.0.0.png"
+      }
+    ],
+    "otherPeople": [
+      {
+        "title": {
+          "Ru":"Анзор Амберкович Кавазашвили (19.07.1940)",
+          "En":"Anzor Amberkovich Kavazashvili (19.07.1940)"
+        },
+        "description": {
+          "Ru":"Заслуженный мастер спорта СССР (1967). Заслуженный тренер РСФСР (1983). Бронзовый призер чемпионата мира 1966 года. В составе «Спартака» чемпион СССР 1969 года и обладатель Кубка СССР 1971 года.          ",
+          "En":"Honored Master of Sports of the USSR (1967). Honored Coach of the RSFSR (1983). Bronze medalist of the 1966 World Championship. As a part of «Spartak» champion of the USSR in 1969 and winner of the USSR Cup in 1971."
+        },
+        "position": {
+          "Ru":"Член комитета",
+          "En":"Committee member"
+        },
+        "img": "/images/more/oldPeople/anzor_v1.0.0.png"
+      },
+      {
+        "title": {
+          "Ru":"Александр Леонидович Хаджи (09.03.1946)",
+          "En":"Alexander Leonidovich Hadji (March 09, 1946)"
+        },
+        "description": {
+          "Ru":"Легендарный администратор и генеральный менеджер «Спартака». Пришел в клуб в 1983 году и трудился в нем до 2008 года. За время работы в «Спартаке» завоевал с ним 11 золотых медалей чемпионов страны и 4 Кубка.",
+          "En":"Legendary administrator and general manager of Spartak. He joined the club in 1983 and worked there until 2008. During his work at Spartak he won 11 national championship gold medals and 4 Cups."
+        },
+        "position": {
+          "Ru":"Член комитета",
+          "En":"Committee member"
+        },
+        "img": "/images/more/oldPeople/alexandr1_v1.0.0.png"
+      },
+      {
+        "title": {
+          "Ru":"Александр Багратович Мирзоян (20.04.1951)",
+          "En":"Alexander Bagratovich Mirzoyan (April 20, 1951)"
+        },
+        "description": {
+          "Ru":"Президент Союза ветеранов футбола России, председатель Комитета ветеранов футбола РФС Член Исполнительного комитета РФС В составе «Спартака» чемпион СССР 1979 года.",
+          "En":"President of the Russian Football Veterans Union, Chairman of the Russian Football Veterans Committee Member of the Executive Committee of the Russian Football Union As part of «Spartak» champion of the USSR in 1979."
+        },
+        "position": {
+          "Ru":"Член комитета",
+          "En":"Committee member"
+        },
+        "img": "/images/more/oldPeople/alexandr2_v1.0.0.png"
+      },
+      {
+        "title": {
+          "Ru":"Юрий Васильевич Гаврилов (03.05.1953)",
+          "En":"Yuri Vasilievich Gavrilov (May 03, 1953)"
+        },
+        "description": {
+          "Ru":"Мастер спорта СССР международного класса (1979). Заслуженный мастер спорта России (2007). Бронзовый призер Олимпийских игр 1980 года. В составе «Спартака» чемпион СССР 1979 года.",
+          "En":"Master of Sports of the USSR International Class (1979). Merited Master of Sports of Russia (2007). Bronze medalist of the 1980 Olympic Games. Champion of the USSR in 1979 with «Spartak»."
+        },
+        "position": {
+          "Ru":"Член комитета",
+          "En":"Committee member"
+        },
+        "img": "/images/more/oldPeople/urii_v1.0.0.png"
+      },
+      {
+        "title": {
+          "Ru":"Ринат Файзрахманович Дасаев (13.06.1957)",
+          "En":"Rinat Fayzrakhmanovich Dasaev (June 13, 1957)"
+        },
+        "description": {
+          "Ru":"Заслуженный мастер спорта СССР (1988). Лучший вратарь мира 1988 года. Вице-чемпион Европы 1988 года, бронзовый призер Олимпийских игр 1980 года. В составе «Спартака» чемпион СССР 1979 и 1987 годов.",
+          "En":"Honored Master of Sports of the USSR (1988). Best goalkeeper in the world in 1988. Vice-champion of Europe in 1988, bronze medalist of the 1980 Olympics. With «Spartak» champion of the USSR in 1979 and 1987."
+        },
+        "position": {
+          "Ru":"Член комитета",
+          "En":"Committee member"
+        },
+        "img": "/images/more/oldPeople/renat_v1.0.0.png"
+      },
+      {
+        "title": {
+          "Ru":"Вагиз Назирович Хидиятуллин (03.03.1959)",
+          "En":"Vagiz Nazirovich Khidiyatullin (03.03.1959)"
+        },
+        "description": {
+          "Ru":"Заслуженный мастер спорта СССР (1988). Вице-чемпион Европы 1988 года, бронзовый призер Олимпийских игр 1980 года. Чемпион мира среди юниоров 1977 года. В составе «Спартака» чемпион СССР 1979 и 1987 годов.",
+          "En":"Honored Master of Sports of the USSR (1988). Vice-champion of Europe in 1988, bronze medalist of the 1980 Olympic Games. World junior champion in 1977. As a part of «Spartak» champion of the USSR in 1979 and 1987."
+        },
+        "position": {
+          "Ru":"Член комитета",
+          "En":"Committee member"
+        },
+        "img": "/images/more/oldPeople/vagiz_v1.0.0.png"
+      }
+    ]
+  },
+  "infoBlock": {
+    "title": {
+      "Ru":"История команды ветеранов",
+      "En":"History of the veteran team"
+    },
+    "img1": "/images/more/oldPeople/history1_v1.0.0.png",
+    "text1": {
+      "Ru": "Хотите увидеть ювелирные передачи Юрия Гаврилова? А полюбоваться тигриными прыжками Рината Дасаева? Или насладиться разящими ударами Валерия Шмарова?<br/><br/>Тогда приглашайте команду ветеранов московского «Спартака», приходите на ее матчи, и вы убедитесь в том, что с годами утрачивается лишь скорость, а мастерство никуда не исчезает. Ветераны красно-белых проводят в различных городах России и СНГ несколько десятков матчей в год, часто собирая полные стадионы. Спартаковцев любят и ждут в разных уголках «одной шестой части суши». Они могут украсить любой турнир, сделать незабываемым праздник города или области.",
+      "En": "Do you want to see Yuri Gavrilov's jewel-like passes? Or admire Rinat Dasaev's tiger jumps? Or enjoy Valery Shmarov's strokes?<br/><br/>Then bring the Spartak Moscow veterans team and come to their games and you will see that as the years go by, the only thing you lose is your speed, but the skill doesn't fade away. Red and white veterans play dozens of games a year in different cities in Russia and the CIS, often drawing full stadiums. Spartak players are loved and welcomed in different corners of «one-sixth of the land». They can decorate any tournament and make an unforgettable celebration of a city or region."
+    },
+    "text2": {
+      "Ru": "Команда ветеранов (или, как называли ее до Великой Отечественной войны, команда «старичков») появилась у «Спартака» еще в 30-е годы прошлого века, но при клубе была официально зарегистрирована лишь в декабре 1996 года. Несколько ее достижений впору вносить в Книгу рекордов Гиннесса. Однажды за месяц (дело было в мае) ветераны красно-белых провели 28 игр! Конечно, была ротация состава, но факт остается фактом: такое число матчей немыслимо даже для действующих профессионалов, Или другой факт, заслуживающий внимания. Как-то спартаковцы колесили по Донецкой области, где у них был сверхнасыщенный график: за три дня они провели девять игр. В одном из матчей оба тайма сыграл 75-летний (!) Николай Тимофеевич Дементьев. Чем не рекорд? !<br/><br/>Для ветеранов это не просто выставочные матчи и радость от любимой игры. но еще и возможность заработать, Это у нынешних игроков многотысячные и миллионные контракты, и они могут уверенно чувствовать себя в постфутбольном будущем, а поколение 70—80-х годов таким финансовым положением похвастаться, увы, не может. не говоря уже о «стариках» — пятидесятниках и шестидесятниках. К слову, команда спартаковских ветеранов постепенно омолаживается. относительно недавно ее ряды пополнили представители золотого поколения девяностых и «нулевых». во встрече 2022 года на «открытие Банк Арене» против «Зенита» играли и самые юные наши ветераны — Артём Ребров и Андрей Ещенко.<br/><br/>В ветеранских матчах никто никого не заставляет выходить на поле. Можешь играть пятнадцать минут — играй пятнадцать. Можешь десять— играй десять. Самое главное в таких играх — радость от встреч со зрителями и общения со старыми приятелями и друзьями. Символично, что именно прославленные ветераны «Спартака» 30 августа 2014 года первыми ступили на поле только что построенного нашего стадиона в Тушине. где они провели матч всех звезд — «красные» против «белых».",
+      "En": "The team of veterans (or as it was called before the Great Patriotic War, the team of «old men») appeared at Spartak back in the 1930s, but was not officially registered with the club until December 1996. Some of its achievements ought to enter the Guinness Book of Records. Once in a month (it was in May) veterans of the Red-Whites played 28 games! Of course, there was rotation, but the fact remains that such a number of games is unthinkable even for working professionals. Once Spartak players traveled to Donetsk region, where they had a very busy schedule: in three days they played nine games. In one of the games both halves were played by 75-year-old (!) Nikolai Dementiev. Isn't that a record!<br/><br/>For the veterans it's not just exhibition games and the joy of playing their favorite game. it's also an opportunity to earn money. the current players have multi thousand and million dollar contracts, and they can feel confident about their post-football future, and the generation of 70-80s can't boast such a financial situation, alas. not to mention the «old-timers» - the 50s and 60s. By the way, the Spartak veteran team is gradually rejuvenating. recently representatives of the golden generation of the '90s and '00s joined the team. in the meeting of 2022 at the opening Bank Arena against Zenit our youngest veterans Artem Rebrov and Andrey Eschenko played.<br/><br/>In veteran matches no one is forced to take to the field. If you can play fifteen minutes - play fifteen. If you can play ten, then play ten. The most important thing in these games is the joy of meeting the audience and communicating with old friends. It is symbolic that on August 30, 2014, famous Spartak veterans were the first to set foot on the field of the newly built our stadium in Tushino, where they played the All-Star Game - «reds» against «whites»."
+    },
+    "text3": {
+      "Ru": "В том же 2014 году команду спартаковских ветеранов пригласили в Душанбе. И впервые со времен чемпионата СССР центральный стадион в столице Таджикистана заполнился до отказа: 20 тысяч народу, яблоку негде упасть. В Душанбе вместе со спартаковцами прилетели звезды российской эстрады. После матча состоялся концерт, но зрителей на нем осталось совсем немного: подавляющее их число после игры сразу покинули стадион. организаторы далекие от футбола, потом удивленно пожимали плечами и спрашивали у местных: «неужели вы не ради концерта пришли?» «нет. —отвечали душанбинцы. — Мы пришли исключительно на «Спартак»: такого футбола здесь уже лет пятнадцать никто не видел».",
+      "En": "That same year, 2014, the Spartak veteran team was invited to Dushanbe. For the first time since the Soviet championship, the central stadium in the capital of Tajikistan was filled to capacity: 20,000 people and no room to spare. Russian pop stars came to Dushanbe with the Spartak team. After the match a concert was held, but the audience was very few: most of them left the stadium immediately after the game. The organizers, far from soccer, shrugged their shoulders in surprise and asked the locals: «Did you come for the concert?» «no. -The Dushanbe residents answered. - We only came to see «Spartak»: No one has seen soccer like this here in fifteen years»."
+    },
+    "img3": "/images/more/oldPeople/history2_v1.0.0.png",
+    "text4": {
+      "Ru": "А вот еще одна история. В конце 80-х спартаковские ветераны отправились в турне по сибирским городам. Километрах в сорока от Братска они заехали в маленький шахтерский оселок, где находился магазин с жутко дефицитной в то время японской электротехникой. Ничего примечательного в этом населенном пункте больше не было, но его администрация загорелась идеей, чтобы спартаковцы непременно сыграли и у них. «Но ведь у вас даже футбольной площадки нет!» — удивлялись москвичи настойчивым призывам хозяев- «Сделаем!» — последовал уверенный ответ. «Когда? Мы же к вам только на неделю приехали!» «Успеем сделать». — твердили упертые сибиряки.<br/><br/>Каково же было удивление ветеранов, когда через пять дней им позвонили из администрации и сказали: «Приезжайте, все готово к игре». Спартаковцы глазам своим не поверили: специально под матч в поселке за считанные дни сделали поле, установили ворота, построили трибуны, которые ломились от зрителей. Разве не чудо? !",
+      "En": "Here's another story. At the end of the 1980s, Spartak veterans went on a tour of Siberian cities. Forty kilometers from Bratsk they stopped in a small mining village, where there was a store with Japanese electrical equipment, which was in terrible short supply at the time. There was nothing else noteworthy about the village, but its administration had the idea of having the Spartak players play there as well. «But you don't even have a soccer ground!» - the Muscovites were surprised at the insistence of the hosts-«We'll do it!» - followed the confident reply. «When? We just came to visit you for a week!» «We'll get it done.» - The stubborn Siberians insisted.<br/><br/>What was the surprise of the veterans when five days later they received a call from the administration and were told: «Come, everything is ready for the game». The Spartak players couldn't believe their eyes: specifically for the match in the village they built the field within days, installed the gates, built a stand full of spectators. Isn't it a miracle? !"
+    },
+    "list": [
+      {
+        "Ru":"Р. S. Если вы хотите пригласить команду ветеранов «Спартака» на выставочный матч, праздник города или другие торжественные мероприятия, обращайтесь по телефону: <a href='tel:+89165683616'>8-916-568-36-16</a> (Александр Михайлович Кокорев).",
+        "En": "Р. S. If you want to invite a team of Spartak veterans to an exhibition match, city festival or other festive events, please call: <a href='tel:+89165683616'>8-916-568-36-16</a> (Aleksandr Mikhailovich Kokorev)."
+      },
+      {
+        "Ru": "Или пишите на почту: <a href='mailto:komveteranov@spartak.com'>komveteranov@spartak.com</a>.",
+        "En": "Or write to the email: <a href='mailto:komveteranov@spartak.com'>komveteranov@spartak.com</a>."
+      }
+    ]
+  },
+  "committeeNews":{
+    "title": {
+      "Ru": "Новости комитета",
+      "En": "Committee News"
+    }
+  }
+}

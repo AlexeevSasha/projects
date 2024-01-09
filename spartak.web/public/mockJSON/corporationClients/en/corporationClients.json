@@ -1,0 +1,34 @@
+{
+  "redBanner": [
+    "Otkritie Arena is a unique multi-format venue. At our stadium, you can comfortably immerse yourself in the unique atmosphere of supporting the most popular and titled club in Russia, organize corporate events for employees, customers and partners, or arrange a spiritual holiday for loved ones.",
+    "We offer a diverse range of services that may be of interest to companies for the development of corporate culture, increasing the level of loyalty and employee engagement. Build business relationships in a first-class environment and enjoy the benefits of being at an elite club throughout the football season."
+  ],
+  "listSectorInfo": [
+    {
+      "title": "Tickets",
+      "img": "/images/more/toCorporationClients/tickets.png",
+      "list": {
+        "title": "You can order tickets for the home matches of FC Spartak-Moscow and other events taking place at the Otkritie Arena stadium. Tickets for events with a choice of the best seats are a great gift for your customers and partners, as well as a great motivation for your employees !:",
+        "items": [
+          "convenient payment terms",
+          "special offers and discounts ",
+          "personal manager",
+          "a complete package of documents for your accounting"
+        ]
+      }
+    },
+    {
+      "title": "Meetings and events",
+      "img": "/images/more/toCorporationClients/meetings_v1.0.0.png",
+      "list": {
+        "title": "The Otkritie Arena is a venue for a variety of world-class events. We know what it takes to organize an unforgettable event, and we offer first-class service in the most comfortable environment.",
+        "items": ["business negotiations", "corporate events and presentations", "team building", "holidays"]
+      }
+    },
+    {
+      "title": "Museum and excursion tours",
+      "img": "/images/more/toCorporationClients/excursions_v1.0.0.png",
+      "description": "Before each Spartak home match, you can visit an exciting matchday tour of the stadium, which also includes an excursion to the club's multimedia <a href='/stadium/services/excursionTours'>Hall of Fame</a>."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+import React from "react";
+
+export const IconFlag = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+      <path d="M6.25 33.751V7.50098" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path
+        d="M6.25 26.251C16.25 18.751 23.75 33.751 33.75 26.251V7.501C23.75 15.001 16.25 0.00100097 6.25 7.501"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};

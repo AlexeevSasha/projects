@@ -1,0 +1,152 @@
+{
+  "metaTags": {
+    "titleName": {
+      "Ru": "Академия «Спартак» - Контакты",
+      "En": "Academy «Spartak» - Contacts"
+    },
+    "titleOg": {
+      "Ru": "Академия «Спартак» - Контакты",
+      "En": "Academy «Spartak» - Contacts"
+    },
+    "imageOg": {
+      "En": "picture",
+      "Ru": "картинка"
+    },
+    "typeOg": {
+      "En": "Article",
+      "Ru": "Статья"
+    },
+    "descriptionOg": {
+      "Ru": "",
+      "En": ""
+    },
+    "localeOg": {
+      "En": "En",
+      "Ru": "Ru"
+    }
+  },
+  "mainInfo": {
+    "title": {
+      "Ru": "Контакты",
+      "En": "Contacts"
+    },
+    "img": {
+      "En": "/images/academy/banners/aboutAcademy_v1.0.0.png",
+      "Ru": "/images/academy/banners/aboutAcademy_v1.0.0.png"
+    }
+  },
+
+  "infoBlocks": [
+    {
+      "title": {
+        "Ru": "Академия «Спартак»",
+        "En": "Academy «Spartak»"
+      },
+      "contacts": {
+        "address": {
+          "Ru": "107014, Москва, Малый Олений переулок, д. 23 стр. 5.",
+          "En": "107014, Москва, Малый Олений переулок, д. 23 стр. 5."
+        },
+        "phone": [
+          {
+            "Ru": "8-499-268-88-77",
+            "En": "8-499-268-88-77"
+          }
+        ],
+        "email": {
+          "Ru": "school@spartak.com",
+          "En": "school@spartak.com"
+        }
+      },
+      "info": [
+        {
+          "title": {
+            "En": "Personal transport",
+            "Ru": "Личный транспорт"
+          },
+          "description": {
+            "En": "Entrance to the territory of the Academy through the barrier from Oleniy Val street. You can also drive up from Maly Olenyy Lane and enter the territory on foot.",
+            "Ru": "Въезд на территорию Академии через шлагбаум со стороны улицы Олений Вал. Вы также можете подъехать со стороны Малого Оленьего переулка и пройти на территорию пешком."
+          }
+        },
+        {
+          "title": {
+            "En": "Public transport",
+            "Ru": "Общественный транспорт"
+          },
+          "description": {
+            "En": "Travel from the Sokolniki metro station by trams No. 25 and 4 to the stop Bolshaya Olenya Ulitsa, then on foot.",
+            "Ru": "Проезд от метро «Сокольники» трамваями №№ 25 и 4 до остановки «Большая Оленья улица», далее пешком."
+          }
+        }
+      ],
+      "coordinates": {
+        "car": [55.806337, 37.696858],
+        "trainSimple": [55.805498, 37.691883],
+        "stadium": [55.807086, 37.697001]
+      }
+    },
+    {
+      "title": {
+        "Ru": "Манеж Академии «Спартак»",
+        "En": "Manege Academy «Spartak»"
+      },
+      "contacts": {
+        "address": {
+          "Ru": "Москва, Малый Олений переулок, д. 23 стр. 1а.",
+          "En": "Moscow, Maliy Oleniy pereulok, 23 bld. 1а."
+        },
+        "phone": [
+          {
+            "Ru": "+7 (499) 268-14-67",
+            "En": "+7 (499) 268-14-67"
+          },
+          {
+            "Ru": "+7 (499) 268-19-47",
+            "En": "+7 (499) 268-19-47"
+          }
+        ],
+        "email": {
+          "Ru": "sokolniki@spartak.com",
+          "En": "sokolniki@spartak.com"
+        }
+      },
+      "coordinates": {
+        "car": [55.806337, 37.696858],
+        "trainSimple": [55.805498, 37.691883],
+        "stadium": [55.803757068921186, 37.69479149999992]
+      }
+    },
+    {
+      "title": {
+        "Ru": "Поля в «Сокольниках»",
+        "En": "Fields in «Sokolniki»"
+      },
+      "contacts": {
+        "address": {
+          "Ru": "Москва, М. Олений пер., вл. 23",
+          "En": "Moscow, M. Oleny pereul. 23"
+        },
+        "phone": [
+          {
+            "Ru": "+7 (499) 268-14-67",
+            "En": "+7 (499) 268-14-67"
+          },
+          {
+            "Ru": "+7 (499) 268-19-47",
+            "En": "+7 (499) 268-19-47"
+          }
+        ],
+        "email": {
+          "Ru": "sokolniki@spartak.com",
+          "En": "sokolniki@spartak.com"
+        }
+      },
+      "coordinates": {
+        "car": [55.806337, 37.696858],
+        "trainSimple": [55.805498, 37.691883],
+        "stadium": [55.804833, 37.69872]
+      }
+    }
+  ]
+}

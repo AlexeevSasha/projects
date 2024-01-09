@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/images/tickets/partners/kassir_v1.0.0.png",
+    "info": "Kassir.ru is the national ticket operator. Schedule of events in Russian cities, tickets for concerts and performances",
+    "partnerUrl": "https://msk.kassir.ru",
+    "partnerName": "KassirRu"
+  },
+  {
+    "image": "/images/tickets/partners/yandex_v1.0.0.png",
+    "info":"Yandex.Afisha — schedules of all events in Moscow, convenient ticket purchase, understandable layouts of concert halls, regular promotions and discounts on Yandex Afisha. Cinemas, theaters, concerts, exhibitions, events for children and other entertainment.",
+    "partnerUrl": "https://afisha.yandex.ru/",
+    "partnerName": "ЯндексАфиша"
+  },
+  {
+    "image": "/images/tickets/partners/chempionat_v1.0.0.png",
+    "info": "Championat - all the latest sports news, videos, photos. World and European Championships. All competitions in football, hockey, basketball and other sports.",
+    "partnerUrl": "https://tickets.championat.com/",
+    "partnerName": "Чемпионат"
+  }
+]

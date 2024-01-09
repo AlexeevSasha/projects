@@ -1,0 +1,32 @@
+[
+  {
+    "imageUrl": "/images/academy/sliderAcademy0_v1.0.0.jpg",
+    "text": { "Ru": "Тренеры", "En": "Coaches" },
+    "btnText": { "Ru": "Подробнее", "En": "More" },
+    "url": "/academy/employees#coaches"
+  },
+  {
+    "imageUrl": "/images/academy/sliderAcademy1_v1.0.0.jpg",
+    "text": { "Ru": "Руководство", "En": "Management" },
+    "btnText": { "Ru": "Подробнее", "En": "More" },
+    "url": "/academy/employees#leadership"
+  },
+  {
+    "imageUrl": "/images/academy/sliderAcademy4_v1.0.0.jpg",
+    "text": { "Ru": "Персонал", "En": "Staff" },
+    "btnText": { "Ru": "Подробнее", "En": "More" },
+    "url": "/academy/employees#staff"
+  },
+  {
+    "imageUrl": "/images/academy/sliderAcademy2_v1.0.0.jpg",
+    "text": { "Ru": "Поддержать академию", "En": "Support the academy" },
+    "btnText": { "Ru": "Подробнее", "En": "More" },
+    "url": "/academy/about#SupposrtAcademy"
+  },
+  {
+    "imageUrl": "/images/academy/sliderAcademy3_v1.0.0.jpg",
+    "text": { "Ru": "Наша философия", "En": "Our philosophy" },
+    "btnText": { "Ru": "Подробнее", "En": "More" },
+    "url": "/academy/philosophy"
+  }
+]

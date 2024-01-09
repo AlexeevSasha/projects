@@ -1,0 +1,68 @@
+{
+  "title": {
+    "Ru": "Карта болельщика",
+    "En": "Fan card"
+  },
+  "text": {
+    "Ru": "Ниже вы сможете узнать о том, как получить <a href='https://www.gosuslugi.ru/fancard' target='_blank'>карту болельщика </a>  и посетить матчи «Спартака» по абонементу или билету.",
+    "En": "Below you can find out how to get a <a href='https://www.gosuslugi.ru/fancard' target='_blank'>fan card </a> and attend Spartak matches with a season ticket or a ticket."
+  },
+  "subTitle1": {
+    "Ru": "Что такое карта болельщика",
+    "En": "What is a fan card"
+  },
+  "text1": {
+    "Ru": "Теперь проход на «Открытие Банк Арену» в дни матчей Российской Премьер-Лиги возможен только при наличии персонифицированной карты. Карта болельщика (ее также называют FANID) — электронный документ, который хранится в вашем личном кабинете на «Госуслугах». Ее необходимо оформлять отдельно на каждого человека, в том числе на детей до 14 лет. (Карту болельщика на детей оформляет в своем личном кабинете один из родителей или представитель по нотариальной доверенности. Если у вас на портале загружено фото ребенка, его личное присутствие в МФЦ при подтверждении личности не требуется). Система персонифицированных карт введена в чемпионате МИР РПЛ с сезона-2022/2023. <br/><br/> Для посещения игр ФОНБЕТ Кубка России (кроме финального матча) карта болельщика не потребуется.",
+    "En": "Now access to the Otkritie Bank Arena on the days of matches of the Russian Premier League is possible only with a personalized card. A fan card (also called a FANID) is an electronic document that is stored in your personal account at Gosuslugi. It must be issued separately for each person, including children under 14 years of age. (A fan card for children is issued in their personal account by one of the parents or a representative under a notarized power of attorney. If you have uploaded a photo of a child on the portal, his personal presence at the MFC is not required to confirm his identity). The system of personalized cards has been introduced in the WORLD RPL championship since the 2022/2023 season."
+  },
+  "subTitle2": {
+    "Ru": "Как оформить карту болельщика",
+    "En": "How to get a fan card"
+  },
+  "text2": {
+    "Ru": "Вам необходимо посетить удобное отделение МФЦ. Возьмите с собой документ, удостоверяющий личность. Для оформления карты болельщика вам также понадобится зарегистрированная и подтвержденная учетная запись на портале «Госуслуги». В «Моих документах» сотрудник сделает ваше фото, которое будет отображаться в карте болельщика. Через 2-3 минуты персонифицированная карта появится в вашем личном кабинете на «Госуслугах».<br/><br/>Для всех детей до 14 лет карту болельщика оформляет родитель или законный представитель. Вам нужно прийти в МФЦ вместе с ребенком (чтобы сделать фото). С собой необходимо дополнительно взять свидетельство о рождении.<br/><br/>Кроме того, у вас есть возможность оформить персонифицированную карту электронно.<br/><br/>Для этого вам необходимо сделать несколько шагов:",
+    "En": "To do this, you need to take several steps:"
+  },
+  "list": [
+    {
+      "Ru": "Войдите в личный кабинет на портале <a href='https://www.gosuslugi.ru/fancard' target='_blank'>«Госуслуги»</a> и выберите услугу «Карта болельщика» <br/> Если вы иностранец, то вам необходимо также зарегистрироваться на <a href='https://www.gosuslugi.ru/foreign-citizen' target='_blank'>«Госуслугах»</a>",
+      "En": "Log in to your personal account on the portal <a href='https://www.gosuslugi.ru/fancard' target='_blank'>«Gosuslugi»</a> and select the service \"Fan Card\"\nIf you are a foreigner, then you also need to register on the <a href='https://www.gosuslugi.ru/foreign-citizen' target='_blank'>«State Services»</a>"
+    },
+    {
+      "Ru": "Подтвердите свои персональные и контактные данные.",
+      "En": "Confirm your personal and contact details."
+    },
+    {
+      "Ru": "Загрузите свое портретное фото.",
+      "En": "Upload your portrait photo."
+    },
+    {
+      "Ru": "Дождитесь уведомления о посещении МФЦ для подтверждения личности.",
+      "En": "Wait for the notification of visiting the MFC to verify your identity."
+    },
+    {
+      "Ru": "Посетите МФЦ, возьмите с собой паспорт, для детей — свидетельство о рождении. <br/> Сотрудник МФЦ проверит данные за несколько минут.",
+      "En": "Visit the MFC, take your passport with you, for children - a birth certificate.\nThe MFC employee will check the data in a few minutes."
+    },
+    {
+      "Ru": "После проверки данных в ведомствах карта появится в личном кабинете.",
+      "En": "After checking the data in the departments, the card will appear in your personal account."
+    }
+  ],
+  "text2_1": {
+    "Ru": "* По вопросам прикрепления действующего абонемента обращайтесь в контактный центр по телефону <a href='tel:74951111922'>+7 (495) 111-1922</a> или напишите на электронный адрес <a href='mailto:tickets@spartak.com'>tickets@spartak.com</a>.",
+    "En": "* По вопросам прикрепления действующего абонемента обращайтесь в контактный центр по телефону <a href='tel:74951111922'>+7 (495) 111-1922</a> или напишите на электронный адрес <a href='mailto:tickets@spartak.com'>tickets@spartak.com</a>."
+  },
+  "subTitle3": {
+    "Ru": "Как пройти на «Открытие банк Арену»  по карте болельщика",
+    "En": "How to get to the Otkritie Bank Arena using a fan card"
+  },
+  "text3": {
+    "Ru": "Чтобы приобрести абонемент/билет на домашние матчи красно-белых, вам потребуется ввести при покупке на сайте номер своей карты болельщика. Затем вам необходимо в личном кабинете на портале Госуслуг назначить владельца абонемента/билета. После этого там будет сформирован QR-код, который нужно будет предъявлять на входных павильонах стадиона начиная со второй части сезона-2022/2023. Для прохода в чашу «Открытие Банк Арены» и занятия своего места на трибуне вам потребуется абонемент или билет в электронном/бумажном виде, полученные от ФК «Спартак-Москва». Если вы не назначите владельца абонемента/билета, то не сможете посетить матч.",
+    "En": "To purchase a season ticket/ticket for the Red-White home matches, you will need to enter your fan card number when purchasing on the site. Then you need to appoint the owner of the subscription / ticket in your personal account on the State Services portal. After that, a QR code will be generated there, which will need to be presented at the entrance pavilions of the stadium starting from the second part of the 2022/2023 season. To enter the Otkritie Bank Arena bowl and take your seat on the podium, you will need a subscription or a ticket in electronic / paper form received from FC Spartak Moscow. If you do not designate a season ticket/ticket owner, you will not be able to attend the match."
+  },
+  "text4": {
+    "Ru": "Если вы хотите передать билет другому человеку, то это также можно сделать через «Госуслуги». Необходимо, чтобы у второго человека тоже была карта болельщика. Пройти на стадион по чужому QR-коду невозможно. При сканировании QR-кода будет отображаться ваше фото. Оформить карту болельщика вы сможете <a href='https://www.gosuslugi.ru/fancard' target='_blank'> здесь</a>.  Если вам пришло уведомление об отказе в получении карты болельщика, повторное заявление на персонифицированную карту можно подать через полгода или по окончании срока, установленного судебным решением. Персонифицированная карта способствует повышению уровня безопасности на стадионах, а также поможет ускорить доступ для болельщиков на трибуны.",
+    "En": "If you want to transfer the ticket to another person, then this can also be done through the \"Gosuslugi\". It is necessary that the second person also has a fan card. It is impossible to enter the stadium using someone else's QR code. When you scan the QR code, your photo will be displayed. You can apply for a fan card <a href='https://www.gosuslugi.ru/fancard' target='_blank'> here</a>. If you have received a notice of refusal to obtain a fan card, you can re-apply for a personalized card after six months or after the expiration of the period established by the court decision. The personalized card helps to increase the level of security at the stadiums, and will also help speed up access for fans to the stands."
+  }
+}

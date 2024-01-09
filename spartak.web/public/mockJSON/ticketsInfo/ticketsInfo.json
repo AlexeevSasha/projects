@@ -1,0 +1,103 @@
+{
+  "metaTags": {
+    "titleName": {
+      "Ru": "Стадион Спартак - аренда помещений и территории «Открытие Банк Арена» в Москве",
+      "En": "Rental service - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "titleOg": {
+      "Ru": "Стадион Спартак - аренда помещений и территории «Открытие Банк Арена» в Москве",
+      "En": "Rental service - Otkritie Bank Arena - Stadium of Spartak Moscow Football Club in Moscow"
+    },
+    "imageOg": {
+      "En": "picture",
+      "Ru": "картинка"
+    },
+    "typeOg": {
+      "En": "Article",
+      "Ru": "Статья"
+    },
+    "descriptionOg": {
+      "Ru": "Сервисы и услуги аренды, доступные на территории стадиона «Открытие Банк Арена». Площадки для проведения мероприятий на открытом воздухе, фуд-корт, Спорт-бар, Зона ресторанов, VIP-Ложи на стадионе футбольного клуба «Спартак-Москва».",
+      "En": "Services and rentals available on the territory of the Otkritie Bank Arena stadium. Venues for outdoor events, food court, sports bar, restaurant area, Skyboxes at the stadium of the Spartak Moscow Football Club."
+    },
+    "localeOg": {
+      "En": "En",
+      "Ru": "Ru"
+    }
+  },
+
+  "servicesData": [
+    {
+      "cardName": {
+        "En": "Premium",
+        "Ru": "Premium"
+      },
+      "path": "premium",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/tickets/ticketsInfo/premium_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Family sector",
+        "Ru": "Семейный сектор"
+      },
+      "path": "familySector",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/tickets/ticketsInfo/foodCourt_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Official ticketing partners",
+        "Ru": "Официальные партнеры по продаже билетов"
+      },
+      "path": "partners",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/tickets/ticketsInfo/fameHall_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Places for MGN",
+        "Ru": "Места для МГН"
+      },
+      "path": "invalidPlaces",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/tickets/ticketsInfo/vip_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Rules for the purchase and use of tickets",
+        "Ru": "Правила приобретения и использования билетов"
+      },
+      "path": "rules",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/tickets/ticketsInfo/conference_v1.0.0.png"
+    },
+    {
+      "cardName": {
+        "En": "Fan card",
+        "Ru": "Карта болельщика"
+      },
+      "path": "fanCard",
+      "cardDescription": {
+        "En": "Modernly equipped areas for outdoor events",
+        "Ru": "Современно-оборудованные территории для проведения мероприятий на открытом воздухе"
+      },
+      "photo": "/images/tickets/ticketsInfo/fanCard_v1.0.0.png"
+    }
+  ]
+}

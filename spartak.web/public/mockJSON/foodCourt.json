@@ -1,0 +1,158 @@
+{
+  "metaTags": {
+    "titleName": {
+      "Ru": "Забронировать фуд-корт на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Book a food court at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Забронировать фуд-корт на стадионе «Открытие Банк Арена» | Официальный сайт ФК «Спартак-Москва»",
+      "En": "Book a food court at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "imageOg": {
+      "En": "picture",
+      "Ru": "картинка"
+    },
+    "typeOg": {
+      "En": "Article",
+      "Ru": "Статья"
+    },
+    "descriptionOg": {
+      "Ru": "Аренда фудкорта или ресторана на территории «Открытие Банк Арена». Площадь 1000 м².  Вместимость - 1150 гостей. Проведите мероприятие на стадионе футбольного клуба «Спартак-Москва».",
+      "En": "Rent a food court or restaurant at Otkritie Bank Arena. Area 1000 m², Capacity - 1150 guests. Hold the event at the Spartak Moscow Football Club stadium."
+    },
+    "localeOg": {
+      "En": "En",
+      "Ru": "Ru"
+    }
+  },
+  "mainInfo": {
+    "title": {
+      "En": "Food court, sports bar and restaurant area",
+      "Ru": "Фуд-корт, спортбар и зона ресторанов"
+    },
+    "img": {
+      "En": "/images/services/FoodCourtBanner_v1.0.0.png",
+      "Ru": "/images/services/FoodCourtBanner_v1.0.0.png"
+    }
+  },
+  "infoBlock": [
+    {
+      "title": {
+        "En": "Restaurants zone",
+        "Ru": "Зона ресторанов"
+      },
+      "img": {
+        "En": "/images/services/FoodCourtRestaurantZone_v1.0.0.png",
+        "Ru": "/images/services/FoodCourtRestaurantZone_v1.0.0.png"
+      },
+      "description": {
+        "En": "At your service are three comfortable and spacious restaurants: Silver? Gold and Platinum, which belong to the third stage of the VIP-tribune. Panoramic view of the football field, the ability to transform the premises to the volume you need. corporate events, conferences, holidays and weddings.",
+        "Ru": "К вашим услугам три комфортных и вместительных ресторана: Silver, Gold и Platinum, которые расположены на третьем этаже VIP-трибуны. Панорамный вид на футбольное поле, возможность трансформировать помещение под нужный вам объем. Рестораны стадиона отлично подойдут для корпоративных мероприятий, деловых конференций, праздников и свадебных торжеств."
+      },
+      "blockParams": [
+        {
+          "label": {
+            "En": "Square",
+            "Ru": "Площадь"
+          },
+          "value": {
+            "En": "2000 m²",
+            "Ru": "2000 м²"
+          }
+        },
+        {
+          "label": {
+            "En": "Count seats",
+            "Ru": "посадочных мест"
+          },
+          "value": {
+            "En": "1150 ppl.",
+            "Ru": "1150 чел."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "En": "Food court",
+        "Ru": "Фуд-корт"
+      },
+      "img": {
+        "En": "/images/services/FoodCourt_v1.0.0.png",
+        "Ru": "/images/services/FoodCourt_v1.0.0.png"
+      },
+      "description": {
+        "En": "The food court is located on the second floor of the VIP stand and is decorated in the colors of the most popular and titled football club in Russia - Spartak Moscow.\nSuitable for noisy parties, medium and large events, fairs, birthdays and unforgettable corporate holidays.",
+        "Ru": "Фуд-корт находится на втором этаже VIP-трибуны и оформлен в цветах самого популярного и титулованного футбольного клуба России - «Спартак-Москва». Подходит для шумных вечеринок, мероприятий средней и большой численности, ярмарок, дней рождений и незабываемых корпоративных праздников."
+      },
+      "blockParams": [
+        {
+          "label": {
+            "En": "Square",
+            "Ru": "Площадь"
+          },
+          "value": {
+            "En": "1000 m²",
+            "Ru": "1000 м²"
+          }
+        },
+        {
+          "label": {
+            "En": "Capacity",
+            "Ru": "Вместимость"
+          },
+          "value": {
+            "En": "1150 ppl.",
+            "Ru": "1150 чел."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "En": "Sport bar",
+        "Ru": "Спорт-бар"
+      },
+      "img": {
+        "En": "/images/services/SportBar_v1.0.0.png",
+        "Ru": "/images/services/SportBar_v1.0.0.png"
+      },
+      "description": {
+        "En": "A cozy sports bar is located on the ground floor of the stadium. The modern design of the premises and the abundance of TV panels allow you to customize the atmosphere of the establishment to suit your needs. Sports Bar is perfect for watching broadcasts, birthday parties, gastronomic master classes, tastings, tournaments and other entertainment events.",
+        "Ru": "Уютный спортивный бар расположен на первом этаже стадиона. Современный дизайн помещений и обилие ТВ-панелей позволяет настроить атмосферу заведения под ваши нужды. Спортбар отлично подходит для просмотра трансляций, дней рождений, гастрономических мастер-классов, дегустаций, турниров и иных развлекательных мероприятий."
+      },
+      "blockParams": [
+        {
+          "label": {
+            "En": "Square",
+            "Ru": "Площадь"
+          },
+          "value": {
+            "En": "300 m²",
+            "Ru": "300 м²"
+          }
+        },
+        {
+          "label": {
+            "En": "Count of seats",
+            "Ru": "Посадочных мест"
+          },
+          "value": {
+            "En": "180 ppl.",
+            "Ru": "180 чел."
+          }
+        }
+      ]
+    }
+  ],
+  "redBanner": [
+    {
+      "En": "Otkritie Bank Arena has various locations where you can hold events of any format and scale.",
+      "Ru": "«Открытие Банк Арена» располагает различными локациями, где можно провести мероприятия любого формата и масштаба."
+    },
+    {
+      "En": "Choose the right space for your celebration or business meeting.",
+      "Ru": "Выберите подходящее помещение для своего праздника или деловой встречи. "
+    }
+  ]
+}

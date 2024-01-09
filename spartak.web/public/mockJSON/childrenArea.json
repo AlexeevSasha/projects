@@ -1,0 +1,122 @@
+{
+  "metaTags": {
+    "titleName": {
+      "Ru": "Детская зона - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Children's area at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "titleOg": {
+      "Ru": "Детская зона - «Открытие Банк Арена» - Стадион футбольного клуба «Спартак-Москва» в Москве",
+      "En": "Children's area at the stadium «Otkritie Bank Arena» | Spartak Moscow Football Club"
+    },
+    "imageOg": {
+      "En": "picture",
+      "Ru": "картинка"
+    },
+    "typeOg": {
+      "En": "Article",
+      "Ru": "Статья"
+    },
+    "descriptionOg": {
+      "Ru": "Детская игровая зона на территории стадиона футбольного клуба «Спартак-Москва» - «Открытие Банк Арена». Детская комната на западной трибуне площадью 450 м²,  вмещает 30 гостей. Детский городок на восточной трибуне вмещает до 1000 детей.",
+      "En": "Book a children's area at Otkritie Bank Arena. Children's room on the western stand  accommodates 30 guests. The children's town on the eastern stand can accommodate up to 1,000 children."
+    },
+    "localeOg": {
+      "En": "En",
+      "Ru": "Ru"
+    }
+  },
+  "mainInfo": {
+    "title": {
+      "En": "Children's area",
+      "Ru": "Детская зона"
+    },
+    "img": {
+      "En": "/images/services/ChildrenAreaBanner_v1.0.0.png",
+      "Ru": "/images/services/ChildrenAreaBanner_v1.0.0.png"
+    }
+  },
+  "infoBlock": [
+    {
+      "title": {
+        "En": "Children's room. West stand",
+        "Ru": "Детская комната. Западная трибуна"
+      },
+      "img": {
+        "En": "/images/services/ChildrenAreaSmallField_v1.0.0.png",
+        "Ru": "/images/services/ChildrenAreaSmallField_v1.0.0.png"
+      },
+      "description": {
+        "En": "Bright and mischievous design, modern equipment for active movement, educational games and much more will definitely not leave our little guests indifferent! The children's room has a mini football field, table air hockey, table football, a slide with a pool of balls.If necessary, you can use the guest locker room, also equipped with a mini football field, to organize a children's football game tournament.",
+        "Ru": "Яркий и озорной дизайн, современное оборудование для активных передвижений и обучающие игры абсолютно точно не оставят равнодушными наших маленьких гостей! В детской комнате есть мини-футбольное поле, настольный аэрохоккей, настольный футбол, горка с бассейном из мячей. При необходимости можно задействовать гостевую раздевалку, также оборудованную мини-футбольным полем, для организации игрового детского турнира."
+      },
+      "blockParams": [
+        {
+          "label": {
+            "En": "Square",
+            "Ru": "площадь"
+          },
+          "value": {
+            "En": "450 m²",
+            "Ru": "450 м²"
+          }
+        },
+        {
+          "label": {
+            "En": "Capacity",
+            "Ru": "Вместимость"
+          },
+          "value": {
+            "En": "30 ppl.",
+            "Ru": "30 чел."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "En": "Playground. East stand",
+        "Ru": "Детский городок. Восточная трибуна"
+      },
+      "img": {
+        "En": "/images/services/ChildrenAreaPlayground_v1.0.0.png",
+        "Ru": "/images/services/ChildrenAreaPlayground_v1.0.0.png"
+      },
+      "description": {
+        "En": "Here your child can feel the happiest in the world: a football field, unusual architectural compositions of play houses, slides, horizontal bars, swings - This and much more awaits him in our children's town.",
+        "Ru": "Здесь ваш ребенок сможет почувствовать себя самым счастливым на свете: футбольное поле, необычные архитектурные композиции игровых домиков, горки, турники, качели. Это и многое другое ждет его в нашем детском городке."
+      },
+      "blockParams": [
+        {
+          "label": {
+            "En": "Square",
+            "Ru": "площадь"
+          },
+          "value": {
+            "En": "1500 m²",
+            "Ru": "1500 м²"
+          }
+        },
+        {
+          "label": {
+            "En": "Capacity",
+            "Ru": "Вместимость"
+          },
+          "value": {
+            "En": "1000 ppl.",
+            "Ru": "1000 чел."
+          }
+        }
+      ]
+    }
+  ],
+  "redBanner": [
+    {
+      "En": "Otkritie Bank Arena has several locations for children's parties.",
+      "Ru": "На «Открытие Банк Арена» есть несколько локаций для проведения детских праздников. "
+    },
+    {
+      "En": "Find out more about the Children's room and Playground, which are located in different parts of our stadium.",
+      "Ru": "Узнайте больше о детской комнате и детском городке, которые расположены в разных частях нашего стадиона. "
+    }
+  ]
+}
