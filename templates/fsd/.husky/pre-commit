@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+staged_files=$(git diff --cached --name-only | grep -v 'yarn.log')
+
+npx prettier ${staged_files} --check
+npx eslint ${staged_files}

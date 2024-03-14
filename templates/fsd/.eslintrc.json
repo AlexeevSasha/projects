@@ -1,0 +1,77 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks", "jsx-a11y", "@typescript-eslint", "import", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "import/first": "error",
+    "import/newline-after-import": "warn",
+    "import/no-duplicates": "error",
+    "@typescript-eslint/no-var-requires": "warn",
+    "@typescript-eslint/no-empty-interface": "error",
+    "@typescript-eslint/no-empty-function": "error",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/display-name": "off",
+    "import/no-restricted-paths": [
+      "error",
+      {
+        "basePath": "./src/",
+        "zones": [
+          {
+            "target": "pages",
+            "from": ["app"]
+          },
+          {
+            "target": "widgets",
+            "from": ["app", "pages"]
+          },
+          {
+            "target": "features",
+            "from": ["app", "pages", "widgets"]
+          },
+          {
+            "target": "entities",
+            "from": ["app", "pages", "widgets", "features"]
+          },
+          {
+            "target": "shared",
+            "from": ["app", "pages", "widgets", "features", "entities"]
+          }
+        ]
+      }
+    ]
+  }
+}
