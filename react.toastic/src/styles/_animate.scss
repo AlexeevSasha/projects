@@ -1,0 +1,399 @@
+@keyframes ToasticOpenDropRight {
+  0% {
+    transform-style: preserve-3d;
+    transform: rotateX(-150deg);
+    transform-origin: 50% 0;
+    opacity: 0;
+  }
+  70% {
+    transform: rotateX(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes ToasticOpenZoomRight {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+@keyframes ToasticOpenSkewRight {
+  0% {
+    transform: skewX(60deg) translateX(130%);
+  }
+  80% {
+    transform: translateX(-20%) skewX(-5deg)
+  }
+  100% {
+    transform: translateX(0) skewX(0)
+  }
+}
+
+@keyframes ToasticOpenSlideRight {
+  0% {
+    transform: translateX(105%)
+  }
+  40% {
+    transform: translateX(-20%)
+  }
+  100% {
+    transform: translateX(0)
+  }
+}
+
+@keyframes ToasticOpenDropLeft {
+  0% {
+    transform-style: preserve-3d;
+    transform: rotateX(-150deg);
+    transform-origin: 50% 0;
+    opacity: 0;
+  }
+  70% {
+    transform: rotateX(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes ToasticOpenZoomLeft {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+@keyframes ToasticOpenSkewLeft {
+  0% {
+    transform: skewX(60deg) translateX(-130%);
+  }
+  80% {
+    transform: translateX(20%) skewX(-5deg)
+  }
+  100% {
+    transform: translateX(0) skewX(0)
+  }
+}
+
+@keyframes ToasticOpenSlideLeft {
+  0% {
+    transform: translateX(-105%)
+  }
+  40% {
+    transform: translateX(20%)
+  }
+  100% {
+    transform: translateX(0)
+  }
+}
+
+@keyframes ToasticOpenDropCenter {
+  0% {
+    transform-style: preserve-3d;
+    transform: rotateX(-150deg);
+    transform-origin: 50% 0;
+    opacity: 0;
+  }
+  70% {
+    transform: rotateX(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes ToasticOpenZoomCenter {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+@keyframes ToasticOpenSkewCenter {
+  0% {
+    opacity: 0;
+    transform: skewY(-10deg) skewX(-5deg) translateY(130%);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-20%) skew(5deg);
+  }
+  100% {
+    transform: translateY(0) skew(0)
+  }
+}
+
+@keyframes ToasticOpenSlideCenter {
+  0% {
+    transform: translateY(120%)
+  }
+  40% {
+    transform: translateY(-20%)
+  }
+  100% {
+    transform: translateY(0)
+  }
+}
+
+//close
+@keyframes ToasticCloseDropRight {
+  0% {
+    transform-style: preserve-3d;
+    transform-origin: 50% 0;
+    transform: rotateX(0deg);
+  }
+
+  20% {
+    transform: rotateX(-20deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotateX(150deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ToasticCloseZoomRight {
+  0% {
+    transform: scale(1)
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes ToasticCloseSkewRight {
+  0% {
+    transform: translateX(0) skewX(0)
+  }
+  20% {
+    transform: translateX(-20%) skewX(-5deg)
+  }
+  100% {
+    transform: skewX(60deg) translateX(130%);
+  }
+}
+
+@keyframes ToasticCloseSlideRight {
+  0% {
+    transform: translateX(0)
+  }
+  20% {
+    transform: translateX(-20%)
+  }
+  100% {
+    transform: translateX(105%)
+  }
+}
+
+@keyframes ToasticCloseDropLeft {
+  0% {
+    transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    transform-origin: 50% 0;
+  }
+  20% {
+    transform: rotateX(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(-150deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ToasticCloseZoomLeft {
+  0% {
+    transform: scale(1)
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes ToasticCloseSkewLeft {
+  0% {
+    transform: translateX(0) skewX(0)
+  }
+  20% {
+    transform: translateX(20%) skewX(-5deg)
+  }
+  100% {
+    transform: skewX(60deg) translateX(-130%);
+  }
+}
+
+@keyframes ToasticCloseSlideLeft {
+  0% {
+    transform: translateX(0)
+
+  }
+  20% {
+    transform: translateX(20%)
+  }
+  100% {
+    transform: translateX(-105%)
+  }
+}
+
+@keyframes ToasticCloseDropCenter {
+  0% {
+    transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    transform-origin: 50% 0;
+  }
+  20% {
+    transform: rotateX(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(-150deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ToasticCloseZoomCenter {
+  0% {
+    transform: scale(1);
+
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes ToasticCloseSkewCenter {
+  0% {
+    transform: translateY(0) skew(0)
+  }
+  20% {
+    transform: translateY(20%) skew(5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: skewY(-30deg) skewX(-5deg) translateY(-130%);
+
+  }
+}
+
+@keyframes ToasticCloseSlideCenter {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-120%);
+    opacity: 0;
+  }
+}
+
+
+//progress
+@keyframes ToasticProgress {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+//icon
+@keyframes ToasticTriangle {
+  0% {
+    transform: translate(-50%, -53%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -60%) scale(1.5);
+    opacity: 0;
+  }
+  51% {
+    transform:translate(-50%, -53%) scale(1);
+  }
+}
+@keyframes ToasticWave {
+  0% {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    border-width: 0.1px;
+    opacity: 0;
+  }
+  51% {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+}
+@keyframes ToasticTwitch {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  10% {
+    transform: scale(1.5) translateX(5px);
+  }
+  15% {
+    transform: scale(1.5) translateX(-5px);
+  }
+  20% {
+    transform: scale(1.5) translateX(3px);
+  }
+  25% {
+    transform: scale(1.5) translateX(-3px);
+  }
+  30% {
+    transform: scale(1.5) translateX(0);
+  }
+  50% {
+    transform: scale(1) translateX(0);
+  }
+}
+
+
+
+
