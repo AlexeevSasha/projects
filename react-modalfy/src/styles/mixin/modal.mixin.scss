@@ -1,0 +1,32 @@
+@mixin modal($value) {
+  @if $value == openModal {
+    animation: openModal 0.3s ease-out;
+  }
+  @if $value == closeModal {
+    animation: closeModal 0.3s ease-out forwards;
+  }
+}
+
+@keyframes openModal {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes closeModal {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,14 @@
+@use "./mixin/popup.mixin" as mixin;
+
+.backdrop {
+  width: inherit;
+  height: inherit;
+  background: black;
+  opacity: 0.4;
+
+  @include mixin.popup(openBackdrop);
+
+  &Close {
+    @include mixin.popup(closeBackdrop);
+  }
+}

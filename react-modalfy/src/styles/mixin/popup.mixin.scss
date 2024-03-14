@@ -1,0 +1,29 @@
+@mixin popup($value) {
+  @if $value == openBackdrop {
+    animation: openBackdrop 0.3s ease-in-out;
+  }
+  @if $value == closeBackdrop {
+    animation: closeBackdrop 0.3s ease-in-out forwards;
+  }
+}
+
+@keyframes openBackdrop {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes closeBackdrop {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    display: none;
+    opacity: 0;
+  }
+}

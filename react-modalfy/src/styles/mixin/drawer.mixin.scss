@@ -1,0 +1,122 @@
+@mixin drawer($value) {
+  @if $value == openLeftDrawer {
+    animation: openLeftDrawer 0.3s ease-out;
+  }
+  @if $value == closeLeftDrawer {
+    animation: closeLeftDrawer 0.3s ease-out forwards;
+  }
+  @if $value == openRightDrawer {
+    animation: openRightDrawer 0.3s ease-out;
+  }
+  @if $value == closeRightDrawer {
+    animation: closeRightDrawer 0.3s ease-out forwards;
+  }
+  @if $value == openTopDrawer {
+    animation: openTopDrawer 0.3s ease-out;
+  }
+  @if $value == closeTopDrawer {
+    animation: closeTopDrawer 0.3s ease-out forwards;
+  }
+  @if $value == openBottomDrawer {
+    animation: openBottomDrawer 0.3s ease-out;
+  }
+  @if $value == closeBottomDrawer {
+    animation: closeBottomDrawer 0.3s ease-out forwards;
+  }
+}
+
+@keyframes openLeftDrawer {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes closeLeftDrawer {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes openRightDrawer {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes closeRightDrawer {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes openTopDrawer {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes closeTopDrawer {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes openBottomDrawer {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes closeBottomDrawer {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}

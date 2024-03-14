@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+staged_files=$(git diff --cached --name-only --diff-filter=d | grep -Ev 'package-lock\.log|yarn\.lock|README\.md')
+
+npx eslint ${staged_files}
+npx prettier ${staged_files} --check
