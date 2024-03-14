@@ -1,0 +1,8 @@
+@import "src/styles/mixins/chat.mixin";
+
+.container {
+  flex: 1;
+  overflow-y: auto;
+
+  @include chat-padding;
+}

@@ -1,0 +1,29 @@
+@import "src/styles/mixins/chat.mixin";
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include chat-padding;
+
+  &::before {
+    @include chat-line;
+
+    bottom: 0;
+  }
+}
+
+.title {
+  h3 {
+    color: var(--text);
+    line-height: 20px;
+  }
+
+  p {
+    color: var(--text-second);
+    font-size: 13px;
+    line-height: 14px;
+  }
+}

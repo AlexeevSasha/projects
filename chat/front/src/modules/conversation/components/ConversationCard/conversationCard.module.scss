@@ -1,0 +1,59 @@
+.container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 5px 10px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: var(--conversation-hover);
+  }
+}
+
+.avatar {
+  flex-shrink: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: white;
+  margin-right: 10px;
+  z-index: 1;
+}
+
+.wrapper {
+  flex: 1;
+  display: grid;
+  align-items: center;
+}
+
+.info {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.message {
+  line-height: 20px;
+  color: var(--text-second);
+  font-weight: 400;
+}
+
+.date {
+  font-size: 13px;
+  color: var(--text-second);
+  margin-left: 10px;
+  flex-shrink: 0;
+}

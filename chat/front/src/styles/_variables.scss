@@ -1,0 +1,92 @@
+:root {
+  --font-family: montserrat, sans-serif;
+
+  // sm
+  --font-size-sm: 12px;
+  --font-line-sm: 20px;
+  --font-sm: var(--font-size-sm) / var(--font-line-sm) var(--font-family);
+
+  // md
+  --font-size-md: 16px;
+  --font-line-md: 24px;
+  --font-md: var(--font-size-md) / var(--font-line-md) var(--font-family);
+
+  // lg
+  --font-size-lg: 24px;
+  --font-line-lg: 32px;
+  --font-lg: var(--font-size-lg) / var(--font-line-lg) var(--font-family);
+
+  // xl
+  --font-size-xl: 32px;
+  --font-line-xl: 40px;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family);
+
+  // z-index
+  --modal-z-index: 1000;
+  --overlay-z-index: 100;
+
+  // color
+  --black: #161e25;
+  --white: white;
+  --green: green;
+  --error: #ff785a;
+  --blue: #5383c7;
+  --shadow-modal: 0 0 8px 0 rgb(34 60 80 / 20%);
+
+  //  button
+  --button-bg-main: #248bf2;
+  --button-bg-main-hover: #39f;
+  --button-bg-main-active: #1677d9;
+  --button-color-main: #fff;
+  --button-bg-gray: #c9ccd1;
+  --button-bg-gray-hover: #ebedf0;
+  --button-bg-gray-active: #e6e7eb;
+  --button-color-gray: #71747a;
+  --button-color-gray-hover: #a4a6aa;
+  --button-color-gray-active: #bbbdc0;
+  --button-bg-red: #f23051;
+  --button-bg-red-hover: #ff4060;
+  --button-bg-red-active: #d92140;
+}
+
+:root[data-theme="light"] {
+  --background: #f2f3f3;
+  --background-block: #fbfbfb;
+  --gray: #bbb;
+  --input: #fbfbfb;
+  --input-border: #bfbfbf;
+  --input-color: #202020;
+  --input-placholder: #626364;
+  --icon-color: #212121;
+  --icon-bg: #e6e6e6;
+  --text: #202020;
+  --text-second: #5b5c5e;
+  --conversation-active: #419fd9;
+  --conversation-hover: #e8e8e8;
+  --conversation-ripple: #4d4d4d;
+  --blue-hover: #1d4e95;
+  --border: #bfbfbf;
+  --scroll-track: #cbcbcb;
+  --scroll-thumb: #656565;
+}
+
+:root[data-theme="dark"] {
+  --background: #202020;
+  --background-block: #2d2e2f;
+  --gray: #4c4c4c;
+  --input: #2d2e2f;
+  --input-border: #404040;
+  --input-color: #fff;
+  --input-placholder: #bfbfbf;
+  --icon-color: #fff;
+  --icon-bg: #414141;
+  --text: #fff;
+  --text-second: #a3a6aa;
+  --conversation-active: #1a324d;
+  --conversation-hover: #2c2c2c;
+  --conversation-ripple: #808080;
+  --blue-hover: #246bce;
+  --border: #555;
+  --scroll-track: #3f4242;
+  --scroll-thumb: #b6b6b6;
+}

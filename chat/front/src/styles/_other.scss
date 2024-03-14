@@ -1,0 +1,40 @@
+.scroll {
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px 10px var(--scroll-track);
+    border: solid 3px transparent;
+    margin: 14px 0;
+    border-radius: 100px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 10px 10px var(--scroll-thumb);
+    border: solid 3px transparent;
+    background-clip: padding-box;
+    border-radius: 100px;
+  }
+
+  &__hidden {
+    &::-webkit-scrollbar-track,
+    &::-webkit-scrollbar-thumb {
+      box-shadow: inset 0 0 10px 10px transparent;
+    }
+  }
+}
+
+.ripple {
+  position: absolute;
+  opacity: 0.25;
+  transform: scale(0);
+  border-radius: 50%;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}

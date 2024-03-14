@@ -1,0 +1,119 @@
+.button {
+  cursor: pointer;
+  background: var(--button-bg-main);
+  color: var(--button-color-main);
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+
+  &:hover {
+    background: var(--button-bg-main-hover);
+  }
+
+  &:active {
+    background: var(--button-bg-main-active);
+  }
+
+  &:disabled {
+    cursor: default;
+    background: var(--button-bg-gray);
+  }
+}
+
+.sm {
+  padding: 6px 16px;
+}
+
+.lg {
+  padding: 10px 24px;
+}
+
+.fullWith {
+  width: 100%;
+}
+
+.notHover {
+  &:hover {
+    background: transparent !important;
+  }
+}
+
+.gray {
+  background: var(--button-bg-gray);
+  color: var(--button-color-gray);
+
+  &:hover {
+    background: var(--button-bg-gray-hover);
+  }
+
+  &:active {
+    background: var(--button-bg-gray-active);
+  }
+}
+
+.red {
+  background: var(--button-bg-red);
+
+  &:hover {
+    background: var(--button-bg-red-hover);
+  }
+
+  &:active {
+    background: var(--button-bg-red-active);
+  }
+}
+
+.without-bg {
+  background: transparent;
+  color: var(--button-color-gray);
+
+  &:hover {
+    background: transparent;
+    color: var(--button-color-gray-hover);
+  }
+
+  &:active {
+    background: transparent;
+    color: var(--button-color-gray-active);
+  }
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--button-without-bg);
+  border-radius: 50%;
+  padding: 0;
+
+  &:hover {
+    background: var(--icon-bg);
+  }
+}
+
+.iconSvg {
+  svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--icon-color);
+    opacity: 1;
+    z-index: 1;
+
+    path {
+      stroke: var(--icon-color);
+      fill: var(--icon-color);
+    }
+  }
+}
+
+.iconSm {
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,14 @@
+@import "src/styles/mixins/chat.mixin";
+
+.container {
+  position: relative;
+  padding: 16px;
+
+  @include chat-padding;
+
+  &::before {
+    @include chat-line;
+
+    top: 0;
+  }
+}

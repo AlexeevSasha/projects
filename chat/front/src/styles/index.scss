@@ -1,0 +1,20 @@
+@import "reset";
+@import "fonts";
+@import "variables";
+@import "other";
+
+body {
+  font: var(--font-md);
+  color: var(--text);
+  background: var(--background);
+  font-weight: 400;
+  font-style: normal;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  min-height: 100vh;
+}

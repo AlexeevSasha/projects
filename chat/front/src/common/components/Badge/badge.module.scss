@@ -1,0 +1,19 @@
+.badge {
+  min-width: 20px;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -20px;
+  top: -8px;
+  padding: 0 4px;
+  border-radius: 50%;
+  background: var(--green);
+  font-size: 12px;
+  color: var(--white);
+}
+
+.rectangle {
+  border-radius: 20px;
+}

@@ -1,0 +1,12 @@
+.textArea {
+  width: 100%;
+  resize: none;
+  font-family: inherit;
+  min-height: 45px;
+  max-height: 300px;
+  overflow: auto;
+
+  &::placeholder {
+    opacity: 1;
+  }
+}

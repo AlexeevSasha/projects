@@ -1,0 +1,47 @@
+@use "src/styles/mixins/popup.mixin" as mixin;
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  padding: 8px;
+
+  & > * {
+    z-index: 100;
+
+    @include mixin.popup(openModal);
+  }
+
+  &Close {
+    & > * {
+      @include mixin.popup(closeModal);
+    }
+  }
+}
+
+.backdrop {
+  width: inherit;
+  height: inherit;
+  background: var(--black);
+  opacity: 0.4;
+
+  @include mixin.popup(openBackdrop);
+
+  &Close {
+    @include mixin.popup(closeBackdrop);
+  }
+}
