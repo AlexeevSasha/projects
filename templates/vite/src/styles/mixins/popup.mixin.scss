@@ -1,0 +1,82 @@
+@mixin popup($value) {
+  @if $value == openDrawer {
+    animation: openDrawer 0.3s ease-out;
+  }
+  @if $value == closeDrawer {
+    animation: closeDrawer 0.3s ease-out forwards;
+  }
+  @if $value == openDrawerRight {
+    animation: openDrawerRight 0.3s ease-out;
+  }
+  @if $value == closeDrawerRight {
+    animation: closeDrawerRight 0.3s ease-out forwards;
+  }
+  @if $value == openBackdrop {
+    animation: openBackdrop 0.3s ease-out;
+  }
+  @if $value == closeBackdrop {
+    animation: closeBackdrop 0.3s ease-out forwards;
+  }
+}
+
+
+@keyframes openDrawer {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes closeDrawer {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes openDrawerRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes closeDrawerRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+
+@keyframes openBackdrop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+@keyframes closeBackdrop {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 0;
+  }
+}
+

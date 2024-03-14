@@ -1,0 +1,12 @@
+@import "reset";
+@import "fonts";
+@import "variables";
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--black);
+  background: var(--white);
+  font-weight: 400;
+  font-style: normal;
+}
