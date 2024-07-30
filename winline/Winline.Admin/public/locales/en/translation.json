@@ -1,0 +1,498 @@
+{
+  "publicLayout": {
+    "mainTitle": "Administrative panel for mobile application management"
+  },
+  "privateLayout": {
+    "sideBar": {
+      "exit": {
+        "title": "Exit",
+        "modal": {
+          "title": "Are you sure you want to log out?",
+          "content": "The session will be terminated, you will be transferred to the authorization screen."
+        }
+      }
+    }
+  },
+  "common": {
+    "id": "ID",
+    "title": "Name",
+    "status": "Status",
+    "place": "Placement",
+    "action": "Action",
+    "createdUtc": "Creation date",
+    "createdDateTime": "Date and time",
+    "edit": "Edit",
+    "delete": "Delete",
+    "image": "Image",
+    "imagesDesc": "Loading an image (jpg, png) with a resolution of {{width}}x{{height}}, weighing no more than {{size}}mb.",
+    "view": "View",
+    "selectPlaceholder": "Not selected",
+    "type": "Type",
+    "adminPanel": "Admin panel",
+    "statuses": {
+      "neutral": {
+        "published": "published",
+        "scheduled": "planned",
+        "hidden": "hidden"
+      },
+      "female": {
+        "actual": "relevant",
+        "scheduled": "planned",
+        "published": "published",
+        "completed": "completed",
+        "outofstock": "completed ahead of time"
+      },
+      "male": {
+        "active": "active",
+        "archive": "archive"
+      }
+    },
+    "link": "Link",
+    "links": {
+      "hyperLink": "Hyperlink",
+      "screen": "Application Screen"
+    },
+    "filters": {
+      "clearFilters": "Clear",
+      "placeholders": {
+        "title": "Search",
+        "cities": "All cities",
+        "project": "All projects"
+      }
+    },
+    "buttonsText": {
+      "save": "Save",
+      "continue": "Continue",
+      "create": "Create",
+      "edit": "Edit",
+      "export": "Export",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "refresh": "Refresh",
+      "stop": "Complete"
+    },
+    "modal": {
+      "okText": "Confirm",
+      "title": "Do you really want to",
+      "delete": "delete",
+      "edit": "edit",
+      "publish": "publish",
+      "hidden": "hide",
+      "save": "save",
+      "close": "close",
+      "content": "will be deleted permanently.",
+      "contentFemale": "will be deleted permanently."
+    },
+    "heading": "Heading",
+    "sendTime": "Date and time of sending",
+    "text": "Text",
+    "role": "Role",
+    "email": "Email",
+    "user": "user",
+    "missing": "missing",
+    "upload": "Upload",
+    "textButton": "Button text",
+    "chooseAll": "Select all",
+    "yes": "Yes",
+    "no": "No",
+    "project": "Project",
+    "pagination": "{{range0}}-{{range1}} of {{total}} entries"
+  },
+  "auth": {
+    "formHeader": "Log in to your account",
+    "nodata": "Required data is not filled.",
+    "uiContent": {
+      "placeholders": {
+        "password": "Password"
+      },
+      "checkBoxText": {
+        "remember": "Remember me"
+      },
+      "linksText": {
+        "forgotPassword": "Forgot your password?"
+      },
+      "buttonsText": {
+        "submit": "Log in"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Password recovery",
+    "paragraph": "Enter the email address you used to register and we'll send you password change instructions.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Return"
+      },
+      "modal": {
+        "success": {
+          "successForgot": "If this email address was used to create your account, you will be sent instructions on how to reset your password. Please check your email."
+        },
+        "error": {
+          "errorAccount": "We couldn't find an account that matches the username and password you entered. Please check your username and password and try again.",
+          "errorRequest": "Undefined error.",
+          "errorForgotNonExist": "Email address not found. Please check your entry and try again."
+        }
+      }
+    }
+  },
+  "invitation": {
+    "title": "Invitation to the system",
+    "paragraph": "<b>{{name}}</b>, You were invited to the system by email <b>{{email}}</b>. To complete the account creation, you need to come up with a password.",
+    "uiContent": {
+      "placeholders": {
+        "password": "New Password"
+      }
+    }
+  },
+  "recovery": {
+    "title": "Recover your password",
+    "paragraph": "for <b>{{email}}</b> account",
+    "uiContent": {
+      "modal": {
+        "errorPassword": "The password length should be 8-20 characters, contain numbers, letters of the Latin alphabet in lowercase and uppercase."
+      }
+    }
+  },
+  "operationError": {
+    "title": "An error has occurred...",
+    "recovery": {
+      "paragraph": "Your password reset request has expired or the link has already been used."
+    },
+    "invitation": {
+      "paragraph": "Your invitation has expired or the link has already been used."
+    }
+  },
+  "operationSuccess": {
+    "recovery": {
+      "title": "Password changed"
+    },
+    "invitation": {
+      "title": "Password saved"
+    },
+    "paragraph": "Now you can log in with your new password.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Go to login"
+      }
+    }
+  },
+  "users": {
+    "title": "Users",
+    "entity": "User",
+    "createdUtc": "Registration Date",
+    "phone": "Phone",
+    "lastName": "Full name",
+    "city": "City",
+    "os": "OS",
+    "description": {
+      "title": "User information"
+    },
+    "filters": {
+      "placeholders": {
+        "cities": "All cities"
+      }
+    },
+    "registerAgree": "Consent to Advertising",
+    "notifications": {
+      "title": "Notifications",
+      "type": "Type",
+      "userFilter": "Users filter",
+      "delete": "The notification will be permanently deleted.",
+      "titles": {
+        "addNotification": "Create {{type}} - notification",
+        "updateNotification": "Edit {{type}} - notification"
+      },
+      "linksText": {
+        "wait": "Expect",
+        "history": "History"
+      },
+      "description": {
+        "title": "Notification information"
+      },
+      "successCounter": "Sent",
+      "auditoryFilter": "Audience filter",
+      "deviceOS": "Device OS",
+      "city": "User's city",
+      "over18": "User over the age of 18",
+      "policyAgreement": "User agrees with Winline policy",
+      "optional": "optionally"
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "entity": "employee",
+    "name": "Name",
+    "filters": {
+      "placeholders": {
+        "role": "Select role"
+      }
+    },
+    "table": {
+      "columns": {
+        "activationDate": {
+          "title": "Activation status",
+          "active": "active",
+          "notActive": "inactive",
+          "tooltip": "Resend invitation"
+        }
+      },
+      "uiContent": {
+        "modal": {
+          "content": "The employee will be denied access to the system and disappear from the list of employees of the admin panel."
+        }
+      }
+    },
+    "role": {
+      "title": "Roles",
+      "entity": "role",
+      "description": {
+        "points": {
+          "title": "Full access",
+          "content": "Can view and change all system parameters."
+        }
+      },
+      "form": {
+        "uiContent": {
+          "alerts": {
+            "accessRule": "Select at least one access right."
+          }
+        },
+        "accessBuilders": {
+          "titles": {
+            "setting": "Settings"
+          },
+          "radioButtons": {
+            "none": "No rights",
+            "read": "Reading",
+            "write": "Reading and writing"
+          }
+        }
+      }
+    }
+  },
+  "systemLog": {
+    "title": "System log",
+    "createdUtc": "Date and time of creation",
+    "userCard": "Employee information",
+    "employee": "Employee",
+    "tableName": "Essence",
+    "dataChanges": "Changed fields",
+    "filters": {
+      "placeholders": {
+        "employee": "Select an employee"
+      }
+    },
+    "description": {
+      "title": "Entry information",
+      "points": {
+        "dataChanges": {
+          "insert": "Added fields",
+          "delete": "Deleted fields"
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "interfaceLang": "Interface language"
+  },
+  "adv": {
+    "title": "Advertising",
+    "entity": "Banner",
+    "tab1": "Winline",
+    "tab2": "Clubs",
+    "rangeDate": "Banner display period",
+    "filters": {
+      "placeholders": {
+        "title": "Search by name",
+        "status": "Any status"
+      }
+    },
+    "table": {
+      "columns": {
+        "startDate": "Start date",
+        "endDate": "End date"
+      }
+    },
+    "modal": {
+      "content": "Make sure that the period of display and other data of the banner are set correctly. The banner is automatically published and hidden based on the start and end dates."
+    }
+  },
+  "loyalty": {
+    "title": "Loyalty",
+    "participantsCount": "Number of participants",
+    "beginDate": "Start date",
+    "endDate": "End date",
+    "desc": "Description",
+    "conditions": "Conditions",
+    "reward": "Reward",
+    "stock": {
+      "title": "Create stock",
+      "entity": "stock"
+    },
+    "event": "Event",
+    "sector": "Sector",
+    "filters": {
+      "placeholders": {
+        "status": {
+          "title": "All statuses"
+        }
+      }
+    },
+    "table": {
+      "title": "Loyalty programs",
+      "columns": {
+        "promotionName": "Promotion Name",
+        "rewardType": "Award type"
+      },
+      "modal": {
+        "title": "Are you sure you want to complete?",
+        "content": "Re-launch of the action is impossible.",
+        "delete": "The promotion will be deleted permanently.",
+        "save": "The changes will take effect immediately.",
+        "close": "The data will not be saved."
+      },
+      "form": {
+        "steps": {
+          "first": "General"
+        },
+        "buttons": {
+          "close": "Close",
+          "back": "Back",
+          "next": "Next"
+        }
+      }
+    },
+    "description": {
+      "title": "Promotion information",
+      "winnersCount": "Number of winners",
+      "stopDate": "Stop date",
+      "availability": "Available",
+      "count": "Amount",
+      "file": "File",
+      "noCondition": "Unconditional",
+      "newUser": "New user",
+      "fullProfile": "All profile fields are filled",
+      "boughtTicket": "Bought a ticket",
+      "ticketsCount": "Number of tickets"
+    }
+  },
+  "loyaltyForm": {
+    "firstStep": {
+      "systemName": "System name",
+      "date": {
+        "title": "Date"
+      },
+      "exampleTitle": "Example of a promotion"
+    },
+    "secondStep": {
+      "showUsers": {
+        "title": "Who will be available?",
+        "description": "The action can be available and visible in the application for all users or a specific selection.",
+        "options": {
+          "showUsersOptions": {
+            "AllUser": "All users",
+            "AllCondition": "Anyone who initially met the conditions",
+            "FromFile": "Select from a file (import from CSV)"
+          }
+        }
+      },
+      "conditions": {
+        "title": "Are there victory conditions?",
+        "description": "If there are no conditions, then after taking part, the user will immediately take the reward.",
+        "hasConditions": {
+          "title": "Conditions for winning the promotion",
+          "description": "Actions that the user must perform to win.",
+          "label": {
+            "allDataFilled": "Fill in all profile data",
+            "newUser": "Register an account during the promotion period",
+            "ticketIsBought": "Bought an event ticket",
+            "minCount": "Minimum number of tickets purchased"
+          }
+        }
+      }
+    },
+    "thirdStep": {
+      "awards": {
+        "freebet": "Freebet",
+        "voucherToTheBox": "Voucher to the box",
+        "couponForMerchandise": "Coupon for merchandise",
+        "externalReference": "External reference"
+      },
+      "count": "Number of coupons",
+      "countDesc": "The specified number determines the maximum number of possible winners",
+      "freebet": {
+        "title": "Import Freebets from a file",
+        "description1": "The number of links loaded in the file determines the maximum number of possible winners.",
+        "description2": "The file must contain one column without a header with links."
+      },
+      "voucher": {
+        "title": "Number of vouchers",
+        "description1": "The specified number determines the maximum number of possible winners.",
+        "description2": "One voucher per person."
+      },
+      "link": {
+        "linkPlaceholder": "Enter link",
+        "buttonPlaceholder": "Enter text",
+        "linkDescription": "Instead of a reward, the participant who fulfilled the conditions will be able to follow the link common to all winners. For example in advertising.",
+        "linkDescription2": "The number of winners is unlimited.",
+        "buttonDescription": "Where the link will be stored."
+      }
+    }
+  },
+  "help": "Help",
+  "success": {
+    "create": {
+      "employee": "An email has been sent to the employee's email address with instructions on how to complete the registration.",
+      "role": "The role has been successfully created.",
+      "notification": "Notification successfully created.",
+      "adv": "Banner successfully created.",
+      "loyalty": "The promotion has been successfully created."
+    },
+    "update": {
+      "employee": "The employee was successfully saved.",
+      "role": "Role changed successfully.",
+      "notification": "Notification modified successfully.",
+      "loyalty": "The promotion modified successfully.",
+      "invitation": "An email with instructions on how to complete registration has been resent to the employee's email address.",
+      "adv": "Banner changed."
+    },
+    "delete": {
+      "employee": "The employee is denied access to the system and excluded from the list of employees. To cancel the action, contact your system administrator.",
+      "role": "The role was successfully deleted.",
+      "notification": "The notification was successfully deleted.",
+      "loyalty": "The promotion was successfully deleted.",
+      "adv": "Banner deleted.",
+      "user": "The user has been deleted."
+    },
+    "end": {
+      "loyalty": "The promotion has been successfully completed."
+    }
+  },
+  "errorAccess": "Insufficient rights to perform the action.",
+  "successExport": "The file has been successfully saved to your device.",
+  "validations": {
+    "default": "Validation error.",
+    "noWriteRoleAccess": "Action is impossible. No rights to read roles.",
+    "invalidNameLocal": "The used values are invalid.",
+    "minLengthLessLocal": "The value is too short.",
+    "maxLengthExceededLocal": "The used word is too long.",
+    "maxWordLengthExceeded": "More than three words used.",
+    "invalidTypeFile": "The file must be in the specified format ({{types}}).",
+    "maxLimitBanners": "Select a banner space that is not occupied for the specified period.",
+    "invalidEmail": "Invalid email format",
+    "invalidName": "The letters A-z or A-z are allowed. The maximum number of words cannot exceed {{count}}. The maximum number of characters in a word cannot exceed {{count}}.",
+    "invalidUri": "Incorrect link",
+    "maxLengthExceeded": "The maximum number of characters cannot exceed {{max}}.",
+    "minLengthLess": "The minimum number of characters must be greater than {{min}}.",
+    "required": "Required field",
+    "invalidPassword": "The password length should be {{min}} - {{max}} characters, contain numbers, letters of the Latin alphabet in lowercase and uppercase.",
+    "dateMustBeGreaterThenCurrentMoment": "The date and time of sending cannot be past",
+    "dateChangeNotificationError": "You cannot change a notification that has already been sent.",
+    "dateDeleteNotificationError": "You cannot delete a notification that has already been sent.",
+    "filtersError": "The values used are invalid in the search string.",
+    "filtersSizeError": "The maximum number of characters in the search string has been exceeded.",
+    "invalidEndPublish": "The end date of the publication cannot be earlier than the current date"
+  }
+}

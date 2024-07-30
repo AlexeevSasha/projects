@@ -1,0 +1,3 @@
+[submodule "src/modules/winline.mobile.image"]
+	path = src/modules/winline.mobile.image
+	url = http://git.dextechnology.com/winline-group/winline.mobile.modules/winline.mobile.image.git

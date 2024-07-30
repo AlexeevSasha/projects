@@ -1,0 +1,636 @@
+{
+  "publicLayout": {
+    "mainTitle": "Administrative panel for mobile application management"
+  },
+  "privateLayout": {
+    "sideBar": {
+      "exit": {
+        "title": "Exit",
+        "modal": {
+          "title": "Are you sure you want to log out?",
+          "content": "The session will be terminated, you will be transferred to the authorization screen."
+        }
+      }
+    }
+  },
+  "common": {
+    "id": "ID",
+    "title": "Name",
+    "description": "Description",
+    "status": "Status",
+    "place": "Placement",
+    "action": "Action",
+    "createdUtc": "Creation date",
+    "createdDateTime": "Date and time",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "edit": "Edit",
+    "delete": "Delete",
+    "image": "Image",
+    "imagesDesc": "Loading an image (jpg, png) with a resolution of {{width}}x{{height}}, weighing no more than {{size}}mb.",
+    "view": "View",
+    "selectPlaceholder": "Not selected",
+    "adminPanel": "Admin panel",
+    "statuses": {
+      "neutral": {
+        "published": "published",
+        "scheduled": "planned",
+        "hidden": "hidden",
+        "refused": "denied",
+        "issued": "issued",
+        "active": "active",
+        "available": "available",
+        "finished": "finished",
+        "created": "created",
+        "closed": "closed",
+        "opened": "opened"
+      },
+      "female": {
+        "actual": "relevant",
+        "finished": "completed"
+      },
+      "male": {
+        "active": "active",
+        "archive": "archive",
+        "approved": "approved",
+        "created": "created",
+        "new": "new",
+        "rejected": "rejected",
+        "issued": "issued",
+        "waiting": "expects"
+      }
+    },
+    "link": "Link",
+    "links": {
+      "hyperLink": "Hyperlink",
+      "screen": "Application Screen"
+    },
+    "filters": {
+      "clearFilters": "Clear",
+      "placeholders": {
+        "title": "Search"
+      }
+    },
+    "buttonsText": {
+      "save": "Save",
+      "continue": "Continue",
+      "create": "Create",
+      "edit": "Edit",
+      "export": "Export",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "refresh": "Refresh",
+      "reset": "Reset",
+      "add": "Add",
+      "reject": "Reject"
+    },
+    "modal": {
+      "title": "Do you really want to",
+      "delete": "delete",
+      "publish": "publish",
+      "hidden": "hide",
+      "close": "close",
+      "content": "will be deleted permanently.",
+      "contentFemale": "will be deleted permanently."
+    },
+    "heading": "Heading",
+    "sendTime": "Date and time of sending",
+    "type": "Type",
+    "match": "Match",
+    "text": "Text",
+    "role": "Role",
+    "email": "Email",
+    "user": "user",
+    "missing": "missing",
+    "upload": "Upload",
+    "textButton": "Button text",
+    "chooseAll": "Select all",
+    "yes": "Yes",
+    "no": "No",
+    "pagination": "{{range0}}-{{range1}} of {{total}} entries",
+    "total": "Total"
+  },
+  "auth": {
+    "formHeader": "Log in to your account",
+    "nodata": "Required data is not filled.",
+    "uiContent": {
+      "placeholders": {
+        "password": "Password"
+      },
+      "checkBoxText": {
+        "remember": "Remember me"
+      },
+      "linksText": {
+        "forgotPassword": "Forgot your password?"
+      },
+      "buttonsText": {
+        "submit": "Log in"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Password recovery",
+    "paragraph": "Enter the email address you used to register and we'll send you password change instructions.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Return"
+      },
+      "modal": {
+        "success": {
+          "successForgot": "If this email address was used to create your account, you will be sent instructions on how to reset your password. Please check your email."
+        },
+        "error": {
+          "errorAccount": "We couldn't find an account that matches the username and password you entered. Please check your username and password and try again.",
+          "errorRequest": "Undefined error.",
+          "errorForgotNonExist": "Email address not found. Please check your entry and try again."
+        }
+      }
+    }
+  },
+  "invitation": {
+    "title": "Invitation to the system",
+    "paragraph": "<b>{{name}}</b>, You were invited to the system by email <b>{{email}}</b>. To complete the account creation, you need to come up with a password.",
+    "uiContent": {
+      "placeholders": {
+        "password": "New Password"
+      }
+    }
+  },
+  "recovery": {
+    "title": "Recover your password",
+    "paragraph": "for <b>{{email}}</b> account",
+    "uiContent": {
+      "modal": {
+        "errorPassword": "The password length should be 8-20 characters, contain numbers, letters of the Latin alphabet in lowercase and uppercase."
+      }
+    }
+  },
+  "operationError": {
+    "title": "An error has occurred...",
+    "recovery": {
+      "paragraph": "Your password reset request has expired or the link has already been used."
+    },
+    "invitation": {
+      "paragraph": "Your invitation has expired or the link has already been used."
+    }
+  },
+  "operationSuccess": {
+    "recovery": {
+      "title": "Password changed"
+    },
+    "invitation": {
+      "title": "Password saved"
+    },
+    "paragraph": "Now you can log in with your new password.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Go to login"
+      }
+    }
+  },
+  "users": {
+    "title": "Users",
+    "entity": "User",
+    "createdUtc": "Registration Date",
+    "phone": "Phone",
+    "lastName": "Full name",
+    "city": "City",
+    "os": "OS",
+    "description": {
+      "title": "User information"
+    },
+    "filters": {
+      "placeholders": {
+        "cities": "All cities"
+      }
+    },
+    "registerAgree": "Consent to Advertising",
+    "notifications": {
+      "title": "Notifications",
+      "userFilter": "Users filter",
+      "delete": "The notification will be permanently deleted.",
+      "titles": {
+        "addNotification": "Create {{type}} - notification",
+        "updateNotification": "Edit {{type}} - notification"
+      },
+      "linksText": {
+        "wait": "Expect",
+        "history": "History"
+      },
+      "description": {
+        "title": "Notification information",
+        "isFromWinline": "Sent from Winline"
+      },
+      "form": {
+        "fields": {
+          "userList": {
+            "label": "List of users",
+            "placeholder": "Select users"
+          },
+          "os": "OS:"
+        }
+      },
+      "successCounter": "Sent",
+      "auditoryFilter": "Audience filter",
+      "deviceOS": "Device OS",
+      "city": "User's city",
+      "over18": "User over the age of 18",
+      "policyAgreement": "User agrees with Winline policy",
+      "optional": "optionally"
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "entity": "employee",
+    "name": "Name",
+    "filters": {
+      "placeholders": {
+        "role": "Select role"
+      }
+    },
+    "table": {
+      "columns": {
+        "activationDate": {
+          "title": "Activation status",
+          "active": "active",
+          "notActive": "inactive",
+          "tooltip": "Resend invitation"
+        }
+      },
+      "uiContent": {
+        "modal": {
+          "content": "The employee will be denied access to the system and disappear from the list of employees of the admin panel."
+        }
+      }
+    },
+    "role": {
+      "title": "Roles",
+      "description": {
+        "points": {
+          "title": "Full access",
+          "content": "Can view and change all system parameters."
+        }
+      },
+      "form": {
+        "uiContent": {
+          "alerts": {
+            "accessRule": "Select at least one access right."
+          }
+        },
+        "accessBuilders": {
+          "titles": {
+            "setting": "Settings"
+          },
+          "radioButtons": {
+            "none": "No rights",
+            "read": "Reading",
+            "write": "Reading and writing"
+          }
+        }
+      }
+    }
+  },
+  "mobileConfig": {
+    "title": "App",
+    "changedFields": "Fields with changes"
+  },
+  "systemLog": {
+    "title": "System log",
+    "createdUtc": "Date and time of creation",
+    "userCard": "Employee information",
+    "employee": "Employee",
+    "tableName": "Essence",
+    "dataChanges": "Changed fields",
+    "filters": {
+      "placeholders": {
+        "employee": "Select an employee"
+      }
+    },
+    "description": {
+      "title": "Entry information",
+      "points": {
+        "dataChanges": {
+          "insert": "Added fields",
+          "delete": "Deleted fields"
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "interfaceLang": "Interface language"
+  },
+  "adv": {
+    "title": "Advertising",
+    "entity": "Banner",
+    "tab1": "Winline",
+    "tab2": "Club",
+    "rangeDate": "Banner display period",
+    "filters": {
+      "placeholders": {
+        "title": "Search by name",
+        "status": "Any status",
+        "project": "All projects"
+      }
+    },
+    "modal": {
+      "content": "Make sure that the period of display and other data of the banner are set correctly. The banner is automatically published and hidden based on the start and end dates."
+    }
+  },
+  "matches": {
+    "title": "Matching",
+    "homeTeamName": "Home team",
+    "guestTeamName": "Guest team",
+    "tournament": "Tournament",
+    "coef": "Exodus 1Х2",
+    "winline": "Winline Data",
+    "biletka": "Matches Tickets",
+    "reloadStatistics": "Matches updated.",
+    "sendPush": "PUSH about the start of ticket sales",
+    "titleModal": "Are you sure you want to send?",
+    "contentModal": "PUSH notification about the sale of tickets for this match will be seen by all users of the mobile application.",
+    "successMessage": "PUSH mailing list successfully created.",
+    "filters": {
+      "placeholders": {
+        "homeTeamName": "Search by home team",
+        "guestTeamName": "Search by guest team"
+      }
+    },
+    "table": {
+      "columns": {
+        "winline": "Winline ID",
+        "biletka": "Tickets ID"
+      }
+    }
+  },
+  "story": {
+    "title": "Story",
+    "tab1": "Available",
+    "tab2": "Hidden",
+    "preview": "Preview",
+    "autoPlay": "Auto-play",
+    "additional": "Additional",
+    "publishedBefore": "Publish before",
+    "beginningPublishDate": "Show start",
+    "endPublishDate": "End of show",
+    "video": "Video",
+    "main": "Main",
+    "filters": {
+      "placeholders": {
+        "title": "Search by title"
+      }
+    },
+    "table": {
+      "columns": {
+        "sort": "Sorting",
+        "number": "Number"
+      },
+      "actions": {
+        "hide": "Hide",
+        "active": "Active"
+      }
+    },
+    "form": {
+      "hasButton": "Having a button",
+      "videoDesc": "Video upload (MP4, MOV), use {{width}}x{{height}}, weight no more than {{size}}mb."
+    },
+    "description": {
+      "title": "Story information",
+      "buttonLink": "Button link",
+      "additionalImage": "Add. image 1080x1920",
+      "componentsTitle": "Additional image"
+    },
+    "modal": {
+      "close": "After confirming the action, the data will not be saved.",
+      "hidden": "Stories will be hidden for viewing by service customers.",
+      "publish": "After confirmation, the story will become available to all users of the mobile application."
+    }
+  },
+  "help": "Help",
+  "pointsSystem": {
+    "title": "Point system",
+    "downloadReport": "Download report",
+    "participantsNumber": "Number of participants",
+    "loyalty": {
+      "title": "Loyalty programs",
+      "rangeDate": "Loyalty program validity period",
+      "points": "The number of points",
+      "ProfileFilling": "Fill out profile"
+    },
+    "poll": {
+      "title": "Voting",
+      "endDatePoll": "End date",
+      "results": "Results",
+      "rightResponse": "Right answer",
+      "event": "Event",
+      "points": "Number of points per one predicted event",
+      "winner": "Winner",
+      "MatchWinner": "Match winner",
+      "StartingFive": "Starting five",
+      "FiveEvents": "Guess 5 events",
+      "filters": {
+        "placeholders": {
+          "title": "Search by match"
+        }
+      },
+      "modal": {
+        "content": {
+          "delete": "Voting will be deleted.",
+          "editResults": "The results of the voting will be impossible to change."
+        }
+      },
+      "tooltips": {
+        "startDate": "Start of displaying the promotion in the app",
+        "endDate": "End of collecting user responses",
+        "endDatePoll": "The end of displaying the promotion in the app"
+      }
+    },
+    "products": {
+      "title": "Club attributes",
+      "entity": "merchandise",
+      "inStock": "In stock",
+      "issuedNumber": "Issued",
+      "priceInPoints": "Price in points",
+      "visible": "Visibility",
+      "statusChanged": "The visibility of the product has been changed",
+      "modal": {
+        "content": {
+          "title": "Change visibility status",
+          "hide": "After confirmation, the product will no longer be displayed in the app.",
+          "show": "After confirmation, the product will be displayed in the app.",
+          "delete": "The product will be deleted."
+        }
+      }
+    },
+    "orders": {
+      "title": "Orders",
+      "table": {
+        "user": "User name",
+        "productTitle": "Product",
+        "date": "Order date",
+        "code": "Order code"
+      },
+      "buttonsText": {
+        "approve": "Approve the issuance",
+        "confirm": "Confirm the issuance"
+      },
+      "modal": {
+        "approved": {
+          "title": "approve",
+          "content": "Order will be approved.",
+          "success": "Order approved"
+        },
+        "rejected": {
+          "title": "reject",
+          "content": "Order will be rejected.",
+          "success": "Order rejected"
+        },
+        "issued": {
+          "title": "confirm",
+          "content": "Issue will be confirmed.",
+          "success": "Order issued"
+        }
+      }
+    }
+  },
+  "players": {
+    "title": "Players",
+    "season": "Season",
+    "birthday": "Date of birth",
+    "position": "Position",
+    "squadNumber": "Game number",
+    "team": "Team",
+    "firstName": "Name",
+    "lastName": "Surname",
+    "country": "Country",
+    "height": "Height",
+    "weight": "Weight",
+    "kg": "(kg)",
+    "sm": "(cm)",
+    "biography": "Biography",
+    "productUrl": "for a product",
+    "career": "Career",
+    "period": "Period",
+    "club": "Club",
+    "statistics": "Statistics",
+    "tournament": "Tournament",
+    "average": "Average",
+    "points": "Points",
+    "selections": "Rebounds",
+    "transfers": "Transfers",
+    "effectivenessShort": "Efficiency",
+    "effectiveness": "Efficiency",
+    "filters": {
+      "placeholders": {
+        "position": "Any position",
+        "team": "Any team"
+      }
+    },
+    "description": {
+      "title": "Player information"
+    },
+    "form": {
+      "placeholders": {
+        "firstName": "Enter a name",
+        "lastName": "Enter a surname",
+        "choose": "Select",
+        "country": "Specify country",
+        "date": "Specify a date",
+        "period": "Specify a period",
+        "club": "Specify a club",
+        "tournament": "Specify the tournament"
+      }
+    },
+    "table": {
+      "columns": {
+        "lastName": "Full name"
+      }
+    },
+    "modal": {
+      "content": "After confirmation, the player will be removed."
+    }
+  },
+  "success": {
+    "create": {
+      "employee": "An email has been sent to the employee's email address with instructions on how to complete the registration.",
+      "role": "The role has been successfully created.",
+      "notification": "Notification successfully created.",
+      "adv": "Banner successfully created.",
+      "player": "Player successfully created",
+      "product": "Product crerated.",
+      "poll": "Voting created.",
+      "resultsPoll": "Voting results created.",
+      "story": "Stories successfully created."
+    },
+    "update": {
+      "default": "Data updated successfully.",
+      "employee": "The employee was successfully saved.",
+      "role": "The role was saved successfully.",
+      "notification": "Notification changed successfully.",
+      "invitation": "An email with instructions on how to complete registration has been resent to the employee's email address.",
+      "adv": "Banner changed.",
+      "player": "Player successfully changed",
+      "product": "Product changed.",
+      "poll": "Voting changed.",
+      "loyalty": "Loyalty programs changed.",
+      "story": {
+        "content": "Stories successfully updated.",
+        "sortOrder": "Order updated successfully.",
+        "publishDate": "Publication date updated.",
+        "statusHidden": "Stories successfully hidden.",
+        "statusPublished": "Stories successfully published"
+      }
+    },
+    "delete": {
+      "employee": "The employee is denied access to the system and excluded from the list of employees. To cancel the action, contact your system administrator.",
+      "role": "The role was successfully deleted.",
+      "notification": "The notification was successfully deleted.",
+      "adv": "Banner deleted.",
+      "player": "Player successfully deleted",
+      "product": "Product deleted.",
+      "poll": "Voting deleted.",
+      "story": {
+        "content": "Story  successfully deleted.",
+        "additionalImage": "Additional image removed successfully."
+      }
+    }
+  },
+  "errorAccess": "Insufficient rights to perform the action.",
+  "successExport": "The file has been successfully saved to your device.",
+  "validations": {
+    "default": "Validation error.",
+    "noWriteRoleAccess": "Action is impossible. No rights to read roles.",
+    "maxLimitBanners": "Select a banner space that is not occupied for the specified period.",
+    "invalidNameLocal": "The used values are invalid.",
+    "minLengthLessLocal": "The value is too short.",
+    "maxLengthExceededLocal": "The used word is too long.",
+    "maxWordLengthExceeded": "More than three words used.",
+    "invalidEmail": "Invalid email format",
+    "invalidName": "The letters A-z or A-z are allowed. The maximum number of words cannot exceed {{count}}. The maximum number of characters in a word cannot exceed {{count}}.",
+    "invalidUri": "Incorrect link",
+    "maxLengthExceeded": "The maximum number of characters cannot exceed {{max}}.",
+    "minLengthLess": "The minimum number of characters must be greater than {{min}}.",
+    "required": "Required field",
+    "invalidPassword": "The password length should be {{min}} - {{max}} characters, contain numbers, letters of the Latin alphabet in lowercase and uppercase.",
+    "dateMustBeGreaterThenCurrentMoment": "The date and time of sending cannot be past",
+    "dateChangeNotificationError": "You cannot change a notification that has already been sent.",
+    "dateDeleteNotificationError": "You cannot delete a notification that has already been sent.",
+    "filtersError": "The values used are invalid in the search string.",
+    "filtersSizeError": "The maximum number of characters in the search string has been exceeded.",
+    "invalidEndPublish": "The end date of the publication cannot be earlier than the current date.",
+    "onlyNumbers": "Only numbers",
+    "startingFive": "It is necessary to choose exactly 5 players",
+    "invalidStartPollDate": "Poll start date and time cannot be less than the current date and time.",
+    "invalidEndDate": "The end date and time cannot be less than the poll end date and time.",
+    "invalidEndPollDate": "The end poll date and time cannot be less than the poll start date and time.",
+    "deletedPublishError": "Unable to delete stories in \"Published\" status.",
+    "invalidBeginPublishDate": "The publication start date must be less than the publication end date.",
+    "invalidEndPublishDate": "The publication end date must be greater than the publication start date.",
+    "invalidStartPublishDate": "The publication start date must be greater than the current date and time.",
+    "invalidImageFormat": "The image must be of the specified format",
+    "invalidImageSize": "The image must be of the set size {{size}}.",
+    "invalidHyperLink": "The hyperlink must be an absolute address.",
+    "startBySpace": "Input data cannot start with a space."
+  }
+}

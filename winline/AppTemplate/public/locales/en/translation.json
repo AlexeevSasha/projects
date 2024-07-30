@@ -1,0 +1,450 @@
+{
+  "publicLayout": {
+    "mainTitle": "Administrative panel for mobile application management"
+  },
+  "privateLayout": {
+    "sideBar": {
+      "exit": {
+        "title": "Exit",
+        "modal": {
+          "title": "Are you sure you want to log out?",
+          "content": "The session will be terminated, you will be transferred to the authorization screen."
+        }
+      }
+    }
+  },
+  "common": {
+    "id": "ID",
+    "title": "Name",
+    "status": "Status",
+    "place": "Placement",
+    "action": "Action",
+    "createdUtc": "Creation date",
+    "createdDateTime": "Date and time",
+    "edit": "Edit",
+    "delete": "Delete",
+    "image": "Image",
+    "imagesDesc": "Loading an image (jpg, png) with a resolution of {{width}}x{{height}}, weighing no more than {{size}}mb.",
+    "view": "View",
+    "selectPlaceholder": "Not selected",
+    "adminPanel": "Admin panel",
+    "statuses": {
+      "active": "active",
+      "actual": "relevant",
+      "archive": "archive",
+      "published": "published",
+      "scheduled": "planned",
+      "hidden": "hidden"
+    },
+    "link": "Link",
+    "links": {
+      "hyperLink": "Hyperlink",
+      "screen": "Application Screen"
+    },
+    "filters": {
+      "clearFilters": "Clear",
+      "placeholders": {
+        "title": "Search"
+      }
+    },
+    "buttonsText": {
+      "save": "Save",
+      "continue": "Continue",
+      "create": "Create",
+      "edit": "Edit",
+      "export": "Export",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "publish": "Publish",
+      "hide": "Hide"
+    },
+    "modal": {
+      "title": "Do you really want to",
+      "delete": "delete",
+      "publish": "publish",
+      "hidden": "hide",
+      "content": "will be deleted permanently.",
+      "contentFemale": "will be deleted permanently.",
+      "contentNeuter": "will be deleted permanently."
+    },
+    "heading": "Heading",
+    "sendTime": "Date and time of sending",
+    "employees": "Employees",
+    "text": "Text",
+    "role": "Role",
+    "email": "Email",
+    "emailAddress": "Email address",
+    "user": "user",
+    "missing": "missing",
+    "upload": "Upload",
+    "textButton": "Button text",
+    "chooseAll": "Select all",
+    "yes": "Yes",
+    "pagination": "{{range0}}-{{range1}} of {{total}} entries",
+    "button": "Button"
+  },
+  "auth": {
+    "formHeader": "Log in to your account",
+    "nodata": "Required data is not filled.",
+    "uiContent": {
+      "placeholders": {
+        "password": "Password"
+      },
+      "checkBoxText": {
+        "remember": "Remember me"
+      },
+      "linksText": {
+        "forgotPassword": "Forgot your password?"
+      },
+      "buttonsText": {
+        "submit": "Log in"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Password recovery",
+    "paragraph": "Enter your email address to receive further instructions.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Return"
+      },
+      "modal": {
+        "success": {
+          "successForgot": "Password recovery instructions have been sent to the email address provided."
+        },
+        "error": {
+          "errorAccount": "Please verify that the credentials entered are correct.",
+          "errorRequest": "Undefined error.",
+          "errorForgotNonExist": "Email address not found. Please check your entry and try again."
+        }
+      }
+    }
+  },
+  "invitation": {
+    "title": "Finalizing registration",
+    "paragraph": "<b>{{name}}</b>, a password is required to complete the registration of <b>{{email}}</b> account.",
+    "uiContent": {
+      "placeholders": {
+        "password": "Password"
+      }
+    }
+  },
+  "recovery": {
+    "title": "Creating a new password",
+    "paragraph": "for <b>{{email}}</b> account",
+    "uiContent": {
+      "modal": {
+        "errorPassword": "The password must be 8 - 20 characters long, contain numbers, lowercase and uppercase letters of the Latin alphabet, as well as special characters"
+      }
+    }
+  },
+  "operationError": {
+    "title": "An error has occurred...",
+    "recovery": {
+      "paragraph": "Your password recovery request has expired or the link has already been used."
+    },
+    "invitation": {
+      "paragraph": "Your invitation has expired or the link has already been used."
+    }
+  },
+  "operationSuccess": {
+    "recovery": {
+      "title": "The new password has been saved!"
+    },
+    "invitation": {
+      "title": "Password saved!"
+    },
+    "paragraph": "You can now log in with your new password.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Go to login"
+      }
+    }
+  },
+  "users": {
+    "title": "Users",
+    "createdUtc": "Registration Date",
+    "phone": "Phone",
+    "lastName": "Full name",
+    "description": {
+      "title": "User information"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "type": "Type",
+      "userFilter": "Users filter",
+      "delete": "The notification will be permanently deleted.",
+      "titles": {
+        "addNotification": "Create {{type}} - notification",
+        "updateNotification": "Edit {{type}} - notification"
+      },
+      "linksText": {
+        "wait": "Expect",
+        "history": "History"
+      },
+      "description": {
+        "title": "{{type}} notification"
+      },
+      "form": {
+        "fields": {
+          "userList": {
+            "label": "List of users",
+            "placeholder": "Select users"
+          },
+          "os": "OS:"
+        }
+      }
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "entity": "employee",
+    "name": "Name",
+    "filters": {
+      "placeholders": {
+        "role": "Select role"
+      }
+    },
+    "table": {
+      "columns": {
+        "activationDate": {
+          "title": "Activation status",
+          "active": "active",
+          "notActive": "inactive",
+          "tooltip": "Resend invitation"
+        }
+      },
+      "uiContent": {
+        "modal": {
+          "content": "The employee will be denied access to the system and disappear from the list of employees of the admin panel."
+        }
+      }
+    },
+    "role": {
+      "title": "Roles",
+      "description": {
+        "points": {
+          "title": "Full access",
+          "content": "Can view and change all system parameters."
+        }
+      },
+      "form": {
+        "uiContent": {
+          "alerts": {
+            "accessRule": "Select at least one access right."
+          }
+        },
+        "accessBuilders": {
+          "titles": {
+            "setting": "Settings"
+          },
+          "radioButtons": {
+            "none": "No rights",
+            "read": "Reading",
+            "write": "Reading and writing"
+          }
+        }
+      }
+    },
+    "reminders": {
+      "title": "Reminders",
+      "form": {
+        "title": "Create a reminder",
+        "fields": {
+          "employees": {
+            "placeholder": "Select employees"
+          }
+        }
+      }
+    }
+  },
+  "systemLog": {
+    "title": "System log",
+    "createdUtc": "Date and time of creation:",
+    "employee": "Employee",
+    "tableName": "Essence",
+    "dataChanges": "Changed fields",
+    "filters": {
+      "placeholders": {
+        "employee": "Select an employee"
+      }
+    },
+    "description": {
+      "points": {
+        "dataChanges": {
+          "insert": "Added fields",
+          "delete": "Deleted fields"
+        }
+      },
+      "employee": {
+        "title": "Employee card",
+        "email": "Email:"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "interfaceLang": "Interface language"
+  },
+  "marketing": {
+    "title": "Marketing",
+    "publishBefore": "Published before",
+    "indefinitely": "Indefinitely",
+    "buttonLink": "Button link",
+    "tabs": {
+      "publish": "Published",
+      "hidden": "Hidden"
+    },
+    "story": {
+      "title": "Story",
+      "main": "Main",
+      "additional": "Additional",
+      "autoPlay": "Auto-play",
+      "preview": "preview",
+      "crmTemplate": "Template aCRM",
+      "filters": {
+        "search": "Search by title"
+      },
+      "form": {
+        "hasButton": "Presence of a button",
+        "imagesUpload": "Uploading two images with dimensions 1080x1920, 400x400, weighing no more than 100 MB each.",
+        "additionalImage": "Uploading an additional image."
+      },
+      "description": {
+        "componentsTitle": "Additional image",
+        "additionalImage": "Add. image"
+      },
+      "modal": {
+        "hidden": "The story will be hidden for viewing by the service's clients.",
+        "publish": "After confirmation, the story will become available to all users of the mobile application."
+      }
+    },
+    "banner": {
+      "title": "Banners",
+      "entity": "Banner",
+      "button": "button's",
+      "height": "Height",
+      "halfScreen": "On the half of screen",
+      "indent": "Indent by",
+      "textColor": "Text color",
+      "backgroundColor": "Background/frame color",
+      "transparent": "Transparent background",
+      "filters": {
+        "search": "Search by name"
+      },
+      "form": {
+        "imageWidth": "Image with width",
+        "buttonsText": {
+          "add": "Add a button"
+        }
+      },
+      "table": {
+        "columns": {
+          "buttonsCount": "Count of buttons"
+        }
+      },
+      "modal": {
+        "publish": "After confirmation, the banner will become available to all users of the mobile application.",
+        "hidden": "The banner will be hidden for viewing by the service's clients."
+      }
+    },
+    "infoPages": {
+      "title": "Info pages",
+      "entity": "Info page",
+      "tag": "Tag",
+      "filters": {
+        "search": "Information page search"
+      },
+      "form": {
+        "title": "information page",
+        "viewing": "Viewing on the screen",
+        "fillForm": "Fill out the form with content",
+        "imageSearch": "Image search",
+        "moveImage": "Drag and drop the image into the template",
+        "noData": "No data",
+        "fileName": "File name"
+      },
+      "description": {
+        "updateDate": "Date of change"
+      }
+    }
+  },
+  "help": "Help",
+  "success": {
+    "create": {
+      "employee": "An email has been sent to the employee's email address with instructions on how to complete the registration.",
+      "role": "The role has been successfully created.",
+      "notification": "Notification successfully created.",
+      "reminder": "The reminder was successfully created.",
+      "marketing": {
+        "story": "Story has been successfully created.",
+        "banner": "Banner has been successfully created.",
+        "infoPage": "The info page has been successfully added.",
+        "imageInfoPage": "The image has been successfully added."
+      }
+    },
+    "update": {
+      "employee": "The employee was successfully saved.",
+      "role": "Role changed successfully.",
+      "notification": "Notification changed successfully.",
+      "reminder": "The reminder was successfully changed.",
+      "invitation": "An email with instructions to complete registration has been resent to the employee's email address.",
+      "marketing": {
+        "publishDate": "The publication date has been updated.",
+        "story": {
+          "content": "Story has been successfully updated.",
+          "statusHidden": "Story has been successfully hidden.",
+          "statusPublished": "Story has been successfully published."
+        },
+        "banner": {
+          "content": "Banner has been successfully changed.",
+          "statusHidden": "Banner has been successfully hidden.",
+          "statusPublished": "Banner has been successfully published."
+        },
+        "infoPage": "Info page has been successfully changed.",
+        "imageInfoPage": "Image has been successfully modified."
+      }
+    },
+    "delete": {
+      "employee": "The employee is denied access to the system and excluded from the list of employees. To cancel the action, contact your system administrator.",
+      "role": "The role was successfully deleted.",
+      "notification": "The notification was successfully deleted.",
+      "marketing": {
+        "story": {
+          "content": "Story was successfully deleted.",
+          "additionalImage": "Additional image was successfully deleted."
+        },
+        "banner": "Banner was successfully deleted.",
+        "infoPage": "Info page was successfully deleted.",
+        "imageInfoPage": "Image was successfully deleted."
+      }
+    }
+  },
+  "errorAccess": "Insufficient rights to perform the action.",
+  "emailError": "An employee with this email address has already been created",
+  "successExport": "The file has been successfully saved to your device.",
+  "errorExport": "An error has occurred. File not saved.",
+  "validations": {
+    "default": "Validation error.",
+    "noWriteRoleAccess": "Action is impossible. No rights to read roles.",
+    "invalidNameLocal": "The used values are invalid.",
+    "minLengthLessLocal": "The value is too short.",
+    "maxLengthExceededLocal": "The used word is too long.",
+    "maxWordLengthExceeded": "More than three words used.",
+    "dateMustBeGreaterThenCurrentMoment": "The date and time of sending cannot be past",
+    "invalidEmail": "Invalid email format",
+    "invalidPassword": "The password must be {{min}} - {{max}} characters long, contain numbers, lowercase and uppercase letters of the Latin alphabet, as well as special characters.",
+    "invalidUri": "Incorrect link",
+    "maxLengthExceeded": "The maximum number of characters cannot exceed {{max}}.",
+    "required": "Required field",
+    "dateChangeNotificationError": "You cannot change a notification that has already been sent.",
+    "dateDeleteNotificationError": "You cannot delete a notification that has already been sent.",
+    "filtersSizeError": "The maximum number of characters in the search string has been exceeded.",
+    "startBySpace": "The input data cannot start with a space.",
+    "invalidColorFormat": "Неверный формат цвета.",
+    "deletedPublish": "It is impossible to delete a story with the status \"Published\".",
+    "invalidImageFormat": "The image must be of an established format.",
+    "invalidImageSize": "The image must be of the set size {{size}}."
+  }
+}

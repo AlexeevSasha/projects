@@ -1,0 +1,394 @@
+{
+  "publicLayout": {
+    "mainTitle": "Administrative panel for mobile application management"
+  },
+  "privateLayout": {
+    "sideBar": {
+      "exit": {
+        "title": "Exit",
+        "modal": {
+          "title": "Are you sure you want to log out?",
+          "content": "The session will be terminated, you will be transferred to the authorization screen."
+        }
+      }
+    }
+  },
+  "common": {
+    "id": "ID",
+    "title": "Name",
+    "status": "Status",
+    "place": "Placement",
+    "action": "Action",
+    "createdUtc": "Creation date",
+    "createdDateTime": "Date and time",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "edit": "Edit",
+    "delete": "Delete",
+    "image": "Image",
+    "imagesDesc": "Loading an image (jpg, png) with a resolution of {{width}}x{{height}}, weighing no more than {{size}}mb.",
+    "view": "View",
+    "selectPlaceholder": "Not selected",
+    "adminPanel": "Admin panel",
+    "statuses": {
+      "neutral": {
+        "published": "published",
+        "scheduled": "planned",
+        "hidden": "hidden"
+      },
+      "female": {
+        "actual": "relevant"
+      },
+      "male": {
+        "active": "active",
+        "archive": "archive"
+      }
+    },
+    "link": "Link",
+    "links": {
+      "hyperLink": "Hyperlink",
+      "screen": "Application Screen"
+    },
+    "filters": {
+      "clearFilters": "Clear",
+      "placeholders": {
+        "title": "Search"
+      }
+    },
+    "buttonsText": {
+      "save": "Save",
+      "continue": "Continue",
+      "create": "Create",
+      "edit": "Edit",
+      "export": "Export",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "refresh": "Refresh",
+      "reset": "Reset"
+    },
+    "modal": {
+      "title": "Do you really want to",
+      "delete": "delete",
+      "publish": "publish",
+      "hidden": "hide",
+      "content": "will be deleted permanently.",
+      "contentFemale": "will be deleted permanently."
+    },
+    "heading": "Heading",
+    "sendTime": "Date and time of sending",
+    "type": "Type",
+    "match": "Match",
+    "text": "Text",
+    "role": "Role",
+    "email": "Email",
+    "user": "user",
+    "missing": "missing",
+    "upload": "Upload",
+    "textButton": "Button text",
+    "chooseAll": "Select all",
+    "yes": "Yes",
+    "no": "No",
+    "pagination": "{{range0}}-{{range1}} of {{total}} entries"
+  },
+  "auth": {
+    "formHeader": "Log in to your account",
+    "nodata": "Required data is not filled.",
+    "uiContent": {
+      "placeholders": {
+        "password": "Password"
+      },
+      "checkBoxText": {
+        "remember": "Remember me"
+      },
+      "linksText": {
+        "forgotPassword": "Forgot your password?"
+      },
+      "buttonsText": {
+        "submit": "Log in"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Password recovery",
+    "paragraph": "Enter the email address you used to register and we'll send you password change instructions.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Return"
+      },
+      "modal": {
+        "success": {
+          "successForgot": "If this email address was used to create your account, you will be sent instructions on how to reset your password. Please check your email."
+        },
+        "error": {
+          "errorAccount": "We couldn't find an account that matches the username and password you entered. Please check your username and password and try again.",
+          "errorRequest": "Undefined error.",
+          "errorForgotNonExist": "Email address not found. Please check your entry and try again."
+        }
+      }
+    }
+  },
+  "invitation": {
+    "title": "Invitation to the system",
+    "paragraph": "<b>{{name}}</b>, You were invited to the system by email <b>{{email}}</b>. To complete the account creation, you need to come up with a password.",
+    "uiContent": {
+      "placeholders": {
+        "password": "New Password"
+      }
+    }
+  },
+  "recovery": {
+    "title": "Recover your password",
+    "paragraph": "for <b>{{email}}</b> account",
+    "uiContent": {
+      "modal": {
+        "errorPassword": "The password length should be 8-20 characters, contain numbers, letters of the Latin alphabet in lowercase and uppercase."
+      }
+    }
+  },
+  "operationError": {
+    "title": "An error has occurred...",
+    "recovery": {
+      "paragraph": "Your password reset request has expired or the link has already been used."
+    },
+    "invitation": {
+      "paragraph": "Your invitation has expired or the link has already been used."
+    }
+  },
+  "operationSuccess": {
+    "recovery": {
+      "title": "Password changed"
+    },
+    "invitation": {
+      "title": "Password saved"
+    },
+    "paragraph": "Now you can log in with your new password.",
+    "uiContent": {
+      "buttonsText": {
+        "back": "Go to login"
+      }
+    }
+  },
+  "users": {
+    "title": "Users",
+    "entity": "User",
+    "createdUtc": "Registration Date",
+    "phone": "Phone",
+    "lastName": "Full name",
+    "city": "City",
+    "os": "OS",
+    "description": {
+      "title": "User information"
+    },
+    "filters": {
+      "placeholders": {
+        "cities": "All cities"
+      }
+    },
+    "registerAgree": "Consent to Advertising",
+    "notifications": {
+      "title": "Notifications",
+      "userFilter": "Users filter",
+      "delete": "The notification will be permanently deleted.",
+      "titles": {
+        "addNotification": "Create {{type}} - notification",
+        "updateNotification": "Edit {{type}} - notification"
+      },
+      "linksText": {
+        "wait": "Expect",
+        "history": "History"
+      },
+      "description": {
+        "title": "Notification information"
+      },
+      "form": {
+        "fields": {
+          "userList": {
+            "label": "List of users",
+            "placeholder": "Select users"
+          },
+          "os": "OS:"
+        }
+      },
+      "successCounter": "Sent",
+      "auditoryFilter": "Audience filter",
+      "deviceOS": "Device OS",
+      "city": "User's city",
+      "over18": "User over the age of 18",
+      "policyAgreement": "User agrees with Winline policy",
+      "optional": "optionally"
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "entity": "employee",
+    "name": "Name",
+    "filters": {
+      "placeholders": {
+        "role": "Select role"
+      }
+    },
+    "table": {
+      "columns": {
+        "activationDate": {
+          "title": "Activation status",
+          "active": "active",
+          "notActive": "inactive",
+          "tooltip": "Resend invitation"
+        }
+      },
+      "uiContent": {
+        "modal": {
+          "content": "The employee will be denied access to the system and disappear from the list of employees of the admin panel."
+        }
+      }
+    },
+    "role": {
+      "title": "Roles",
+      "description": {
+        "points": {
+          "title": "Full access",
+          "content": "Can view and change all system parameters."
+        }
+      },
+      "form": {
+        "uiContent": {
+          "alerts": {
+            "accessRule": "Select at least one access right."
+          }
+        },
+        "accessBuilders": {
+          "titles": {
+            "setting": "Settings"
+          },
+          "radioButtons": {
+            "none": "No rights",
+            "read": "Reading",
+            "write": "Reading and writing"
+          }
+        }
+      }
+    }
+  },
+
+  "mobileConfig": {
+    "title": "App",
+    "changedFields": "Fields with changes"
+  },
+  "systemLog": {
+    "title": "System log",
+    "createdUtc": "Date and time of creation",
+    "userCard": "Employee information",
+    "employee": "Employee",
+    "tableName": "Essence",
+    "dataChanges": "Changed fields",
+    "filters": {
+      "placeholders": {
+        "employee": "Select an employee"
+      }
+    },
+    "description": {
+      "title": "Entry information",
+      "points": {
+        "dataChanges": {
+          "insert": "Added fields",
+          "delete": "Deleted fields"
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "interfaceLang": "Interface language"
+  },
+  "adv": {
+    "title": "Advertising",
+    "entity": "Banner",
+    "tab1": "Winline",
+    "tab2": "Club",
+    "rangeDate": "Banner display period",
+    "filters": {
+      "placeholders": {
+        "title": "Search by name",
+        "status": "Any status",
+        "project": "All projects"
+      }
+    },
+    "modal": {
+      "content": "Make sure that the period of display and other data of the banner are set correctly. The banner is automatically published and hidden based on the start and end dates."
+    }
+  },
+  "matches": {
+    "title": "Matching",
+    "homeTeamName": "Home team",
+    "guestTeamName": "Guest team",
+    "tournament": "Tournament",
+    "coef": "Exodus 1Х2",
+    "winline": "Winline Data",
+    "biletka": "Matches Tickets",
+    "reloadStatistics": "Matches updated.",
+    "sendPush": "PUSH about the start of ticket sales",
+    "titleModal": "Are you sure you want to send?",
+    "contentModal": "PUSH notification about the sale of tickets for this match will be seen by all users of the mobile application.",
+    "successMessage": "PUSH mailing list successfully created.",
+    "filters": {
+      "placeholders": {
+        "homeTeamName": "Search by home team",
+        "guestTeamName": "Search by guest team"
+      }
+    },
+    "table": {
+      "columns": {
+        "winline": "Winline ID",
+        "biletka": "Tickets ID"
+      }
+    }
+  },
+  "help": "Help",
+  "success": {
+    "create": {
+      "employee": "An email has been sent to the employee's email address with instructions on how to complete the registration.",
+      "role": "The role has been successfully created.",
+      "notification": "Notification successfully created.",
+      "adv": "Banner successfully created."
+    },
+    "update": {
+      "default": "Data updated successfully.",
+      "employee": "The employee was successfully saved.",
+      "role": "The role was saved successfully.",
+      "notification": "Notification changed successfully.",
+      "invitation": "An email with instructions on how to complete registration has been resent to the employee's email address.",
+      "adv": "Banner changed."
+    },
+    "delete": {
+      "employee": "The employee is denied access to the system and excluded from the list of employees. To cancel the action, contact your system administrator.",
+      "role": "The role was successfully deleted.",
+      "notification": "The notification was successfully deleted.",
+      "adv": "Banner deleted."
+    }
+  },
+  "errorAccess": "Insufficient rights to perform the action.",
+  "successExport": "The file has been successfully saved to your device.",
+  "validations": {
+    "default": "Validation error.",
+    "noWriteRoleAccess": "Action is impossible. No rights to read roles.",
+    "maxLimitBanners": "Select a banner space that is not occupied for the specified period.",
+    "invalidNameLocal": "The used values are invalid.",
+    "minLengthLessLocal": "The value is too short.",
+    "maxLengthExceededLocal": "The used word is too long.",
+    "maxWordLengthExceeded": "More than three words used.",
+    "invalidEmail": "Invalid email format",
+    "invalidName": "The letters A-z or A-z are allowed. The maximum number of words cannot exceed {{count}}. The maximum number of characters in a word cannot exceed {{count}}.",
+    "invalidUri": "Incorrect link",
+    "maxLengthExceeded": "The maximum number of characters cannot exceed {{max}}.",
+    "minLengthLess": "The minimum number of characters must be greater than {{min}}.",
+    "required": "Required field",
+    "invalidPassword": "The password length should be {{min}} - {{max}} characters, contain numbers, letters of the Latin alphabet in lowercase and uppercase.",
+    "dateMustBeGreaterThenCurrentMoment": "The date and time of sending cannot be past",
+    "dateChangeNotificationError": "You cannot change a notification that has already been sent.",
+    "dateDeleteNotificationError": "You cannot delete a notification that has already been sent.",
+    "filtersError": "The values used are invalid in the search string.",
+    "filtersSizeError": "The maximum number of characters in the search string has been exceeded.",
+    "invalidEndPublish": "The end date of the publication cannot be earlier than the current date"
+  }
+}
